@@ -1,0 +1,20 @@
+[Eagle]
+Version="08 03 01"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="printrbot.lbr"
+UsedLibrary="SparkFun.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 3199 1743"
+State=1
+Number=0
+
+[Desktop]
+Screen="3200 1800"
+Window="Win_1"
