@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -2737,13 +2738,6 @@ D7=ESC6</text>
 <label x="-160.02" y="109.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="A4" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="A4"/>
-<wire x1="-154.94" y1="96.52" x2="-160.02" y2="96.52" width="0.1524" layer="91"/>
-<label x="-160.02" y="96.52" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="D1" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="1(TX0)"/>
@@ -2856,18 +2850,21 @@ D7=ESC6</text>
 <label x="-116.84" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="20(SDA)"/>
-<wire x1="-119.38" y1="106.68" x2="-116.84" y2="106.68" width="0.1524" layer="91"/>
-<label x="-116.84" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="21(SCL)"/>
 <wire x1="-119.38" y1="104.14" x2="-116.84" y2="104.14" width="0.1524" layer="91"/>
 <label x="-116.84" y="104.14" size="1.778" layer="95"/>
+<wire x1="-119.38" y1="104.14" x2="-104.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="104.14" x2="-104.14" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-119.38" y="104.14"/>
+<wire x1="-104.14" y1="142.24" x2="-172.72" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="142.24" x2="-172.72" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="A5"/>
+<wire x1="-154.94" y1="93.98" x2="-160.02" y2="93.98" width="0.1524" layer="91"/>
+<label x="-160.02" y="93.98" size="1.778" layer="95" rot="R180"/>
+<wire x1="-172.72" y1="93.98" x2="-154.94" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-154.94" y="93.98"/>
 </segment>
 </net>
 <net name="D22" class="0">
@@ -3128,13 +3125,6 @@ D7=ESC6</text>
 <label x="-190.5" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A5" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="A5"/>
-<wire x1="-154.94" y1="93.98" x2="-160.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="-160.02" y="93.98" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="D44" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="44"/>
@@ -3161,6 +3151,23 @@ D7=ESC6</text>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="-203.2" y1="104.14" x2="-200.66" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="A4"/>
+<wire x1="-154.94" y1="96.52" x2="-160.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="-160.02" y="96.52" size="1.778" layer="95" rot="R180"/>
+<wire x1="-154.94" y1="96.52" x2="-167.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="96.52" x2="-167.64" y2="134.62" width="0.1524" layer="91"/>
+<junction x="-154.94" y="96.52"/>
+<wire x1="-167.64" y1="134.62" x2="-109.22" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="134.62" x2="-109.22" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="20(SDA)"/>
+<wire x1="-119.38" y1="106.68" x2="-116.84" y2="106.68" width="0.1524" layer="91"/>
+<label x="-116.84" y="106.68" size="1.778" layer="95"/>
+<wire x1="-109.22" y1="106.68" x2="-119.38" y2="106.68" width="0.1524" layer="91"/>
+<junction x="-119.38" y="106.68"/>
 </segment>
 </net>
 </nets>
