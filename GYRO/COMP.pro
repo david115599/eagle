@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/davidbershadsky/Documents/eagle/GYRO/COMP.brd
+Job           : C:/Users/David Bershadsky/AppData/Roaming/SPB_Data/eagle/GYRO/COMP.brd
 
-Start at      : 15:41:23 (9/8/17)
-End at        : 15:43:01 (9/8/17)
-Elapsed time  : 00:00:33
+Start at      : 21:29:55 (10/3/2017)
+End at        : 21:30:17 (10/3/2017)
+Elapsed time  : 00:00:15
 
 Signals       :    63   RoutingGrid: 6.25 mil  Layers: 2
 Connections   :   168   predefined:  0 ( 0 Vias )
 
-Router memory :   436800
+Router memory :   483472
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:27  00:00:01  00:00:01  00:00:02  00:00:02
-Number of Ripups  :         0       137         0         0         0         0
-max. Level        :         0         5         0         0         0         0
-max. Total        :         0        81         0         0         0         0
+Time per pass     :  00:00:00  00:00:10  00:00:01  00:00:02  00:00:01  00:00:01
+Number of Ripups  :         0        24         0         0         0         0
+max. Level        :         0         4         0         0         0         0
+max. Total        :         0        92         0         0         0         0
 
-Routed            :        37       164       164       164       164       164
-Vias              :         0       212       161       153       142       134
-Resolution        :    22.0 %    97.6 %    97.6 %    97.6 %    97.6 %    97.6 %
+Routed            :         0       162       162       162       162       162
+Vias              :         0       153       110       101        93        93
+Resolution        :     0.0 %    96.4 %    96.4 %    96.4 %    96.4 %    96.4 %
 
-Final             : 97.6% finished
+Final             : 96.4% finished
