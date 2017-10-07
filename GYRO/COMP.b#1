@@ -829,166 +829,350 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="tinycircuits" package="C0402" value="0.1uF" x="88.9" y="81.28" rot="R270">
+<attribute name="MF" value="" x="88.9" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM155R61A104JA01D" x="88.9" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2559" x="88.9" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="88.9" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="tinycircuits" package="0402@1" value="10nF" x="88.9" y="90.17">
+<attribute name="MF" value="BC  COMPONENTS" x="88.9" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="VJ0402V103ZXACW1BC" x="88.9" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="57J7497" x="88.9" y="90.17" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00084" x="88.9" y="90.17" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C11" library="tinycircuits" package="C0402" value=".1uF" x="67.31" y="74.93" rot="R180">
+<attribute name="MF" value="" x="67.31" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM155R61C104KA88D" x="67.31" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2568" x="67.31" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="67.31" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C12" library="tinycircuits" package="C0402" value=".1uF" x="66.04" y="73.66" rot="R180">
+<attribute name="MF" value="" x="66.04" y="73.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM155R61C104KA88D" x="66.04" y="73.66" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2568" x="66.04" y="73.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="66.04" y="73.66" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="tinycircuits" package="C0603" value="4.7uF" x="82.55" y="92.71">
+<attribute name="MF" value="" x="82.55" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0603X5R0J474K030BC" x="82.55" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="78Y9870" x="82.55" y="92.71" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00088" x="82.55" y="92.71" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C14" library="tinycircuits" package="C0402" value=".1uF" x="64.77" y="76.2" rot="R270">
+<attribute name="MF" value="" x="64.77" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM155R61C104KA88D" x="64.77" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2568" x="64.77" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="64.77" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C15" library="tinycircuits" package="C0402" value="22pF" x="90.17" y="80.01" rot="R90">
+<attribute name="MF" value="KEMET" x="90.17" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0402C220C5GACTU" x="90.17" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="01E9918" x="90.17" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00211" x="90.17" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C16" library="tinycircuits" package="C0402" value="22pF" x="90.17" y="82.55" rot="R90">
+<attribute name="MF" value="KEMET" x="90.17" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0402C220C5GACTU" x="90.17" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="01E9918" x="90.17" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00211" x="90.17" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="tinycircuits" package="C0402" value=".1uF" x="88.9" y="87.63">
+<attribute name="MF" value="" x="88.9" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM155R61C104KA88D" x="88.9" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2568" x="88.9" y="87.63" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="88.9" y="87.63" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C18" library="tinycircuits" package="C0402" value=".1uF" x="88.9" y="88.9">
+<attribute name="MF" value="" x="88.9" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM155R61C104KA88D" x="88.9" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2568" x="88.9" y="88.9" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="88.9" y="88.9" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C19" library="tinycircuits" package="C0805" value="10uF" x="85.09" y="80.01">
+<attribute name="MF" value="Taiyo Yuden (U.S.A.), Inc." x="85.09" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LMK212BJ106KG-T" x="85.09" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="18J2720" x="85.09" y="80.01" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00045" x="85.09" y="80.01" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="tinycircuits" package="C0805" value="10uF" x="88.9" y="71.12" rot="R270">
+<attribute name="MF" value="Taiyo Yuden (U.S.A.), Inc." x="88.9" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="LMK212BJ106KG-T" x="88.9" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="18J2720" x="88.9" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00045" x="88.9" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C20" library="tinycircuits" package="C0805" value="10uF" x="80.01" y="80.01">
+<attribute name="MF" value="Taiyo Yuden (U.S.A.), Inc." x="80.01" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LMK212BJ106KG-T" x="80.01" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="18J2720" x="80.01" y="80.01" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00045" x="80.01" y="80.01" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C21" library="tinycircuits" package="1206_CAP_TANT" value="4.7uF" x="55.88" y="76.2" rot="R90">
+<attribute name="MF" value="" x="55.88" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TAJA475K020RNJ" x="55.88" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="60R5858" x="55.88" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00232" x="55.88" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C22" library="tinycircuits" package="C0402" value="4.7uF" x="40.64" y="88.9" rot="R270">
+<attribute name="MF" value="" x="40.64" y="88.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0402C475M9PACTU" x="40.64" y="88.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="23AC3655" x="40.64" y="88.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00242" x="40.64" y="88.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C3" library="tinycircuits" package="C0402" value="0.1uF" x="88.9" y="78.74" rot="R90">
+<attribute name="MF" value="" x="88.9" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM155R61A104JA01D" x="88.9" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2559" x="88.9" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="88.9" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C4" library="tinycircuits" package="C0402" value="0.1uF" x="55.88" y="73.66">
+<attribute name="MF" value="" x="55.88" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM155R61A104JA01D" x="55.88" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2559" x="55.88" y="73.66" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00008" x="55.88" y="73.66" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="tinycircuits" package="C0805" value="10uF" x="92.71" y="71.12" rot="R270">
+<attribute name="MF" value="Taiyo Yuden (U.S.A.), Inc." x="92.71" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="LMK212BJ106KG-T" x="92.71" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="18J2720" x="92.71" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00045" x="92.71" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="tinycircuits" package="C0603" value="10uF" x="55.88" y="80.01" rot="R90">
+<attribute name="MF" value="" x="55.88" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0603X5R1A104K030BC" x="55.88" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="04X3188" x="55.88" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00002" x="55.88" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C7" library="tinycircuits" package="C0603" value="10uF" x="73.66" y="82.55">
+<attribute name="MF" value="" x="73.66" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0603X5R1A104K030BC" x="73.66" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="04X3188" x="73.66" y="82.55" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00002" x="73.66" y="82.55" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="tinycircuits" package="C0603" value="10uF" x="83.82" y="87.63">
+<attribute name="MF" value="" x="83.82" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0603X5R1A104K030BC" x="83.82" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="04X3188" x="83.82" y="87.63" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00002" x="83.82" y="87.63" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="tinycircuits" package="C0402@1" value="0.47uF" x="40.64" y="83.82" rot="R90"/>
+<element name="C9" library="tinycircuits" package="C0402@1" value="0.47uF" x="40.64" y="83.82" rot="R90">
+<attribute name="MF" value="" x="40.64" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM155R60J474KE19D" x="40.64" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2556" x="40.64" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="D1" library="tinycircuits" package="SOD-123FL" value="MBR120" x="62.23" y="88.9">
+<attribute name="MF" value="" x="62.23" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MBR120LSFT1G" x="62.23" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="10N9423" x="62.23" y="88.9" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00111" x="62.23" y="88.9" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D2" library="tinycircuits" package="LNJ_LED" value="AMBER" x="50.8" y="76.2">
+<attribute name="MF" value="" x="50.8" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LNJ426W83RA1" x="50.8" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="43W4882" x="50.8" y="76.2" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00026" x="50.8" y="76.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D3" library="tinycircuits" package="0603" value="CD0603" x="86.36" y="85.09" rot="R270">
+<attribute name="MF" value="BOURNS, INC." x="86.36" y="85.09" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CD0603-S01575" x="86.36" y="85.09" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="02J1227" x="86.36" y="85.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00009" x="86.36" y="85.09" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J10" library="tinycircuits" package="JST_SH_2X1" value="SM02B-SRSS-TB(LF)(SN)" x="83.82" y="71.12" rot="R90">
+<attribute name="MF" value="" x="83.82" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SM02B-SRSS-TB (LF)(SN)" x="83.82" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="33P8179" x="83.82" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00231" x="83.82" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J11" library="tinycircuits" package="MICRO_USB" value="47346-0001" x="52.07" y="97.79" rot="R270">
+<attribute name="MF" value="" x="52.07" y="97.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="47346-0001" x="52.07" y="97.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="47M0505" x="52.07" y="97.79" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00021" x="52.07" y="97.79" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J12" library="tinycircuits" package="PTS840GKP" value="EVP-ANDA1A" x="76.2" y="71.12">
+<attribute name="MF" value="" x="76.2" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EVP-ANDA1A" x="76.2" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="52W2464" x="76.2" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00236" x="76.2" y="71.12" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J13" library="tinycircuits" package="PTS840GKP" value="EVP-ANDA1A" x="69.85" y="71.12">
+<attribute name="MF" value="" x="69.85" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EVP-ANDA1A" x="69.85" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="52W2464" x="69.85" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00236" x="69.85" y="71.12" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J14" library="tinycircuits" package="PTS840GKP" value="EVP-ANDA1A" x="63.5" y="71.12">
+<attribute name="MF" value="" x="63.5" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EVP-ANDA1A" x="63.5" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="52W2464" x="63.5" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00236" x="63.5" y="71.12" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J15" library="tinycircuits" package="PTS840GKP" value="EVP-ANDA1A" x="57.15" y="71.12">
+<attribute name="MF" value="" x="57.15" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EVP-ANDA1A" x="57.15" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="52W2464" x="57.15" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00236" x="57.15" y="71.12" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="92.71" y="96.52"/>
-<element name="J4" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="90.17" y="96.52"/>
-<element name="J5" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="87.63" y="96.52"/>
-<element name="J6" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="85.09" y="96.52"/>
-<element name="J7" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="82.55" y="96.52"/>
-<element name="J8" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="80.01" y="96.52"/>
+<element name="J3" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="92.71" y="96.52">
+<attribute name="MF" value="" x="92.71" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="92.71" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="92.71" y="96.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J4" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="90.17" y="96.52">
+<attribute name="MF" value="" x="90.17" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="90.17" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="90.17" y="96.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J5" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="87.63" y="96.52">
+<attribute name="MF" value="" x="87.63" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="87.63" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="87.63" y="96.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J6" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="85.09" y="96.52">
+<attribute name="MF" value="" x="85.09" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="85.09" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="85.09" y="96.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J7" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="82.55" y="96.52">
+<attribute name="MF" value="" x="82.55" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="82.55" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="82.55" y="96.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J8" library="tinycircuits" package="1X.1&quot;" value="PIN_1X.1&quot;" x="80.01" y="96.52">
+<attribute name="MF" value="" x="80.01" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="80.01" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="80.01" y="96.52" size="1.778" layer="27" display="off"/>
+</element>
 <element name="L1" library="tinycircuits" package="R0805" value="22uH" x="90.17" y="76.2">
+<attribute name="MF" value="" x="90.17" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="90.17" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="90.17" y="76.2" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00281" x="90.17" y="76.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q1" library="tinycircuits" package="SOT23" value="DMP2035U" x="52.07" y="71.12">
+<attribute name="MF" value="" x="52.07" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DMP2035U" x="52.07" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="65T8230" x="52.07" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00024" x="52.07" y="71.12" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="tinycircuits" package="0402" value="10.0K" x="40.64" y="86.36" rot="R90">
+<attribute name="MF" value="VISHAY/DALE" x="40.64" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW120610K0FKTA" x="40.64" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="05F1568" x="40.64" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00032" x="40.64" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R10" library="tinycircuits" package="0402" value="4.7k" x="88.9" y="91.44" rot="R180">
+<attribute name="MF" value="" x="88.9" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="373-4.7K" x="88.9" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="82T4833" x="88.9" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00167" x="88.9" y="91.44" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="tinycircuits" package="0402" value="5K" x="78.74" y="90.17">
+<attribute name="MF" value="" x="78.74" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="78.74" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="78.74" y="90.17" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00289" x="78.74" y="90.17" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="tinycircuits" package="0402" value="100k" x="91.44" y="85.09" rot="R90">
+<attribute name="MF" value="" x="91.44" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRG0402J100K/10" x="91.44" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="20R1174" x="91.44" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00004" x="91.44" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="tinycircuits" package="0402" value="1k" x="49.53" y="73.66" rot="R270">
+<attribute name="MF" value="VISHAY/DALE" x="49.53" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CRCW04021K00FKTD" x="49.53" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="07J7497" x="49.53" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00003" x="49.53" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="tinycircuits" package="0402" value="1.2M" x="90.17" y="85.09" rot="R90">
+<attribute name="MF" value="" x="90.17" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="90.17" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="90.17" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00280" x="90.17" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R6" library="tinycircuits" package="0402" value="115k" x="81.28" y="77.47" rot="R270">
+<attribute name="MF" value="" x="81.28" y="77.47" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CPF0402B115KE1" x="81.28" y="77.47" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="05AC7931" x="81.28" y="77.47" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00179" x="81.28" y="77.47" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="tinycircuits" package="0402" value="10K" x="88.9" y="83.82" rot="R270">
+<attribute name="MF" value="" x="88.9" y="83.82" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="TNPW040210K0BEED" x="88.9" y="83.82" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="11R2753" x="88.9" y="83.82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00032" x="88.9" y="83.82" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R8" library="tinycircuits" package="0402" value="10K" x="58.42" y="82.55" rot="R180">
+<attribute name="MF" value="" x="58.42" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TNPW040210K0BEED" x="58.42" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="11R2753" x="58.42" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00032" x="58.42" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R9" library="tinycircuits" package="0402" value="10K" x="86.36" y="82.55">
+<attribute name="MF" value="" x="86.36" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TNPW040210K0BEED" x="86.36" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="11R2753" x="86.36" y="82.55" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00032" x="86.36" y="82.55" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW1" library="tinycircuits" package="PCM12SMTR" value="PCM12SMTR" x="41.91" y="97.79">
+<attribute name="MF" value="" x="41.91" y="97.79" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="41.91" y="97.79" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="41.91" y="97.79" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00220" x="41.91" y="97.79" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="tinycircuits" package="SOT-25" value="XC6210B33" x="85.09" y="76.2" rot="R270">
+<attribute name="MF" value="" x="85.09" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="85.09" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="85.09" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00046" x="85.09" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U2" library="tinycircuits" package="DQE(R-PX2SON-N8)" value="TX0102" x="46.99" y="80.01" rot="R180">
+<attribute name="MF" value="" x="46.99" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="46.99" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="46.99" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00073" x="46.99" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U3" library="tinycircuits" package="SOT-23" value="MCP73831 " x="78.74" y="86.36">
+<attribute name="MF" value="" x="78.74" y="86.36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="78.74" y="86.36" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="78.74" y="86.36" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00136" x="78.74" y="86.36" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="tinycircuits" package="L3G4200D" value="L3G4200D " x="40.64" y="78.74">
+<attribute name="MF" value="" x="40.64" y="78.74" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="40.64" y="78.74" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="40.64" y="78.74" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00089" x="40.64" y="78.74" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U5" library="tinycircuits" package="QFN48" value="ATSAMD21G18A" x="64.77" y="82.55" rot="R180">
+<attribute name="MF" value="" x="64.77" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="64.77" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="64.77" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00273" x="64.77" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U6" library="tinycircuits" package="SOT-25" value="XC6210B33" x="74.93" y="76.2">
+<attribute name="MF" value="" x="74.93" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="74.93" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="74.93" y="76.2" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00046" x="74.93" y="76.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U7" library="tinycircuits" package="OLED_DISPLAY" value="UG-9664HDDAG01" x="67.31" y="93.98">
+<attribute name="MF" value="" x="67.31" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="67.31" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="67.31" y="93.98" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00158" x="67.31" y="93.98" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U8" library="tinycircuits" package="WLCSP8_1_57X1_57" value="FAN5340" x="80.01" y="76.2">
+<attribute name="MF" value="" x="80.01" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="80.01" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="80.01" y="76.2" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00277" x="80.01" y="76.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Y1" library="tinycircuits" package="ABS06" value="32.7680" x="92.71" y="81.28">
+<attribute name="MF" value="" x="92.71" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="92.71" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="92.71" y="81.28" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="AS-ITM-00279" x="92.71" y="81.28" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
