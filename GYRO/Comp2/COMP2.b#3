@@ -701,20 +701,75 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="microbuilder" package="0805_10MGAP" value="10µF" x="11.43" y="3.81" rot="R180"/>
-<element name="C6" library="microbuilder" package="0805-NO" value="0.22uF" x="15.24" y="3.81"/>
-<element name="C7" library="microbuilder" package="0805-NO" value="10uF" x="19.05" y="3.81"/>
-<element name="GND" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="3.81" y="3.81"/>
-<element name="JP1" library="SparkFun" package="1X08_LOCK" value="" x="2.54" y="13.97"/>
-<element name="R1" library="microbuilder" package="RESPACK_4X0603" value="10K" x="5.08" y="8.89" rot="R90"/>
-<element name="SCL1" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="6.35"/>
-<element name="SCL2" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="8.89"/>
-<element name="SDA1" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="11.43"/>
-<element name="SDA2" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="13.97"/>
-<element name="U1" library="SparkFun-IC-Microcontroller" package="MLF32-PAD" value="" x="20.32" y="8.89"/>
-<element name="U2" library="microbuilder" package="LGA24_4X4MM" value="LSM9DS0TR" x="11.43" y="8.89"/>
-<element name="VCC" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="7.62" y="3.81"/>
+<element name="C2" library="microbuilder" package="0805_10MGAP" value="10µF" x="11.43" y="3.81" rot="R180">
+<attribute name="MF" value="" x="11.43" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM21BC80J106KE19L" x="11.43" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2709" x="11.43" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C6" library="microbuilder" package="0805-NO" value="0.22uF" x="15.24" y="3.81">
+<attribute name="MF" value="" x="15.24" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0805J224K3RACAUTO" x="15.24" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="02AC3540" x="15.24" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C7" library="microbuilder" package="0805-NO" value="10uF" x="19.05" y="3.81">
+<attribute name="MF" value="" x="19.05" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM21BC80J106KE19L" x="19.05" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2709" x="19.05" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="GND" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="3.81" y="3.81">
+<attribute name="MF" value="" x="3.81" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="3.81" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="3.81" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
+<element name="JP1" library="SparkFun" package="1X08_LOCK" value="" x="2.54" y="13.97">
+<attribute name="MF" value="" x="2.54" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="2.54" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="2.54" y="13.97" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R1" library="microbuilder" package="RESPACK_4X0603" value="10K" x="5.08" y="8.89" rot="R90">
+<attribute name="MF" value="VISHAY/DALE" x="5.08" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TNPW060310K0BETA" x="5.08" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="31K9698" x="5.08" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="SCL1" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="6.35">
+<attribute name="MF" value="" x="25.4" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SCL2" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="8.89">
+<attribute name="MF" value="" x="25.4" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SDA1" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="11.43">
+<attribute name="MF" value="" x="25.4" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="11.43" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SDA2" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="25.4" y="13.97">
+<attribute name="MF" value="" x="25.4" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="25.4" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="25.4" y="13.97" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U1" library="SparkFun-IC-Microcontroller" package="MLF32-PAD" value="" x="20.32" y="8.89">
+<attribute name="MF" value="" x="20.32" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="20.32" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="20.32" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U2" library="microbuilder" package="LGA24_4X4MM" value="LSM9DS0TR" x="11.43" y="8.89">
+<attribute name="MF" value="" x="11.43" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LSM9DS0TR" x="11.43" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="06X3494" x="11.43" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="VCC" library="adafruit" package="SEWINGTAP_0.5" value="SEWTAP0.5IN" x="7.62" y="3.81">
+<attribute name="MF" value="" x="7.62" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="7.62" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="7.62" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="BLUE" x="1.27" y="7.62" rot="R90">
+<attribute name="MF" value="" x="1.27" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="HSMR-C120" x="1.27" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="97K1682" x="1.27" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="DIO-08575" x="1.27" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>

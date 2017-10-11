@@ -1767,7 +1767,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="HSMR-C120"/>
 <attribute name="OC_NEWARK" value="97K1682"/>
 </part>
-<part name="U$1" library="SparkFun" deviceset="AVR_SPI_PRG_6" device="PTH"/>
+<part name="U$1" library="SparkFun" deviceset="AVR_SPI_PRG_6" device="PTH">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2081,7 +2085,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MF" x="2.54" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="2.54" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="119.38" y="78.74"/>
+<instance part="U$1" gate="G$1" x="119.38" y="78.74">
+<attribute name="OC_NEWARK" x="119.38" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="119.38" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="119.38" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
