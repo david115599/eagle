@@ -2278,6 +2278,8 @@ Source: NXT-Female-Socket.pdf</description>
 <part name="IR6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
 <part name="X1" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device=""/>
 <part name="X2" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device=""/>
+<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
+<part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2319,6 +2321,8 @@ D8=IR6</text>
 <attribute name="MF" x="-187.96" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-187.96" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="JP1" gate="A" x="-203.2" y="129.54"/>
+<instance part="JP2" gate="A" x="-203.2" y="116.84"/>
 </instances>
 <busses>
 </busses>
