@@ -3812,6 +3812,11 @@ D8=IR6</text>
 <pinref part="TRANSISTOR" gate="G$1" pin="E"/>
 <wire x1="43.18" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="45.72" y="76.2" size="1.778" layer="95"/>
+<pinref part="MOTOR-" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
+<junction x="43.18" y="76.2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3819,6 +3824,17 @@ D8=IR6</text>
 <pinref part="TRANSISTOR" gate="G$1" pin="C"/>
 <pinref part="DIOD" gate="1" pin="A"/>
 <wire x1="43.18" y1="66.04" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5.5V" class="0">
+<segment>
+<pinref part="DIOD" gate="1" pin="C"/>
+<pinref part="MOTOR+" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="50.8" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<junction x="35.56" y="27.94"/>
+<label x="25.4" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -7847,6 +7847,36 @@ design rules under a new name.</description>
 <element name="RESITOR+" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-68.58"/>
 <element name="MOTOR+" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-88.9"/>
 <element name="MOTOR-" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-109.22"/>
+<element name="TRANSISTOR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TO92-EBC-OVAL" value="2N2907" x="16.51" y="-185.42"/>
+<element name="DIOD1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO41-10" value="1N4004" x="22.86" y="-129.54"/>
+<element name="RESITOR-1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-170.18"/>
+<element name="RESITOR+1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-170.18"/>
+<element name="MOTOR+1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-149.86"/>
+<element name="MOTOR-1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-149.86"/>
+<element name="TRANSISTOR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TO92-EBC-OVAL" value="2N2907" x="16.51" y="-259.08"/>
+<element name="DIOD2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO41-10" value="1N4004" x="22.86" y="-203.2"/>
+<element name="RESITOR-2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-243.84"/>
+<element name="RESITOR+2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-243.84"/>
+<element name="MOTOR+2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-223.52"/>
+<element name="MOTOR-2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-223.52"/>
+<element name="TRANSISTOR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TO92-EBC-OVAL" value="2N2907" x="16.51" y="-332.74"/>
+<element name="DIOD3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO41-10" value="1N4004" x="22.86" y="-276.86"/>
+<element name="RESITOR-3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-317.5"/>
+<element name="RESITOR+3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-317.5"/>
+<element name="MOTOR+3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-297.18"/>
+<element name="MOTOR-3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-297.18"/>
+<element name="TRANSISTOR4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TO92-EBC-OVAL" value="2N2907" x="57.15" y="-406.4"/>
+<element name="DIOD4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO41-10" value="1N4004" x="22.86" y="-350.52"/>
+<element name="RESITOR-4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-411.48"/>
+<element name="RESITOR+4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-391.16"/>
+<element name="MOTOR+4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-370.84"/>
+<element name="MOTOR-4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="58.42" y="-370.84"/>
+<element name="TRANSISTOR5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TO92-EBC-OVAL" value="2N2907" x="16.51" y="-426.72"/>
+<element name="DIOD5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="DO41-10" value="1N4004" x="53.34" y="-350.52"/>
+<element name="RESITOR-5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-411.48"/>
+<element name="RESITOR+5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="58.42" y="-391.16"/>
+<element name="MOTOR+5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="38.1" y="-370.84"/>
+<element name="MOTOR-5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X01" value="" x="17.78" y="-391.16"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -7986,6 +8016,26 @@ design rules under a new name.</description>
 <wire x1="59.3725" y1="74.93" x2="59.436" y2="74.93" width="0.635" layer="16"/>
 <contactref element="TRANSISTOR" pad="E"/>
 <contactref element="MOTOR-" pad="1"/>
+<contactref element="TRANSISTOR1" pad="E"/>
+<contactref element="MOTOR-1" pad="1"/>
+<contactref element="TRANSISTOR2" pad="E"/>
+<contactref element="MOTOR-2" pad="1"/>
+<contactref element="TRANSISTOR3" pad="E"/>
+<contactref element="MOTOR-3" pad="1"/>
+<contactref element="TRANSISTOR4" pad="E"/>
+<contactref element="MOTOR-4" pad="1"/>
+<contactref element="TRANSISTOR5" pad="E"/>
+<contactref element="MOTOR-5" pad="1"/>
+<wire x1="38.1" y1="-223.52" x2="13.97" y2="-260.35" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="-186.69" x2="38.1" y2="-223.52" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="-149.86" x2="13.97" y2="-186.69" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="-297.18" x2="13.97" y2="-260.35" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="-334.01" x2="38.1" y2="-297.18" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-109.22" x2="38.1" y2="-149.86" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-391.16" x2="13.97" y2="-334.01" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="-427.99" x2="17.78" y2="-391.16" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="-407.67" x2="17.78" y2="-391.16" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="-370.84" x2="54.61" y2="-407.67" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="-11.43" x2="17.78" y2="-109.22" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="5.08" x2="13.97" y2="-11.43" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -8002,6 +8052,8 @@ design rules under a new name.</description>
 <wire x1="119.38" y1="13.0175" x2="119.38" y2="12.827" width="0.635" layer="1"/>
 <via x="107.6325" y="24.765" extent="1-16" drill="0.35"/>
 <via x="94.2975" y="42.8625" extent="1-16" drill="0.35"/>
+<contactref element="RESITOR+1" pad="1"/>
+<wire x1="119.38" y1="12.827" x2="17.78" y2="-170.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D5">
 <contactref element="B1" pad="5"/>
@@ -8012,6 +8064,8 @@ design rules under a new name.</description>
 <wire x1="83.82" y1="74.93" x2="83.82" y2="75.2475" width="0.635" layer="1"/>
 <wire x1="67.31" y1="85.09" x2="67.31" y2="85.217" width="0.635" layer="16"/>
 <via x="74.93" y="84.1375" extent="1-16" drill="0.35"/>
+<contactref element="RESITOR+3" pad="1"/>
+<wire x1="17.78" y1="-317.5" x2="83.82" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D6">
 <contactref element="B1" pad="6"/>
@@ -8022,6 +8076,8 @@ design rules under a new name.</description>
 <wire x1="81.28" y1="74.93" x2="81.28" y2="74.295" width="0.635" layer="1"/>
 <wire x1="29.21" y1="52.3875" x2="29.21" y2="52.197" width="0.635" layer="16"/>
 <via x="76.2" y="69.215" extent="1-16" drill="0.35"/>
+<contactref element="RESITOR+4" pad="1"/>
+<wire x1="29.21" y1="52.197" x2="38.1" y2="-391.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D11">
 <contactref element="B1" pad="11"/>
@@ -8167,6 +8223,8 @@ design rules under a new name.</description>
 <wire x1="119.38" y1="85.4075" x2="117.475" y2="87.3125" width="0.635" layer="16"/>
 <wire x1="119.38" y1="85.4075" x2="119.38" y2="85.217" width="0.635" layer="16"/>
 <via x="98.425" y="87.3125" extent="1-16" drill="0.35"/>
+<contactref element="RESITOR+2" pad="1"/>
+<wire x1="86.36" y1="74.93" x2="17.78" y2="-243.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D7">
 <contactref element="B1" pad="7"/>
@@ -8182,6 +8240,8 @@ design rules under a new name.</description>
 <wire x1="151.13" y1="71.4375" x2="148.9075" y2="73.66" width="0.635" layer="1"/>
 <wire x1="151.13" y1="52.197" x2="151.13" y2="71.4375" width="0.635" layer="1"/>
 <via x="116.84" y="77.1525" extent="1-16" drill="0.35"/>
+<contactref element="RESITOR+5" pad="1"/>
+<wire x1="58.42" y1="-391.16" x2="151.13" y2="52.197" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D8">
 <contactref element="B1" pad="8"/>
@@ -8310,6 +8370,26 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="4.7625" x2="21.59" y2="5.08" width="0.635" layer="16"/>
 <contactref element="DIOD" pad="C"/>
 <contactref element="MOTOR+" pad="1"/>
+<contactref element="DIOD1" pad="C"/>
+<contactref element="MOTOR+1" pad="1"/>
+<contactref element="DIOD2" pad="C"/>
+<contactref element="MOTOR+2" pad="1"/>
+<contactref element="DIOD3" pad="C"/>
+<contactref element="MOTOR+3" pad="1"/>
+<contactref element="DIOD4" pad="C"/>
+<contactref element="MOTOR+4" pad="1"/>
+<contactref element="DIOD5" pad="C"/>
+<contactref element="MOTOR+5" pad="1"/>
+<wire x1="17.78" y1="-203.2" x2="17.78" y2="-223.52" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-149.86" x2="17.78" y2="-203.2" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-129.54" x2="17.78" y2="-149.86" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-88.9" x2="17.78" y2="-129.54" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-276.86" x2="17.78" y2="-223.52" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-297.18" x2="17.78" y2="-276.86" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-350.52" x2="17.78" y2="-297.18" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-370.84" x2="17.78" y2="-350.52" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="-370.84" x2="17.78" y2="-370.84" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="-350.52" x2="38.1" y2="-370.84" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="-27.94" x2="17.78" y2="-88.9" width="0" layer="19" extent="1-1"/>
 <wire x1="24.4475" y1="1.905" x2="17.78" y2="-27.94" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -8673,6 +8753,56 @@ design rules under a new name.</description>
 <contactref element="TRANSISTOR" pad="C"/>
 <contactref element="DIOD" pad="A"/>
 <wire x1="27.94" y1="-27.94" x2="19.05" y2="-11.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="RESITOR-1" pad="1"/>
+<contactref element="TRANSISTOR1" pad="B"/>
+<wire x1="38.1" y1="-170.18" x2="16.51" y2="-186.69" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="TRANSISTOR1" pad="C"/>
+<contactref element="DIOD1" pad="A"/>
+<wire x1="27.94" y1="-129.54" x2="19.05" y2="-186.69" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="RESITOR-2" pad="1"/>
+<contactref element="TRANSISTOR2" pad="B"/>
+<wire x1="38.1" y1="-243.84" x2="16.51" y2="-260.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="TRANSISTOR2" pad="C"/>
+<contactref element="DIOD2" pad="A"/>
+<wire x1="27.94" y1="-203.2" x2="19.05" y2="-260.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="RESITOR-3" pad="1"/>
+<contactref element="TRANSISTOR3" pad="B"/>
+<wire x1="38.1" y1="-317.5" x2="16.51" y2="-334.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="TRANSISTOR3" pad="C"/>
+<contactref element="DIOD3" pad="A"/>
+<wire x1="19.05" y1="-334.01" x2="27.94" y2="-276.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="RESITOR-4" pad="1"/>
+<contactref element="TRANSISTOR4" pad="B"/>
+<wire x1="57.15" y1="-407.67" x2="17.78" y2="-411.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="TRANSISTOR4" pad="C"/>
+<contactref element="DIOD4" pad="A"/>
+<wire x1="27.94" y1="-350.52" x2="59.69" y2="-407.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="RESITOR-5" pad="1"/>
+<contactref element="TRANSISTOR5" pad="B"/>
+<wire x1="38.1" y1="-411.48" x2="16.51" y2="-427.99" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="TRANSISTOR5" pad="C"/>
+<contactref element="DIOD5" pad="A"/>
+<wire x1="58.42" y1="-350.52" x2="19.05" y2="-427.99" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
