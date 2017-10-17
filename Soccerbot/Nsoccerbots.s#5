@@ -2422,90 +2422,30 @@ Grid 5.00 mm&lt;p&gt;
 <attribute name="MPN" value="5636A9"/>
 <attribute name="OC_NEWARK" value="13M4539"/>
 </part>
-<part name="ESC1-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC1+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="ESC1" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
-</part>
-<part name="ESC4-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC4+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="ESC4" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
 </part>
-<part name="ESC5-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC5+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="ESC5" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
-</part>
-<part name="ESC2-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC2+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="ESC2" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
 </part>
-<part name="ESC3-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC3+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="ESC3" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
-</part>
-<part name="ESC6-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC6+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="ESC6" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
@@ -2565,6 +2505,12 @@ Grid 5.00 mm&lt;p&gt;
 <part name="RESITOR-6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
 <part name="RESITOR+6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
 <part name="MOTOR5" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
+<part name="ESC1P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
+<part name="ESC2P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
+<part name="ESC3P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
+<part name="ESC6P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
+<part name="ESC5P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
+<part name="ESC4P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3610,162 +3556,114 @@ D8=IR6</text>
 <plain>
 </plain>
 <instances>
-<instance part="ESC1-" gate="1" x="33.02" y="76.2">
-<attribute name="OC_NEWARK" x="33.02" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC1+" gate="1" x="33.02" y="68.58">
-<attribute name="OC_NEWARK" x="33.02" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="ESC1" gate="G$1" x="33.02" y="91.44">
 <attribute name="OC_NEWARK" x="33.02" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="33.02" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="33.02" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC4-" gate="1" x="33.02" y="38.1">
-<attribute name="OC_NEWARK" x="33.02" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC4+" gate="1" x="33.02" y="30.48">
-<attribute name="OC_NEWARK" x="33.02" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ESC4" gate="G$1" x="33.02" y="53.34">
 <attribute name="OC_NEWARK" x="33.02" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="33.02" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="33.02" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="ESC5-" gate="1" x="63.5" y="38.1">
-<attribute name="OC_NEWARK" x="63.5" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC5+" gate="1" x="63.5" y="30.48">
-<attribute name="OC_NEWARK" x="63.5" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="30.48" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="ESC5" gate="G$1" x="63.5" y="53.34">
 <attribute name="OC_NEWARK" x="63.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="63.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="63.5" y="53.34" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC2-" gate="1" x="63.5" y="76.2">
-<attribute name="OC_NEWARK" x="63.5" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC2+" gate="1" x="63.5" y="68.58">
-<attribute name="OC_NEWARK" x="63.5" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ESC2" gate="G$1" x="63.5" y="91.44">
 <attribute name="OC_NEWARK" x="63.5" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="63.5" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="63.5" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="ESC3-" gate="1" x="91.44" y="76.2">
-<attribute name="OC_NEWARK" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC3+" gate="1" x="91.44" y="68.58">
-<attribute name="OC_NEWARK" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="ESC3" gate="G$1" x="91.44" y="91.44">
 <attribute name="OC_NEWARK" x="91.44" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="91.44" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="91.44" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC6-" gate="1" x="91.44" y="38.1">
-<attribute name="OC_NEWARK" x="91.44" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC6+" gate="1" x="91.44" y="30.48">
-<attribute name="OC_NEWARK" x="91.44" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ESC6" gate="G$1" x="91.44" y="53.34">
 <attribute name="OC_NEWARK" x="91.44" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="91.44" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="91.44" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="ESC1P" gate="-1" x="38.1" y="76.2"/>
+<instance part="ESC1P" gate="-2" x="38.1" y="71.12"/>
+<instance part="ESC2P" gate="-1" x="66.04" y="76.2"/>
+<instance part="ESC2P" gate="-2" x="66.04" y="71.12"/>
+<instance part="ESC3P" gate="-1" x="91.44" y="76.2"/>
+<instance part="ESC3P" gate="-2" x="91.44" y="71.12"/>
+<instance part="ESC6P" gate="-1" x="91.44" y="43.18"/>
+<instance part="ESC6P" gate="-2" x="91.44" y="38.1"/>
+<instance part="ESC5P" gate="-1" x="66.04" y="43.18"/>
+<instance part="ESC5P" gate="-2" x="66.04" y="38.1"/>
+<instance part="ESC4P" gate="-1" x="38.1" y="43.18"/>
+<instance part="ESC4P" gate="-2" x="38.1" y="38.1"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="BAT+" class="0">
 <segment>
-<pinref part="ESC1+" gate="1" pin="P"/>
-<wire x1="35.56" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="38.1" y="68.58" size="1.778" layer="95"/>
+<pinref part="ESC1P" gate="-2" pin="KL"/>
+<wire x1="43.18" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<label x="45.72" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC4+" gate="1" pin="P"/>
-<wire x1="35.56" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<label x="38.1" y="30.48" size="1.778" layer="95"/>
+<pinref part="ESC2P" gate="-2" pin="KL"/>
+<wire x1="71.12" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<label x="73.66" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC5+" gate="1" pin="P"/>
-<wire x1="66.04" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<label x="68.58" y="30.48" size="1.778" layer="95"/>
+<pinref part="ESC3P" gate="-2" pin="KL"/>
+<wire x1="96.52" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<label x="99.06" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC2+" gate="1" pin="P"/>
-<wire x1="66.04" y1="68.58" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
-<label x="68.58" y="68.58" size="1.778" layer="95"/>
+<pinref part="ESC6P" gate="-2" pin="KL"/>
+<wire x1="96.52" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<label x="99.06" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC3+" gate="1" pin="P"/>
-<wire x1="93.98" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
-<label x="96.52" y="68.58" size="1.778" layer="95"/>
+<pinref part="ESC5P" gate="-2" pin="KL"/>
+<wire x1="71.12" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="73.66" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC6+" gate="1" pin="P"/>
-<wire x1="93.98" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
-<label x="96.52" y="30.48" size="1.778" layer="95"/>
+<pinref part="ESC4P" gate="-2" pin="KL"/>
+<wire x1="43.18" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="45.72" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BAT-" class="0">
 <segment>
-<pinref part="ESC1-" gate="1" pin="P"/>
-<wire x1="35.56" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
-<label x="38.1" y="76.2" size="1.778" layer="95"/>
+<pinref part="ESC1P" gate="-1" pin="KL"/>
+<wire x1="43.18" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<label x="45.72" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC4-" gate="1" pin="P"/>
-<wire x1="35.56" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<label x="38.1" y="38.1" size="1.778" layer="95"/>
+<pinref part="ESC2P" gate="-1" pin="KL"/>
+<wire x1="71.12" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
+<label x="73.66" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC5-" gate="1" pin="P"/>
-<wire x1="66.04" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<label x="68.58" y="38.1" size="1.778" layer="95"/>
+<pinref part="ESC3P" gate="-1" pin="KL"/>
+<wire x1="96.52" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<label x="99.06" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC2-" gate="1" pin="P"/>
-<wire x1="66.04" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<label x="68.58" y="76.2" size="1.778" layer="95"/>
+<pinref part="ESC6P" gate="-1" pin="KL"/>
+<wire x1="96.52" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+<label x="99.06" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC3-" gate="1" pin="P"/>
-<wire x1="93.98" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
-<label x="96.52" y="76.2" size="1.778" layer="95"/>
+<pinref part="ESC5P" gate="-1" pin="KL"/>
+<wire x1="71.12" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="73.66" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC6-" gate="1" pin="P"/>
-<wire x1="93.98" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
-<label x="96.52" y="38.1" size="1.778" layer="95"/>
+<pinref part="ESC4P" gate="-1" pin="KL"/>
+<wire x1="43.18" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<label x="45.72" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
