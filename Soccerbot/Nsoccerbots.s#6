@@ -2467,6 +2467,36 @@ Source: NXT-Female-Socket.pdf</description>
 <part name="RESITOR+" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
 <part name="MOTOR+" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
 <part name="MOTOR-" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="TRANSISTOR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
+<part name="DIOD1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
+<part name="RESITOR-1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="RESITOR+1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR+1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR-1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="TRANSISTOR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
+<part name="DIOD2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
+<part name="RESITOR-2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="RESITOR+2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR+2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR-2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="TRANSISTOR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
+<part name="DIOD3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
+<part name="RESITOR-3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="RESITOR+3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR+3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR-3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="TRANSISTOR4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
+<part name="DIOD4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
+<part name="RESITOR-4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="RESITOR+4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR+4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR-4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="TRANSISTOR5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
+<part name="DIOD5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
+<part name="RESITOR-5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="RESITOR+5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR+5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
+<part name="MOTOR-5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3788,6 +3818,36 @@ D8=IR6</text>
 <instance part="RESITOR+" gate="G$1" x="15.24" y="50.8"/>
 <instance part="MOTOR+" gate="G$1" x="38.1" y="27.94"/>
 <instance part="MOTOR-" gate="G$1" x="50.8" y="27.94"/>
+<instance part="TRANSISTOR1" gate="G$1" x="111.76" y="71.12"/>
+<instance part="DIOD1" gate="1" x="114.3" y="53.34" rot="R270"/>
+<instance part="RESITOR-1" gate="G$1" x="86.36" y="60.96"/>
+<instance part="RESITOR+1" gate="G$1" x="86.36" y="50.8"/>
+<instance part="MOTOR+1" gate="G$1" x="109.22" y="27.94"/>
+<instance part="MOTOR-1" gate="G$1" x="121.92" y="27.94"/>
+<instance part="TRANSISTOR2" gate="G$1" x="185.42" y="71.12"/>
+<instance part="DIOD2" gate="1" x="187.96" y="53.34" rot="R270"/>
+<instance part="RESITOR-2" gate="G$1" x="160.02" y="60.96"/>
+<instance part="RESITOR+2" gate="G$1" x="160.02" y="50.8"/>
+<instance part="MOTOR+2" gate="G$1" x="182.88" y="27.94"/>
+<instance part="MOTOR-2" gate="G$1" x="195.58" y="27.94"/>
+<instance part="TRANSISTOR3" gate="G$1" x="261.62" y="71.12"/>
+<instance part="DIOD3" gate="1" x="264.16" y="53.34" rot="R270"/>
+<instance part="RESITOR-3" gate="G$1" x="236.22" y="60.96"/>
+<instance part="RESITOR+3" gate="G$1" x="236.22" y="50.8"/>
+<instance part="MOTOR+3" gate="G$1" x="259.08" y="27.94"/>
+<instance part="MOTOR-3" gate="G$1" x="271.78" y="27.94"/>
+<instance part="TRANSISTOR4" gate="G$1" x="35.56" y="0"/>
+<instance part="DIOD4" gate="1" x="38.1" y="-17.78" rot="R270"/>
+<instance part="RESITOR-4" gate="G$1" x="10.16" y="-10.16"/>
+<instance part="RESITOR+4" gate="G$1" x="10.16" y="-20.32"/>
+<instance part="MOTOR+4" gate="G$1" x="33.02" y="-43.18"/>
+<instance part="MOTOR-4" gate="G$1" x="45.72" y="-43.18"/>
+<instance part="TRANSISTOR5" gate="G$1" x="111.76" y="0"/>
+<instance part="DIOD5" gate="1" x="114.3" y="-17.78" rot="R270"/>
+<instance part="RESITOR-5" gate="G$1" x="86.36" y="-10.16"/>
+<instance part="RESITOR+5" gate="G$1" x="86.36" y="-20.32"/>
+<instance part="MOTOR+5" gate="G$1" x="109.22" y="-43.18"/>
+<instance part="MOTOR-5" gate="G$1" x="121.92" y="-43.18"/>
 </instances>
 <busses>
 </busses>
@@ -3818,6 +3878,56 @@ D8=IR6</text>
 <wire x1="58.42" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 <junction x="43.18" y="76.2"/>
 </segment>
+<segment>
+<pinref part="TRANSISTOR1" gate="G$1" pin="E"/>
+<wire x1="114.3" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="116.84" y="76.2" size="1.778" layer="95"/>
+<pinref part="MOTOR-1" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="27.94" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
+<junction x="114.3" y="76.2"/>
+</segment>
+<segment>
+<pinref part="TRANSISTOR2" gate="G$1" pin="E"/>
+<wire x1="187.96" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<label x="190.5" y="76.2" size="1.778" layer="95"/>
+<pinref part="MOTOR-2" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="27.94" x2="203.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="27.94" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
+<junction x="187.96" y="76.2"/>
+</segment>
+<segment>
+<pinref part="TRANSISTOR3" gate="G$1" pin="E"/>
+<wire x1="264.16" y1="76.2" x2="266.7" y2="76.2" width="0.1524" layer="91"/>
+<label x="266.7" y="76.2" size="1.778" layer="95"/>
+<pinref part="MOTOR-3" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="27.94" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="27.94" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="76.2" x2="264.16" y2="76.2" width="0.1524" layer="91"/>
+<junction x="264.16" y="76.2"/>
+</segment>
+<segment>
+<pinref part="TRANSISTOR4" gate="G$1" pin="E"/>
+<wire x1="38.1" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
+<label x="40.64" y="5.08" size="1.778" layer="95"/>
+<pinref part="MOTOR-4" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="-43.18" x2="53.34" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-43.18" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="5.08" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
+<junction x="38.1" y="5.08"/>
+</segment>
+<segment>
+<pinref part="TRANSISTOR5" gate="G$1" pin="E"/>
+<wire x1="114.3" y1="5.08" x2="116.84" y2="5.08" width="0.1524" layer="91"/>
+<label x="116.84" y="5.08" size="1.778" layer="95"/>
+<pinref part="MOTOR-5" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="-43.18" x2="129.54" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-43.18" x2="129.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="5.08" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
+<junction x="114.3" y="5.08"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -3835,6 +3945,161 @@ D8=IR6</text>
 <wire x1="35.56" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <junction x="35.56" y="27.94"/>
 <label x="25.4" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DIOD1" gate="1" pin="C"/>
+<pinref part="MOTOR+1" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="50.8" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+<junction x="106.68" y="27.94"/>
+<label x="96.52" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DIOD2" gate="1" pin="C"/>
+<pinref part="MOTOR+2" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="50.8" x2="180.34" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
+<junction x="180.34" y="27.94"/>
+<label x="170.18" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DIOD3" gate="1" pin="C"/>
+<pinref part="MOTOR+3" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="50.8" x2="256.54" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="50.8" x2="256.54" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
+<junction x="256.54" y="27.94"/>
+<label x="246.38" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DIOD4" gate="1" pin="C"/>
+<pinref part="MOTOR+4" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-20.32" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-20.32" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-43.18" x2="22.86" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="30.48" y="-43.18"/>
+<label x="20.32" y="-43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DIOD5" gate="1" pin="C"/>
+<pinref part="MOTOR+5" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="-20.32" x2="106.68" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-20.32" x2="106.68" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-43.18" x2="99.06" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="106.68" y="-43.18"/>
+<label x="96.52" y="-43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="RESITOR-1" gate="G$1" pin="1"/>
+<pinref part="TRANSISTOR1" gate="G$1" pin="B"/>
+<wire x1="83.82" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="60.96" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="TRANSISTOR1" gate="G$1" pin="C"/>
+<pinref part="DIOD1" gate="1" pin="A"/>
+<wire x1="114.3" y1="66.04" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="RESITOR-2" gate="G$1" pin="1"/>
+<pinref part="TRANSISTOR2" gate="G$1" pin="B"/>
+<wire x1="157.48" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="60.96" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="TRANSISTOR2" gate="G$1" pin="C"/>
+<pinref part="DIOD2" gate="1" pin="A"/>
+<wire x1="187.96" y1="66.04" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="RESITOR-3" gate="G$1" pin="1"/>
+<pinref part="TRANSISTOR3" gate="G$1" pin="B"/>
+<wire x1="233.68" y1="60.96" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="60.96" x2="259.08" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="TRANSISTOR3" gate="G$1" pin="C"/>
+<pinref part="DIOD3" gate="1" pin="A"/>
+<wire x1="264.16" y1="66.04" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D3" class="0">
+<segment>
+<pinref part="RESITOR+1" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="50.8" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
+<label x="83.82" y="38.1" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="D4" class="0">
+<segment>
+<pinref part="RESITOR+2" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="50.8" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
+<label x="157.48" y="38.1" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="D5" class="0">
+<segment>
+<pinref part="RESITOR+3" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="50.8" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
+<label x="233.68" y="38.1" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="RESITOR-4" gate="G$1" pin="1"/>
+<pinref part="TRANSISTOR4" gate="G$1" pin="B"/>
+<wire x1="7.62" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-10.16" x2="33.02" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="TRANSISTOR4" gate="G$1" pin="C"/>
+<pinref part="DIOD4" gate="1" pin="A"/>
+<wire x1="38.1" y1="-5.08" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="RESITOR-5" gate="G$1" pin="1"/>
+<pinref part="TRANSISTOR5" gate="G$1" pin="B"/>
+<wire x1="83.82" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-10.16" x2="109.22" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="TRANSISTOR5" gate="G$1" pin="C"/>
+<pinref part="DIOD5" gate="1" pin="A"/>
+<wire x1="114.3" y1="-5.08" x2="114.3" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D6" class="0">
+<segment>
+<pinref part="RESITOR+4" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="-20.32" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
+<label x="7.62" y="-33.02" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="D7" class="0">
+<segment>
+<pinref part="RESITOR+5" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="-20.32" x2="83.82" y2="-27.94" width="0.1524" layer="91"/>
+<label x="83.82" y="-33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
