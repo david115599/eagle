@@ -1542,45 +1542,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="wirepad">
-<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SMD2,54-5,08">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1"/>
-<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-1.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="PAD">
-<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
-<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SMD5" prefix="PAD" uservalue="yes">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="PAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMD2,54-5,08">
-<connects>
-<connect gate="1" pin="P" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="switch">
 <description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
 Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
@@ -2404,108 +2365,38 @@ Grid 5.00 mm&lt;p&gt;
 <parts>
 <part name="B1" library="SparkFun-Boards" deviceset="ARDUINO_MEGA_R3" device="FULL">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="PSU+(1-12V)" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="PSU-(1-12V)" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="A000067"/>
+<attribute name="OC_NEWARK" value="45W6205"/>
 </part>
 <part name="S1" library="switch" deviceset="320-916" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="5636A9"/>
 <attribute name="OC_NEWARK" value="13M4539"/>
 </part>
-<part name="ESC1-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC1+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="ESC1" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
-</part>
-<part name="ESC4-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC4+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="ESC4" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
 </part>
-<part name="ESC5-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC5+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="ESC5" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
-</part>
-<part name="ESC2-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC2+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="ESC2" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
 </part>
-<part name="ESC3-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC3+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="ESC3" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-11-2032"/>
 <attribute name="OC_NEWARK" value="81C8218"/>
-</part>
-<part name="ESC6-" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="ESC6+" library="wirepad" deviceset="SMD5" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="ESC6" library="SparkFun" deviceset="M03" device="LOCK">
 <attribute name="MF" value="MOLEX"/>
@@ -2520,51 +2411,241 @@ Grid 5.00 mm&lt;p&gt;
 <part name="U$5" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="IMU2" library="microbuilder" deviceset="HEADER-1X8" device="76MIL"/>
+<part name="IMU2" library="microbuilder" deviceset="HEADER-1X8" device="76MIL">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="U$7" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
-<part name="IR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="IR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="IR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="IR4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="IR5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="IR6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="X1" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device=""/>
-<part name="X2" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device=""/>
-<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device=""/>
-<part name="X3" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device=""/>
-<part name="X4" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device=""/>
-<part name="TRANSISTOR4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
-<part name="DIOD4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
-<part name="RESITOR-4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="RESITOR+4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="MOTOR" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
-<part name="TRANSISTOR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
-<part name="DIOD1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
-<part name="RESITOR-1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="RESITOR+1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="MOTOR1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
-<part name="TRANSISTOR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
-<part name="DIOD2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
-<part name="RESITOR-2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="RESITOR+2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="MOTOR2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
-<part name="TRANSISTOR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
-<part name="DIOD3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
-<part name="RESITOR-3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="RESITOR+3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="MOTOR3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
-<part name="TRANSISTOR5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
-<part name="DIOD5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
-<part name="RESITOR-5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="RESITOR+5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="MOTOR4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
-<part name="TRANSISTOR6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device=""/>
-<part name="DIOD6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device=""/>
-<part name="RESITOR-6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="RESITOR+6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device=""/>
-<part name="MOTOR5" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device=""/>
+<part name="IR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="IR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="IR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="IR4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="IR5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="IR6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="X1" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device="">
+<attribute name="MPN" value="RJE01-660-01"/>
+<attribute name="OC_NEWARK" value="01M6133"/>
+</part>
+<part name="X2" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device="">
+<attribute name="MPN" value="RJE01-660-01"/>
+<attribute name="OC_NEWARK" value="01M6133"/>
+</part>
+<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="X3" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device="">
+<attribute name="MPN" value="RJE01-660-01"/>
+<attribute name="OC_NEWARK" value="01M6133"/>
+</part>
+<part name="X4" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device="">
+<attribute name="MPN" value="RJE01-660-01"/>
+<attribute name="OC_NEWARK" value="01M6133"/>
+</part>
+<part name="TRANSISTOR4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="TSOP38238"/>
+<attribute name="OC_NEWARK" value="02P9885"/>
+</part>
+<part name="DIOD4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="1N4004-T"/>
+<attribute name="OC_NEWARK" value="12T2303"/>
+</part>
+<part name="RESITOR-4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="RESITOR+4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MOTOR" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="TRANSISTOR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="TSOP38238"/>
+<attribute name="OC_NEWARK" value="02P9885"/>
+</part>
+<part name="DIOD1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="1N4004-T"/>
+<attribute name="OC_NEWARK" value="12T2303"/>
+</part>
+<part name="RESITOR-1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="RESITOR+1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MOTOR1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="TRANSISTOR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="TSOP38238"/>
+<attribute name="OC_NEWARK" value="02P9885"/>
+</part>
+<part name="DIOD2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="1N4004-T"/>
+<attribute name="OC_NEWARK" value="12T2303"/>
+</part>
+<part name="RESITOR-2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="RESITOR+2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MOTOR2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="TRANSISTOR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="TSOP38238"/>
+<attribute name="OC_NEWARK" value="02P9885"/>
+</part>
+<part name="DIOD3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="1N4004-T"/>
+<attribute name="OC_NEWARK" value="12T2303"/>
+</part>
+<part name="RESITOR-3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="RESITOR+3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MOTOR3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="TRANSISTOR5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="TSOP38238"/>
+<attribute name="OC_NEWARK" value="02P9885"/>
+</part>
+<part name="DIOD5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="1N4004-T"/>
+<attribute name="OC_NEWARK" value="12T2303"/>
+</part>
+<part name="RESITOR-5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="RESITOR+5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MOTOR4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="TRANSISTOR6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2907*" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="TSOP38238"/>
+<attribute name="OC_NEWARK" value="02P9885"/>
+</part>
+<part name="DIOD6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="1N4004-T"/>
+<attribute name="OC_NEWARK" value="12T2303"/>
+</part>
+<part name="RESITOR-6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="RESITOR+6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="MOTOR5" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="ESC1P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="ESC2P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="ESC3P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="ESC6P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="ESC5P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="ESC4P" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
+<part name="BATERY" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="">
+<attribute name="MPN" value="MA522-500M02"/>
+<attribute name="OC_NEWARK" value="04R6830"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2591,23 +2672,23 @@ D8=IR6</text>
 <attribute name="MF" x="-137.16" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-137.16" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PSU+(1-12V)" gate="1" x="-210.82" y="66.04">
-<attribute name="OC_NEWARK" x="-210.82" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-210.82" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-210.82" y="66.04" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="PSU-(1-12V)" gate="1" x="-210.82" y="55.88">
-<attribute name="OC_NEWARK" x="-210.82" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-210.82" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-210.82" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="S1" gate="1" x="-187.96" y="76.2">
 <attribute name="OC_NEWARK" x="-187.96" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-187.96" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-187.96" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP1" gate="A" x="-203.2" y="129.54"/>
-<instance part="JP2" gate="A" x="-203.2" y="116.84"/>
+<instance part="JP1" gate="A" x="-203.2" y="129.54">
+<attribute name="OC_NEWARK" x="-203.2" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-203.2" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-203.2" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="A" x="-203.2" y="116.84">
+<attribute name="OC_NEWARK" x="-203.2" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-203.2" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-203.2" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="BATERY" gate="-1" x="-228.6" y="66.04"/>
+<instance part="BATERY" gate="-2" x="-228.6" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -3146,14 +3227,6 @@ D8=IR6</text>
 <label x="-116.84" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="PSU+(1-12V)" gate="1" pin="P"/>
-<pinref part="S1" gate="1" pin="P"/>
-<wire x1="-208.28" y1="66.04" x2="-185.42" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="66.04" x2="-185.42" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="D44" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="44"/>
@@ -3192,11 +3265,19 @@ D8=IR6</text>
 <label x="-187.96" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="S1" gate="1" pin="P"/>
+<pinref part="BATERY" gate="-1" pin="KL"/>
+<wire x1="-185.42" y1="71.12" x2="-223.52" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-223.52" y1="71.12" x2="-223.52" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="BAT-" class="0">
 <segment>
-<pinref part="PSU-(1-12V)" gate="1" pin="P"/>
-<wire x1="-208.28" y1="55.88" x2="-205.74" y2="55.88" width="0.1524" layer="91"/>
-<label x="-205.74" y="55.88" size="1.778" layer="95"/>
+<pinref part="BATERY" gate="-2" pin="KL"/>
+<wire x1="-223.52" y1="60.96" x2="-220.98" y2="60.96" width="0.1524" layer="91"/>
+<label x="-220.98" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -3205,12 +3286,36 @@ D8=IR6</text>
 <plain>
 </plain>
 <instances>
-<instance part="IR1" gate="A" x="127" y="2.54"/>
-<instance part="IR2" gate="A" x="116.84" y="2.54"/>
-<instance part="IR3" gate="A" x="106.68" y="2.54"/>
-<instance part="IR4" gate="A" x="127" y="15.24"/>
-<instance part="IR5" gate="A" x="116.84" y="15.24"/>
-<instance part="IR6" gate="A" x="106.68" y="15.24"/>
+<instance part="IR1" gate="A" x="127" y="2.54">
+<attribute name="OC_NEWARK" x="127" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="127" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="127" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IR2" gate="A" x="116.84" y="2.54">
+<attribute name="OC_NEWARK" x="116.84" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IR3" gate="A" x="106.68" y="2.54">
+<attribute name="OC_NEWARK" x="106.68" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IR4" gate="A" x="127" y="15.24">
+<attribute name="OC_NEWARK" x="127" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="127" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="127" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IR5" gate="A" x="116.84" y="15.24">
+<attribute name="OC_NEWARK" x="116.84" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="IR6" gate="A" x="106.68" y="15.24">
+<attribute name="OC_NEWARK" x="106.68" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X1" gate="G$1" x="70.82469375" y="17.1958125"/>
 <instance part="X2" gate="G$1" x="70.82469375" y="-3.1241875"/>
 <instance part="X3" gate="G$1" x="70.82469375" y="-23.4441875"/>
@@ -3493,7 +3598,11 @@ D8=IR6</text>
 <instance part="U$5" gate="G$1" x="195.58" y="50.8"/>
 <instance part="U$6" gate="G$1" x="213.36" y="35.56"/>
 <instance part="+3V2" gate="G$1" x="190.5" y="48.26"/>
-<instance part="IMU2" gate="A" x="137.16" y="40.64" rot="R180"/>
+<instance part="IMU2" gate="A" x="137.16" y="40.64" rot="R180">
+<attribute name="OC_NEWARK" x="137.16" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="137.16" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="137.16" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$7" gate="G$1" x="152.4" y="53.34"/>
 <instance part="U$8" gate="G$1" x="127" y="38.1"/>
 </instances>
@@ -3610,162 +3719,114 @@ D8=IR6</text>
 <plain>
 </plain>
 <instances>
-<instance part="ESC1-" gate="1" x="33.02" y="76.2">
-<attribute name="OC_NEWARK" x="33.02" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC1+" gate="1" x="33.02" y="68.58">
-<attribute name="OC_NEWARK" x="33.02" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="ESC1" gate="G$1" x="33.02" y="91.44">
 <attribute name="OC_NEWARK" x="33.02" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="33.02" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="33.02" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC4-" gate="1" x="33.02" y="38.1">
-<attribute name="OC_NEWARK" x="33.02" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC4+" gate="1" x="33.02" y="30.48">
-<attribute name="OC_NEWARK" x="33.02" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="33.02" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="33.02" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ESC4" gate="G$1" x="33.02" y="53.34">
 <attribute name="OC_NEWARK" x="33.02" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="33.02" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="33.02" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="ESC5-" gate="1" x="63.5" y="38.1">
-<attribute name="OC_NEWARK" x="63.5" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC5+" gate="1" x="63.5" y="30.48">
-<attribute name="OC_NEWARK" x="63.5" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="30.48" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="ESC5" gate="G$1" x="63.5" y="53.34">
 <attribute name="OC_NEWARK" x="63.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="63.5" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="63.5" y="53.34" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC2-" gate="1" x="63.5" y="76.2">
-<attribute name="OC_NEWARK" x="63.5" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC2+" gate="1" x="63.5" y="68.58">
-<attribute name="OC_NEWARK" x="63.5" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ESC2" gate="G$1" x="63.5" y="91.44">
 <attribute name="OC_NEWARK" x="63.5" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="63.5" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="63.5" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="ESC3-" gate="1" x="91.44" y="76.2">
-<attribute name="OC_NEWARK" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC3+" gate="1" x="91.44" y="68.58">
-<attribute name="OC_NEWARK" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="ESC3" gate="G$1" x="91.44" y="91.44">
 <attribute name="OC_NEWARK" x="91.44" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="91.44" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="91.44" y="91.44" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC6-" gate="1" x="91.44" y="38.1">
-<attribute name="OC_NEWARK" x="91.44" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="ESC6+" gate="1" x="91.44" y="30.48">
-<attribute name="OC_NEWARK" x="91.44" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="91.44" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ESC6" gate="G$1" x="91.44" y="53.34">
 <attribute name="OC_NEWARK" x="91.44" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="91.44" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="91.44" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="ESC1P" gate="-1" x="38.1" y="76.2"/>
+<instance part="ESC1P" gate="-2" x="38.1" y="71.12"/>
+<instance part="ESC2P" gate="-1" x="66.04" y="76.2"/>
+<instance part="ESC2P" gate="-2" x="66.04" y="71.12"/>
+<instance part="ESC3P" gate="-1" x="91.44" y="76.2"/>
+<instance part="ESC3P" gate="-2" x="91.44" y="71.12"/>
+<instance part="ESC6P" gate="-1" x="91.44" y="43.18"/>
+<instance part="ESC6P" gate="-2" x="91.44" y="38.1"/>
+<instance part="ESC5P" gate="-1" x="66.04" y="43.18"/>
+<instance part="ESC5P" gate="-2" x="66.04" y="38.1"/>
+<instance part="ESC4P" gate="-1" x="38.1" y="43.18"/>
+<instance part="ESC4P" gate="-2" x="38.1" y="38.1"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="BAT+" class="0">
 <segment>
-<pinref part="ESC1+" gate="1" pin="P"/>
-<wire x1="35.56" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="38.1" y="68.58" size="1.778" layer="95"/>
+<pinref part="ESC1P" gate="-2" pin="KL"/>
+<wire x1="43.18" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<label x="45.72" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC4+" gate="1" pin="P"/>
-<wire x1="35.56" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<label x="38.1" y="30.48" size="1.778" layer="95"/>
+<pinref part="ESC2P" gate="-2" pin="KL"/>
+<wire x1="71.12" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<label x="73.66" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC5+" gate="1" pin="P"/>
-<wire x1="66.04" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<label x="68.58" y="30.48" size="1.778" layer="95"/>
+<pinref part="ESC3P" gate="-2" pin="KL"/>
+<wire x1="96.52" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<label x="99.06" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC2+" gate="1" pin="P"/>
-<wire x1="66.04" y1="68.58" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
-<label x="68.58" y="68.58" size="1.778" layer="95"/>
+<pinref part="ESC6P" gate="-2" pin="KL"/>
+<wire x1="96.52" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<label x="99.06" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC3+" gate="1" pin="P"/>
-<wire x1="93.98" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
-<label x="96.52" y="68.58" size="1.778" layer="95"/>
+<pinref part="ESC5P" gate="-2" pin="KL"/>
+<wire x1="71.12" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="73.66" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC6+" gate="1" pin="P"/>
-<wire x1="93.98" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
-<label x="96.52" y="30.48" size="1.778" layer="95"/>
+<pinref part="ESC4P" gate="-2" pin="KL"/>
+<wire x1="43.18" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="45.72" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BAT-" class="0">
 <segment>
-<pinref part="ESC1-" gate="1" pin="P"/>
-<wire x1="35.56" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
-<label x="38.1" y="76.2" size="1.778" layer="95"/>
+<pinref part="ESC1P" gate="-1" pin="KL"/>
+<wire x1="43.18" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<label x="45.72" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC4-" gate="1" pin="P"/>
-<wire x1="35.56" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<label x="38.1" y="38.1" size="1.778" layer="95"/>
+<pinref part="ESC2P" gate="-1" pin="KL"/>
+<wire x1="71.12" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
+<label x="73.66" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC5-" gate="1" pin="P"/>
-<wire x1="66.04" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<label x="68.58" y="38.1" size="1.778" layer="95"/>
+<pinref part="ESC3P" gate="-1" pin="KL"/>
+<wire x1="96.52" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<label x="99.06" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC2-" gate="1" pin="P"/>
-<wire x1="66.04" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
-<label x="68.58" y="76.2" size="1.778" layer="95"/>
+<pinref part="ESC6P" gate="-1" pin="KL"/>
+<wire x1="96.52" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+<label x="99.06" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC3-" gate="1" pin="P"/>
-<wire x1="93.98" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
-<label x="96.52" y="76.2" size="1.778" layer="95"/>
+<pinref part="ESC5P" gate="-1" pin="KL"/>
+<wire x1="71.12" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="73.66" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESC6-" gate="1" pin="P"/>
-<wire x1="93.98" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
-<label x="96.52" y="38.1" size="1.778" layer="95"/>
+<pinref part="ESC4P" gate="-1" pin="KL"/>
+<wire x1="43.18" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<label x="45.72" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3880,40 +3941,136 @@ D8=IR6</text>
 <plain>
 </plain>
 <instances>
-<instance part="TRANSISTOR4" gate="G$1" x="35.56" y="0"/>
-<instance part="DIOD4" gate="1" x="38.1" y="-17.78" rot="R270"/>
-<instance part="RESITOR-4" gate="G$1" x="10.16" y="-10.16"/>
-<instance part="RESITOR+4" gate="G$1" x="10.16" y="-20.32"/>
+<instance part="TRANSISTOR4" gate="G$1" x="35.56" y="0">
+<attribute name="OC_NEWARK" x="35.56" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="35.56" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="35.56" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="DIOD4" gate="1" x="38.1" y="-17.78" rot="R270">
+<attribute name="OC_NEWARK" x="38.1" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="38.1" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="38.1" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR-4" gate="G$1" x="10.16" y="-10.16">
+<attribute name="OC_NEWARK" x="10.16" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="-10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR+4" gate="G$1" x="10.16" y="-20.32">
+<attribute name="OC_NEWARK" x="10.16" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="10.16" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="-20.32" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="MOTOR" gate="-1" x="33.02" y="-53.34" rot="R90"/>
 <instance part="MOTOR" gate="-2" x="38.1" y="-53.34" rot="R90"/>
-<instance part="TRANSISTOR1" gate="G$1" x="88.9" y="0"/>
-<instance part="DIOD1" gate="1" x="91.44" y="-17.78" rot="R270"/>
-<instance part="RESITOR-1" gate="G$1" x="63.5" y="-10.16"/>
-<instance part="RESITOR+1" gate="G$1" x="63.5" y="-20.32"/>
+<instance part="TRANSISTOR1" gate="G$1" x="88.9" y="0">
+<attribute name="OC_NEWARK" x="88.9" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="88.9" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="88.9" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="DIOD1" gate="1" x="91.44" y="-17.78" rot="R270">
+<attribute name="OC_NEWARK" x="91.44" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="91.44" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="91.44" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR-1" gate="G$1" x="63.5" y="-10.16">
+<attribute name="OC_NEWARK" x="63.5" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="-10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR+1" gate="G$1" x="63.5" y="-20.32">
+<attribute name="OC_NEWARK" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="-20.32" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="MOTOR1" gate="-1" x="86.36" y="-53.34" rot="R90"/>
 <instance part="MOTOR1" gate="-2" x="91.44" y="-53.34" rot="R90"/>
-<instance part="TRANSISTOR2" gate="G$1" x="142.24" y="0"/>
-<instance part="DIOD2" gate="1" x="144.78" y="-17.78" rot="R270"/>
-<instance part="RESITOR-2" gate="G$1" x="116.84" y="-10.16"/>
-<instance part="RESITOR+2" gate="G$1" x="116.84" y="-20.32"/>
+<instance part="TRANSISTOR2" gate="G$1" x="142.24" y="0">
+<attribute name="OC_NEWARK" x="142.24" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="142.24" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="142.24" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="DIOD2" gate="1" x="144.78" y="-17.78" rot="R270">
+<attribute name="OC_NEWARK" x="144.78" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="144.78" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR-2" gate="G$1" x="116.84" y="-10.16">
+<attribute name="OC_NEWARK" x="116.84" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="-10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="-10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR+2" gate="G$1" x="116.84" y="-20.32">
+<attribute name="OC_NEWARK" x="116.84" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="-20.32" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="MOTOR2" gate="-1" x="139.7" y="-53.34" rot="R90"/>
 <instance part="MOTOR2" gate="-2" x="144.78" y="-53.34" rot="R90"/>
-<instance part="TRANSISTOR3" gate="G$1" x="193.04" y="-2.54"/>
-<instance part="DIOD3" gate="1" x="195.58" y="-20.32" rot="R270"/>
-<instance part="RESITOR-3" gate="G$1" x="167.64" y="-12.7"/>
-<instance part="RESITOR+3" gate="G$1" x="167.64" y="-22.86"/>
+<instance part="TRANSISTOR3" gate="G$1" x="193.04" y="-2.54">
+<attribute name="OC_NEWARK" x="193.04" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="193.04" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="193.04" y="-2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="DIOD3" gate="1" x="195.58" y="-20.32" rot="R270">
+<attribute name="OC_NEWARK" x="195.58" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="195.58" y="-20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="195.58" y="-20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR-3" gate="G$1" x="167.64" y="-12.7">
+<attribute name="OC_NEWARK" x="167.64" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="167.64" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="167.64" y="-12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR+3" gate="G$1" x="167.64" y="-22.86">
+<attribute name="OC_NEWARK" x="167.64" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="167.64" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="167.64" y="-22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="MOTOR3" gate="-1" x="190.5" y="-55.88" rot="R90"/>
 <instance part="MOTOR3" gate="-2" x="195.58" y="-55.88" rot="R90"/>
-<instance part="TRANSISTOR5" gate="G$1" x="33.02" y="-76.2"/>
-<instance part="DIOD5" gate="1" x="35.56" y="-93.98" rot="R270"/>
-<instance part="RESITOR-5" gate="G$1" x="7.62" y="-86.36"/>
-<instance part="RESITOR+5" gate="G$1" x="7.62" y="-96.52"/>
+<instance part="TRANSISTOR5" gate="G$1" x="33.02" y="-76.2">
+<attribute name="OC_NEWARK" x="33.02" y="-76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="33.02" y="-76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="33.02" y="-76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="DIOD5" gate="1" x="35.56" y="-93.98" rot="R270">
+<attribute name="OC_NEWARK" x="35.56" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="35.56" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="35.56" y="-93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR-5" gate="G$1" x="7.62" y="-86.36">
+<attribute name="OC_NEWARK" x="7.62" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="7.62" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="7.62" y="-86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR+5" gate="G$1" x="7.62" y="-96.52">
+<attribute name="OC_NEWARK" x="7.62" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="7.62" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="7.62" y="-96.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="MOTOR4" gate="-1" x="30.48" y="-129.54" rot="R90"/>
 <instance part="MOTOR4" gate="-2" x="35.56" y="-129.54" rot="R90"/>
-<instance part="TRANSISTOR6" gate="G$1" x="88.9" y="-73.66"/>
-<instance part="DIOD6" gate="1" x="91.44" y="-91.44" rot="R270"/>
-<instance part="RESITOR-6" gate="G$1" x="63.5" y="-83.82"/>
-<instance part="RESITOR+6" gate="G$1" x="63.5" y="-93.98"/>
+<instance part="TRANSISTOR6" gate="G$1" x="88.9" y="-73.66">
+<attribute name="OC_NEWARK" x="88.9" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="88.9" y="-73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="88.9" y="-73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="DIOD6" gate="1" x="91.44" y="-91.44" rot="R270">
+<attribute name="OC_NEWARK" x="91.44" y="-91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="91.44" y="-91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="91.44" y="-91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR-6" gate="G$1" x="63.5" y="-83.82">
+<attribute name="OC_NEWARK" x="63.5" y="-83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="-83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="-83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RESITOR+6" gate="G$1" x="63.5" y="-93.98">
+<attribute name="OC_NEWARK" x="63.5" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="-93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="-93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="MOTOR5" gate="-1" x="86.36" y="-127" rot="R90"/>
 <instance part="MOTOR5" gate="-2" x="91.44" y="-127" rot="R90"/>
 </instances>

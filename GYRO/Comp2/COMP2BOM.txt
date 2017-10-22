@@ -1,0 +1,18 @@
+Partlist exported from /Users/davidbershadsky/Documents/eagle/GYRO/Comp2/COMP2.sch at 10/21/17 8:01 PM
+
+Part Value            Device                    Package        Description                                         MF          MPN                OC_NEWARK PROD_ID   VALUE
+C2   10µF             CAP_CERAMIC0805_10MGAP    0805_10MGAP    Ceramic Capacitors                                              GRM21BC80J106KE19L 03AC2709                 
+C6   0.22uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO        Ceramic Capacitors                                              C0805J224K3RACAUTO 02AC3540                 
+C7   10uF             CAP_CERAMIC0805-NOOUTLINE 0805-NO        Ceramic Capacitors                                              GRM21BC80J106KE19L 03AC2709                 
+D1   BLUE             LED-BLUE0603              LED-0603       Blue SMD LED                                                    HSMR-C120          97K1682   DIO-08575 BLUE 
+GND  SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
+JP1                   M08LOCK                   1X08_LOCK      Header 8                                                                           unknown                  
+R1   10K              RESISTOR_4PACK_US         RESPACK_4X0603 Resistor Packs (4 resistors)                        VISHAY/DALE TNPW060310K0BETA   31K9698                  
+SCL1 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
+SCL2 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
+SDA1 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
+SDA2 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
+U$1  AVR_SPI_PRG_6PTH AVR_SPI_PRG_6PTH          2X3            AVR ISP 6 Pin                                                                      unknown                  
+U1                    ATMEGA328P_MLFMLF32       MLF32-PAD      Datasheet                                                       ATMEGA8A-MU        15AC6102                 
+U2   LSM9DS0TR        LSM9DS0                   LGA24_4X4MM    LSM9DS0 3-Axis Accelerometer/Gyroscope/Magnetometer             LSM9DS0TR          06X3494                  
+VCC  SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
