@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/davidbershadsky/Documents/eagle/Soccerbot/Nsoccerbots.brd
+Job           : /Users/davidbershadsky/Documents/eagle/Soccerbot/V3/Nsoccerbots.brd
 
-Start at      : 11:15:20 (10/26/17)
-End at        : 11:15:43 (10/26/17)
-Elapsed time  : 00:00:06
+Start at      : 15:08:47 (11/1/17)
+End at        : 15:10:20 (11/1/17)
+Elapsed time  : 00:01:23
 
-Signals       :    94   RoutingGrid: 25 mil  Layers: 2
-Connections   :   133   predefined:  12 ( 0 Vias )
+Signals       :   100   RoutingGrid: 25 mil  Layers: 2
+Connections   :   151   predefined:  13 ( 0 Vias )
 
-Router memory :   186160
+Router memory :   182664
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:04  00:00:00  00:00:01  00:00:00  00:00:01
-Number of Ripups  :         0        35         0         0         0         0
-max. Level        :         0         2         0         0         0         0
-max. Total        :         0        49         0         0         0         0
+Time per pass     :  00:00:00  00:01:21  00:00:00  00:00:01  00:00:01  00:00:00
+Number of Ripups  :         0       711         0         0         0         0
+max. Level        :         0         5         0         0         0         0
+max. Total        :         0        47         0         0         0         0
 
-Routed            :         7       120       120       120       120       120
-Vias              :         0       187       105        93        86        85
-Resolution        :    14.3 %    99.2 %    99.2 %    99.2 %    99.2 %    99.2 %
+Routed            :         5       119       119       119       119       119
+Vias              :         0       233       118        97        90        89
+Resolution        :    11.9 %    87.4 %    87.4 %    87.4 %    87.4 %    87.4 %
 
-Final             : 99.2% finished
+Final             : 87.4% finished
