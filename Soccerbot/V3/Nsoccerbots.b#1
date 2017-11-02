@@ -200,7 +200,7 @@ D11=IR3
 D10=IR4
 D9=IR5
 D8=IR6</text>
-<text x="90.17" y="36.83" size="1.778" layer="25">Designed By,
+<text x="80.01" y="35.56" size="1.778" layer="25">Designed By,
 David Bershadsky</text>
 <wire x1="25.42056875" y1="25.16165" x2="25.42056875" y2="25.16176875" width="0.01" layer="25"/>
 <wire x1="25.42056875" y1="25.16176875" x2="25.42061875" y2="25.1634" width="0.01" layer="25"/>
@@ -6443,6 +6443,24 @@ David Bershadsky</text>
 <text x="68.58" y="27.94" size="1.016" layer="25" rot="R90">___ 3v3</text>
 <dimension x1="10.16" y1="-1.27" x2="160" y2="-1.27" x3="85.08" y3="-5.08" textsize="1.778" layer="20"/>
 <dimension x1="10.16" y1="100" x2="10.16" y2="-1.27" x3="6.35" y3="49.365" textsize="1.778" layer="20"/>
+<text x="19.05" y="96.52" size="0.508" layer="20" rot="R90">POWER</text>
+<text x="149.86" y="96.52" size="0.508" layer="20" rot="R90">POWER</text>
+<text x="158.75" y="50.8" size="0.508" layer="20" rot="R180">POWER</text>
+<text x="154.94" y="3.81" size="0.508" layer="20" rot="R270">POWER</text>
+<text x="24.13" y="2.54" size="0.508" layer="20" rot="R270">POWER</text>
+<text x="11.43" y="44.45" size="0.508" layer="20">POWER</text>
+<text x="11.43" y="49.53" size="0.508" layer="20">DATA</text>
+<text x="24.13" y="97.79" size="0.508" layer="20" rot="R90">DATA</text>
+<text x="154.94" y="97.79" size="0.508" layer="20" rot="R90">DATA</text>
+<text x="158.75" y="44.45" size="0.508" layer="20" rot="R180">DATA</text>
+<text x="149.86" y="3.81" size="0.508" layer="20" rot="R270">DATA</text>
+<text x="19.05" y="2.54" size="0.508" layer="20" rot="R270">DATA</text>
+<text x="11.43" y="46.99" size="0.508" layer="20">GND</text>
+<text x="21.59" y="97.79" size="0.508" layer="20" rot="R90">GND</text>
+<text x="152.4" y="97.79" size="0.508" layer="20" rot="R90">GND</text>
+<text x="158.75" y="46.99" size="0.508" layer="20" rot="R180">GND</text>
+<text x="152.4" y="3.81" size="0.508" layer="20" rot="R270">GND</text>
+<text x="21.59" y="2.54" size="0.508" layer="20" rot="R270">GND</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
