@@ -792,8 +792,8 @@ design rules under a new name.</description>
 </element>
 <element name="U1" library="SparkFun-IC-Microcontroller" package="MLF32-PAD" value="" x="15.24" y="8.89">
 <attribute name="MF" value="" x="15.24" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="15.24" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="15.24" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ATMEGA8A-MU" x="15.24" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="15AC6102" x="15.24" y="8.89" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="microbuilder" package="LGA24_4X4MM" value="LSM9DS0TR" x="8.89" y="8.89">
 <attribute name="MF" value="" x="8.89" y="8.89" size="1.778" layer="27" display="off"/>

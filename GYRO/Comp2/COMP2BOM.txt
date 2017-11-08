@@ -1,18 +1,14 @@
-Partlist exported from /Users/davidbershadsky/Documents/eagle/GYRO/Comp2/COMP2.sch at 10/21/17 8:01 PM
+Order list for /Users/davidbershadsky/Documents/eagle/GYRO/Comp2/COMP2.sch
+Exported from EAGLE with DesignLink
 
-Part Value            Device                    Package        Description                                         MF          MPN                OC_NEWARK PROD_ID   VALUE
-C2   10µF             CAP_CERAMIC0805_10MGAP    0805_10MGAP    Ceramic Capacitors                                              GRM21BC80J106KE19L 03AC2709                 
-C6   0.22uF           CAP_CERAMIC0805-NOOUTLINE 0805-NO        Ceramic Capacitors                                              C0805J224K3RACAUTO 02AC3540                 
-C7   10uF             CAP_CERAMIC0805-NOOUTLINE 0805-NO        Ceramic Capacitors                                              GRM21BC80J106KE19L 03AC2709                 
-D1   BLUE             LED-BLUE0603              LED-0603       Blue SMD LED                                                    HSMR-C120          97K1682   DIO-08575 BLUE 
-GND  SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
-JP1                   M08LOCK                   1X08_LOCK      Header 8                                                                           unknown                  
-R1   10K              RESISTOR_4PACK_US         RESPACK_4X0603 Resistor Packs (4 resistors)                        VISHAY/DALE TNPW060310K0BETA   31K9698                  
-SCL1 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
-SCL2 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
-SDA1 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
-SDA2 SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
-U$1  AVR_SPI_PRG_6PTH AVR_SPI_PRG_6PTH          2X3            AVR ISP 6 Pin                                                                      unknown                  
-U1                    ATMEGA328P_MLFMLF32       MLF32-PAD      Datasheet                                                       ATMEGA8A-MU        15AC6102                 
-U2   LSM9DS0TR        LSM9DS0                   LGA24_4X4MM    LSM9DS0 3-Axis Accelerometer/Gyroscope/Magnetometer             LSM9DS0TR          06X3494                  
-VCC  SEWTAP0.5IN      SEWTAP0.5IN               SEWINGTAP_0.5                                                                                     unknown                  
+Quantity	Value	Package	Order code	Manufacturer	Manuf. Code	Availability	Price (from)	Description
+1	10µF	0805_10MGAP	03AC2709		GRM21BC80J106KE19L	9000	0.033	MURATA - GRM21BC80J106KE19L - CAP, MLCC, X6S, 10UF, 6.3V, 0805, REEL
+1	0.22uF	0805-NO	02AC3540		C0805J224K3RACAUTO	3650	0.062	KEMET - C0805J224K3RACAUTO - CAP, MLCC, AEC-Q200, X7R, 0.22UF, 0805
+1	10uF	0805-NO	03AC2709		GRM21BC80J106KE19L	9000	0.033	MURATA - GRM21BC80J106KE19L - CAP, MLCC, X6S, 10UF, 6.3V, 0805, REEL
+1	BLUE	LED-0603	97K1682		HSMR-C120	10360	0.574	BROADCOM LIMITED - HSMR-C120 - LED, SMD, 0603, R/A, BLUE
+6	SEWTAP0.5IN	SEWINGTAP_0.5	unknown					
+1		1X08_LOCK	unknown					
+1	10K	RESPACK_4X0603	31K9698	VISHAY/DALE	TNPW060310K0BETA	4650	0.267	VISHAY - TNPW060310K0BETA - RES, THIN FILM, 10K, 0.1%, 0.1W, 0603
+1	AVR_SPI_PRG_6PTH	2X3	unknown					
+1		MLF32-PAD	15AC6102		ATMEGA8A-MU	646	1.64	MICROCHIP - ATMEGA8A-MU - MCU, 8BIT, ATMEGA, 16MHZ, QFN-32
+1	LSM9DS0TR	LGA24_4X4MM	06X3494		LSM9DS0TR	0	4.79	STMICROELECTRONICS - LSM9DS0TR - CONSUMER MEMS

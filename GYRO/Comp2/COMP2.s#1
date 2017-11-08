@@ -1754,8 +1754,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$11" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_MLF" device="MLF32">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="ATMEGA8A-MU"/>
+<attribute name="OC_NEWARK" value="15AC6102"/>
 </part>
 <part name="JP1" library="SparkFun" deviceset="M08" device="LOCK">
 <attribute name="MF" value=""/>

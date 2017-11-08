@@ -5831,9 +5831,9 @@ Mount :-Surface mount</description>
 <part name="U$7" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
 <part name="IR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TSOP32256"/>
+<attribute name="OC_NEWARK" value="09J7370"/>
 </part>
 <part name="X1" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device="">
 <attribute name="MPN" value="RJE01-660-01"/>
@@ -6004,9 +6004,9 @@ Mount :-Surface mount</description>
 <attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="IR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TSOP32256"/>
+<attribute name="OC_NEWARK" value="09J7370"/>
 </part>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="">
 <attribute name="MF" value=""/>
@@ -6019,9 +6019,9 @@ Mount :-Surface mount</description>
 <attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="IR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TSOP32256"/>
+<attribute name="OC_NEWARK" value="09J7370"/>
 </part>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="">
 <attribute name="MF" value=""/>
@@ -6034,9 +6034,9 @@ Mount :-Surface mount</description>
 <attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="IR4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TSOP32256"/>
+<attribute name="OC_NEWARK" value="09J7370"/>
 </part>
 <part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="">
 <attribute name="MF" value=""/>
@@ -6049,9 +6049,9 @@ Mount :-Surface mount</description>
 <attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="IR5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TSOP32256"/>
+<attribute name="OC_NEWARK" value="09J7370"/>
 </part>
 <part name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="">
 <attribute name="MF" value=""/>
@@ -6064,9 +6064,9 @@ Mount :-Surface mount</description>
 <attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="IR6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/TELEFUNKEN"/>
+<attribute name="MPN" value="TSOP32256"/>
+<attribute name="OC_NEWARK" value="09J7370"/>
 </part>
 <part name="LED6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="">
 <attribute name="MF" value=""/>
@@ -6078,7 +6078,11 @@ Mount :-Surface mount</description>
 <attribute name="MPN" value="CRCW080510K0FKTA"/>
 <attribute name="OC_NEWARK" value="05F1511"/>
 </part>
-<part name="ISP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6"/>
+<part name="ISP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6120,7 +6124,11 @@ D27 = IR6</text>
 </instance>
 <instance part="BATERY" gate="-1" x="-228.6" y="66.04"/>
 <instance part="BATERY" gate="-2" x="-228.6" y="60.96"/>
-<instance part="ISP1" gate="G$1" x="-213.36" y="124.46"/>
+<instance part="ISP1" gate="G$1" x="-213.36" y="124.46">
+<attribute name="OC_NEWARK" x="-213.36" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-213.36" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-213.36" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

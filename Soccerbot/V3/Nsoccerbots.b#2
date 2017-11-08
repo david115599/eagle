@@ -200,7 +200,7 @@ D11=IR3
 D10=IR4
 D9=IR5
 D8=IR6</text>
-<text x="90.17" y="36.83" size="1.778" layer="25">Designed By,
+<text x="80.01" y="35.56" size="1.778" layer="25">Designed By,
 David Bershadsky</text>
 <wire x1="25.42056875" y1="25.16165" x2="25.42056875" y2="25.16176875" width="0.01" layer="25"/>
 <wire x1="25.42056875" y1="25.16176875" x2="25.42061875" y2="25.1634" width="0.01" layer="25"/>
