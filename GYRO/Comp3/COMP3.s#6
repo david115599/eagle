@@ -5239,34 +5239,98 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="MC-405" device="" package3d_urn="urn:adsk.eagle:package:12104/1"/>
-<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402"/>
-<part name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1"/>
-<part name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1"/>
-<part name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
-<part name="U2" library="SparkFun-Sensors" deviceset="LSM9DS1" device=""/>
+<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="CR0402-FX-1002GLF"/>
+<attribute name="OC_NEWARK" value="87W5955"/>
+</part>
+<part name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C0805C274K3RACTU"/>
+<attribute name="OC_NEWARK" value="07X0924"/>
+</part>
+<part name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C0805C274K3RACTU"/>
+<attribute name="OC_NEWARK" value="07X0924"/>
+</part>
+<part name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="U2" library="SparkFun-Sensors" deviceset="LSM9DS1" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="LSM9DS1TR"/>
+<attribute name="OC_NEWARK" value="83Y4306"/>
+</part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(0603)" device="" value="10uF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="10NF/10000PF-50V-10%(0603)" device="" value="10nF"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
-<part name="JP5" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_TRACE" device=""/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(0603)" device="" value="10uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="GRM188C81C106MA73D"/>
+<attribute name="OC_NEWARK" value="03AC2642"/>
+</part>
+<part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C0603C104K5RACAUTO"/>
+<attribute name="OC_NEWARK" value="05AC7990"/>
+</part>
+<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C0603C104K5RACAUTO"/>
+<attribute name="OC_NEWARK" value="05AC7990"/>
+</part>
+<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C0603C104K5RACAUTO"/>
+<attribute name="OC_NEWARK" value="05AC7990"/>
+</part>
+<part name="C12" library="SparkFun-Capacitors" deviceset="10NF/10000PF-50V-10%(0603)" device="" value="10nF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="EMK107SD103KA-T"/>
+<attribute name="OC_NEWARK" value="09J1395"/>
+</part>
+<part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="M55342K12B4E70RS3"/>
+<attribute name="OC_NEWARK" value="17Y8565"/>
+</part>
+<part name="R5" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="M55342K12B4E70RS3"/>
+<attribute name="OC_NEWARK" value="17Y8565"/>
+</part>
+<part name="JP5" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_TRACE" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
-<part name="JP6" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value=""/>
+<part name="JP6" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP7" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value=""/>
+<part name="JP7" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
@@ -5275,30 +5339,78 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <plain>
 </plain>
 <instances>
-<instance part="U2" gate="G$1" x="-58.42" y="40.64"/>
+<instance part="U2" gate="G$1" x="-58.42" y="40.64">
+<attribute name="OC_NEWARK" x="-58.42" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-58.42" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-58.42" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY7" gate="VDD" x="-81.28" y="60.96"/>
-<instance part="C2" gate="G$1" x="-119.38" y="48.26" rot="MR0"/>
-<instance part="C6" gate="G$1" x="-109.22" y="48.26" rot="MR0"/>
-<instance part="C7" gate="G$1" x="-99.06" y="43.18" rot="MR0"/>
-<instance part="C11" gate="G$1" x="-78.74" y="38.1" rot="MR0"/>
-<instance part="C12" gate="G$1" x="-88.9" y="40.64" rot="MR0"/>
-<instance part="R1" gate="G$1" x="-76.2" y="-27.94" rot="R90"/>
-<instance part="R5" gate="G$1" x="-60.96" y="-27.94" rot="R90"/>
-<instance part="JP5" gate="G$1" x="-68.58" y="-17.78" rot="R270"/>
+<instance part="C2" gate="G$1" x="-119.38" y="48.26" rot="MR0">
+<attribute name="OC_NEWARK" x="-119.38" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-119.38" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-119.38" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="-109.22" y="48.26" rot="MR0">
+<attribute name="OC_NEWARK" x="-109.22" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-109.22" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-109.22" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="-99.06" y="43.18" rot="MR0">
+<attribute name="OC_NEWARK" x="-99.06" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-99.06" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-99.06" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="-78.74" y="38.1" rot="MR0">
+<attribute name="OC_NEWARK" x="-78.74" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-78.74" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-78.74" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="-88.9" y="40.64" rot="MR0">
+<attribute name="OC_NEWARK" x="-88.9" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-88.9" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-88.9" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="-76.2" y="-27.94" rot="R90">
+<attribute name="OC_NEWARK" x="-76.2" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-76.2" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-76.2" y="-27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="-60.96" y="-27.94" rot="R90">
+<attribute name="OC_NEWARK" x="-60.96" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-60.96" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-60.96" y="-27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP5" gate="G$1" x="-68.58" y="-17.78" rot="R270">
+<attribute name="OC_NEWARK" x="-68.58" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-68.58" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-68.58" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="VDD" x="-68.58" y="-10.16"/>
 <instance part="GND9" gate="1" x="-119.38" y="17.78"/>
 <instance part="GND10" gate="1" x="-109.22" y="17.78"/>
 <instance part="GND11" gate="1" x="-99.06" y="17.78"/>
 <instance part="GND12" gate="1" x="-88.9" y="17.78"/>
 <instance part="GND13" gate="1" x="-78.74" y="17.78"/>
-<instance part="J1" gate="G$1" x="50.8" y="-35.56" rot="MR0"/>
+<instance part="J1" gate="G$1" x="50.8" y="-35.56" rot="MR0">
+<attribute name="OC_NEWARK" x="50.8" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="50.8" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="50.8" y="-35.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY9" gate="VDD" x="43.18" y="-27.94"/>
 <instance part="GND14" gate="1" x="43.18" y="-48.26"/>
 <instance part="SUPPLY10" gate="VDD" x="-40.64" y="60.96"/>
-<instance part="JP6" gate="G$1" x="-68.58" y="-55.88" rot="MR180"/>
+<instance part="JP6" gate="G$1" x="-68.58" y="-55.88" rot="MR180">
+<attribute name="OC_NEWARK" x="-68.58" y="-55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-68.58" y="-55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-68.58" y="-55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY11" gate="VDD" x="-68.58" y="-48.26"/>
 <instance part="GND15" gate="1" x="-68.58" y="-66.04"/>
-<instance part="JP7" gate="G$1" x="-68.58" y="-86.36" rot="MR180"/>
+<instance part="JP7" gate="G$1" x="-68.58" y="-86.36" rot="MR180">
+<attribute name="OC_NEWARK" x="-68.58" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-68.58" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-68.58" y="-86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY12" gate="VDD" x="-68.58" y="-78.74"/>
 <instance part="GND16" gate="1" x="-68.58" y="-96.52"/>
 </instances>
@@ -5592,10 +5704,26 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="MPN" x="119.38" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q1" gate="P" x="-15.24" y="55.88" rot="R270"/>
-<instance part="R2" gate="G$1" x="-17.78" y="76.2"/>
-<instance part="C1" gate="G$1" x="-25.4" y="63.5" rot="R90"/>
-<instance part="C3" gate="G$1" x="-25.4" y="43.18" rot="R90"/>
-<instance part="SW1" gate="G$1" x="-40.64" y="93.98"/>
+<instance part="R2" gate="G$1" x="-17.78" y="76.2">
+<attribute name="OC_NEWARK" x="-17.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-17.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-17.78" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="-25.4" y="63.5" rot="R90">
+<attribute name="OC_NEWARK" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-25.4" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="-25.4" y="43.18" rot="R90">
+<attribute name="OC_NEWARK" x="-25.4" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-25.4" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-25.4" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SW1" gate="G$1" x="-40.64" y="93.98">
+<attribute name="OC_NEWARK" x="-40.64" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-40.64" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-40.64" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

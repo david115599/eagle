@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3196,7 +3195,7 @@ type 0309, grid 2.5 mm</description>
 <description>Default symbols for import LTspice schematics&lt;p&gt;
 2012-10-29 alf@cadsoft.de&lt;br&gt;</description>
 <packages>
-<package name="C0201" urn="urn:adsk.eagle:footprint:13195/1" library_version="1">
+<package name="C0201" library_version="1">
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
@@ -3207,7 +3206,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C0402" urn="urn:adsk.eagle:footprint:13196/1" library_version="1">
+<package name="C0402" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -3223,7 +3222,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C0504" urn="urn:adsk.eagle:footprint:13197/1" library_version="1">
+<package name="C0504" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3239,7 +3238,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:13198/1" library_version="1">
+<package name="C0603" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3255,7 +3254,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:13199/1" library_version="1">
+<package name="C0805" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -3271,7 +3270,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1005" urn="urn:adsk.eagle:footprint:13200/1" library_version="1">
+<package name="C1005" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -3287,7 +3286,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1206" urn="urn:adsk.eagle:footprint:13201/1" library_version="1">
+<package name="C1206" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3303,7 +3302,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1210" urn="urn:adsk.eagle:footprint:13202/1" library_version="1">
+<package name="C1210" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
@@ -3319,7 +3318,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1310" urn="urn:adsk.eagle:footprint:13203/1" library_version="1">
+<package name="C1310" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3335,7 +3334,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1608" urn="urn:adsk.eagle:footprint:13204/1" library_version="1">
+<package name="C1608" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3351,7 +3350,7 @@ type 0309, grid 2.5 mm</description>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1808" urn="urn:adsk.eagle:footprint:13205/1" library_version="1">
+<package name="C1808" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 Source: AVX .. aphvc.pdf</description>
 <wire x1="-1.4732" y1="0.9502" x2="1.4732" y2="0.9502" width="0.1016" layer="51"/>
@@ -3363,7 +3362,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-2.233" y="1.827" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.233" y="-2.842" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1812" urn="urn:adsk.eagle:footprint:13206/1" library_version="1">
+<package name="C1812" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
@@ -3379,7 +3378,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C1825" urn="urn:adsk.eagle:footprint:13207/1" library_version="1">
+<package name="C1825" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="3.483" x2="2.973" y2="3.483" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-3.483" x2="-2.973" y2="-3.483" width="0.0508" layer="39"/>
@@ -3395,7 +3394,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.905" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C2012" urn="urn:adsk.eagle:footprint:13208/1" library_version="1">
+<package name="C2012" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -3411,7 +3410,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C3216" urn="urn:adsk.eagle:footprint:13209/1" library_version="1">
+<package name="C3216" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3427,7 +3426,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C3225" urn="urn:adsk.eagle:footprint:13210/1" library_version="1">
+<package name="C3225" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
@@ -3443,7 +3442,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C3640" urn="urn:adsk.eagle:footprint:13211/1" library_version="1">
+<package name="C3640" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 Source: AVX .. aphvc.pdf</description>
 <wire x1="-3.8322" y1="5.0496" x2="3.8322" y2="5.0496" width="0.1016" layer="51"/>
@@ -3455,7 +3454,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-4.647" y="6.465" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.647" y="-7.255" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C4532" urn="urn:adsk.eagle:footprint:13212/1" library_version="1">
+<package name="C4532" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
@@ -3471,7 +3470,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="C4564" urn="urn:adsk.eagle:footprint:13213/1" library_version="1">
+<package name="C4564" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="3.483" x2="2.973" y2="3.483" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-3.483" x2="-2.973" y2="-3.483" width="0.0508" layer="39"/>
@@ -3488,69 +3487,8 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.905" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="C0201" urn="urn:adsk.eagle:package:13260/1" type="box" library_version="1">
-<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
-</package3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:13264/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C0504" urn="urn:adsk.eagle:package:13261/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:13262/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:13265/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C1005" urn="urn:adsk.eagle:package:13270/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C1206" urn="urn:adsk.eagle:package:13279/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C1210" urn="urn:adsk.eagle:package:13278/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C1310" urn="urn:adsk.eagle:package:13271/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C1608" urn="urn:adsk.eagle:package:13263/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C1808" urn="urn:adsk.eagle:package:13266/1" type="box" library_version="1">
-<description>CAPACITOR
-Source: AVX .. aphvc.pdf</description>
-</package3d>
-<package3d name="C1812" urn="urn:adsk.eagle:package:13267/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C1825" urn="urn:adsk.eagle:package:13268/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C2012" urn="urn:adsk.eagle:package:13273/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C3216" urn="urn:adsk.eagle:package:13287/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C3225" urn="urn:adsk.eagle:package:13292/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C3640" urn="urn:adsk.eagle:package:13269/1" type="box" library_version="1">
-<description>CAPACITOR
-Source: AVX .. aphvc.pdf</description>
-</package3d>
-<package3d name="C4532" urn="urn:adsk.eagle:package:13281/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-<package3d name="C4564" urn="urn:adsk.eagle:package:13272/1" type="box" library_version="1">
-<description>CAPACITOR</description>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="C" urn="urn:adsk.eagle:symbol:13194/1" library_version="1">
+<symbol name="C" library_version="1">
 <rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
@@ -3564,7 +3502,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C" urn="urn:adsk.eagle:component:13320/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="C" prefix="C" uservalue="yes" library_version="1">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
@@ -3575,9 +3513,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13260/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3590,9 +3525,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13264/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3605,9 +3537,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13261/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3620,9 +3549,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13262/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3635,9 +3561,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13265/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE"/>
@@ -3650,9 +3573,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13270/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3665,9 +3585,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13279/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3680,9 +3597,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13278/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3695,9 +3609,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13271/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3710,9 +3621,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13263/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3725,9 +3633,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13266/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3740,9 +3645,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13267/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3755,9 +3657,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13268/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3770,9 +3669,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13273/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3785,9 +3681,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13287/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3800,9 +3693,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13292/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3815,9 +3705,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13269/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3830,9 +3717,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13281/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -3845,9 +3729,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13272/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="SPICEMODEL" value="NONE" constant="no"/>
@@ -6292,12 +6173,12 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="MPN" value="CR0402-FX-1002GLF"/>
 <attribute name="OC_NEWARK" value="87W5955"/>
 </part>
-<part name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1">
+<part name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="C0805C274K3RACTU"/>
 <attribute name="OC_NEWARK" value="07X0924"/>
 </part>
-<part name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1">
+<part name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="C0805C274K3RACTU"/>
 <attribute name="OC_NEWARK" value="07X0924"/>
@@ -6958,19 +6839,9 @@ Source: 008-0260-0_E.pdf</description>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
+Since Version 8.2, Eagle supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
