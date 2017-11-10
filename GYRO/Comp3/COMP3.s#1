@@ -6304,8 +6304,8 @@ Source: 008-0260-0_E.pdf</description>
 </part>
 <part name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="KSS221G LFS"/>
+<attribute name="OC_NEWARK" value="97K2789"/>
 </part>
 <part name="U2" library="SparkFun-Sensors" deviceset="LSM9DS1" device="">
 <attribute name="MF" value=""/>
@@ -6381,7 +6381,10 @@ Source: 008-0260-0_E.pdf</description>
 </part>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q2" library="adafruit" deviceset="CRYSTAL" device="HC49S"/>
+<part name="Q2" library="adafruit" deviceset="CRYSTAL" device="HC49S">
+<attribute name="MPN" value="X40M000000L104"/>
+<attribute name="OC_NEWARK" value="59M3626"/>
+</part>
 </parts>
 <sheets>
 <sheet>

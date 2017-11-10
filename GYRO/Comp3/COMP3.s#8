@@ -5203,6 +5203,121 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="FaBo-Mems">
+<description>&lt;h3&gt;FaBo MEMS&lt;/h3&gt;
+MEMS&lt;br&gt;
+&lt;br&gt;
+Released under the Creative Commons Attribution-ShareAlike 4.0 License&lt;br&gt;
+https://creativecommons.org/licenses/by-sa/4.0/</description>
+<packages>
+<package name="ST-LSM9DS1TR">
+<smd name="18" x="1.505" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="19" x="1.075" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="20" x="0.645" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="21" x="0.215" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="22" x="-0.215" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="23" x="-0.645" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="24" x="-1.075" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="1" x="-1.505" y="1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<wire x1="-1.75" y1="1.5" x2="1.75" y2="1.5" width="0.127" layer="23"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="1.5" width="0.127" layer="21"/>
+<smd name="13" x="1.493" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="12" x="1.063" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="11" x="0.633" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="10" x="0.203" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="9" x="-0.227" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="8" x="-0.657" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="7" x="-1.087" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="6" x="-1.517" y="-1.35" dx="0.6" dy="0.23" layer="1" rot="R90"/>
+<smd name="2" x="-1.6" y="0.648" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<smd name="3" x="-1.6" y="0.218" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<smd name="4" x="-1.6" y="-0.212" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<smd name="5" x="-1.6" y="-0.642" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<smd name="17" x="1.6" y="0.648" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<smd name="16" x="1.6" y="0.218" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<smd name="15" x="1.6" y="-0.212" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<smd name="14" x="1.6" y="-0.642" dx="0.6" dy="0.23" layer="1" rot="R180"/>
+<circle x="-0.837" y="0.567" radius="0.266809375" width="0.127" layer="21"/>
+<text x="-2.8702" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ST-LSM9DS1TR">
+<pin name="VDDIO1" x="-10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="SCL" x="-22.86" y="2.54" length="middle"/>
+<pin name="VDDIO2" x="-22.86" y="0" length="middle"/>
+<pin name="SDA" x="-22.86" y="-2.54" length="middle"/>
+<pin name="SDO" x="-22.86" y="-5.08" length="middle"/>
+<pin name="SDO_M" x="-10.16" y="-17.78" length="middle" rot="R90"/>
+<pin name="CS_AG" x="-7.62" y="-17.78" length="middle" rot="R90"/>
+<pin name="CS_M" x="-5.08" y="-17.78" length="middle" rot="R90"/>
+<pin name="DRDY_M" x="-2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="INT_M" x="0" y="-17.78" length="middle" rot="R90"/>
+<pin name="INT1_AG" x="2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="INT2_AG" x="5.08" y="-17.78" length="middle" rot="R90"/>
+<pin name="DEN_AG" x="7.62" y="-17.78" length="middle" rot="R90"/>
+<pin name="RES1" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="RES2" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="RES3" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="RES4" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="RES5" x="7.62" y="15.24" length="middle" rot="R270"/>
+<pin name="GND1" x="5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="GND2" x="2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="CAP" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="VDD1" x="-2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="VDD2" x="-5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="C1" x="-7.62" y="15.24" length="middle" rot="R270"/>
+<wire x1="-17.78" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="10.16" width="0.254" layer="94"/>
+<text x="-25.0444" y="11.6586" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ST-LSM9DS1TR">
+<description>STMicroelectronics LSM9DS1TR(9aixs)</description>
+<gates>
+<gate name="G$1" symbol="ST-LSM9DS1TR" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ST-LSM9DS1TR">
+<connects>
+<connect gate="G$1" pin="C1" pad="24"/>
+<connect gate="G$1" pin="CAP" pad="21"/>
+<connect gate="G$1" pin="CS_AG" pad="7"/>
+<connect gate="G$1" pin="CS_M" pad="8"/>
+<connect gate="G$1" pin="DEN_AG" pad="13"/>
+<connect gate="G$1" pin="DRDY_M" pad="9"/>
+<connect gate="G$1" pin="GND1" pad="19"/>
+<connect gate="G$1" pin="GND2" pad="20"/>
+<connect gate="G$1" pin="INT1_AG" pad="11"/>
+<connect gate="G$1" pin="INT2_AG" pad="12"/>
+<connect gate="G$1" pin="INT_M" pad="10"/>
+<connect gate="G$1" pin="RES1" pad="14"/>
+<connect gate="G$1" pin="RES2" pad="15"/>
+<connect gate="G$1" pin="RES3" pad="16"/>
+<connect gate="G$1" pin="RES4" pad="17"/>
+<connect gate="G$1" pin="RES5" pad="18"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="SDO_M" pad="6"/>
+<connect gate="G$1" pin="VDD1" pad="22"/>
+<connect gate="G$1" pin="VDD2" pad="23"/>
+<connect gate="G$1" pin="VDDIO1" pad="1"/>
+<connect gate="G$1" pin="VDDIO2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5304,6 +5419,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0402"/>
 <part name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1"/>
 <part name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:13265/1"/>
+<part name="U$4" library="FaBo-Mems" deviceset="ST-LSM9DS1TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5380,6 +5496,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U$7" gate="G$1" x="-63.5" y="40.64"/>
 <instance part="U$8" gate="G$1" x="-50.8" y="40.64"/>
 <instance part="U$11" gate="G$1" x="20.32" y="20.32"/>
+<instance part="U$4" gate="G$1" x="-50.8" y="-22.86"/>
 </instances>
 <busses>
 </busses>
@@ -5419,6 +5536,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="17.78" y1="-10.16" x2="20.32" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-10.16" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="20.32" y="-12.7"/>
+<pinref part="U$4" gate="G$1" pin="RES3"/>
+<pinref part="U$4" gate="G$1" pin="RES2"/>
+<wire x1="-30.48" y1="-22.86" x2="-30.48" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="RES1"/>
+<wire x1="-30.48" y1="-27.94" x2="-30.48" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-30.48" y="-25.4"/>
+<wire x1="-30.48" y1="-25.4" x2="17.78" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="17.78" y="-25.4"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
