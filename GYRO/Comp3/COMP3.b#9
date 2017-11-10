@@ -999,46 +999,99 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="26.67" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="26.67" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="" x="24.13" y="3.81" rot="R90"/>
+<element name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" value="" x="24.13" y="3.81" rot="R90">
+<attribute name="MF" value="" x="24.13" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CR0402-FX-1002GLF" x="24.13" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="87W5955" x="24.13" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="C0805" package3d_urn="urn:adsk.eagle:package:13265/1" value="" x="26.67" y="1.27">
+<attribute name="MF" value="" x="26.67" y="1.27" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0805C274K3RACTU" x="26.67" y="1.27" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="07X0924" x="26.67" y="1.27" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEMODEL" value="NONE" x="26.67" y="1.27" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26.67" y="1.27" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="C0805" package3d_urn="urn:adsk.eagle:package:13265/1" value="" x="26.67" y="16.51">
+<attribute name="MF" value="" x="26.67" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0805C274K3RACTU" x="26.67" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="07X0924" x="26.67" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEMODEL" value="NONE" x="26.67" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26.67" y="16.51" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="BTN_CK_KSS" value="" x="19.05" y="3.81"/>
+<element name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="BTN_CK_KSS" value="" x="19.05" y="3.81">
+<attribute name="MF" value="" x="19.05" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="19.05" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="19.05" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U2" library="SparkFun-Sensors" package="LGA24-8X4" value="LSM9DS1" x="11.43" y="8.89" rot="R180">
+<attribute name="MF" value="" x="11.43" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LSM9DS1TR" x="11.43" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="83Y4306" x="11.43" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="IC-12536" x="16.51" y="-17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="10uF" x="2.54" y="1.27" rot="R180">
+<attribute name="MF" value="" x="2.54" y="1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM188C81C106MA73D" x="2.54" y="1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="03AC2642" x="2.54" y="1.27" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="CAP-11015" x="25.4" y="-19.05" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="1.27" y="13.97" rot="R270">
+<attribute name="MF" value="" x="1.27" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACAUTO" x="1.27" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="05AC7990" x="1.27" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CAP-00810" x="24.13" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="2.54" y="13.97" rot="R270">
+<attribute name="MF" value="" x="2.54" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACAUTO" x="2.54" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="05AC7990" x="2.54" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CAP-00810" x="21.59" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C11" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="7.62" y="2.54" rot="R270">
+<attribute name="MF" value="" x="7.62" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACAUTO" x="7.62" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="05AC7990" x="7.62" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CAP-00810" x="22.86" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="SparkFun-Capacitors" package="0603-CAP" value="10nF" x="6.35" y="2.54" rot="R270">
+<attribute name="MF" value="" x="6.35" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="EMK107SD103KA-T" x="6.35" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="09J1395" x="6.35" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CAP-00867" x="17.78" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="2.54" y="10.16" rot="R90">
+<attribute name="MF" value="" x="2.54" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="M55342K12B4E70RS3" x="2.54" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="17Y8565" x="2.54" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="RES-07857" x="-8.89" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603-RES" value="4.7K" x="1.27" y="10.16" rot="R90">
+<attribute name="MF" value="" x="1.27" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="M55342K12B4E70RS3" x="1.27" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="17Y8565" x="1.27" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="RES-07857" x="-6.35" y="-1.27" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="JP5" library="SparkFun-Passives" package="PAD-JUMPER-3-3OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="6.35" y="12.7"/>
+<element name="JP5" library="SparkFun-Passives" package="PAD-JUMPER-3-3OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="6.35" y="12.7">
+<attribute name="MF" value="" x="6.35" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="6.35" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="6.35" y="12.7" size="1.778" layer="27" display="off"/>
+</element>
 <element name="J1" library="SparkFun-Connectors" package="1X04_NO_SILK_ALL_ROUND" value="" x="10.16" y="13.97">
+<attribute name="MF" value="" x="10.16" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="10.16" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="10.16" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="CONN-09696" x="0" y="-11.43" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP6" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="2.54" y="6.35"/>
-<element name="JP7" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="2.54" y="3.81"/>
+<element name="JP6" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="2.54" y="6.35">
+<attribute name="MF" value="" x="2.54" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="2.54" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="2.54" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="JP7" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="2.54" y="3.81">
+<attribute name="MF" value="" x="2.54" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="2.54" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="2.54" y="3.81" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

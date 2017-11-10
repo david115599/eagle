@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 *.sch
 Soccerbot/V3/Nsoccerbots.s#3
 Soccerbot/V3/Nsoccerbots.sch
@@ -6,3 +7,5 @@ Soccerbot/V3/Nsoccerbots.s#2
 Soccerbot/eagle.epf
 Soccerbot/eagle.epf
 *.epf
+=======
+>>>>>>> e52262d7c8135ee4d03c99f5f9ecfcaea4417bb0
