@@ -1,20 +1,24 @@
-Order list for /Users/davidbershadsky/Documents/eagle/GYRO/Comp3/COMP3.sch
-Exported from EAGLE with DesignLink
+Partlist exported from /Users/davidbershadsky/Documents/eagle/GYRO/Comp3/COMP3.sch at 11/13/17 10:44 AM
 
-Quantity	Value	Package	Order code	Manufacturer	Manuf. Code	Availability	Price (from)	Description
-2		C0805	07X0924		C0805C274K3RACTU	2906	0.194	KEMET - C0805C274K3RACTU - MLCC CAPACITOR, 0.27UF, 25V, X7R, 10%, 0805
-1	10uF	0603-CAP	03AC2642		GRM188C81C106MA73D	0	0.08	MURATA - GRM188C81C106MA73D - CAP, MLCC, X6S, 10UF, 16V, 0603
-3	0.1uF	0603-CAP	05AC7990		C0603C104K5RACAUTO	244000	0.011	KEMET - C0603C104K5RACAUTO - MLCC CAP, AEC-Q200, X7R, 0.1UF, 0603/REEL
-1	10nF	0603-CAP	09J1395		EMK107SD103KA-T	0	0.047	TAIYO YUDEN - EMK107SD103KA-T - CAP, LOW DISTORT, 0603, 16V, 10nF 10%, T&R
-1	BLUE	LED-0603	97K1682		HSMR-C120	10339	0.574	BROADCOM LIMITED - HSMR-C120 - LED, SMD, 0603, R/A, BLUE
-1		1X04_NO_SILK_ALL_ROUND	unknown					
-1		1X08_LOCK	unknown					
-1		PAD-JUMPER-3-3OF3_NC_BY_TRACE_YES_SILK_FULL_BOX	unknown					
-2		PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX	unknown					
-1		HC49/S	59M3626		X40M000000L104	34	0.403	AEL CRYSTALS - X40M000000L104 - CRYSTAL, 40MHZ, HC49/S
-2	4.7K	0603-RES	17Y8565		M55342K12B4E70RS3	0	1.27	VISHAY - M55342K12B4E70RS3 - RCWPM-0603 4.7K 1% K M55342K12B4E70R S84
-1		R0402	87W5955		CR0402-FX-1002GLF	8270	0.0080	BOURNS - CR0402-FX-1002GLF - RES, THICK FILM, 10K, 1%, 0.0625W, 0402
-1		BTN_CK_KSS	97K2789		KSS221G LFS	7821	0.491	C & K COMPONENTS - KSS221G LFS - TACT SWITCH, SIDE ACTUATED, LOW
-1	AVR_SPI_PRG_6PTH	2X3	31Y5678		1023	0	0.38	POLOLU ROBOTICS & ELECTRONICS - 1023 - 0.100 IN (2.54 MM) FEMALE     HEADER: 2X3-PIN STRAIGHT
-1		MLF32-PAD	15AC6102		ATMEGA8A-MU	546	1.64	MICROCHIP - ATMEGA8A-MU - MCU, 8BIT, ATMEGA, 16MHZ, QFN-32
-1	LSM9DS1	LGA24-8X4	83Y4306		LSM9DS1TR	1164	4.72	STMICROELECTRONICS - LSM9DS1TR - MEMS, ACCELERO/GYROSCOPE/MAGNETO, LGA-24
+Part Value            Device                              Package                                         Description                                        MF MPN                OC_FARNELL OC_NEWARK PROD_ID    SPICEMODEL SPICEPREFIX VALUE
+C1                    C                                   C0805                                           CAPACITOR, European symbol                            C0805C274K3RACTU              07X0924              NONE       C                
+C2   10uF             10UF-6.3V-20%(0603)                 0603-CAP                                        CAP-11015                                             GRM188C81C106MA73D            03AC2642  CAP-11015                         10uF 
+C3                    C                                   C0805                                           CAPACITOR, European symbol                            C0805C274K3RACTU              07X0924              NONE       C                
+C6   0.1uF            0.1UF-25V(+80/-20%)(0603)           0603-CAP                                        CAP-00810                                             C0603C104K5RACAUTO            05AC7990  CAP-00810                         0.1uF
+C7   0.1uF            0.1UF-25V(+80/-20%)(0603)           0603-CAP                                        CAP-00810                                             C0603C104K5RACAUTO            05AC7990  CAP-00810                         0.1uF
+C11  0.1uF            0.1UF-25V(+80/-20%)(0603)           0603-CAP                                        CAP-00810                                             C0603C104K5RACAUTO            05AC7990  CAP-00810                         0.1uF
+C12  10nF             10NF/10000PF-50V-10%(0603)          0603-CAP                                        CAP-00867                                             EMK107SD103KA-T               09J1395   CAP-00867                         10nF 
+D1   BLUE             LED-BLUE0603                        LED-0603                                        Blue SMD LED                                          HSMR-C120                     97K1682   DIO-08575                         BLUE 
+J1                    M04NO_SILK_ALL_ROUND                1X04_NO_SILK_ALL_ROUND                          Header 4                                                                            unknown   CONN-09696                             
+JP1                   M08LOCK                             1X08_LOCK                                       Header 8                                                                            unknown                                          
+JP5                   JUMPER-PAD-3-NC_BY_TRACE            PAD-JUMPER-3-3OF3_NC_BY_TRACE_YES_SILK_FULL_BOX                                                                                     unknown                                          
+JP6                   JUMPER-PAD-3-2OF3_NC_BY_TRACE_SMALL PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX                                                                                     unknown                                          
+JP7                   JUMPER-PAD-3-2OF3_NC_BY_TRACE_SMALL PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX                                                                                     unknown                                          
+Q2                    CRYSTALHC49S                        HC49/S                                          CRYSTAL                                               X40M000000L104     1667008    59M3626                                          
+R1   4.7K             4.7KOHM-1/10W-1%(0603)              0603-RES                                        RES-07857                                             M55342K12B4E70RS3             17Y8565   RES-07857                         4.7K 
+R2                    R-US_R0402                          R0402                                           RESISTOR, American symbol                             CR0402-FX-1002GLF             87W5955                                          
+R5   4.7K             4.7KOHM-1/10W-1%(0603)              0603-RES                                        RES-07857                                             M55342K12B4E70RS3             17Y8565   RES-07857                         4.7K 
+SW1                   SWITCH_PUSHBUTTONC&K_KSS            BTN_CK_KSS                                      Buttons                                               KSS221G LFS                   97K2789                                          
+U$1  AVR_SPI_PRG_6PTH AVR_SPI_PRG_6PTH                    2X3                                             AVR ISP 6 Pin                                         1023                          31Y5678                                          
+U1                    ATMEGA328P_MLFMLF32                 MLF32-PAD                                       Datasheet                                             ATMEGA8A-MU                   15AC6102                                         
+U2   LSM9DS1          LSM9DS1                             LGA24-8X4                                       LSM9DS1 3D accelerometer, gyroscope & magnetometer    LSM9DS1TR                     83Y4306   IC-12536                               
