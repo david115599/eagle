@@ -18077,63 +18077,63 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="IR6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="OP993"/>
+<attribute name="OC_NEWARK" value="42AC0040"/>
 </part>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CR0603-JW-103GLF"/>
+<attribute name="OC_NEWARK" value="12AC0507"/>
 </part>
 <part name="IR5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="OP993"/>
+<attribute name="OC_NEWARK" value="42AC0040"/>
 </part>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CR0603-JW-103GLF"/>
+<attribute name="OC_NEWARK" value="12AC0507"/>
 </part>
 <part name="IR4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="OP993"/>
+<attribute name="OC_NEWARK" value="42AC0040"/>
 </part>
 <part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CR0603-JW-103GLF"/>
+<attribute name="OC_NEWARK" value="12AC0507"/>
 </part>
 <part name="IR1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="OP993"/>
+<attribute name="OC_NEWARK" value="42AC0040"/>
 </part>
 <part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CR0603-JW-103GLF"/>
+<attribute name="OC_NEWARK" value="12AC0507"/>
 </part>
 <part name="IR2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="OP993"/>
+<attribute name="OC_NEWARK" value="42AC0040"/>
 </part>
 <part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CR0603-JW-103GLF"/>
+<attribute name="OC_NEWARK" value="12AC0507"/>
 </part>
 <part name="IR3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="OP993"/>
+<attribute name="OC_NEWARK" value="42AC0040"/>
 </part>
 <part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CR0603-JW-103GLF"/>
+<attribute name="OC_NEWARK" value="12AC0507"/>
 </part>
 <part name="IC2" library="adafruit" deviceset="TB6612FNG" device="">
 <attribute name="MF" value=""/>
@@ -18170,19 +18170,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/DALE"/>
+<attribute name="MPN" value="CRCW080510K0FKTA"/>
+<attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="R16" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/DALE"/>
+<attribute name="MPN" value="CRCW080510K0FKTA"/>
+<attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="R17" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/DALE"/>
+<attribute name="MPN" value="CRCW080510K0FKTA"/>
+<attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="P+26" library="supply1" deviceset="VCC" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
@@ -18320,14 +18320,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+33" library="supply1" deviceset="VCC" device=""/>
 <part name="P+34" library="supply1" deviceset="VCC" device=""/>
 <part name="R19" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/DALE"/>
+<attribute name="MPN" value="CRCW080510K0FKTA"/>
+<attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="R20" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/DALE"/>
+<attribute name="MPN" value="CRCW080510K0FKTA"/>
+<attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="TP6" library="microbuilder" deviceset="TESTPOINT" device="ROUND2MM">
 <attribute name="MF" value=""/>
@@ -18360,14 +18360,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R21" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/DALE"/>
+<attribute name="MPN" value="CRCW080510K0FKTA"/>
+<attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="R22" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="VISHAY/DALE"/>
+<attribute name="MPN" value="CRCW080510K0FKTA"/>
+<attribute name="OC_NEWARK" value="05F1511"/>
 </part>
 <part name="P+35" library="supply1" deviceset="VCC" device=""/>
 <part name="P+36" library="supply1" deviceset="VCC" device=""/>
@@ -18422,8 +18422,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="SW2" library="adafruit" deviceset="SPST_TACT" device="-EVQQ2">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="EVQ-Q2P03W"/>
+<attribute name="OC_NEWARK" value="01X1669"/>
 </part>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="U$16" library="microbuilder" deviceset="FRAME_A3_ADAFRUIT" device=""/>
