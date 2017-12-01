@@ -6463,6 +6463,9 @@ David Bershadsky</text>
 <text x="38.819" y="76.962" size="1.27" layer="22" font="vector" rot="SMR270">pwr supply cut trace</text>
 <text x="53.932" y="37.211" size="1.016" layer="21" font="vector" ratio="10">VIN</text>
 <text x="52.662" y="36.068" size="1.016" layer="21" font="vector" ratio="10">Jumper</text>
+<hole x="48.217" y="74.93" drill="3.2"/>
+<hole x="99.017" y="59.69" drill="3.2"/>
+<hole x="46.947" y="26.67" drill="3.2"/>
 <wire x1="92.667" y1="68.707" x2="92.667" y2="58.42" width="0.254" layer="21"/>
 <wire x1="92.667" y1="58.42" x2="95.207" y2="58.42" width="0.254" layer="21"/>
 <wire x1="95.207" y1="58.42" x2="95.207" y2="68.707" width="0.254" layer="21"/>
@@ -6523,6 +6526,9 @@ A10=IR6</text>
 <text x="38.862" y="76.962" size="1.27" layer="22" font="vector" rot="SMR270">pwr supply cut trace</text>
 <text x="53.975" y="37.211" size="1.016" layer="21" font="vector" ratio="10">VIN</text>
 <text x="52.705" y="36.068" size="1.016" layer="21" font="vector" ratio="10">Jumper</text>
+<hole x="48.26" y="74.93" drill="3.2"/>
+<hole x="99.06" y="59.69" drill="3.2"/>
+<hole x="46.99" y="26.67" drill="3.2"/>
 <wire x1="92.71" y1="68.707" x2="92.71" y2="58.42" width="0.254" layer="21"/>
 <wire x1="92.71" y1="58.42" x2="95.25" y2="58.42" width="0.254" layer="21"/>
 <wire x1="95.25" y1="58.42" x2="95.25" y2="68.707" width="0.254" layer="21"/>
@@ -12102,16 +12108,19 @@ Source. http://cache.national.com/ds/LM/LM2937-2.5.pdf</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.508" drill="0">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.2032"/>
 </class>
 <class number="1" name="hipower" width="2.54" drill="0">
-<clearance class="1" value="0.1524"/>
+<clearance class="1" value="0.2032"/>
 </class>
 <class number="2" name="power" width="1.27" drill="0">
-<clearance class="2" value="0.1524"/>
+<clearance class="2" value="0.2032"/>
 </class>
 <class number="3" name="lopower" width="0.762" drill="0">
-<clearance class="3" value="0.1524"/>
+<clearance class="3" value="0.2032"/>
+</class>
+<class number="4" name="signal" width="0.3048" drill="0">
+<clearance class="4" value="0.2032"/>
 </class>
 </classes>
 <designrules name="PcbWay *">
@@ -12849,22 +12858,22 @@ design rules under a new name.</description>
 <contactref element="JP7" pad="3"/>
 <wire x1="56.896" y1="71.374" x2="56.896" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A0">
+<signal name="A0" class="4">
 <contactref element="U1" pad="1"/>
 <contactref element="R15" pad="2"/>
 <wire x1="71.12" y1="38.42" x2="70.7358" y2="42.511" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A1">
+<signal name="A1" class="4">
 <contactref element="U1" pad="2"/>
 <contactref element="R16" pad="2"/>
 <wire x1="68.58" y1="38.42" x2="70.7358" y2="43.161" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A2">
+<signal name="A2" class="4">
 <contactref element="U1" pad="3"/>
 <contactref element="R17" pad="2"/>
 <wire x1="66.04" y1="38.42" x2="70.7358" y2="43.811" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A3">
+<signal name="A3" class="4">
 <contactref element="U1" pad="4"/>
 <contactref element="R19" pad="2"/>
 <wire x1="63.5" y1="38.42" x2="70.7358" y2="44.461" width="0" layer="19" extent="1-1"/>
@@ -13036,7 +13045,7 @@ design rules under a new name.</description>
 <signal name="D19">
 <contactref element="B1" pad="19"/>
 </signal>
-<signal name="SCL">
+<signal name="SCL" class="4">
 <contactref element="B1" pad="21"/>
 <contactref element="B1" pad="A5"/>
 <contactref element="COLORSENSOR2" pad="4"/>
@@ -13157,7 +13166,7 @@ design rules under a new name.</description>
 <signal name="D51">
 <contactref element="B1" pad="51"/>
 </signal>
-<signal name="SDA">
+<signal name="SDA" class="4">
 <contactref element="B1" pad="A4"/>
 <contactref element="B1" pad="20"/>
 <contactref element="COLORSENSOR2" pad="5"/>
@@ -13313,87 +13322,87 @@ design rules under a new name.</description>
 <contactref element="R18" pad="2"/>
 <wire x1="49.437" y1="34.417" x2="51.628" y2="39.497" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM0">
+<signal name="PWM0" class="4">
 <contactref element="U1" pad="6"/>
 <contactref element="JP5" pad="1"/>
 <wire x1="70.7358" y1="45.761" x2="93.98" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM1">
+<signal name="PWM1" class="4">
 <contactref element="U1" pad="7"/>
 <contactref element="JP5" pad="2"/>
 <wire x1="70.7358" y1="46.411" x2="93.98" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM2">
+<signal name="PWM2" class="4">
 <contactref element="U1" pad="8"/>
 <contactref element="IC4" pad="23"/>
 <wire x1="70.7358" y1="47.061" x2="83.751" y2="36.064" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM3">
+<signal name="PWM3" class="4">
 <contactref element="U1" pad="9"/>
 <contactref element="IC4" pad="22"/>
 <wire x1="70.7358" y1="47.711" x2="83.751" y2="36.714" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM4">
+<signal name="PWM4" class="4">
 <contactref element="U1" pad="10"/>
 <contactref element="IC4" pad="21"/>
 <wire x1="83.751" y1="37.364" x2="70.7358" y2="48.361" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM5">
+<signal name="PWM5" class="4">
 <contactref element="U1" pad="11"/>
 <contactref element="IC4" pad="17"/>
 <wire x1="70.7358" y1="49.011" x2="83.751" y2="39.964" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM6">
+<signal name="PWM6" class="4">
 <contactref element="U1" pad="12"/>
 <contactref element="IC4" pad="16"/>
 <wire x1="70.7358" y1="49.661" x2="83.751" y2="40.614" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM7">
+<signal name="PWM7" class="4">
 <contactref element="U1" pad="13"/>
 <contactref element="IC4" pad="15"/>
 <wire x1="70.7358" y1="50.311" x2="83.751" y2="41.264" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM8">
+<signal name="PWM8" class="4">
 <contactref element="U1" pad="15"/>
 <contactref element="IC2" pad="23"/>
 <wire x1="50.615" y1="50.042" x2="64.9002" y2="50.961" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM9">
+<signal name="PWM9" class="4">
 <contactref element="U1" pad="16"/>
 <contactref element="IC2" pad="22"/>
 <wire x1="50.615" y1="49.392" x2="64.9002" y2="50.311" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM10">
+<signal name="PWM10" class="4">
 <contactref element="U1" pad="17"/>
 <contactref element="IC2" pad="21"/>
 <wire x1="50.615" y1="48.742" x2="64.9002" y2="49.661" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM11">
+<signal name="PWM11" class="4">
 <contactref element="U1" pad="18"/>
 <contactref element="IC2" pad="17"/>
 <wire x1="50.615" y1="46.142" x2="64.9002" y2="49.011" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM12">
+<signal name="PWM12" class="4">
 <contactref element="U1" pad="19"/>
 <contactref element="IC2" pad="16"/>
 <wire x1="50.615" y1="45.492" x2="64.9002" y2="48.361" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM13">
+<signal name="PWM13" class="4">
 <contactref element="U1" pad="20"/>
 <contactref element="IC2" pad="15"/>
 <wire x1="50.615" y1="44.842" x2="64.9002" y2="47.711" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM14">
+<signal name="PWM14" class="4">
 <contactref element="U1" pad="21"/>
 <contactref element="JP5" pad="3"/>
 <wire x1="64.9002" y1="47.061" x2="93.98" y2="64.77" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PWM15">
+<signal name="PWM15" class="4">
 <contactref element="U1" pad="22"/>
 <contactref element="JP5" pad="4"/>
 <wire x1="64.9002" y1="46.411" x2="93.98" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A4">
+<signal name="A4" class="4">
 <contactref element="U1" pad="5"/>
 <contactref element="R20" pad="2"/>
 <wire x1="60.706" y1="38.42" x2="70.7358" y2="45.111" width="0" layer="19" extent="1-1"/>
