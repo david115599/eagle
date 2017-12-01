@@ -1712,12 +1712,6 @@ chip</description>
 <text x="-1.524" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="VIN">
-<text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="VIN" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-</symbol>
 <symbol name="PINHD7">
 <wire x1="-6.35" y1="-10.16" x2="1.27" y2="-10.16" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-10.16" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
@@ -4846,19 +4840,6 @@ chip</description>
 <description>&lt;b&gt;GND&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VIN">
-<description>VIN Supply Symbol</description>
-<gates>
-<gate name="G$1" symbol="VIN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -17954,14 +17935,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U$5" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="IMU2" library="microbuilder" deviceset="HEADER-1X8" device="76MIL">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U$7" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
 <part name="X1" library="NXT Compatible (female) Sockets - Mindsensors" deviceset="NXT-SOCKET" device="">
 <attribute name="MPN" value="RJE01-660-01"/>
@@ -18490,13 +18469,6 @@ D27 = IR6</text>
 <label x="-160.02" y="40.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="VIN" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="VIN"/>
-<wire x1="-154.94" y1="124.46" x2="-160.02" y2="124.46" width="0.1524" layer="91"/>
-<label x="-160.02" y="124.46" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="D2" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="2"/>
@@ -18994,6 +18966,11 @@ D27 = IR6</text>
 <wire x1="-187.96" y1="81.28" x2="-187.96" y2="83.82" width="0.1524" layer="91"/>
 <label x="-187.96" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="VIN"/>
+<wire x1="-154.94" y1="124.46" x2="-160.02" y2="124.46" width="0.1524" layer="91"/>
+<label x="-160.02" y="124.46" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -19157,7 +19134,7 @@ A10=IR6</text>
 <wire x1="208.28" y1="-5.08" x2="205.74" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="BAT+" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="78.44469375" y1="22.2758125" x2="81.28" y2="22.2758125" width="0.1524" layer="91"/>
@@ -19401,14 +19378,12 @@ A10=IR6</text>
 <attribute name="MF" x="205.74" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="205.74" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$5" gate="G$1" x="195.58" y="50.8"/>
 <instance part="U$6" gate="G$1" x="213.36" y="35.56"/>
 <instance part="IMU2" gate="A" x="137.16" y="40.64" rot="R180">
 <attribute name="OC_NEWARK" x="137.16" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="137.16" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="137.16" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$7" gate="G$1" x="152.4" y="53.34"/>
 <instance part="U$8" gate="G$1" x="127" y="38.1"/>
 </instances>
 <busses>
@@ -19458,14 +19433,12 @@ A10=IR6</text>
 <net name="5.5V" class="0">
 <segment>
 <pinref part="COLORSENSOR2" gate="A" pin="1"/>
-<pinref part="U$5" gate="G$1" pin="VIN"/>
 <wire x1="203.2" y1="45.72" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="45.72" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
-<label x="195.58" y="55.88" size="1.778" layer="95"/>
+<label x="190.5" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IMU2" gate="A" pin="7"/>
-<pinref part="U$7" gate="G$1" pin="VIN"/>
 <wire x1="139.7" y1="45.72" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="45.72" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
 <label x="152.4" y="48.26" size="1.778" layer="95"/>
