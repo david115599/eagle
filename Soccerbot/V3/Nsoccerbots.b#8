@@ -13424,7 +13424,7 @@ design rules under a new name.</description>
 <wire x1="71.12" y1="28.575" x2="70.866" y2="28.575" width="0.8128" layer="16"/>
 <wire x1="70.866" y1="28.575" x2="70.866" y2="28.448" width="0.8128" layer="16"/>
 <wire x1="34.544" y1="37.846" x2="34.544" y2="70.59" width="1.016" layer="16"/>
-<wire x1="38.336" y1="66.167" x2="38.336" y2="67.814" width="1.016" layer="1"/>
+<wire x1="38.336" y1="67.814" x2="38.336" y2="66.167" width="1.016" layer="1"/>
 <wire x1="42.418" y1="70.122" x2="40.11" y2="67.814" width="1.016" layer="1"/>
 <wire x1="40.11" y1="67.814" x2="38.336" y2="67.814" width="1.016" layer="1"/>
 <wire x1="70.866" y1="28.448" x2="70.866" y2="29.845" width="0.635" layer="16"/>
@@ -14577,7 +14577,7 @@ design rules under a new name.</description>
 <contactref element="SERVO4" pad="2"/>
 <contactref element="SERVO3" pad="2"/>
 <contactref element="IC1" pad="TAB"/>
-<wire x1="42.418" y1="74.295" x2="42.418" y2="71.755" width="2.54" layer="1"/>
+<wire x1="42.418" y1="71.755" x2="42.418" y2="74.295" width="2.54" layer="1"/>
 <wire x1="22.86" y1="12.319" x2="42.418" y2="71.755" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
