@@ -17520,7 +17520,17 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.508" drill="0">
+<clearance class="0" value="0.1524"/>
+</class>
+<class number="1" name="hipower" width="2.54" drill="0">
+<clearance class="1" value="0.1524"/>
+</class>
+<class number="2" name="power" width="1.27" drill="0">
+<clearance class="2" value="0.1524"/>
+</class>
+<class number="3" name="lopower" width="0.762" drill="0">
+<clearance class="3" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -18487,7 +18497,7 @@ D27 = IR6</text>
 <junction x="-119.38" y="106.68"/>
 </segment>
 </net>
-<net name="BAT+" class="0">
+<net name="BAT+" class="1">
 <segment>
 <pinref part="B1" gate="G$1" pin="VIN"/>
 <wire x1="-154.94" y1="124.46" x2="-160.02" y2="124.46" width="0.1524" layer="91"/>
@@ -18504,7 +18514,7 @@ D27 = IR6</text>
 <label x="-193.04" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="1">
 <segment>
 <pinref part="S1" gate="1" pin="P"/>
 <pinref part="BATERY" gate="-1" pin="KL"/>
@@ -18512,7 +18522,7 @@ D27 = IR6</text>
 <wire x1="-223.52" y1="71.12" x2="-223.52" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="1">
 <segment>
 <pinref part="S1" gate="1" pin="O"/>
 <wire x1="-187.96" y1="81.28" x2="-187.96" y2="93.98" width="0.1524" layer="91"/>
@@ -18523,7 +18533,7 @@ D27 = IR6</text>
 <wire x1="-213.36" y1="99.06" x2="-213.36" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SERVO5V" class="0">
+<net name="SERVO5V" class="2">
 <segment>
 <pinref part="IC1" gate="A" pin="GND"/>
 <wire x1="-205.74" y1="38.1" x2="-205.74" y2="30.48" width="0.1524" layer="91"/>
@@ -18712,7 +18722,7 @@ A10=IR6</text>
 <wire x1="208.28" y1="-5.08" x2="205.74" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BAT+" class="0">
+<net name="BAT+" class="1">
 <segment>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="78.44469375" y1="22.2758125" x2="81.28" y2="22.2758125" width="0.1524" layer="91"/>
@@ -19074,7 +19084,7 @@ A10=IR6</text>
 <busses>
 </busses>
 <nets>
-<net name="BAT+" class="0">
+<net name="BAT+" class="1">
 <segment>
 <pinref part="ESC1P" gate="-2" pin="KL"/>
 <wire x1="43.18" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
@@ -19621,7 +19631,7 @@ A10=IR6</text>
 <pinref part="GND45" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="M1A1" class="0">
+<net name="M1A1" class="3">
 <segment>
 <wire x1="12.7" y1="-40.64" x2="12.7" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="0" y1="-55.88" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
@@ -19633,7 +19643,7 @@ A10=IR6</text>
 <pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="M1B1" class="0">
+<net name="M1B1" class="3">
 <segment>
 <wire x1="12.7" y1="-55.88" x2="12.7" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="0" y1="-58.42" x2="12.7" y2="-58.42" width="0.1524" layer="91"/>
@@ -19643,7 +19653,7 @@ A10=IR6</text>
 <pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="M2B1" class="0">
+<net name="M2B1" class="3">
 <segment>
 <wire x1="12.7" y1="-63.5" x2="12.7" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="0" y1="-63.5" x2="12.7" y2="-63.5" width="0.1524" layer="91"/>
@@ -19653,7 +19663,7 @@ A10=IR6</text>
 <pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="M2A1" class="0">
+<net name="M2A1" class="3">
 <segment>
 <wire x1="12.7" y1="-78.74" x2="12.7" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="0" y1="-66.04" x2="2.54" y2="-66.04" width="0.1524" layer="91"/>
@@ -19665,7 +19675,7 @@ A10=IR6</text>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="M3A1" class="0">
+<net name="M3A1" class="3">
 <segment>
 <wire x1="132.08" y1="-43.18" x2="132.08" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-43.18" x2="142.24" y2="-43.18" width="0.1524" layer="91"/>
@@ -19677,7 +19687,7 @@ A10=IR6</text>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="M3B1" class="0">
+<net name="M3B1" class="3">
 <segment>
 <wire x1="132.08" y1="-55.88" x2="132.08" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-58.42" x2="144.78" y2="-58.42" width="0.1524" layer="91"/>
@@ -19687,7 +19697,7 @@ A10=IR6</text>
 <pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="M4B1" class="0">
+<net name="M4B1" class="3">
 <segment>
 <wire x1="132.08" y1="-63.5" x2="132.08" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-63.5" x2="144.78" y2="-63.5" width="0.1524" layer="91"/>
@@ -19697,7 +19707,7 @@ A10=IR6</text>
 <pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="M4A1" class="0">
+<net name="M4A1" class="3">
 <segment>
 <wire x1="132.08" y1="-81.28" x2="132.08" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-78.74" x2="142.24" y2="-78.74" width="0.1524" layer="91"/>
@@ -20227,7 +20237,7 @@ A10=IR6</text>
 <junction x="73.66" y="10.16"/>
 </segment>
 </net>
-<net name="BAT+" class="0">
+<net name="BAT+" class="1">
 <segment>
 <wire x1="88.9" y1="-17.78" x2="88.9" y2="-20.32" width="0.1524" layer="91"/>
 <label x="88.9" y="-20.32" size="1.778" layer="95"/>
@@ -20286,7 +20296,7 @@ A10=IR6</text>
 <pinref part="C13" gate="G$1" pin="+"/>
 </segment>
 </net>
-<net name="SERVO5V" class="0">
+<net name="SERVO5V" class="2">
 <segment>
 <pinref part="SERVO4" gate="A" pin="2"/>
 <pinref part="SERVO3" gate="A" pin="2"/>

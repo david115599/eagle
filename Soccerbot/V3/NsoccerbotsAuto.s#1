@@ -17521,16 +17521,19 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.508" drill="0">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.2032"/>
 </class>
 <class number="1" name="hipower" width="2.54" drill="0">
-<clearance class="1" value="0.1524"/>
+<clearance class="1" value="0.2032"/>
 </class>
 <class number="2" name="power" width="1.27" drill="0">
-<clearance class="2" value="0.1524"/>
+<clearance class="2" value="0.2032"/>
 </class>
 <class number="3" name="lopower" width="0.762" drill="0">
-<clearance class="3" value="0.1524"/>
+<clearance class="3" value="0.2032"/>
+</class>
+<class number="4" name="signal" width="0.3048" drill="0">
+<clearance class="4" value="0.2032"/>
 </class>
 </classes>
 <parts>
@@ -18239,7 +18242,7 @@ D27 = IR6</text>
 <label x="-116.84" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SCL" class="0">
+<net name="SCL" class="4">
 <segment>
 <pinref part="B1" gate="G$1" pin="21(SCL)"/>
 <wire x1="-119.38" y1="104.14" x2="-116.84" y2="104.14" width="0.1524" layer="91"/>
@@ -18480,7 +18483,7 @@ D27 = IR6</text>
 <label x="-116.84" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDA" class="0">
+<net name="SDA" class="4">
 <segment>
 <pinref part="B1" gate="G$1" pin="A4"/>
 <wire x1="-154.94" y1="96.52" x2="-160.02" y2="96.52" width="0.1524" layer="91"/>
@@ -18774,7 +18777,7 @@ A10=IR6</text>
 <label x="81.28" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SCL" class="0">
+<net name="SCL" class="4">
 <segment>
 <pinref part="X1" gate="G$1" pin="5"/>
 <wire x1="78.44469375" y1="12.1158125" x2="81.28" y2="12.1158125" width="0.1524" layer="91"/>
@@ -18800,7 +18803,7 @@ A10=IR6</text>
 <label x="81.28" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDA" class="0">
+<net name="SDA" class="4">
 <segment>
 <pinref part="X1" gate="G$1" pin="6"/>
 <wire x1="78.44469375" y1="9.5758125" x2="81.28" y2="9.5758125" width="0.1524" layer="91"/>
@@ -18992,7 +18995,7 @@ A10=IR6</text>
 <wire x1="127" y1="43.18" x2="127" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCL" class="0">
+<net name="SCL" class="4">
 <segment>
 <pinref part="COLORSENSOR2" gate="A" pin="4"/>
 <wire x1="203.2" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
@@ -19005,7 +19008,7 @@ A10=IR6</text>
 <label x="144.78" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDA" class="0">
+<net name="SDA" class="4">
 <segment>
 <pinref part="COLORSENSOR2" gate="A" pin="5"/>
 <wire x1="203.2" y1="35.56" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
@@ -19778,7 +19781,7 @@ A10=IR6</text>
 <label x="73.66" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SCL" class="0">
+<net name="SCL" class="4">
 <segment>
 <label x="104.14" y="0" size="1.778" layer="95" rot="R90"/>
 <wire x1="104.14" y1="10.16" x2="104.14" y2="0" width="0.1524" layer="91"/>
@@ -19800,7 +19803,7 @@ A10=IR6</text>
 <junction x="-132.08" y="-7.62"/>
 </segment>
 </net>
-<net name="SDA" class="0">
+<net name="SDA" class="4">
 <segment>
 <label x="101.6" y="0" size="1.778" layer="95" rot="R90"/>
 <wire x1="101.6" y1="10.16" x2="101.6" y2="0" width="0.1524" layer="91"/>
@@ -19891,7 +19894,7 @@ A10=IR6</text>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="PWM0" class="0">
+<net name="PWM0" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM0"/>
 <wire x1="-68.58" y1="0" x2="-63.5" y2="0" width="0.1524" layer="91"/>
@@ -19902,7 +19905,7 @@ A10=IR6</text>
 <label x="-55.88" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM1" class="0">
+<net name="PWM1" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM1"/>
 <wire x1="-68.58" y1="-2.54" x2="-63.5" y2="-2.54" width="0.1524" layer="91"/>
@@ -19913,7 +19916,7 @@ A10=IR6</text>
 <label x="-55.88" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM2" class="0">
+<net name="PWM2" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM2"/>
 <wire x1="-68.58" y1="-5.08" x2="-63.5" y2="-5.08" width="0.1524" layer="91"/>
@@ -19924,7 +19927,7 @@ A10=IR6</text>
 <label x="83.82" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM3" class="0">
+<net name="PWM3" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM3"/>
 <wire x1="-68.58" y1="-7.62" x2="-63.5" y2="-7.62" width="0.1524" layer="91"/>
@@ -19935,7 +19938,7 @@ A10=IR6</text>
 <label x="81.28" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM4" class="0">
+<net name="PWM4" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM4"/>
 <wire x1="-68.58" y1="-10.16" x2="-63.5" y2="-10.16" width="0.1524" layer="91"/>
@@ -19946,7 +19949,7 @@ A10=IR6</text>
 <label x="81.28" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM5" class="0">
+<net name="PWM5" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM5"/>
 <wire x1="-68.58" y1="-12.7" x2="-63.5" y2="-12.7" width="0.1524" layer="91"/>
@@ -19957,7 +19960,7 @@ A10=IR6</text>
 <label x="81.28" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM6" class="0">
+<net name="PWM6" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM6"/>
 <wire x1="-68.58" y1="-15.24" x2="-63.5" y2="-15.24" width="0.1524" layer="91"/>
@@ -19968,7 +19971,7 @@ A10=IR6</text>
 <label x="81.28" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM7" class="0">
+<net name="PWM7" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM7"/>
 <wire x1="-68.58" y1="-17.78" x2="-63.5" y2="-17.78" width="0.1524" layer="91"/>
@@ -19979,7 +19982,7 @@ A10=IR6</text>
 <label x="81.28" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM8" class="0">
+<net name="PWM8" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM8"/>
 <wire x1="-68.58" y1="-20.32" x2="-63.5" y2="-20.32" width="0.1524" layer="91"/>
@@ -19990,7 +19993,7 @@ A10=IR6</text>
 <label x="50.8" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM9" class="0">
+<net name="PWM9" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM9"/>
 <wire x1="-68.58" y1="-22.86" x2="-63.5" y2="-22.86" width="0.1524" layer="91"/>
@@ -20001,7 +20004,7 @@ A10=IR6</text>
 <label x="50.8" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM10" class="0">
+<net name="PWM10" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM10"/>
 <wire x1="-68.58" y1="-25.4" x2="-63.5" y2="-25.4" width="0.1524" layer="91"/>
@@ -20012,7 +20015,7 @@ A10=IR6</text>
 <label x="50.8" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM11" class="0">
+<net name="PWM11" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM11"/>
 <wire x1="-68.58" y1="-27.94" x2="-63.5" y2="-27.94" width="0.1524" layer="91"/>
@@ -20023,7 +20026,7 @@ A10=IR6</text>
 <label x="50.8" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM12" class="0">
+<net name="PWM12" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM12"/>
 <wire x1="-68.58" y1="-30.48" x2="-63.5" y2="-30.48" width="0.1524" layer="91"/>
@@ -20034,7 +20037,7 @@ A10=IR6</text>
 <label x="50.8" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM13" class="0">
+<net name="PWM13" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM13"/>
 <wire x1="-68.58" y1="-33.02" x2="-63.5" y2="-33.02" width="0.1524" layer="91"/>
@@ -20045,7 +20048,7 @@ A10=IR6</text>
 <label x="50.8" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM14" class="0">
+<net name="PWM14" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM14"/>
 <wire x1="-68.58" y1="-35.56" x2="-63.5" y2="-35.56" width="0.1524" layer="91"/>
@@ -20056,7 +20059,7 @@ A10=IR6</text>
 <label x="-55.88" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWM15" class="0">
+<net name="PWM15" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="PWM15"/>
 <wire x1="-68.58" y1="-38.1" x2="-63.5" y2="-38.1" width="0.1524" layer="91"/>
@@ -20067,7 +20070,7 @@ A10=IR6</text>
 <label x="-55.88" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A0" class="0">
+<net name="A0" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="A0"/>
 <wire x1="-116.84" y1="-20.32" x2="-109.22" y2="-20.32" width="0.1524" layer="91"/>
@@ -20080,7 +20083,7 @@ A10=IR6</text>
 <label x="-88.9" y="-60.96" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="A1" class="0">
+<net name="A1" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="A1"/>
 <wire x1="-116.84" y1="-22.86" x2="-109.22" y2="-22.86" width="0.1524" layer="91"/>
@@ -20092,7 +20095,7 @@ A10=IR6</text>
 <label x="-93.98" y="-60.96" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="A2" class="0">
+<net name="A2" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="A2"/>
 <wire x1="-116.84" y1="-25.4" x2="-109.22" y2="-25.4" width="0.1524" layer="91"/>
@@ -20104,7 +20107,7 @@ A10=IR6</text>
 <label x="-99.06" y="-60.96" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="A3" class="0">
+<net name="A3" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="A3"/>
 <wire x1="-116.84" y1="-27.94" x2="-109.22" y2="-27.94" width="0.1524" layer="91"/>
@@ -20116,7 +20119,7 @@ A10=IR6</text>
 <wire x1="-83.82" y1="-78.74" x2="-83.82" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A4" class="0">
+<net name="A4" class="4">
 <segment>
 <pinref part="U1" gate="G$1" pin="A4"/>
 <wire x1="-116.84" y1="-30.48" x2="-109.22" y2="-30.48" width="0.1524" layer="91"/>
