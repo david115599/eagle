@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6445,9 +6445,6 @@ David Bershadsky</text>
 <wire x1="30.31" y1="27.559" x2="33.993" y2="27.559" width="0.254" layer="21"/>
 <wire x1="33.993" y1="27.559" x2="33.104" y2="28.067" width="0.254" layer="21"/>
 <wire x1="33.993" y1="27.559" x2="33.104" y2="27.051" width="0.254" layer="21"/>
-<wire x1="27.008" y1="61.214" x2="25.103" y2="61.214" width="0.254" layer="22"/>
-<wire x1="25.103" y1="61.214" x2="25.738" y2="61.849" width="0.254" layer="22"/>
-<wire x1="25.103" y1="61.214" x2="25.738" y2="60.579" width="0.254" layer="22"/>
 <circle x="38.184" y="31.623" radius="1.0924" width="0.254" layer="21"/>
 <circle x="48.471" y="31.623" radius="1.0924" width="0.254" layer="21"/>
 <text x="61.171" y="70.358" size="1.016" layer="21" font="vector">S2</text>
@@ -6461,8 +6458,6 @@ David Bershadsky</text>
 <text x="23.325" y="26.416" size="1.27" layer="21" font="vector" ratio="10">Power</text>
 <text x="37.676" y="30.734" size="1.778" layer="21" font="vector">+</text>
 <text x="47.836" y="30.734" size="1.778" layer="21" font="vector">-</text>
-<text x="27.135" y="78.232" size="1.27" layer="22" font="vector" rot="SMR270">For opt. servo</text>
-<text x="28.659" y="78.232" size="1.27" layer="22" font="vector" rot="SMR270">pwr supply cut trace</text>
 <text x="43.772" y="38.481" size="1.016" layer="21" font="vector" ratio="10">VIN</text>
 <text x="42.502" y="37.338" size="1.016" layer="21" font="vector" ratio="10">Jumper</text>
 <wire x1="82.507" y1="69.977" x2="82.507" y2="59.69" width="0.254" layer="21"/>
@@ -6495,9 +6490,6 @@ A13=IR3</text>
 <wire x1="30.353" y1="27.559" x2="34.036" y2="27.559" width="0.254" layer="21"/>
 <wire x1="34.036" y1="27.559" x2="33.147" y2="28.067" width="0.254" layer="21"/>
 <wire x1="34.036" y1="27.559" x2="33.147" y2="27.051" width="0.254" layer="21"/>
-<wire x1="27.051" y1="61.214" x2="25.146" y2="61.214" width="0.254" layer="22"/>
-<wire x1="25.146" y1="61.214" x2="25.781" y2="61.849" width="0.254" layer="22"/>
-<wire x1="25.146" y1="61.214" x2="25.781" y2="60.579" width="0.254" layer="22"/>
 <circle x="38.227" y="31.623" radius="1.0924" width="0.254" layer="21"/>
 <circle x="48.514" y="31.623" radius="1.0924" width="0.254" layer="21"/>
 <text x="61.214" y="70.358" size="1.016" layer="21" font="vector">S2</text>
@@ -6509,17 +6501,10 @@ A13=IR3</text>
 <text x="84.201" y="43.942" size="1.778" layer="21" font="vector" rot="R90">M4</text>
 <text x="84.201" y="32.385" size="1.778" layer="21" font="vector" rot="R90">M3</text>
 <text x="83.947" y="37.973" size="1.27" layer="21" font="vector" rot="R90">GND</text>
-<text x="40.386" y="53.213" size="1.27" layer="21" font="vector">Adafruit Motor Shield v2.3</text>
-<text x="70.612" y="50.038" size="1.27" layer="21" font="vector">1.2A per motor</text>
-<text x="75.184" y="48.006" size="1.27" layer="21" font="vector">(3A max)</text>
 <text x="23.368" y="28.575" size="1.27" layer="21" font="vector" ratio="10">5-12V Motor</text>
 <text x="23.368" y="26.416" size="1.27" layer="21" font="vector" ratio="10">Power</text>
-<text x="70.612" y="53.467" size="1.27" layer="21" font="vector">2 steppers or</text>
-<text x="70.612" y="51.689" size="1.27" layer="21" font="vector">4 DC motors</text>
 <text x="37.719" y="30.734" size="1.778" layer="21" font="vector">+</text>
 <text x="47.879" y="30.734" size="1.778" layer="21" font="vector">-</text>
-<text x="27.178" y="78.232" size="1.27" layer="22" font="vector" rot="SMR270">For opt. servo</text>
-<text x="28.702" y="78.232" size="1.27" layer="22" font="vector" rot="SMR270">pwr supply cut trace</text>
 <text x="43.815" y="38.481" size="1.016" layer="21" font="vector" ratio="10">VIN</text>
 <text x="42.545" y="37.338" size="1.016" layer="21" font="vector" ratio="10">Jumper</text>
 <wire x1="82.55" y1="69.977" x2="82.55" y2="59.69" width="0.254" layer="21"/>
@@ -6542,11 +6527,6 @@ A13=IR3</text>
 <text x="28.194" y="65.913" size="1.143" layer="21" font="vector" ratio="12" rot="R180">Reset</text>
 <text x="27.051" y="74.168" size="1.016" layer="21" font="vector" ratio="12" rot="R90" align="center">Servo</text>
 <text x="23.368" y="74.168" size="1.016" layer="21" font="vector" ratio="12" rot="R90" align="center">Opt</text>
-<text x="53.467" y="49.784" size="1.27" layer="22" font="vector" ratio="12" rot="MR0" align="center">Adafruit Motor Shield v2!
-Control 4 DC Motors or
-2 Stepper motors via I2C
-Pins used: SDA, SCL &amp;
-A4 tied to SDA, A5 to SCL</text>
 <text x="21.971" y="6.985" size="1.778" layer="21">+</text>
 <text x="34.925" y="7.239" size="1.778" layer="21">-</text>
 <text x="8.128" y="1.905" size="1.778" layer="21">IR6</text>
@@ -6559,6 +6539,16 @@ A10=IR6</text>
 <text x="144.145" y="90.297" size="1.778" layer="21">IR3</text>
 <text x="38.608" y="18.669" size="1.778" layer="21">Use knobs to adjust IR
 sensor sensitivity</text>
+<polygon width="0.254" layer="22">
+<vertex x="44.323" y="49.0855"/>
+<vertex x="44.323" y="37.973"/>
+<vertex x="45.5295" y="36.7665"/>
+<vertex x="78.359" y="36.7665"/>
+<vertex x="78.486" y="36.8935"/>
+<vertex x="78.486" y="49.657"/>
+<vertex x="77.724" y="50.419"/>
+<vertex x="45.6565" y="50.419"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -14820,8 +14810,8 @@ design rules under a new name.</description>
 </element>
 <element name="C14" library="adafruit" package="PANASONIC_C" value="10\0uF 6.3V" x="30.226" y="67.437" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="30.226" y="67.437" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="EEFCX0J101R" x="30.226" y="67.437" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="17AC6838" x="30.226" y="67.437" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1270V" x="30.226" y="67.437" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="53W4521" x="30.226" y="67.437" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="21.508" y="67.822" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="LED2" library="microbuilder" package="CHIPLED_0805_NOOUTLINE" value="Green" x="38.227" y="35.687" smashed="yes" rot="R270">
@@ -14920,19 +14910,40 @@ design rules under a new name.</description>
 </element>
 <element name="U$17" library="microbuilder" package="ADAFRUIT_TEXT_30MM" value="" x="77.978" y="38.1" rot="MR0"/>
 <element name="U$18" library="microbuilder" package="ADAFRUIT_3.5MM" value="" x="63.246" y="36.322" smashed="yes"/>
-<element name="Q1" library="transistor-power" package="D-PAK_TO252AA" value="AOD417" x="9.398" y="30.734" rot="R90"/>
-<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO263-3" package3d_urn="urn:adsk.eagle:package:16425/1" value="LM340S-05" x="12.954" y="19.177" rot="R90"/>
-<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="300ohm" x="43.053" y="35.687" rot="R180"/>
+<element name="Q1" library="transistor-power" package="D-PAK_TO252AA" value="AOD417" x="9.398" y="30.734" rot="R90">
+<attribute name="MF" value="" x="9.398" y="30.734" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="AUIRFR540ZTRL" x="9.398" y="30.734" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="91Y4154" x="9.398" y="30.734" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO263-3" package3d_urn="urn:adsk.eagle:package:16425/1" value="LM340S-05" x="12.954" y="19.177" rot="R90">
+<attribute name="MF" value="" x="12.954" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LM1085ISX-5.0/NOPB" x="12.954" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="01AC5221" x="12.954" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="300ohm" x="43.053" y="35.687" rot="R180">
+<attribute name="MF" value="" x="43.053" y="35.687" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="43.053" y="35.687" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="43.053" y="35.687" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U2" library="LM358DT" package="D8" value="LM358DT" x="88.265" y="19.558">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM358DT" x="88.265" y="19.558" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="88.265" y="19.558" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LM258DT" x="88.265" y="19.558" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="22AC3037" x="88.265" y="19.558" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Vendor" x="88.265" y="19.558" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="LM358DT" package="D8" value="LM358DT" x="137.033" y="65.278">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM358DT" x="137.033" y="65.278" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="137.033" y="65.278" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LM258DT" x="137.033" y="65.278" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="22AC3037" x="137.033" y="65.278" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Vendor" x="137.033" y="65.278" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U5" library="LM358DT" package="D8" value="LM358DT" x="36.703" y="89.154" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM358DT" x="36.703" y="89.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="36.703" y="89.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LM258DT" x="36.703" y="89.154" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="22AC3037" x="36.703" y="89.154" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Vendor" x="36.703" y="89.154" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0603" value="10k" x="83.312" y="96.774">
@@ -14957,24 +14968,91 @@ design rules under a new name.</description>
 </element>
 <element name="U3" library="LM358DT" package="D8" value="LM358DT" x="93.472" y="96.012">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LM358DT" x="93.472" y="96.012" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="93.472" y="96.012" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LM258DT" x="93.472" y="96.012" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="22AC3037" x="93.472" y="96.012" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Vendor" x="93.472" y="96.012" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IRP6" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="14.478" y="6.223"/>
-<element name="IRP4" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="145.288" y="40.64"/>
-<element name="IRP2" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="11.557" y="90.678"/>
-<element name="IRP7" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="68.834" y="10.795"/>
-<element name="IRP5" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="136.144" y="5.207"/>
-<element name="IRP3" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="140.081" y="90.551"/>
-<element name="IRP1" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="5.08" y="60.833"/>
-<element name="IRP8" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="65.913" y="95.504"/>
-<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="94.5515" y="22.606"/>
-<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="88.519" y="23.4315"/>
-<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="129.8575" y="62.2935"/>
-<element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="134.366" y="69.6595" rot="R180"/>
-<element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="14.478" y="84.201" rot="R180"/>
-<element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="30.4165" y="85.1535" rot="R90"/>
-<element name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="90.3605" y="86.995" rot="R90"/>
-<element name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="94.8055" y="86.995" rot="R270"/>
+<element name="IRP6" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="14.478" y="6.223">
+<attribute name="MF" value="" x="14.478" y="6.223" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="14.478" y="6.223" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="14.478" y="6.223" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IRP4" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="145.288" y="40.64">
+<attribute name="MF" value="" x="145.288" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="145.288" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="145.288" y="40.64" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IRP2" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="11.557" y="90.678">
+<attribute name="MF" value="" x="11.557" y="90.678" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="11.557" y="90.678" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="11.557" y="90.678" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IRP7" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="68.834" y="10.795">
+<attribute name="MF" value="" x="68.834" y="10.795" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="68.834" y="10.795" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="68.834" y="10.795" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IRP5" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="136.144" y="5.207">
+<attribute name="MF" value="" x="136.144" y="5.207" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="136.144" y="5.207" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="136.144" y="5.207" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IRP3" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="140.081" y="90.551">
+<attribute name="MF" value="" x="140.081" y="90.551" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="140.081" y="90.551" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="140.081" y="90.551" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IRP1" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="5.08" y="60.833">
+<attribute name="MF" value="" x="5.08" y="60.833" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="5.08" y="60.833" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="5.08" y="60.833" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IRP8" library="trimPot" package="TRIMPOT" value="TRIMPOT" x="65.913" y="95.504">
+<attribute name="MF" value="" x="65.913" y="95.504" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TC33X-2-103E" x="65.913" y="95.504" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="97M3836" x="65.913" y="95.504" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="94.5515" y="22.606">
+<attribute name="MF" value="" x="94.5515" y="22.606" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="94.5515" y="22.606" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="94.5515" y="22.606" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="88.519" y="23.4315">
+<attribute name="MF" value="" x="88.519" y="23.4315" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="88.519" y="23.4315" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="88.519" y="23.4315" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="129.8575" y="62.2935">
+<attribute name="MF" value="" x="129.8575" y="62.2935" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="129.8575" y="62.2935" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="129.8575" y="62.2935" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="134.366" y="69.6595" rot="R180">
+<attribute name="MF" value="" x="134.366" y="69.6595" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="134.366" y="69.6595" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="134.366" y="69.6595" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="14.478" y="84.201" rot="R180">
+<attribute name="MF" value="" x="14.478" y="84.201" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="14.478" y="84.201" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="14.478" y="84.201" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="30.4165" y="85.1535" rot="R90">
+<attribute name="MF" value="" x="30.4165" y="85.1535" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="30.4165" y="85.1535" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="30.4165" y="85.1535" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="90.3605" y="86.995" rot="R90">
+<attribute name="MF" value="" x="90.3605" y="86.995" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="90.3605" y="86.995" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="90.3605" y="86.995" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms" x="94.8055" y="86.995" rot="R270">
+<attribute name="MF" value="" x="94.8055" y="86.995" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP" x="94.8055" y="86.995" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="68R2991" x="94.8055" y="86.995" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -15400,7 +15478,8 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="41.844" x2="58.42" y2="42.851225" width="0.4064" layer="1"/>
 <wire x1="58.42" y1="42.851225" x2="59.95908125" y2="44.39030625" width="0.4064" layer="1"/>
 <wire x1="59.95908125" y1="44.39030625" x2="60.547" y2="44.39030625" width="0.4064" layer="1"/>
-<wire x1="60.581746875" y1="44.425053125" x2="60.5758" y2="44.431" width="0" layer="19" extent="1-1"/>
+<wire x1="60.5758" y1="44.431" x2="60.5758" y2="44.41910625" width="0.254" layer="1"/>
+<wire x1="60.5758" y1="44.41910625" x2="60.547" y2="44.39030625" width="0.254" layer="1"/>
 </signal>
 <signal name="A2" class="3">
 <contactref element="U1" pad="3"/>
@@ -15801,7 +15880,9 @@ design rules under a new name.</description>
 <wire x1="53.9121625" y1="45.0208375" x2="53.9121625" y2="44.140775" width="0.254" layer="1"/>
 <wire x1="53.9121625" y1="44.140775" x2="54.10708125" y2="43.94585625" width="0.254" layer="1"/>
 <wire x1="54.10708125" y1="43.94585625" x2="54.57534375" y2="43.94585625" width="0.254" layer="1"/>
-<wire x1="73.591" y1="39.303475" x2="73.591" y2="39.284" width="0" layer="19" extent="1-1"/>
+<wire x1="74.45375" y1="39.84625" x2="74.15325" y2="39.84625" width="0.254" layer="1"/>
+<wire x1="74.15325" y1="39.84625" x2="73.6007375" y2="39.2937375" width="0.254" layer="1"/>
+<wire x1="73.591" y1="39.284" x2="73.6007375" y2="39.2937375" width="0.254" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="B1" pad="RESET"/>
@@ -16352,7 +16433,7 @@ design rules under a new name.</description>
 <wire x1="40.4647375" y1="51.9717375" x2="40.455" y2="51.962" width="0.1524" layer="1"/>
 <wire x1="40.455" y1="45.4014625" x2="40.455" y2="44.812" width="0.1524" layer="1"/>
 <wire x1="41.0444625" y1="45.4014625" x2="40.455" y2="45.4014625" width="0.1524" layer="1"/>
-<wire x1="40.455" y1="45.4014625" x2="40.455" y2="45.462" width="0" layer="19" extent="1-1"/>
+<wire x1="40.455" y1="45.462" x2="40.455" y2="45.4014625" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4" class="1">
 <contactref element="S1" pad="2"/>
@@ -16442,12 +16523,12 @@ design rules under a new name.</description>
 <contactref element="J4" pad="2"/>
 <wire x1="103.124" y1="49.84" x2="92.781" y2="39.497" width="0.8128" layer="16"/>
 <via x="82.804" y="39.497" extent="1-16" drill="0.35"/>
-<wire x1="82.804" y1="39.497" x2="81.054" y2="39.497" width="0.8128" layer="1"/>
+<wire x1="81.054" y1="39.497" x2="82.804" y2="39.497" width="0.8128" layer="1"/>
 <wire x1="81.054" y1="39.497" x2="81.0031375" y2="39.4461375" width="0.8128" layer="1"/>
 <wire x1="81.0031375" y1="39.4461375" x2="81.0031375" y2="39.72759375" width="0.8128" layer="1"/>
 <wire x1="92.781" y1="39.497" x2="82.804" y2="39.497" width="0.8128" layer="16"/>
-<wire x1="80.841" y1="39.284" x2="80.841" y2="39.934" width="0.1524" layer="1"/>
-<wire x1="80.841" y1="39.284" x2="81.0031375" y2="39.4461375" width="0" layer="19" extent="1-1"/>
+<wire x1="80.841" y1="39.934" x2="80.841" y2="39.284" width="0.1524" layer="1"/>
+<wire x1="80.841" y1="39.284" x2="81.054" y2="39.497" width="0.254" layer="1"/>
 </signal>
 <signal name="M4B1" class="2">
 <contactref element="IC4" pad="7"/>
@@ -17253,79 +17334,10 @@ design rules under a new name.</description>
 <approved hash="1,20,48c28f028dcf4a0f"/>
 <approved hash="1,20,9fc2000204ce9b0e"/>
 <approved hash="1,20,9cc3770375cc9e0c"/>
-<approved hash="3,1,69a8a945c7e9a6ad"/>
-<approved hash="3,1,28292633aca90b10"/>
-<approved hash="3,1,6a89c8e3caed6887"/>
-<approved hash="3,1,4fe0423e45884856"/>
 <approved hash="3,1,dfc51aab19eadc84"/>
-<approved hash="3,1,85a9bbd7bb22855c"/>
-<approved hash="3,1,3f5d756d75de6436"/>
-<approved hash="3,1,31fe097c0430f7be"/>
-<approved hash="3,1,2031125b139321f9"/>
-<approved hash="3,1,e5a9ee3f176abd3d"/>
-<approved hash="3,1,ee9c5befe8afb90d"/>
-<approved hash="3,1,cbbc0652061bcbf5"/>
-<approved hash="3,1,fd43ee469b42c06c"/>
-<approved hash="3,1,32d2d628d071348b"/>
 <approved hash="3,1,0018003603be0390"/>
-<approved hash="3,1,fcf48d768f92fe10"/>
-<approved hash="3,1,b4afa85e3b4414d2"/>
-<approved hash="3,1,79b9cbd3c95a7b30"/>
-<approved hash="3,1,23af11c5128a20e0"/>
-<approved hash="3,1,462fbbcda2997466"/>
 <approved hash="3,1,89977489e719f66a"/>
-<approved hash="3,1,30603502b10a7272"/>
-<approved hash="3,1,c941c46adab1d7ce"/>
-<approved hash="3,1,b20a11f011fbb201"/>
-<approved hash="3,1,b0d1bc02012f03e7"/>
-<approved hash="3,1,1868676a671c181e"/>
-<approved hash="3,1,d44683a08313d4f5"/>
-<approved hash="3,1,9a8bda61db4e9ba4"/>
-<approved hash="3,1,a7875aa15a98a7be"/>
-<approved hash="3,1,9bba7415ad6ae058"/>
-<approved hash="3,1,c98b58f959c5c8b7"/>
-<approved hash="3,1,5a4dac27ad2e5b44"/>
-<approved hash="3,1,442f80830a27f3b0"/>
-<approved hash="3,1,f22418028a069c17"/>
-<approved hash="3,1,7541bf4183414941"/>
-<approved hash="3,1,603b18804ce0c0b0"/>
-<approved hash="3,1,970a1d74e90cc4be"/>
-<approved hash="3,1,52c25730572d52df"/>
-<approved hash="3,1,a4b1a943a9e0a412"/>
-<approved hash="3,1,2fd4fe02ff6a2ebc"/>
-<approved hash="3,1,f304cd6eccfbf291"/>
-<approved hash="3,1,2e71fa67fb392f2f"/>
-<approved hash="3,1,0a583e1fad1d7da9"/>
-<approved hash="3,1,19c7cdc9cd83198d"/>
-<approved hash="3,1,3abe9a139f256b2e"/>
-<approved hash="3,1,97898dec5bb666a7"/>
-<approved hash="3,1,9efcd97ada3d9dbb"/>
-<approved hash="3,1,7b9e44e45cd67931"/>
-<approved hash="3,1,ae805a735bfba5d1"/>
-<approved hash="3,1,c600b8f2b8edc61f"/>
-<approved hash="3,1,38038af732a57fde"/>
-<approved hash="3,1,6b254d4f429764fd"/>
-<approved hash="3,1,3769e20b601d4362"/>
-<approved hash="3,1,30b0f2d6f29e30f8"/>
-<approved hash="3,1,5c0d56afcdbe9ee7"/>
-<approved hash="3,1,60e4868286146072"/>
-<approved hash="3,1,882b3b97b777bdbe"/>
-<approved hash="3,1,b938b853b09588f8"/>
-<approved hash="3,1,727d19fb10e204ee"/>
-<approved hash="3,1,e256bba63298d3db"/>
-<approved hash="3,1,fbaf67896614fa32"/>
-<approved hash="3,1,891cea79e188ee17"/>
-<approved hash="3,1,b9b239d83817b87d"/>
-<approved hash="3,1,887b0e110ed388b9"/>
-<approved hash="3,1,7c14c3eac3b97c47"/>
-<approved hash="3,1,ab8907b27cb52960"/>
-<approved hash="3,1,60d002b1b2c70e45"/>
 <approved hash="3,1,be70561e5416bc78"/>
-<approved hash="3,1,b3a2ddc8db91b5fb"/>
-<approved hash="3,1,7369cd03c3027d68"/>
-<approved hash="3,1,8630f520dafb8aca"/>
-<approved hash="3,1,a2cc54125752a18c"/>
-<approved hash="3,1,803d3bc33a63819d"/>
 <approved hash="21,19,5301510351035301"/>
 <approved hash="21,19,6e766e0e6c0f940c"/>
 <approved hash="21,19,950c6d0c6f0e6f76"/>
@@ -17349,7 +17361,117 @@ design rules under a new name.</description>
 <approved hash="21,19,e5969996859685f6"/>
 <approved hash="21,19,fc78fe7afe7afc78"/>
 <approved hash="21,19,c53e393e3b383b44"/>
+<approved hash="3,1,7369cd03c3027d68"/>
+<approved hash="3,1,c941c46adab1d7ce"/>
+<approved hash="3,1,b9b239d83817b87d"/>
+<approved hash="3,1,60e4868286146072"/>
+<approved hash="3,1,b4afa85e3b4414d2"/>
+<approved hash="3,1,32d2d628d071348b"/>
+<approved hash="3,1,2fd4fe02ff6a2ebc"/>
+<approved hash="3,1,19c7cdc9cd83198d"/>
 <approved hash="3,1,1eed3ad33be21fdc"/>
+<approved hash="3,1,38038af732a57fde"/>
+<approved hash="3,1,9efcd97ada3d9dbb"/>
+<approved hash="3,1,803d3bc33a63819d"/>
+<approved hash="3,1,30b0f2d6f29e30f8"/>
+<approved hash="3,1,1868676a671c181e"/>
+<approved hash="3,1,3f5d756d75de6436"/>
+<approved hash="3,1,4fe0423e45884856"/>
+<approved hash="3,1,85a9bbd7bb22855c"/>
+<approved hash="3,1,727d19fb10e204ee"/>
+<approved hash="3,1,f304cd6eccfbf291"/>
+<approved hash="3,1,23af11c5128a20e0"/>
+<approved hash="3,1,6b254d4f429764fd"/>
+<approved hash="3,1,30603502b10a7272"/>
+<approved hash="3,1,b938b853b09588f8"/>
+<approved hash="3,1,a7875aa15a98a7be"/>
+<approved hash="3,1,b3a2ddc8db91b5fb"/>
+<approved hash="3,1,b20a11f011fbb201"/>
+<approved hash="3,1,b0d1bc02012f03e7"/>
+<approved hash="3,1,ee9c5befe8afb90d"/>
+<approved hash="3,1,6a89c8e3caed6887"/>
+<approved hash="3,1,52c25730572d52df"/>
+<approved hash="3,1,5a4dac27ad2e5b44"/>
+<approved hash="3,1,3769e20b601d4362"/>
+<approved hash="3,1,fbaf67896614fa32"/>
+<approved hash="3,1,7541bf4183414941"/>
+<approved hash="3,1,97898dec5bb666a7"/>
+<approved hash="3,1,fcf48d768f92fe10"/>
+<approved hash="3,1,60d002b1b2c70e45"/>
+<approved hash="3,1,c600b8f2b8edc61f"/>
+<approved hash="3,1,ae805a735bfba5d1"/>
+<approved hash="3,1,c98b58f959c5c8b7"/>
+<approved hash="3,1,a4b1a943a9e0a412"/>
+<approved hash="3,1,3abe9a139f256b2e"/>
+<approved hash="3,1,9a8bda61db4e9ba4"/>
+<approved hash="3,1,891cea79e188ee17"/>
+<approved hash="3,1,d44683a08313d4f5"/>
+<approved hash="3,1,8630f520dafb8aca"/>
+<approved hash="3,1,2e71fa67fb392f2f"/>
+<approved hash="3,1,a2cc54125752a18c"/>
+<approved hash="3,1,442f80830a27f3b0"/>
+<approved hash="3,1,ab8907b27cb52960"/>
+<approved hash="3,1,cbbc0652061bcbf5"/>
+<approved hash="3,1,79b9cbd3c95a7b30"/>
+<approved hash="3,1,7c14c3eac3b97c47"/>
+<approved hash="3,1,28292633aca90b10"/>
+<approved hash="3,1,e256bba63298d3db"/>
+<approved hash="3,1,970a1d74e90cc4be"/>
+<approved hash="3,1,462fbbcda2997466"/>
+<approved hash="3,1,f22418028a069c17"/>
+<approved hash="3,1,887b0e110ed388b9"/>
+<approved hash="3,1,31fe097c0430f7be"/>
+<approved hash="3,1,0a583e1fad1d7da9"/>
+<approved hash="3,1,fd43ee469b42c06c"/>
+<approved hash="3,1,2031125b139321f9"/>
+<approved hash="3,1,882b3b97b777bdbe"/>
+<approved hash="3,1,7b9e44e45cd67931"/>
+<approved hash="3,1,9bba7415ad6ae058"/>
+<approved hash="3,1,e5a9ee3f176abd3d"/>
+<approved hash="3,1,603b18804ce0c0b0"/>
+<approved hash="3,1,69a8a945c7e9a6ad"/>
+<approved hash="3,1,5c0d56afcdbe9ee7"/>
+<approved hash="3,1,7fc5bd35ba0c78fc"/>
+<approved hash="3,1,68e46a85a5b00e72"/>
+<approved hash="3,1,3afe780e780e3afe"/>
+<approved hash="3,1,c4e57f4a6325f936"/>
+<approved hash="3,1,49820b720b5c49ac"/>
+<approved hash="3,1,317e738e721c30ec"/>
+<approved hash="3,1,8779658965f78707"/>
+<approved hash="3,1,4f79641944d3d3ba"/>
+<approved hash="3,1,798e6dcf4dd1b522"/>
+<approved hash="3,1,f5a26752672bf5db"/>
+<approved hash="3,1,a4449d17df8402f4"/>
+<approved hash="3,1,c2f520052001c2f1"/>
+<approved hash="3,1,a2be609402ca3b50"/>
+<approved hash="3,1,1e709c809c711e81"/>
+<approved hash="3,1,5ee42c142cae5e5e"/>
+<approved hash="3,1,b3fdb10db046b2b6"/>
+<approved hash="3,1,7ec5fc35fc6e7e9e"/>
+<approved hash="3,1,f75e61a0614bf7b5"/>
+<approved hash="3,1,6d16e576e5366d56"/>
+<approved hash="3,1,c2e06f106f0ec2fe"/>
+<approved hash="3,1,22efd6952dac6ef8"/>
+<approved hash="3,1,8a224fd2506e959e"/>
+<approved hash="3,1,f6e3d313d392f662"/>
+<approved hash="3,1,98a04146092b131d"/>
+<approved hash="3,1,5a078a2dbc33efb3"/>
+<approved hash="3,1,db9c8b828b01db1f"/>
+<approved hash="3,1,91e057e257019103"/>
+<approved hash="3,1,1a36b4c455dde700"/>
+<approved hash="3,1,25a50b530d6b239d"/>
+<approved hash="3,1,fce8c2d0c9673f78"/>
+<approved hash="3,1,9a6a204b3f99a31c"/>
+<approved hash="3,1,c9cca6839d6b1d97"/>
+<approved hash="3,1,762883d883b57645"/>
+<approved hash="3,1,b54bab7bab4bb57b"/>
+<approved hash="3,1,496189c9e2f8bc85"/>
+<approved hash="3,1,4205fbb5fbe54255"/>
+<approved hash="3,1,f407f8422639b7fe"/>
+<approved hash="3,1,4a1d08ed08db4a2b"/>
+<approved hash="3,1,14141a3a19b2179c"/>
+<approved hash="3,1,709e45f853093b54"/>
+<approved hash="3,1,839d1b4f98bbb13f"/>
 </errors>
 </board>
 </drawing>
