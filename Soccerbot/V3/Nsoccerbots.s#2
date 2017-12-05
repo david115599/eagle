@@ -26221,7 +26221,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="MPN" value="CRCW060310K0FKEAHP"/>
 <attribute name="OC_NEWARK" value="68R2991"/>
 </part>
-<part name="U$1" library="toggleswitch" deviceset="TOGGLESWITCH" device=""/>
 <part name="U$2" library="toggleswitch" deviceset="TOGGLESWITCH" device=""/>
 </parts>
 <sheets>
@@ -26276,8 +26275,7 @@ D27 = IR6</text>
 <attribute name="MF" x="-205.74" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-205.74" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-233.68" y="101.6"/>
-<instance part="U$2" gate="G$1" x="-185.42" y="76.2"/>
+<instance part="U$2" gate="G$1" x="-185.42" y="76.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -26853,18 +26851,11 @@ D27 = IR6</text>
 <net name="N$4" class="1">
 <segment>
 <pinref part="BATERY" gate="-1" pin="KL"/>
-<wire x1="-185.42" y1="71.12" x2="-223.52" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="71.12" x2="-223.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-223.52" y1="71.12" x2="-223.52" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="1">
-<segment>
-<wire x1="-187.96" y1="81.28" x2="-187.96" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="93.98" x2="-200.66" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-200.66" y1="93.98" x2="-200.66" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="-200.66" y1="99.06" x2="-213.36" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="99.06" x2="-213.36" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="71.12" x2="-195.58" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="IN"/>
+<wire x1="-195.58" y1="78.74" x2="-187.96" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SERVO5V" class="2">
@@ -26900,6 +26891,17 @@ D27 = IR6</text>
 <pinref part="B1" gate="G$1" pin="A3"/>
 <wire x1="-154.94" y1="99.06" x2="-160.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="-160.02" y="99.06" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$5" class="1">
+<segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="-213.36" y1="96.52" x2="-185.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="96.52" x2="-185.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="83.82" x2="-180.34" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="OUT"/>
+<wire x1="-180.34" y1="83.82" x2="-180.34" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="71.12" x2="-182.88" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

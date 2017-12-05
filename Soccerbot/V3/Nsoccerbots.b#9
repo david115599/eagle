@@ -11676,55 +11676,6 @@ chip</description>
 </package>
 </packages>
 </library>
-<library name="switch">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="320-916">
-<description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
-distributor RS Components</description>
-<wire x1="-2.8702" y1="6.6802" x2="-3.5052" y2="6.0452" width="0.1524" layer="21"/>
-<wire x1="-2.8702" y1="6.6802" x2="2.8702" y2="6.6802" width="0.1524" layer="21"/>
-<wire x1="3.5052" y1="6.0452" x2="2.8702" y2="6.6802" width="0.1524" layer="21"/>
-<wire x1="2.8702" y1="-6.6802" x2="3.5052" y2="-6.0452" width="0.1524" layer="21"/>
-<wire x1="2.8702" y1="-6.6802" x2="-2.8702" y2="-6.6802" width="0.1524" layer="21"/>
-<wire x1="-3.5052" y1="-6.0452" x2="-2.8702" y2="-6.6802" width="0.1524" layer="21"/>
-<wire x1="4.318" y1="2.286" x2="4.318" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="2.286" x2="-4.318" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="-3.175" x2="2.54" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="-3.175" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="1.6002" y1="1.27" x2="2.54" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="3.5052" y1="-6.0452" x2="3.5052" y2="-2.8702" width="0.1524" layer="21"/>
-<wire x1="3.5052" y1="6.0452" x2="3.5052" y2="2.8702" width="0.1524" layer="21"/>
-<wire x1="-3.5052" y1="2.8702" x2="-3.5052" y2="6.0452" width="0.1524" layer="21"/>
-<wire x1="-3.5052" y1="-6.0452" x2="-3.5052" y2="-2.8194" width="0.1524" layer="21"/>
-<wire x1="-1.6002" y1="1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="51" curve="-270"/>
-<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="51" curve="-233.130102"/>
-<wire x1="-1.6002" y1="1.27" x2="1.6002" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-4.318" y1="-2.286" x2="-3.5052" y2="-2.8194" width="0.1524" layer="21"/>
-<wire x1="-3.5052" y1="-2.8194" x2="0" y2="-5.08" width="0.1524" layer="51"/>
-<wire x1="4.318" y1="-2.286" x2="3.5052" y2="-2.8702" width="0.1524" layer="21"/>
-<wire x1="3.5052" y1="-2.8702" x2="0" y2="-5.08" width="0.1524" layer="51"/>
-<wire x1="4.318" y1="2.286" x2="3.5052" y2="2.8702" width="0.1524" layer="21"/>
-<wire x1="3.5052" y1="2.8702" x2="0" y2="5.08" width="0.1524" layer="51"/>
-<wire x1="-4.318" y1="2.286" x2="-3.5052" y2="2.8702" width="0.1524" layer="21"/>
-<wire x1="-3.5052" y1="2.8702" x2="0" y2="5.08" width="0.1524" layer="51"/>
-<pad name="3" x="0" y="-4.0132" drill="2.0066" shape="long"/>
-<pad name="2" x="0" y="0" drill="2.0066" shape="long"/>
-<pad name="1" x="0" y="4.0132" drill="2.0066" shape="long"/>
-<text x="-2.54" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="NXT Compatible (female) Sockets - Mindsensors">
 <packages>
 <package name="NXT-SOCKET">
@@ -14329,6 +14280,18 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
+<library name="toggleswitch">
+<packages>
+<package name="TOGGLESWITCH">
+<pad name="IN" x="0" y="0" drill="4.953" shape="square"/>
+<pad name="OUT" x="0" y="-7.0104" drill="4.953" shape="square"/>
+<wire x1="-5.08" y1="-11.43" x2="5.08" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-11.43" x2="5.08" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-11.43" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14572,11 +14535,6 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="129.54" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="129.54" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="129.54" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S1" library="switch" package="320-916" value="" x="29.21" y="20.32" rot="R90">
-<attribute name="MF" value="" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="X1" library="NXT Compatible (female) Sockets - Mindsensors" package="NXT-SOCKET" value="NXT-SOCKET" x="137.16" y="24.13" rot="R90">
 <attribute name="MF" value="" x="137.16" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
@@ -15053,6 +15011,8 @@ design rules under a new name.</description>
 <attribute name="MPN" value="CRCW060310K0FKEAHP" x="94.8055" y="86.995" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="68R2991" x="94.8055" y="86.995" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="U$1" library="toggleswitch" package="TOGGLESWITCH" value="TOGGLESWITCH" x="-36.83" y="31.0515"/>
+<element name="U$2" library="toggleswitch" package="TOGGLESWITCH" value="TOGGLESWITCH" x="-96.52" y="31.0515"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -16436,10 +16396,8 @@ design rules under a new name.</description>
 <wire x1="40.455" y1="45.462" x2="40.455" y2="45.4014625" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4" class="1">
-<contactref element="S1" pad="2"/>
 <contactref element="BATERY" pad="1"/>
 <wire x1="29.21" y1="8.73125" x2="26.82875" y2="6.35" width="1.651" layer="16"/>
-<wire x1="29.21" y1="20.32" x2="29.21" y2="8.73125" width="1.651" layer="16"/>
 <wire x1="26.82875" y1="6.35" x2="26.71" y2="6.35" width="1.651" layer="16"/>
 </signal>
 <signal name="M1A1" class="2">
@@ -16781,12 +16739,10 @@ design rules under a new name.</description>
 <contactref element="JP6" pad="8"/>
 </signal>
 <signal name="N$5" class="1">
-<contactref element="S1" pad="1"/>
 <contactref element="Q1" pad="4"/>
 <wire x1="18.89125" y1="26.51125" x2="25.0825" y2="20.32" width="1.651" layer="1"/>
 <wire x1="11.1125" y1="26.51125" x2="18.89125" y2="26.51125" width="1.651" layer="1"/>
 <wire x1="6.985" y1="30.63875" x2="11.1125" y2="26.51125" width="1.651" layer="1"/>
-<wire x1="25.0825" y1="20.32" x2="25.1968" y2="20.32" width="1.651" layer="1"/>
 <wire x1="6.985" y1="30.63875" x2="6.898" y2="30.734" width="1.651" layer="1"/>
 </signal>
 <signal name="SERVO5V" class="2">

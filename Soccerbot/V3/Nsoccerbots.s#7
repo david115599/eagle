@@ -26150,14 +26150,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-power" deviceset="IRF?5305" device="R" value="AOD417">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="AUIRFR540ZTRL"/>
+<attribute name="OC_NEWARK" value="91Y4154"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM340?-*" device="S" package3d_urn="urn:adsk.eagle:package:16425/1" technology="05">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="LM1085ISX-5.0/NOPB"/>
+<attribute name="OC_NEWARK" value="01AC5221"/>
 </part>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="300ohm">
 <attribute name="MF" value=""/>
@@ -26166,18 +26166,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </part>
 <part name="U2" library="LM358DT" deviceset="LM358DT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="LM258DT"/>
+<attribute name="OC_NEWARK" value="22AC3037"/>
 </part>
 <part name="U4" library="LM358DT" deviceset="LM358DT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="LM258DT"/>
+<attribute name="OC_NEWARK" value="22AC3037"/>
 </part>
 <part name="U5" library="LM358DT" deviceset="LM358DT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="LM258DT"/>
+<attribute name="OC_NEWARK" value="22AC3037"/>
 </part>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MF" value=""/>
@@ -26201,88 +26201,88 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </part>
 <part name="U3" library="LM358DT" deviceset="LM358DT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="LM258DT"/>
+<attribute name="OC_NEWARK" value="22AC3037"/>
 </part>
 <part name="IRP6" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="IRP4" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="IRP2" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="IRP7" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="IRP5" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="IRP3" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="IRP1" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="IRP8" library="trimPot" deviceset="TRIMPOT" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="TC33X-2-103E"/>
+<attribute name="OC_NEWARK" value="97M3836"/>
 </part>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 <part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 <part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 <part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 <part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="330ohms">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="CRCW060310K0FKEAHP"/>
+<attribute name="OC_NEWARK" value="68R2991"/>
 </part>
 </parts>
 <sheets>
