@@ -6540,6 +6540,16 @@ sensor sensitivity</text>
 <vertex x="77.724" y="50.419"/>
 <vertex x="45.6565" y="50.419"/>
 </polygon>
+<text x="68.5165" y="80.772" size="1.778" layer="25">Pins 8-13 are dedicated to IR
+A15=IR1
+A14=IR2
+A13=IR3
+</text>
+<text x="78.8035" y="78.105" size="1.778" layer="25">A12=IR4
+A11=IR5
+A10=IR6
+A6=IR7
+A7=IR8</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">

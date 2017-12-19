@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6480,10 +6480,6 @@ David Bershadsky</text>
 <text x="28.151" y="65.913" size="1.143" layer="21" font="vector" ratio="12" rot="R180">Reset</text>
 <text x="27.008" y="74.168" size="1.016" layer="21" font="vector" ratio="12" rot="R90" align="center">Servo</text>
 <text x="23.325" y="74.168" size="1.016" layer="21" font="vector" ratio="12" rot="R90" align="center">Opt</text>
-<text x="62.23" y="80.264" size="1.778" layer="25">Analog pins dedicated to IR:
-A15=IR1
-A14=IR2
-A13=IR3</text>
 <wire x1="56.007" y1="70.739" x2="58.039" y2="70.739" width="0.254" layer="21"/>
 <wire x1="58.039" y1="70.739" x2="57.404" y2="70.104" width="0.254" layer="21"/>
 <wire x1="58.039" y1="70.739" x2="57.404" y2="71.374" width="0.254" layer="21"/>
@@ -6530,11 +6526,6 @@ A13=IR3</text>
 <text x="21.971" y="6.985" size="1.778" layer="21">+</text>
 <text x="34.925" y="7.239" size="1.778" layer="21">-</text>
 <text x="8.128" y="1.905" size="1.778" layer="21">IR6</text>
-<text x="74.93" y="85.852" size="1.778" layer="21">A6=IR7</text>
-<text x="74.93" y="83.312" size="1.778" layer="21">A7=IR8</text>
-<text x="85.979" y="80.264" size="1.778" layer="21">A12=IR4
-A11=IR5
-A10=IR6</text>
 <text x="136.652" y="56.769" size="0.8128" layer="21" rot="R90">vin</text>
 <text x="144.145" y="90.297" size="1.778" layer="21">IR3</text>
 <text x="38.608" y="18.669" size="1.778" layer="21">Use knobs to adjust IR
