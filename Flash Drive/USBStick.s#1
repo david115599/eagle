@@ -540,18 +540,14 @@
 </class>
 </classes>
 <parts>
-<part name="X1" library="SparkFun" deviceset="USB" device=""/>
-<part name="X2" library="SparkFun" deviceset="USB" device=""/>
-<part name="X3" library="SparkFun" deviceset="USB" device=""/>
+<part name="X1" library="SparkFun" deviceset="USB" device="-A-H"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="71.12" y="76.2" rot="R90"/>
-<instance part="X2" gate="G$1" x="55.88" y="76.2" rot="R90"/>
-<instance part="X3" gate="G$1" x="86.36" y="76.2" rot="R90"/>
+<instance part="X1" gate="G$1" x="45.72" y="27.94"/>
 </instances>
 <busses>
 </busses>

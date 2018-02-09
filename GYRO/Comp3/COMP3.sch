@@ -6616,6 +6616,13 @@ Source: 008-0260-0_E.pdf</description>
 <label x="66.04" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="RSTS" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<label x="66.04" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
