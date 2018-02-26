@@ -933,7 +933,6 @@ UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdi.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdi2.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdi3.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdi4.lbr"
-UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdichip 2.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdichip-1.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdichip-2.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ftdichip-3.lbr"
@@ -1570,7 +1569,6 @@ UsedLibrary="/Applications/EAGLE-8.4.1/lbr/tsop.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/tsop1138.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/tubes.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/tusb3x10-1.lbr"
-UsedLibrary="/Applications/EAGLE-8.4.1/lbr/tusb3x10.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/tusb6250.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/u-blox.lbr"
 UsedLibrary="/Applications/EAGLE-8.4.1/lbr/ua9638.lbr"
@@ -1687,10 +1685,10 @@ UsedLibraryUrn="urn:adsk.eagle:library:486"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 22 1439 877"
+Loc="0 0 1439 899"
 State=2
 Number=0
 
 [Desktop]
-Screen="1440 900"
+Screen="640 480"
 Window="Win_1"
