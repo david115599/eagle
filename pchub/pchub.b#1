@@ -92,6 +92,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -874,6 +876,114 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun">
+<description>Spark Fun Electronics' preferred foot prints. &lt;b&gt;Not to be used for commercial purposes.&lt;/b&gt; We've spent an enormous amount of time creating and checking these footprints and parts. If you enjoy using this library, please buy one of our products at www.sparkfun.com.</description>
+<packages>
+<package name="USB-A-S-NOSILK-FEMALE">
+<wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="51"/>
+<wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="51"/>
+<wire x1="-10.287" y1="6.477" x2="-10.287" y2="-6.477" width="0.127" layer="51"/>
+<wire x1="3.7084" y1="6.5024" x2="3.7084" y2="-6.5024" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="-5.08" x2="-8.89" y2="-4.445" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-4.445" x2="-8.89" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="5.08" x2="-8.89" y2="4.445" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="4.445" x2="-8.89" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="51"/>
+<pad name="P$5" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
+<pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
+<smd name="D-" x="4.212" y="1" dx="3" dy="0.9" layer="1"/>
+<smd name="VBUS" x="4.212" y="3.5" dx="3" dy="0.9" layer="1"/>
+<smd name="D+" x="4.212" y="-1" dx="3" dy="0.9" layer="1"/>
+<smd name="GND" x="4.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
+<text x="8.46" y="-7.205" size="1.27" layer="51" rot="R180">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="FSUSB63UMX">
+<packages>
+<package name="QFN40P180X180X55-12N">
+<wire x1="-0.9" y1="0.9" x2="-0.9" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="-0.9" y1="-0.9" x2="0.9" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="0.9" y1="-0.9" x2="0.9" y2="0.9" width="0.127" layer="51"/>
+<wire x1="0.9" y1="0.9" x2="-0.9" y2="0.9" width="0.127" layer="51"/>
+<circle x="-1.6" y="0.2" radius="0.1" width="0.21" layer="21"/>
+<wire x1="-0.8" y1="0.9" x2="-0.9" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.9" x2="-0.9" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.9" x2="0.9" y2="0.9" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0.9" x2="0.9" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.9" x2="-0.9" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-0.9" x2="-0.9" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.5" x2="0.9" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.9" x2="0.8" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="39"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="39"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.127" layer="39"/>
+<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="39"/>
+<text x="-1.40155" y="1.40155" size="1.2714" layer="25">&gt;NAME</text>
+<text x="-1.20238125" y="-2.60516875" size="1.27251875" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.9" y="0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="2" x="-0.9" y="-0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="3" x="-0.6" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="4" x="-0.2" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="5" x="0.2" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="6" x="0.6" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="0.9" y="-0.2" dx="0.8" dy="0.2" layer="1" rot="R180"/>
+<smd name="8" x="0.9" y="0.2" dx="0.8" dy="0.2" layer="1" rot="R180"/>
+<smd name="9" x="0.6" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+<smd name="10" x="0.2" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+<smd name="11" x="-0.2" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+<smd name="12" x="-0.6" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="FKIT-LED-1206">
+<description>&lt;B&gt;LED 1206 SMT&lt;/B&gt;&lt;p&gt;
+1206, surface mount
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Area: 0.125"x 0.06" &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;</description>
+<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.1016" layer="51" curve="84.547378"/>
+<wire x1="0.55" y1="-0.5" x2="0.55" y2="0.5" width="0.1016" layer="51" curve="84.547378"/>
+<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="0" y="1.11125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.11125" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
+<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
+<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
+<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
+<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
+<wire x1="2.54" y1="0.9525" x2="2.54" y2="-0.9525" width="0.2032" layer="21"/>
+<wire x1="0.3175" y1="0.635" x2="0.3175" y2="0" width="0.2032" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.635" width="0.2032" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0" y2="0.3175" width="0.2032" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0" y2="-0.3175" width="0.2032" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1065,67 +1175,6 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J1" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" package="685119134923" value="" x="8.89" y="69.85" rot="R270"/>
-<element name="J5" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" package="685119134923" value="" x="306.07" y="12.7" rot="R270"/>
-<element name="S61" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="242.57" y="7.62" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="219.71" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S62" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="288.29" y="21.59" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="280.67" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S63" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="288.29" y="7.62" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="273.05" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S64" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="288.29" y="-6.35" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="265.43" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S65" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="280.67" y="21.59" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="257.81" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S66" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="280.67" y="7.62" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="250.19" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S67" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="280.67" y="-6.35" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="242.57" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S68" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="273.05" y="21.59" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="234.95" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S69" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="273.05" y="7.62" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="227.33" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S70" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="273.05" y="-6.35" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="219.71" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S71" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="265.43" y="21.59" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="212.09" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S72" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="265.43" y="7.62" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="204.47" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S73" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="265.43" y="-6.35" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="196.85" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S74" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="257.81" y="21.59" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="189.23" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S75" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="257.81" y="7.62" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="181.61" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S76" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="257.81" y="-6.35" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="173.99" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S77" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="250.19" y="21.59" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="166.37" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S78" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="250.19" y="7.62" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="158.75" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S79" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="250.19" y="-6.35" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="151.13" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="S80" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="242.57" y="21.59" rot="R270">
-<attribute name="PROD_ID" value="SWCH-10805" x="143.51" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="U$1" library="lio" package="USB-TYPE-C-SMT" value="USB-TYPE-C" x="6.35" y="50.8" rot="R270"/>
 <element name="U$3" library="lio" package="USB-TYPE-C-SMT" value="USB-TYPE-C" x="303.53" y="-107.95" rot="R90"/>
 <element name="U1" library="SN74CBT16214DGGR" package="SOP50P810X120-56N" value="SN74CBT16214DGGR" x="289.56" y="-106.68" rot="R180">
@@ -1175,337 +1224,321 @@ design rules under a new name.</description>
 <element name="S4" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="289.56" y="-68.58">
 <attribute name="PROD_ID" value="SWCH-10805" x="289.56" y="-68.58" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J2" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" package="685119134923" value="" x="-2.54" y="-130.81"/>
-<element name="U5" library="TMDS361BPAG" package="QFP50P1200X1200X120-64N" value="TMDS361BPAG" x="-29.21" y="-132.08">
-<attribute name="AVAILABILITY" value="Good" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Ic Switch Dvi/Hdmi 3: 1 64-Tqfp - Tmds361bpag " x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Texas Instruments" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TMDS361BPAG" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="TQFP-64 Texas Instruments" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="3.46 USD" x="-29.21" y="-132.08" size="1.778" layer="27" display="off"/>
+<element name="J2" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" package="685119134923" value="" x="302.26" y="69.85" rot="R90"/>
+<element name="U5" library="TMDS361BPAG" package="QFP50P1200X1200X120-64N" value="TMDS361BPAG" x="284.48" y="69.85" rot="R270">
+<attribute name="AVAILABILITY" value="Good" x="284.48" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" Ic Switch Dvi/Hdmi 3: 1 64-Tqfp - Tmds361bpag " x="284.48" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="284.48" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMDS361BPAG" x="284.48" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="TQFP-64 Texas Instruments" x="284.48" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="3.46 USD" x="284.48" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="J3" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" package="685119134923" value="" x="302.26" y="48.26" rot="R90"/>
+<element name="U6" library="TMDS361BPAG" package="QFP50P1200X1200X120-64N" value="TMDS361BPAG" x="284.48" y="48.26" rot="R270">
+<attribute name="AVAILABILITY" value="Good" x="287.02" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" Ic Switch Dvi/Hdmi 3: 1 64-Tqfp - Tmds361bpag " x="287.02" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="287.02" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMDS361BPAG" x="287.02" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="TQFP-64 Texas Instruments" x="287.02" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="3.46 USD" x="287.02" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J4" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" package="685119134923" value="" x="302.26" y="26.67" rot="R90"/>
+<element name="U7" library="TMDS361BPAG" package="QFP50P1200X1200X120-64N" value="TMDS361BPAG" x="284.48" y="26.67" rot="R270">
+<attribute name="AVAILABILITY" value="Good" x="287.02" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" Ic Switch Dvi/Hdmi 3: 1 64-Tqfp - Tmds361bpag " x="287.02" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="287.02" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMDS361BPAG" x="287.02" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="TQFP-64 Texas Instruments" x="287.02" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="3.46 USD" x="287.02" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J5" library="Wurth_Elektronik_Electromechanic_Input-Output_Connectors_rev17b" library_urn="urn:adsk.eagle:library:449" package="685119134923" value="" x="302.26" y="5.08" rot="R90"/>
+<element name="U8" library="TMDS361BPAG" package="QFP50P1200X1200X120-64N" value="TMDS361BPAG" x="284.48" y="5.08" rot="R270">
+<attribute name="AVAILABILITY" value="Good" x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" Ic Switch Dvi/Hdmi 3: 1 64-Tqfp - Tmds361bpag " x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="TMDS361BPAG" x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="TQFP-64 Texas Instruments" x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="3.46 USD" x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="X2" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-160.02"/>
+<element name="U9" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-233.68">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X1" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-207.01"/>
+<element name="S5" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-233.68">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-193.04" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-233.68"/>
+<element name="U10" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-288.29">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X3" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-261.62"/>
+<element name="S6" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-288.29">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-247.65" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-288.29"/>
+<element name="U11" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-342.9">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X4" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-316.23"/>
+<element name="S7" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-342.9">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-302.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-342.9"/>
+<element name="U12" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-397.51">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X5" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-370.84"/>
+<element name="S8" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-397.51">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-356.87" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-397.51"/>
+<element name="U13" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="0" y="-499.11">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-405.13" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-405.13" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-405.13" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-405.13" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-405.13" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-405.13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X6" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-425.45"/>
+<element name="S9" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="30.48" y="-452.12">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-411.48" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-27.94" y="-506.73"/>
+<element name="U14" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="13.97" y="-499.11">
+<attribute name="AVAILABILITY" value="Good" x="-82.55" y="-419.1" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-82.55" y="-419.1" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-82.55" y="-419.1" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-82.55" y="-419.1" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-82.55" y="-419.1" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-82.55" y="-419.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X7" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="6.35" y="-425.45"/>
+<element name="S10" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-499.11">
+<attribute name="PROD_ID" value="SWCH-10805" x="-110.49" y="-425.45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-22.86" y="-506.73"/>
+<element name="U15" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="27.94" y="-499.11">
+<attribute name="AVAILABILITY" value="Good" x="-121.92" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-121.92" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-121.92" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-121.92" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-121.92" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-121.92" y="-433.07" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X8" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-472.44"/>
+<element name="S11" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-22.86" y="-499.11">
+<attribute name="PROD_ID" value="SWCH-10805" x="-149.86" y="-439.42" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D7" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-17.78" y="-506.73"/>
+<element name="U16" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-41.91" y="-506.73">
+<attribute name="AVAILABILITY" value="Good" x="-161.29" y="-447.04" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-161.29" y="-447.04" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-161.29" y="-447.04" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-161.29" y="-447.04" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-161.29" y="-447.04" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-161.29" y="-447.04" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X9" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="6.35" y="-472.44"/>
+<element name="S12" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-8.89" y="-499.11">
+<attribute name="PROD_ID" value="SWCH-10805" x="-189.23" y="-453.39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D8" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-12.7" y="-506.73"/>
+<element name="U17" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="0" y="-607.06">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-513.08" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-513.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-513.08" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-513.08" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-513.08" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-513.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X10" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-533.4"/>
+<element name="S13" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="30.48" y="-560.07">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-519.43" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D9" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-27.94" y="-614.68"/>
+<element name="U18" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="13.97" y="-607.06">
+<attribute name="AVAILABILITY" value="Good" x="-82.55" y="-527.05" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-82.55" y="-527.05" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-82.55" y="-527.05" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-82.55" y="-527.05" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-82.55" y="-527.05" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-82.55" y="-527.05" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X11" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="6.35" y="-533.4"/>
+<element name="S14" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-607.06">
+<attribute name="PROD_ID" value="SWCH-10805" x="-110.49" y="-533.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D10" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-22.86" y="-614.68"/>
+<element name="U19" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="27.94" y="-607.06">
+<attribute name="AVAILABILITY" value="Good" x="-121.92" y="-541.02" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-121.92" y="-541.02" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-121.92" y="-541.02" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-121.92" y="-541.02" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-121.92" y="-541.02" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-121.92" y="-541.02" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X12" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-580.39"/>
+<element name="S15" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-22.86" y="-607.06">
+<attribute name="PROD_ID" value="SWCH-10805" x="-149.86" y="-547.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D11" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-17.78" y="-614.68"/>
+<element name="U20" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-41.91" y="-614.68">
+<attribute name="AVAILABILITY" value="Good" x="-161.29" y="-554.99" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-161.29" y="-554.99" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-161.29" y="-554.99" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-161.29" y="-554.99" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-161.29" y="-554.99" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-161.29" y="-554.99" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X13" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="6.35" y="-580.39"/>
+<element name="S16" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-8.89" y="-607.06">
+<attribute name="PROD_ID" value="SWCH-10805" x="-189.23" y="-561.34" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D12" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-12.7" y="-614.68"/>
 </elements>
 <signals>
 <signal name="PC1HDMI-HOT">
 <contactref element="J1" pad="19"/>
-<contactref element="S71" pad="4"/>
-<wire x1="263.68" y1="24.59" x2="8.89" y2="74.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-+5V">
-<contactref element="J1" pad="18"/>
-<contactref element="S72" pad="4"/>
-<wire x1="263.68" y1="10.62" x2="8.89" y2="73.85" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="35"/>
+<contactref element="U6" pad="35"/>
+<contactref element="U7" pad="35"/>
+<contactref element="U8" pad="35"/>
+<wire x1="281.7368" y1="42.545" x2="281.7368" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="281.7368" y1="20.955" x2="281.7368" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="281.7368" y1="-0.635" x2="281.7368" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="74.35" x2="281.7368" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-SDA">
 <contactref element="J1" pad="16"/>
-<contactref element="S74" pad="4"/>
-<wire x1="256.06" y1="24.59" x2="8.89" y2="72.85" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-DCC">
-<contactref element="J1" pad="17"/>
-<contactref element="S73" pad="4"/>
-<wire x1="263.68" y1="-3.35" x2="8.89" y2="73.35" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="36"/>
+<contactref element="U6" pad="36"/>
+<contactref element="U7" pad="36"/>
+<contactref element="U8" pad="36"/>
+<wire x1="282.2194" y1="42.545" x2="282.2194" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="282.2194" y1="20.955" x2="282.2194" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="282.2194" y1="-0.635" x2="282.2194" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="72.85" x2="282.2194" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-SCL">
 <contactref element="J1" pad="15"/>
-<contactref element="S75" pad="4"/>
-<wire x1="256.06" y1="10.62" x2="8.89" y2="72.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-UTL+">
-<contactref element="J1" pad="14"/>
-<contactref element="S76" pad="4"/>
-<wire x1="8.89" y1="71.85" x2="256.06" y2="-3.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-CEC">
-<contactref element="J1" pad="13"/>
-<contactref element="S77" pad="4"/>
-<wire x1="248.44" y1="24.59" x2="8.89" y2="71.35" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="37"/>
+<contactref element="U6" pad="37"/>
+<contactref element="U7" pad="37"/>
+<contactref element="U8" pad="37"/>
+<wire x1="282.7274" y1="42.545" x2="282.7274" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="282.7274" y1="20.955" x2="282.7274" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="282.7274" y1="-0.635" x2="282.7274" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="72.35" x2="282.7274" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDSC-">
 <contactref element="J1" pad="12"/>
-<contactref element="S78" pad="4"/>
-<wire x1="248.44" y1="10.62" x2="8.89" y2="70.85" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-TMDSCS">
-<contactref element="J1" pad="11"/>
-<contactref element="S79" pad="4"/>
-<wire x1="8.89" y1="70.35" x2="248.44" y2="-3.35" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="38"/>
+<contactref element="U6" pad="38"/>
+<contactref element="U7" pad="38"/>
+<contactref element="U8" pad="38"/>
+<wire x1="283.2354" y1="42.545" x2="283.2354" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="283.2354" y1="20.955" x2="283.2354" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="283.2354" y1="-0.635" x2="283.2354" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="70.85" x2="283.2354" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDSC+">
 <contactref element="J1" pad="10"/>
-<contactref element="S70" pad="4"/>
-<wire x1="271.3" y1="-3.35" x2="8.89" y2="69.85" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="39"/>
+<contactref element="U6" pad="39"/>
+<contactref element="U7" pad="39"/>
+<contactref element="U8" pad="39"/>
+<wire x1="283.718" y1="42.545" x2="283.718" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="283.718" y1="20.955" x2="283.718" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="283.718" y1="-0.635" x2="283.718" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="69.85" x2="283.718" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDSD0-">
 <contactref element="J1" pad="9"/>
-<contactref element="S69" pad="4"/>
-<wire x1="271.3" y1="10.62" x2="8.89" y2="69.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-TMD0S">
-<contactref element="J1" pad="8"/>
-<contactref element="S68" pad="4"/>
-<wire x1="271.3" y1="24.59" x2="8.89" y2="68.85" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="41"/>
+<contactref element="U6" pad="41"/>
+<contactref element="U7" pad="41"/>
+<contactref element="U8" pad="41"/>
+<wire x1="284.734" y1="42.545" x2="284.734" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="284.734" y1="20.955" x2="284.734" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="284.734" y1="-0.635" x2="284.734" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="69.35" x2="284.734" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDSD0+">
 <contactref element="J1" pad="7"/>
-<contactref element="S67" pad="4"/>
-<wire x1="278.92" y1="-3.35" x2="8.89" y2="68.35" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="42"/>
+<contactref element="U6" pad="42"/>
+<contactref element="U7" pad="42"/>
+<contactref element="U8" pad="42"/>
+<wire x1="285.242" y1="42.545" x2="285.242" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="285.242" y1="20.955" x2="285.242" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="285.242" y1="-0.635" x2="285.242" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="68.35" x2="285.242" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDS1-">
 <contactref element="J1" pad="6"/>
-<contactref element="S66" pad="4"/>
-<wire x1="278.92" y1="10.62" x2="8.89" y2="67.85" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-TMDSD1S">
-<contactref element="J1" pad="5"/>
-<contactref element="S65" pad="4"/>
-<wire x1="278.92" y1="24.59" x2="8.89" y2="67.35" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="44"/>
+<contactref element="U6" pad="44"/>
+<contactref element="U7" pad="44"/>
+<contactref element="U8" pad="44"/>
+<wire x1="286.2326" y1="42.545" x2="286.2326" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="286.2326" y1="20.955" x2="286.2326" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="286.2326" y1="-0.635" x2="286.2326" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="67.85" x2="286.2326" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDS1+">
 <contactref element="J1" pad="4"/>
-<contactref element="S64" pad="4"/>
-<wire x1="286.54" y1="-3.35" x2="8.89" y2="66.85" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="45"/>
+<contactref element="U6" pad="45"/>
+<contactref element="U7" pad="45"/>
+<contactref element="U8" pad="45"/>
+<wire x1="286.7406" y1="42.545" x2="286.7406" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="286.7406" y1="20.955" x2="286.7406" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="286.7406" y1="-0.635" x2="286.7406" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="66.85" x2="286.7406" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDSD2-">
 <contactref element="J1" pad="3"/>
-<contactref element="S63" pad="4"/>
-<wire x1="286.54" y1="10.62" x2="8.89" y2="66.35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC1HDMI-TMDSD2S">
-<contactref element="J1" pad="2"/>
-<contactref element="S62" pad="4"/>
-<wire x1="286.54" y1="24.59" x2="8.89" y2="65.85" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="47"/>
+<contactref element="U6" pad="47"/>
+<contactref element="U7" pad="47"/>
+<contactref element="U8" pad="47"/>
+<wire x1="287.7312" y1="42.545" x2="287.7312" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="287.7312" y1="20.955" x2="287.7312" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="287.7312" y1="-0.635" x2="287.7312" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="66.35" x2="287.7312" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1HDMI-TMDSD2+">
 <contactref element="J1" pad="1"/>
-<contactref element="S61" pad="4"/>
-<wire x1="8.89" y1="65.35" x2="240.82" y2="10.62" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PC2HDMI-SHEILD">
-<contactref element="S80" pad="2"/>
-</signal>
-<signal name="PC3HDMI-SHEILD">
-<contactref element="S80" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSD2+">
-<contactref element="S61" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSD2+">
-<contactref element="S61" pad="1"/>
-</signal>
-<signal name="PC3HDMI-TMDSD2S">
-<contactref element="S62" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSD2-">
-<contactref element="S63" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSD2-">
-<contactref element="S63" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDS1+">
-<contactref element="S64" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDS1+">
-<contactref element="S64" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSD1S">
-<contactref element="S65" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSD1S">
-<contactref element="S65" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDS1-">
-<contactref element="S66" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDS1-">
-<contactref element="S66" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSD0+">
-<contactref element="S67" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSD0+">
-<contactref element="S67" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMD0S">
-<contactref element="S68" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMD0S">
-<contactref element="S68" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSD0-">
-<contactref element="S69" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSD0-">
-<contactref element="S69" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSC+">
-<contactref element="S70" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSC+">
-<contactref element="S70" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSCS">
-<contactref element="S79" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSCS">
-<contactref element="S79" pad="1"/>
-</signal>
-<signal name="PC2HDMI-TMDSC-">
-<contactref element="S78" pad="2"/>
-</signal>
-<signal name="PC3HDMI-TMDSC-">
-<contactref element="S78" pad="1"/>
-</signal>
-<signal name="PC2HDMI-CEC">
-<contactref element="S77" pad="2"/>
-</signal>
-<signal name="PC3HDMI-CEC">
-<contactref element="S77" pad="1"/>
-</signal>
-<signal name="PC2HDMI-UTL+">
-<contactref element="S76" pad="2"/>
-</signal>
-<signal name="PC3HDMI-UTL+">
-<contactref element="S76" pad="1"/>
-</signal>
-<signal name="PC2HDMI-SCL">
-<contactref element="S75" pad="2"/>
-</signal>
-<signal name="PC3HDMI-SCL">
-<contactref element="S75" pad="1"/>
-</signal>
-<signal name="PC2HDMI-SDA">
-<contactref element="S74" pad="2"/>
-</signal>
-<signal name="PC3HDMI-SDA">
-<contactref element="S74" pad="1"/>
-</signal>
-<signal name="PC2HDMI-DCC">
-<contactref element="S73" pad="2"/>
-</signal>
-<signal name="PC3HDMI-DCC">
-<contactref element="S73" pad="1"/>
-</signal>
-<signal name="PC2HDMI-+5V">
-<contactref element="S72" pad="2"/>
-</signal>
-<signal name="PC3HDMI-+5V">
-<contactref element="S72" pad="1"/>
-</signal>
-<signal name="PC2HDMI-HOT">
-<contactref element="S71" pad="2"/>
-</signal>
-<signal name="PC3HDMI-HOT">
-<contactref element="S71" pad="1"/>
-</signal>
-<signal name="N$83">
-<contactref element="S62" pad="2"/>
-</signal>
-<signal name="N$101">
-<contactref element="J5" pad="SHELL3"/>
-<contactref element="J5" pad="SHELL1"/>
-<contactref element="J5" pad="SHELL2"/>
-<contactref element="J5" pad="SHELL"/>
-<contactref element="S80" pad="3"/>
-<wire x1="299.27" y1="19.95" x2="305.27" y2="19.95" width="0" layer="19" extent="1-1"/>
-<wire x1="305.27" y1="5.45" x2="305.27" y2="19.95" width="0" layer="19" extent="1-1"/>
-<wire x1="299.27" y1="5.45" x2="305.27" y2="5.45" width="0" layer="19" extent="1-1"/>
-<wire x1="240.82" y1="23.09" x2="299.27" y2="19.95" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$102">
-<contactref element="S71" pad="3"/>
-<contactref element="J5" pad="19"/>
-<wire x1="263.68" y1="23.09" x2="306.07" y2="17.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$103">
-<contactref element="S72" pad="3"/>
-<contactref element="J5" pad="18"/>
-<wire x1="263.68" y1="9.12" x2="306.07" y2="16.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$104">
-<contactref element="J5" pad="17"/>
-<contactref element="S73" pad="3"/>
-<wire x1="263.68" y1="-4.85" x2="306.07" y2="16.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$105">
-<contactref element="J5" pad="16"/>
-<contactref element="S74" pad="3"/>
-<wire x1="256.06" y1="23.09" x2="306.07" y2="15.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$106">
-<contactref element="J5" pad="15"/>
-<contactref element="S75" pad="3"/>
-<wire x1="256.06" y1="9.12" x2="306.07" y2="15.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$107">
-<contactref element="J5" pad="14"/>
-<contactref element="S76" pad="3"/>
-<wire x1="306.07" y1="14.7" x2="256.06" y2="-4.85" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$108">
-<contactref element="S77" pad="3"/>
-<contactref element="J5" pad="13"/>
-<wire x1="248.44" y1="23.09" x2="306.07" y2="14.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$109">
-<contactref element="S78" pad="3"/>
-<contactref element="J5" pad="12"/>
-<wire x1="248.44" y1="9.12" x2="306.07" y2="13.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$110">
-<contactref element="S79" pad="3"/>
-<contactref element="J5" pad="11"/>
-<wire x1="306.07" y1="13.2" x2="248.44" y2="-4.85" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$111">
-<contactref element="J5" pad="10"/>
-<contactref element="S70" pad="3"/>
-<wire x1="271.3" y1="-4.85" x2="306.07" y2="12.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$112">
-<contactref element="S69" pad="3"/>
-<contactref element="J5" pad="9"/>
-<wire x1="271.3" y1="9.12" x2="306.07" y2="12.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$113">
-<contactref element="J5" pad="8"/>
-<contactref element="S68" pad="3"/>
-<wire x1="271.3" y1="23.09" x2="306.07" y2="11.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$114">
-<contactref element="S67" pad="3"/>
-<contactref element="J5" pad="7"/>
-<wire x1="278.92" y1="-4.85" x2="306.07" y2="11.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$115">
-<contactref element="S66" pad="3"/>
-<contactref element="J5" pad="6"/>
-<wire x1="278.92" y1="9.12" x2="306.07" y2="10.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$116">
-<contactref element="S65" pad="3"/>
-<contactref element="J5" pad="5"/>
-<wire x1="278.92" y1="23.09" x2="306.07" y2="10.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$117">
-<contactref element="S64" pad="3"/>
-<contactref element="J5" pad="4"/>
-<wire x1="286.54" y1="-4.85" x2="306.07" y2="9.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$118">
-<contactref element="S63" pad="3"/>
-<contactref element="J5" pad="3"/>
-<wire x1="286.54" y1="9.12" x2="306.07" y2="9.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$119">
-<contactref element="J5" pad="2"/>
-<contactref element="S62" pad="3"/>
-<wire x1="286.54" y1="23.09" x2="306.07" y2="8.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$120">
-<contactref element="S61" pad="3"/>
-<contactref element="J5" pad="1"/>
-<wire x1="306.07" y1="8.2" x2="240.82" y2="9.12" width="0" layer="19" extent="1-1"/>
+<contactref element="U5" pad="48"/>
+<contactref element="U6" pad="48"/>
+<contactref element="U7" pad="48"/>
+<contactref element="U8" pad="48"/>
+<wire x1="288.2392" y1="42.545" x2="288.2392" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="288.2392" y1="20.955" x2="288.2392" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="288.2392" y1="-0.635" x2="288.2392" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="65.35" x2="288.2392" y2="64.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC1USBC-SSRX-">
 <contactref element="U$1" pad="B10"/>
@@ -2120,9 +2153,6 @@ design rules under a new name.</description>
 <wire x1="285.84" y1="-104.43" x2="293.28" y2="-104.43" width="0" layer="19" extent="1-1"/>
 <wire x1="285.84" y1="-109.93" x2="285.84" y2="-104.43" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PC1HDMI-SHEILD">
-<contactref element="S80" pad="4"/>
-</signal>
 <signal name="PC2USBC-SSTX-">
 <contactref element="U1" pad="33"/>
 <contactref element="U2" pad="33"/>
@@ -2605,69 +2635,1245 @@ design rules under a new name.</description>
 <contactref element="U3" pad="1"/>
 <wire x1="292.56" y1="-70.33" x2="293.28" y2="-63.9" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VCC_2">
-<contactref element="U5" pad="6"/>
-</signal>
-<signal name="VCC_3">
-<contactref element="U5" pad="12"/>
-</signal>
-<signal name="VCC_4">
-<contactref element="U5" pad="19"/>
-</signal>
-<signal name="VCC_5">
-<contactref element="U5" pad="25"/>
-</signal>
-<signal name="VCC_6">
-<contactref element="U5" pad="40"/>
-</signal>
-<signal name="VCC_7">
-<contactref element="U5" pad="46"/>
-</signal>
-<signal name="VCC_8">
-<contactref element="U5" pad="55"/>
-</signal>
-<signal name="VCC">
-<contactref element="U5" pad="61"/>
-</signal>
 <signal name="N$46">
 <contactref element="U5" pad="18"/>
 <contactref element="J2" pad="3"/>
-<wire x1="0.96" y1="-130.81" x2="-32.4612" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="73.1012" x2="302.26" y2="73.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="U5" pad="17"/>
 <contactref element="J2" pad="1"/>
-<wire x1="1.96" y1="-130.81" x2="-32.9692" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="73.6092" x2="302.26" y2="74.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="U5" pad="21"/>
 <contactref element="J2" pad="6"/>
-<wire x1="-0.54" y1="-130.81" x2="-30.9626" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="71.6026" x2="302.26" y2="71.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
 <contactref element="U5" pad="20"/>
 <contactref element="J2" pad="4"/>
-<wire x1="0.46" y1="-130.81" x2="-31.4706" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="72.1106" x2="302.26" y2="72.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
 <contactref element="U5" pad="24"/>
 <contactref element="J2" pad="9"/>
-<wire x1="-2.04" y1="-130.81" x2="-29.464" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="70.104" x2="302.26" y2="70.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
 <contactref element="U5" pad="23"/>
 <contactref element="J2" pad="7"/>
-<wire x1="-1.04" y1="-130.81" x2="-29.972" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="70.612" x2="302.26" y2="71.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$52">
 <contactref element="U5" pad="27"/>
 <contactref element="J2" pad="12"/>
-<wire x1="-3.54" y1="-130.81" x2="-27.9654" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="68.6054" x2="302.26" y2="68.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$53">
 <contactref element="U5" pad="26"/>
 <contactref element="J2" pad="10"/>
-<wire x1="-2.54" y1="-130.81" x2="-28.448" y2="-137.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="69.088" x2="302.26" y2="69.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SCL">
+<contactref element="U5" pad="29"/>
+<contactref element="J2" pad="15"/>
+<contactref element="U6" pad="29"/>
+<contactref element="J3" pad="15"/>
+<contactref element="U7" pad="29"/>
+<contactref element="J4" pad="15"/>
+<contactref element="U8" pad="29"/>
+<contactref element="J5" pad="15"/>
+<wire x1="302.26" y1="45.76" x2="302.26" y2="67.35" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="24.17" x2="302.26" y2="45.76" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="2.58" x2="302.26" y2="24.17" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="67.5894" x2="302.26" y2="67.35" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="45.9994" x2="278.765" y2="67.5894" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="24.4094" x2="278.765" y2="45.9994" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="2.8194" x2="278.765" y2="24.4094" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SDA">
+<contactref element="U5" pad="30"/>
+<contactref element="J2" pad="16"/>
+<contactref element="U6" pad="30"/>
+<contactref element="J3" pad="16"/>
+<contactref element="U7" pad="30"/>
+<contactref element="J4" pad="16"/>
+<contactref element="U8" pad="30"/>
+<contactref element="J5" pad="16"/>
+<wire x1="302.26" y1="45.26" x2="302.26" y2="66.85" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="23.67" x2="302.26" y2="45.26" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="2.08" x2="302.26" y2="23.67" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="67.1068" x2="302.26" y2="66.85" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="45.5168" x2="278.765" y2="67.1068" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="23.9268" x2="278.765" y2="45.5168" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="2.3368" x2="278.765" y2="23.9268" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$54">
+<contactref element="U5" pad="31"/>
+<contactref element="J2" pad="19"/>
+<wire x1="278.765" y1="66.5988" x2="302.26" y2="65.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HDMIVCC">
+<contactref element="J2" pad="18"/>
+<contactref element="U5" pad="6"/>
+<contactref element="U5" pad="19"/>
+<contactref element="U5" pad="12"/>
+<contactref element="U5" pad="25"/>
+<contactref element="U5" pad="40"/>
+<contactref element="U5" pad="46"/>
+<contactref element="U5" pad="55"/>
+<contactref element="U5" pad="61"/>
+<contactref element="J1" pad="18"/>
+<contactref element="J3" pad="18"/>
+<contactref element="U6" pad="6"/>
+<contactref element="U6" pad="19"/>
+<contactref element="U6" pad="12"/>
+<contactref element="U6" pad="25"/>
+<contactref element="U6" pad="40"/>
+<contactref element="U6" pad="46"/>
+<contactref element="U6" pad="55"/>
+<contactref element="U6" pad="61"/>
+<contactref element="J4" pad="18"/>
+<contactref element="U7" pad="6"/>
+<contactref element="U7" pad="19"/>
+<contactref element="U7" pad="12"/>
+<contactref element="U7" pad="25"/>
+<contactref element="U7" pad="40"/>
+<contactref element="U7" pad="46"/>
+<contactref element="U7" pad="55"/>
+<contactref element="U7" pad="61"/>
+<contactref element="J5" pad="18"/>
+<contactref element="U8" pad="6"/>
+<contactref element="U8" pad="19"/>
+<contactref element="U8" pad="12"/>
+<contactref element="U8" pad="25"/>
+<contactref element="U8" pad="40"/>
+<contactref element="U8" pad="46"/>
+<contactref element="U8" pad="55"/>
+<contactref element="U8" pad="61"/>
+<wire x1="290.195" y1="69.088" x2="302.26" y2="65.85" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="72.1106" x2="290.195" y2="69.088" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="75.565" x2="290.195" y2="72.1106" width="0" layer="19" extent="1-1"/>
+<wire x1="282.7274" y1="75.565" x2="285.7246" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="72.5932" x2="282.7274" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="69.596" x2="278.765" y2="72.5932" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="64.135" x2="290.195" y2="69.088" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="64.135" x2="287.2232" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="53.975" x2="287.2232" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="282.7274" y1="53.975" x2="285.7246" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="51.0032" x2="282.7274" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="48.006" x2="278.765" y2="51.0032" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="50.5206" x2="285.7246" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="47.498" x2="290.195" y2="50.5206" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="42.545" x2="290.195" y2="47.498" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="42.545" x2="287.2232" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="32.385" x2="287.2232" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="282.7274" y1="32.385" x2="285.7246" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="29.4132" x2="282.7274" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="26.416" x2="278.765" y2="29.4132" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="28.9306" x2="285.7246" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="25.908" x2="290.195" y2="28.9306" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="20.955" x2="290.195" y2="25.908" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="20.955" x2="287.2232" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="10.795" x2="287.2232" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="282.7274" y1="10.795" x2="285.7246" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="7.8232" x2="282.7274" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="4.826" x2="278.765" y2="7.8232" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="7.3406" x2="285.7246" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="4.318" x2="290.195" y2="7.3406" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="-0.635" x2="290.195" y2="4.318" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="-0.635" x2="287.2232" y2="-0.635" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="44.26" x2="290.195" y2="47.498" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="22.67" x2="290.195" y2="25.908" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="1.08" x2="290.195" y2="4.318" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="73.85" x2="278.765" y2="72.5932" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HDMIGND">
+<contactref element="J2" pad="17"/>
+<contactref element="U5" pad="58"/>
+<contactref element="U5" pad="3"/>
+<contactref element="U5" pad="9"/>
+<contactref element="U5" pad="15"/>
+<contactref element="U5" pad="22"/>
+<contactref element="U5" pad="28"/>
+<contactref element="U5" pad="43"/>
+<contactref element="J2" pad="2"/>
+<contactref element="J2" pad="5"/>
+<contactref element="J2" pad="8"/>
+<contactref element="J2" pad="11"/>
+<contactref element="J1" pad="17"/>
+<contactref element="J1" pad="11"/>
+<contactref element="J1" pad="8"/>
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J2" pad="SHELL3"/>
+<contactref element="J2" pad="SHELL1"/>
+<contactref element="J2" pad="SHELL"/>
+<contactref element="J2" pad="SHELL2"/>
+<contactref element="J3" pad="17"/>
+<contactref element="U6" pad="58"/>
+<contactref element="U6" pad="3"/>
+<contactref element="U6" pad="9"/>
+<contactref element="U6" pad="15"/>
+<contactref element="U6" pad="22"/>
+<contactref element="U6" pad="28"/>
+<contactref element="U6" pad="43"/>
+<contactref element="J3" pad="2"/>
+<contactref element="J3" pad="5"/>
+<contactref element="J3" pad="8"/>
+<contactref element="J3" pad="11"/>
+<contactref element="J3" pad="SHELL3"/>
+<contactref element="J3" pad="SHELL1"/>
+<contactref element="J3" pad="SHELL"/>
+<contactref element="J3" pad="SHELL2"/>
+<contactref element="J4" pad="17"/>
+<contactref element="U7" pad="58"/>
+<contactref element="U7" pad="3"/>
+<contactref element="U7" pad="9"/>
+<contactref element="U7" pad="15"/>
+<contactref element="U7" pad="22"/>
+<contactref element="U7" pad="28"/>
+<contactref element="U7" pad="43"/>
+<contactref element="J4" pad="2"/>
+<contactref element="J4" pad="5"/>
+<contactref element="J4" pad="8"/>
+<contactref element="J4" pad="11"/>
+<contactref element="J4" pad="SHELL3"/>
+<contactref element="J4" pad="SHELL1"/>
+<contactref element="J4" pad="SHELL"/>
+<contactref element="J4" pad="SHELL2"/>
+<contactref element="J5" pad="17"/>
+<contactref element="U8" pad="58"/>
+<contactref element="U8" pad="3"/>
+<contactref element="U8" pad="9"/>
+<contactref element="U8" pad="15"/>
+<contactref element="U8" pad="22"/>
+<contactref element="U8" pad="28"/>
+<contactref element="U8" pad="43"/>
+<contactref element="J5" pad="2"/>
+<contactref element="J5" pad="5"/>
+<contactref element="J5" pad="8"/>
+<contactref element="J5" pad="11"/>
+<contactref element="J5" pad="SHELL3"/>
+<contactref element="J5" pad="SHELL1"/>
+<contactref element="J5" pad="SHELL"/>
+<contactref element="J5" pad="SHELL2"/>
+<wire x1="303.06" y1="77.1" x2="309.06" y2="77.1" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="73.85" x2="303.06" y2="77.1" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="72.35" x2="302.26" y2="73.85" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="70.85" x2="302.26" y2="72.35" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="69.35" x2="302.26" y2="70.85" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="66.35" x2="302.26" y2="69.35" width="0" layer="19" extent="1-1"/>
+<wire x1="303.06" y1="62.6" x2="302.26" y2="66.35" width="0" layer="19" extent="1-1"/>
+<wire x1="309.06" y1="62.6" x2="303.06" y2="62.6" width="0" layer="19" extent="1-1"/>
+<wire x1="309.06" y1="55.51" x2="309.06" y2="62.6" width="0" layer="19" extent="1-1"/>
+<wire x1="303.06" y1="55.51" x2="309.06" y2="55.51" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="52.26" x2="303.06" y2="55.51" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="50.76" x2="302.26" y2="52.26" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="49.26" x2="302.26" y2="50.76" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="47.76" x2="302.26" y2="49.26" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="44.76" x2="302.26" y2="47.76" width="0" layer="19" extent="1-1"/>
+<wire x1="303.06" y1="41.01" x2="302.26" y2="44.76" width="0" layer="19" extent="1-1"/>
+<wire x1="309.06" y1="41.01" x2="303.06" y2="41.01" width="0" layer="19" extent="1-1"/>
+<wire x1="309.06" y1="33.92" x2="309.06" y2="41.01" width="0" layer="19" extent="1-1"/>
+<wire x1="303.06" y1="33.92" x2="309.06" y2="33.92" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="30.67" x2="303.06" y2="33.92" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="29.17" x2="302.26" y2="30.67" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="27.67" x2="302.26" y2="29.17" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="26.17" x2="302.26" y2="27.67" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="23.17" x2="302.26" y2="26.17" width="0" layer="19" extent="1-1"/>
+<wire x1="303.06" y1="19.42" x2="302.26" y2="23.17" width="0" layer="19" extent="1-1"/>
+<wire x1="309.06" y1="19.42" x2="303.06" y2="19.42" width="0" layer="19" extent="1-1"/>
+<wire x1="309.06" y1="12.33" x2="309.06" y2="19.42" width="0" layer="19" extent="1-1"/>
+<wire x1="303.06" y1="12.33" x2="309.06" y2="12.33" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="9.08" x2="303.06" y2="12.33" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="7.58" x2="302.26" y2="9.08" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="6.08" x2="302.26" y2="7.58" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="4.58" x2="302.26" y2="6.08" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="1.58" x2="302.26" y2="4.58" width="0" layer="19" extent="1-1"/>
+<wire x1="303.06" y1="-2.17" x2="302.26" y2="1.58" width="0" layer="19" extent="1-1"/>
+<wire x1="309.06" y1="-2.17" x2="303.06" y2="-2.17" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="70.612" x2="302.26" y2="70.85" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="75.565" x2="290.195" y2="70.612" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="75.565" x2="287.2232" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="281.2288" y1="75.565" x2="284.226" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="71.0946" x2="281.2288" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="68.0974" x2="278.765" y2="71.0946" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="64.135" x2="290.195" y2="70.612" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="53.975" x2="285.7246" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="53.975" x2="287.2232" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="281.2288" y1="53.975" x2="284.226" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="49.5046" x2="281.2288" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="46.5074" x2="278.765" y2="49.5046" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="49.022" x2="287.2232" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="42.545" x2="290.195" y2="49.022" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="32.385" x2="285.7246" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="32.385" x2="287.2232" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="281.2288" y1="32.385" x2="284.226" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="27.9146" x2="281.2288" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="24.9174" x2="278.765" y2="27.9146" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="27.432" x2="287.2232" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="20.955" x2="290.195" y2="27.432" width="0" layer="19" extent="1-1"/>
+<wire x1="287.2232" y1="10.795" x2="285.7246" y2="20.955" width="0" layer="19" extent="1-1"/>
+<wire x1="284.226" y1="10.795" x2="287.2232" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="281.2288" y1="10.795" x2="284.226" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="6.3246" x2="281.2288" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="278.765" y1="3.3274" x2="278.765" y2="6.3246" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="5.842" x2="287.2232" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="285.7246" y1="-0.635" x2="290.195" y2="5.842" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="73.35" x2="278.765" y2="71.0946" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="70.35" x2="8.89" y2="73.35" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="68.85" x2="8.89" y2="70.35" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="67.35" x2="8.89" y2="68.85" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="65.85" x2="8.89" y2="67.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HEAC+">
+<contactref element="J2" pad="14"/>
+<contactref element="J1" pad="14"/>
+<contactref element="J3" pad="14"/>
+<contactref element="J4" pad="14"/>
+<contactref element="J5" pad="14"/>
+<wire x1="302.26" y1="46.26" x2="302.26" y2="67.85" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="24.67" x2="302.26" y2="46.26" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="3.08" x2="302.26" y2="24.67" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="71.85" x2="302.26" y2="67.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CEC">
+<contactref element="J2" pad="13"/>
+<contactref element="J1" pad="13"/>
+<contactref element="J3" pad="13"/>
+<contactref element="J4" pad="13"/>
+<contactref element="J5" pad="13"/>
+<wire x1="302.26" y1="46.76" x2="302.26" y2="68.35" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="25.17" x2="302.26" y2="46.76" width="0" layer="19" extent="1-1"/>
+<wire x1="302.26" y1="3.58" x2="302.26" y2="25.17" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="71.35" x2="302.26" y2="68.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDSC+">
+<contactref element="U5" pad="54"/>
+<contactref element="U6" pad="54"/>
+<contactref element="U7" pad="54"/>
+<contactref element="U8" pad="54"/>
+<wire x1="290.195" y1="47.0154" x2="290.195" y2="68.6054" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="25.4254" x2="290.195" y2="47.0154" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="3.8354" x2="290.195" y2="25.4254" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDSC-">
+<contactref element="U5" pad="53"/>
+<contactref element="U6" pad="53"/>
+<contactref element="U7" pad="53"/>
+<contactref element="U8" pad="53"/>
+<wire x1="290.195" y1="46.5074" x2="290.195" y2="68.0974" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="24.9174" x2="290.195" y2="46.5074" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="3.3274" x2="290.195" y2="24.9174" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDSC+">
+<contactref element="U5" pad="5"/>
+<contactref element="U6" pad="5"/>
+<contactref element="U7" pad="5"/>
+<contactref element="U8" pad="5"/>
+<wire x1="286.2326" y1="53.975" x2="286.2326" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="286.2326" y1="32.385" x2="286.2326" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="286.2326" y1="10.795" x2="286.2326" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDSC-">
+<contactref element="U5" pad="4"/>
+<contactref element="U6" pad="4"/>
+<contactref element="U7" pad="4"/>
+<contactref element="U8" pad="4"/>
+<wire x1="286.7406" y1="53.975" x2="286.7406" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="286.7406" y1="32.385" x2="286.7406" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="286.7406" y1="10.795" x2="286.7406" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDSD0+">
+<contactref element="U5" pad="57"/>
+<contactref element="U6" pad="57"/>
+<contactref element="U7" pad="57"/>
+<contactref element="U8" pad="57"/>
+<wire x1="290.195" y1="48.514" x2="290.195" y2="70.104" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="26.924" x2="290.195" y2="48.514" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="5.334" x2="290.195" y2="26.924" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDSD0-">
+<contactref element="U5" pad="56"/>
+<contactref element="U6" pad="56"/>
+<contactref element="U7" pad="56"/>
+<contactref element="U8" pad="56"/>
+<wire x1="290.195" y1="48.006" x2="290.195" y2="69.596" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="26.416" x2="290.195" y2="48.006" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="4.826" x2="290.195" y2="26.416" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDSD0+">
+<contactref element="U5" pad="8"/>
+<contactref element="U6" pad="8"/>
+<contactref element="U7" pad="8"/>
+<contactref element="U8" pad="8"/>
+<wire x1="284.734" y1="53.975" x2="284.734" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="284.734" y1="32.385" x2="284.734" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="284.734" y1="10.795" x2="284.734" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDSD0-">
+<contactref element="U5" pad="7"/>
+<contactref element="U6" pad="7"/>
+<contactref element="U7" pad="7"/>
+<contactref element="U8" pad="7"/>
+<wire x1="285.242" y1="53.975" x2="285.242" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="285.242" y1="32.385" x2="285.242" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="285.242" y1="10.795" x2="285.242" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDS1+">
+<contactref element="U5" pad="60"/>
+<contactref element="U6" pad="60"/>
+<contactref element="U7" pad="60"/>
+<contactref element="U8" pad="60"/>
+<wire x1="290.195" y1="50.0126" x2="290.195" y2="71.6026" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="28.4226" x2="290.195" y2="50.0126" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="6.8326" x2="290.195" y2="28.4226" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDS1+">
+<contactref element="U5" pad="11"/>
+<contactref element="U6" pad="11"/>
+<contactref element="U7" pad="11"/>
+<contactref element="U8" pad="11"/>
+<wire x1="283.2354" y1="53.975" x2="283.2354" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="283.2354" y1="32.385" x2="283.2354" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="283.2354" y1="10.795" x2="283.2354" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDSD2+">
+<contactref element="U5" pad="63"/>
+<contactref element="U6" pad="63"/>
+<contactref element="U7" pad="63"/>
+<contactref element="U8" pad="63"/>
+<wire x1="290.195" y1="51.5112" x2="290.195" y2="73.1012" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="29.9212" x2="290.195" y2="51.5112" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="8.3312" x2="290.195" y2="29.9212" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDSD2-">
+<contactref element="U5" pad="62"/>
+<contactref element="U6" pad="62"/>
+<contactref element="U7" pad="62"/>
+<contactref element="U8" pad="62"/>
+<wire x1="290.195" y1="51.0032" x2="290.195" y2="72.5932" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="29.4132" x2="290.195" y2="51.0032" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="7.8232" x2="290.195" y2="29.4132" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDSD2+">
+<contactref element="U5" pad="14"/>
+<contactref element="U6" pad="14"/>
+<contactref element="U7" pad="14"/>
+<contactref element="U8" pad="14"/>
+<wire x1="281.7368" y1="53.975" x2="281.7368" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="281.7368" y1="32.385" x2="281.7368" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="281.7368" y1="10.795" x2="281.7368" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDSD2-">
+<contactref element="U5" pad="13"/>
+<contactref element="U6" pad="13"/>
+<contactref element="U7" pad="13"/>
+<contactref element="U8" pad="13"/>
+<wire x1="282.2194" y1="53.975" x2="282.2194" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="282.2194" y1="32.385" x2="282.2194" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="282.2194" y1="10.795" x2="282.2194" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-SCL">
+<contactref element="U5" pad="2"/>
+<contactref element="U6" pad="2"/>
+<contactref element="U7" pad="2"/>
+<contactref element="U8" pad="2"/>
+<wire x1="287.7312" y1="53.975" x2="287.7312" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="287.7312" y1="32.385" x2="287.7312" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="287.7312" y1="10.795" x2="287.7312" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-SCL">
+<contactref element="U5" pad="52"/>
+<contactref element="U6" pad="52"/>
+<contactref element="U7" pad="52"/>
+<contactref element="U8" pad="52"/>
+<wire x1="290.195" y1="45.9994" x2="290.195" y2="67.5894" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="24.4094" x2="290.195" y2="45.9994" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="2.8194" x2="290.195" y2="24.4094" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-SDA">
+<contactref element="U5" pad="51"/>
+<contactref element="U6" pad="51"/>
+<contactref element="U7" pad="51"/>
+<contactref element="U8" pad="51"/>
+<wire x1="290.195" y1="45.5168" x2="290.195" y2="67.1068" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="23.9268" x2="290.195" y2="45.5168" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="2.3368" x2="290.195" y2="23.9268" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-SDA">
+<contactref element="U5" pad="1"/>
+<contactref element="U6" pad="1"/>
+<contactref element="U7" pad="1"/>
+<contactref element="U8" pad="1"/>
+<wire x1="288.2392" y1="53.975" x2="288.2392" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="288.2392" y1="32.385" x2="288.2392" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="288.2392" y1="10.795" x2="288.2392" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-HOT">
+<contactref element="U5" pad="50"/>
+<contactref element="U6" pad="50"/>
+<contactref element="U7" pad="50"/>
+<contactref element="U8" pad="50"/>
+<wire x1="290.195" y1="45.0088" x2="290.195" y2="66.5988" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="23.4188" x2="290.195" y2="45.0088" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="1.8288" x2="290.195" y2="23.4188" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-HOT">
+<contactref element="U5" pad="64"/>
+<contactref element="U6" pad="64"/>
+<contactref element="U7" pad="64"/>
+<contactref element="U8" pad="64"/>
+<wire x1="290.195" y1="52.0192" x2="290.195" y2="73.6092" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="30.4292" x2="290.195" y2="52.0192" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="8.8392" x2="290.195" y2="30.4292" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2HDMI-TMDS1-">
+<contactref element="U5" pad="59"/>
+<contactref element="U6" pad="59"/>
+<contactref element="U7" pad="59"/>
+<contactref element="U8" pad="59"/>
+<wire x1="290.195" y1="49.5046" x2="290.195" y2="71.0946" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="27.9146" x2="290.195" y2="49.5046" width="0" layer="19" extent="1-1"/>
+<wire x1="290.195" y1="6.3246" x2="290.195" y2="27.9146" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3HDMI-TMDS1-">
+<contactref element="U5" pad="10"/>
+<contactref element="U6" pad="10"/>
+<contactref element="U7" pad="10"/>
+<contactref element="U8" pad="10"/>
+<wire x1="283.718" y1="53.975" x2="283.718" y2="75.565" width="0" layer="19" extent="1-1"/>
+<wire x1="283.718" y1="32.385" x2="283.718" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="283.718" y1="10.795" x2="283.718" y2="32.385" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$55">
+<contactref element="U6" pad="18"/>
+<contactref element="J3" pad="3"/>
+<wire x1="278.765" y1="51.5112" x2="302.26" y2="51.76" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$56">
+<contactref element="U6" pad="17"/>
+<contactref element="J3" pad="1"/>
+<wire x1="278.765" y1="52.0192" x2="302.26" y2="52.76" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$57">
+<contactref element="U6" pad="21"/>
+<contactref element="J3" pad="6"/>
+<wire x1="278.765" y1="50.0126" x2="302.26" y2="50.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$58">
+<contactref element="U6" pad="20"/>
+<contactref element="J3" pad="4"/>
+<wire x1="278.765" y1="50.5206" x2="302.26" y2="51.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$59">
+<contactref element="U6" pad="24"/>
+<contactref element="J3" pad="9"/>
+<wire x1="278.765" y1="48.514" x2="302.26" y2="48.76" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$60">
+<contactref element="U6" pad="23"/>
+<contactref element="J3" pad="7"/>
+<wire x1="278.765" y1="49.022" x2="302.26" y2="49.76" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$61">
+<contactref element="U6" pad="27"/>
+<contactref element="J3" pad="12"/>
+<wire x1="278.765" y1="47.0154" x2="302.26" y2="47.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$62">
+<contactref element="U6" pad="26"/>
+<contactref element="J3" pad="10"/>
+<wire x1="278.765" y1="47.498" x2="302.26" y2="48.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$63">
+<contactref element="U6" pad="31"/>
+<contactref element="J3" pad="19"/>
+<wire x1="278.765" y1="45.0088" x2="302.26" y2="43.76" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$64">
+<contactref element="U7" pad="18"/>
+<contactref element="J4" pad="3"/>
+<wire x1="278.765" y1="29.9212" x2="302.26" y2="30.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$65">
+<contactref element="U7" pad="17"/>
+<contactref element="J4" pad="1"/>
+<wire x1="278.765" y1="30.4292" x2="302.26" y2="31.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$66">
+<contactref element="U7" pad="21"/>
+<contactref element="J4" pad="6"/>
+<wire x1="278.765" y1="28.4226" x2="302.26" y2="28.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$67">
+<contactref element="U7" pad="20"/>
+<contactref element="J4" pad="4"/>
+<wire x1="278.765" y1="28.9306" x2="302.26" y2="29.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$68">
+<contactref element="U7" pad="24"/>
+<contactref element="J4" pad="9"/>
+<wire x1="278.765" y1="26.924" x2="302.26" y2="27.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$69">
+<contactref element="U7" pad="23"/>
+<contactref element="J4" pad="7"/>
+<wire x1="278.765" y1="27.432" x2="302.26" y2="28.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$70">
+<contactref element="U7" pad="27"/>
+<contactref element="J4" pad="12"/>
+<wire x1="278.765" y1="25.4254" x2="302.26" y2="25.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$71">
+<contactref element="U7" pad="26"/>
+<contactref element="J4" pad="10"/>
+<wire x1="278.765" y1="25.908" x2="302.26" y2="26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$72">
+<contactref element="U7" pad="31"/>
+<contactref element="J4" pad="19"/>
+<wire x1="278.765" y1="23.4188" x2="302.26" y2="22.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$73">
+<contactref element="U8" pad="18"/>
+<contactref element="J5" pad="3"/>
+<wire x1="278.765" y1="8.3312" x2="302.26" y2="8.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$74">
+<contactref element="U8" pad="17"/>
+<contactref element="J5" pad="1"/>
+<wire x1="278.765" y1="8.8392" x2="302.26" y2="9.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$75">
+<contactref element="U8" pad="21"/>
+<contactref element="J5" pad="6"/>
+<wire x1="278.765" y1="6.8326" x2="302.26" y2="7.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$76">
+<contactref element="U8" pad="20"/>
+<contactref element="J5" pad="4"/>
+<wire x1="278.765" y1="7.3406" x2="302.26" y2="8.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$77">
+<contactref element="U8" pad="24"/>
+<contactref element="J5" pad="9"/>
+<wire x1="278.765" y1="5.334" x2="302.26" y2="5.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$78">
+<contactref element="U8" pad="23"/>
+<contactref element="J5" pad="7"/>
+<wire x1="278.765" y1="5.842" x2="302.26" y2="6.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$79">
+<contactref element="U8" pad="27"/>
+<contactref element="J5" pad="12"/>
+<wire x1="278.765" y1="3.8354" x2="302.26" y2="4.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$80">
+<contactref element="U8" pad="26"/>
+<contactref element="J5" pad="10"/>
+<wire x1="278.765" y1="4.318" x2="302.26" y2="5.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$81">
+<contactref element="U8" pad="31"/>
+<contactref element="J5" pad="19"/>
+<wire x1="278.765" y1="1.8288" x2="302.26" y2="0.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USBGND">
+<contactref element="X2" pad="GND"/>
+<contactref element="U9" pad="3"/>
+<contactref element="X1" pad="GND"/>
+<contactref element="U10" pad="3"/>
+<contactref element="X3" pad="GND"/>
+<contactref element="U11" pad="3"/>
+<contactref element="X4" pad="GND"/>
+<contactref element="U12" pad="3"/>
+<contactref element="X5" pad="GND"/>
+<contactref element="U13" pad="3"/>
+<contactref element="X6" pad="GND"/>
+<contactref element="U14" pad="3"/>
+<contactref element="X7" pad="GND"/>
+<contactref element="U15" pad="3"/>
+<contactref element="X8" pad="GND"/>
+<contactref element="U16" pad="3"/>
+<contactref element="X9" pad="GND"/>
+<contactref element="U17" pad="3"/>
+<contactref element="X10" pad="GND"/>
+<contactref element="U18" pad="3"/>
+<contactref element="X11" pad="GND"/>
+<contactref element="U19" pad="3"/>
+<contactref element="X12" pad="GND"/>
+<contactref element="U20" pad="3"/>
+<contactref element="X13" pad="GND"/>
+<wire x1="13.37" y1="-500.01" x2="-0.6" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="27.34" y1="-500.01" x2="13.37" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-475.94" x2="13.37" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-475.94" x2="-0.6" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.51" y1="-507.63" x2="-23.728" y2="-475.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-536.9" x2="-42.51" y2="-507.63" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-536.9" x2="-23.728" y2="-536.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-428.95" x2="-23.728" y2="-475.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-398.41" x2="-23.728" y2="-428.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-374.34" x2="-28.54" y2="-398.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-343.8" x2="-23.728" y2="-374.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-319.73" x2="-28.54" y2="-343.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-289.19" x2="-23.728" y2="-319.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-265.12" x2="-28.54" y2="-289.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-234.58" x2="-23.728" y2="-265.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-210.51" x2="-28.54" y2="-234.58" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-428.95" x2="-23.728" y2="-428.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-163.52" x2="-23.728" y2="-210.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-583.89" x2="-23.728" y2="-536.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.6" y1="-607.96" x2="-23.728" y2="-583.89" width="0" layer="19" extent="1-1"/>
+<wire x1="13.37" y1="-607.96" x2="-0.6" y2="-607.96" width="0" layer="19" extent="1-1"/>
+<wire x1="27.34" y1="-607.96" x2="13.37" y2="-607.96" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-583.89" x2="13.37" y2="-607.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.51" y1="-615.58" x2="-23.728" y2="-583.89" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USBVCC">
+<contactref element="X2" pad="VBUS"/>
+<contactref element="X1" pad="VBUS"/>
+<contactref element="U9" pad="12"/>
+<contactref element="S5" pad="3"/>
+<contactref element="X3" pad="VBUS"/>
+<contactref element="U10" pad="12"/>
+<contactref element="S6" pad="3"/>
+<contactref element="X4" pad="VBUS"/>
+<contactref element="U11" pad="12"/>
+<contactref element="S7" pad="3"/>
+<contactref element="X5" pad="VBUS"/>
+<contactref element="U12" pad="12"/>
+<contactref element="S8" pad="3"/>
+<contactref element="X6" pad="VBUS"/>
+<contactref element="U13" pad="12"/>
+<contactref element="S9" pad="3"/>
+<contactref element="X7" pad="VBUS"/>
+<contactref element="U14" pad="12"/>
+<contactref element="S10" pad="3"/>
+<contactref element="X8" pad="VBUS"/>
+<contactref element="U15" pad="12"/>
+<contactref element="S11" pad="3"/>
+<contactref element="X9" pad="VBUS"/>
+<contactref element="U16" pad="12"/>
+<contactref element="S12" pad="3"/>
+<contactref element="X10" pad="VBUS"/>
+<contactref element="U17" pad="12"/>
+<contactref element="S13" pad="3"/>
+<contactref element="X11" pad="VBUS"/>
+<contactref element="U18" pad="12"/>
+<contactref element="S14" pad="3"/>
+<contactref element="X12" pad="VBUS"/>
+<contactref element="U19" pad="12"/>
+<contactref element="S15" pad="3"/>
+<contactref element="X13" pad="VBUS"/>
+<contactref element="U20" pad="12"/>
+<contactref element="S16" pad="3"/>
+<wire x1="-10.39" y1="-500.86" x2="-0.6" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="13.37" y1="-498.21" x2="-0.6" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="27.34" y1="-498.21" x2="13.37" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.36" y1="-500.86" x2="-10.39" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-500.86" x2="-24.36" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.51" y1="-505.83" x2="-38.33" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-529.9" x2="-24.36" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-468.94" x2="13.37" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="28.98" y1="-453.87" x2="10.562" y2="-468.94" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-529.9" x2="13.37" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-468.94" x2="-24.36" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-421.95" x2="28.98" y2="-453.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-421.95" x2="10.562" y2="-421.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-396.61" x2="-23.728" y2="-421.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-399.26" x2="-28.54" y2="-396.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-367.34" x2="-28.54" y2="-396.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-342" x2="-23.728" y2="-367.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-344.65" x2="-28.54" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-312.73" x2="-28.54" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-287.39" x2="-23.728" y2="-312.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-290.04" x2="-28.54" y2="-287.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-258.12" x2="-28.54" y2="-287.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-232.78" x2="-23.728" y2="-258.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-235.43" x2="-28.54" y2="-232.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-203.51" x2="-28.54" y2="-232.78" width="0" layer="19" extent="1-1"/>
+<wire x1="28.98" y1="-561.82" x2="10.562" y2="-529.9" width="0" layer="19" extent="1-1"/>
+<wire x1="10.562" y1="-576.89" x2="28.98" y2="-561.82" width="0" layer="19" extent="1-1"/>
+<wire x1="13.37" y1="-606.16" x2="10.562" y2="-576.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.6" y1="-606.16" x2="13.37" y2="-606.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.39" y1="-608.81" x2="-0.6" y2="-606.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.36" y1="-608.81" x2="-10.39" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-608.81" x2="-24.36" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.51" y1="-613.78" x2="-38.33" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="27.34" y1="-606.16" x2="13.37" y2="-606.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-576.89" x2="-24.36" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-156.52" x2="-23.728" y2="-203.51" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC1D+">
+<contactref element="X2" pad="D+"/>
+<contactref element="U9" pad="6"/>
+<contactref element="U10" pad="6"/>
+<contactref element="U11" pad="6"/>
+<contactref element="U12" pad="6"/>
+<contactref element="U13" pad="6"/>
+<contactref element="U14" pad="6"/>
+<contactref element="U15" pad="6"/>
+<contactref element="U16" pad="6"/>
+<contactref element="U17" pad="6"/>
+<contactref element="U18" pad="6"/>
+<contactref element="U19" pad="6"/>
+<contactref element="U20" pad="6"/>
+<wire x1="14.57" y1="-500.01" x2="0.6" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="28.54" y1="-500.01" x2="14.57" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.31" y1="-507.63" x2="0.6" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-398.41" x2="0.6" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-343.8" x2="-27.34" y2="-398.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-289.19" x2="-27.34" y2="-343.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-234.58" x2="-27.34" y2="-289.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-161.02" x2="-27.34" y2="-234.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.31" y1="-615.58" x2="-41.31" y2="-507.63" width="0" layer="19" extent="1-1"/>
+<wire x1="0.6" y1="-607.96" x2="-41.31" y2="-615.58" width="0" layer="19" extent="1-1"/>
+<wire x1="14.57" y1="-607.96" x2="0.6" y2="-607.96" width="0" layer="19" extent="1-1"/>
+<wire x1="28.54" y1="-607.96" x2="14.57" y2="-607.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC1D-">
+<contactref element="X2" pad="D-"/>
+<contactref element="U9" pad="5"/>
+<contactref element="U10" pad="5"/>
+<contactref element="U11" pad="5"/>
+<contactref element="U12" pad="5"/>
+<contactref element="U13" pad="5"/>
+<contactref element="U14" pad="5"/>
+<contactref element="U15" pad="5"/>
+<contactref element="U16" pad="5"/>
+<contactref element="U17" pad="5"/>
+<contactref element="U18" pad="5"/>
+<contactref element="U19" pad="5"/>
+<contactref element="U20" pad="5"/>
+<wire x1="14.17" y1="-500.01" x2="0.2" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="28.14" y1="-500.01" x2="14.17" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.71" y1="-507.63" x2="0.2" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-398.41" x2="0.2" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-343.8" x2="-27.74" y2="-398.41" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-289.19" x2="-27.74" y2="-343.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-234.58" x2="-27.74" y2="-289.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-159.02" x2="-27.74" y2="-234.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.71" y1="-615.58" x2="-41.71" y2="-507.63" width="0" layer="19" extent="1-1"/>
+<wire x1="0.2" y1="-607.96" x2="-41.71" y2="-615.58" width="0" layer="19" extent="1-1"/>
+<wire x1="14.17" y1="-607.96" x2="0.2" y2="-607.96" width="0" layer="19" extent="1-1"/>
+<wire x1="28.14" y1="-607.96" x2="14.17" y2="-607.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$82">
+<contactref element="X1" pad="D-"/>
+<contactref element="U9" pad="2"/>
+<wire x1="-28.84" y1="-233.88" x2="-23.728" y2="-206.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$83">
+<contactref element="X1" pad="D+"/>
+<contactref element="U9" pad="1"/>
+<wire x1="-28.84" y1="-233.48" x2="-23.728" y2="-208.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$84">
+<contactref element="S5" pad="1"/>
+<contactref element="U9" pad="4"/>
+<contactref element="D1" pad="C"/>
+<wire x1="-28.14" y1="-234.58" x2="-12.548" y2="-233.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.83" y1="-235.43" x2="-28.14" y2="-234.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$87">
+<contactref element="S5" pad="2"/>
+<contactref element="U9" pad="11"/>
+<contactref element="S5" pad="4"/>
+<contactref element="D1" pad="A"/>
+<wire x1="-28.14" y1="-232.78" x2="-15.392" y2="-233.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.33" y1="-235.43" x2="-28.14" y2="-232.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.83" y1="-235.43" x2="-35.33" y2="-235.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2D+">
+<contactref element="U9" pad="8"/>
+<contactref element="U10" pad="8"/>
+<contactref element="U11" pad="8"/>
+<contactref element="U12" pad="8"/>
+<contactref element="U13" pad="8"/>
+<contactref element="U14" pad="8"/>
+<contactref element="U15" pad="8"/>
+<contactref element="U16" pad="8"/>
+<contactref element="U17" pad="8"/>
+<contactref element="U18" pad="8"/>
+<contactref element="U19" pad="8"/>
+<contactref element="U20" pad="8"/>
+<wire x1="14.87" y1="-498.91" x2="0.9" y2="-498.91" width="0" layer="19" extent="1-1"/>
+<wire x1="28.84" y1="-498.91" x2="14.87" y2="-498.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.01" y1="-506.53" x2="0.9" y2="-498.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-397.31" x2="0.9" y2="-498.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-342.7" x2="-27.04" y2="-397.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-288.09" x2="-27.04" y2="-342.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-233.48" x2="-27.04" y2="-288.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.01" y1="-614.48" x2="-41.01" y2="-506.53" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9" y1="-606.86" x2="-41.01" y2="-614.48" width="0" layer="19" extent="1-1"/>
+<wire x1="14.87" y1="-606.86" x2="0.9" y2="-606.86" width="0" layer="19" extent="1-1"/>
+<wire x1="28.84" y1="-606.86" x2="14.87" y2="-606.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3D+">
+<contactref element="U9" pad="10"/>
+<contactref element="U10" pad="10"/>
+<contactref element="U11" pad="10"/>
+<contactref element="U12" pad="10"/>
+<contactref element="U13" pad="10"/>
+<contactref element="U14" pad="10"/>
+<contactref element="U15" pad="10"/>
+<contactref element="U16" pad="10"/>
+<contactref element="U17" pad="10"/>
+<contactref element="U18" pad="10"/>
+<contactref element="U19" pad="10"/>
+<contactref element="U20" pad="10"/>
+<wire x1="14.17" y1="-498.21" x2="0.2" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="28.14" y1="-498.21" x2="14.17" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.71" y1="-505.83" x2="0.2" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-396.61" x2="0.2" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-342" x2="-27.74" y2="-396.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-287.39" x2="-27.74" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-232.78" x2="-27.74" y2="-287.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.71" y1="-613.78" x2="-41.71" y2="-505.83" width="0" layer="19" extent="1-1"/>
+<wire x1="0.2" y1="-606.16" x2="-41.71" y2="-613.78" width="0" layer="19" extent="1-1"/>
+<wire x1="14.17" y1="-606.16" x2="0.2" y2="-606.16" width="0" layer="19" extent="1-1"/>
+<wire x1="28.14" y1="-606.16" x2="14.17" y2="-606.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2D-">
+<contactref element="U9" pad="7"/>
+<contactref element="U10" pad="7"/>
+<contactref element="U11" pad="7"/>
+<contactref element="U12" pad="7"/>
+<contactref element="U13" pad="7"/>
+<contactref element="U14" pad="7"/>
+<contactref element="U15" pad="7"/>
+<contactref element="U16" pad="7"/>
+<contactref element="U17" pad="7"/>
+<contactref element="U18" pad="7"/>
+<contactref element="U19" pad="7"/>
+<contactref element="U20" pad="7"/>
+<wire x1="14.87" y1="-499.31" x2="0.9" y2="-499.31" width="0" layer="19" extent="1-1"/>
+<wire x1="28.84" y1="-499.31" x2="14.87" y2="-499.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.01" y1="-506.93" x2="0.9" y2="-499.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-397.71" x2="0.9" y2="-499.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-343.1" x2="-27.04" y2="-397.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-288.49" x2="-27.04" y2="-343.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-233.88" x2="-27.04" y2="-288.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.01" y1="-614.88" x2="-41.01" y2="-506.93" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9" y1="-607.26" x2="-41.01" y2="-614.88" width="0" layer="19" extent="1-1"/>
+<wire x1="14.87" y1="-607.26" x2="0.9" y2="-607.26" width="0" layer="19" extent="1-1"/>
+<wire x1="28.84" y1="-607.26" x2="14.87" y2="-607.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3D-">
+<contactref element="U9" pad="9"/>
+<contactref element="U10" pad="9"/>
+<contactref element="U11" pad="9"/>
+<contactref element="U12" pad="9"/>
+<contactref element="U13" pad="9"/>
+<contactref element="U14" pad="9"/>
+<contactref element="U15" pad="9"/>
+<contactref element="U16" pad="9"/>
+<contactref element="U17" pad="9"/>
+<contactref element="U18" pad="9"/>
+<contactref element="U19" pad="9"/>
+<contactref element="U20" pad="9"/>
+<wire x1="14.57" y1="-498.21" x2="0.6" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="28.54" y1="-498.21" x2="14.57" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.31" y1="-505.83" x2="0.6" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-396.61" x2="0.6" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-342" x2="-27.34" y2="-396.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-287.39" x2="-27.34" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-232.78" x2="-27.34" y2="-287.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.31" y1="-613.78" x2="-41.31" y2="-505.83" width="0" layer="19" extent="1-1"/>
+<wire x1="0.6" y1="-606.16" x2="-41.31" y2="-613.78" width="0" layer="19" extent="1-1"/>
+<wire x1="14.57" y1="-606.16" x2="0.6" y2="-606.16" width="0" layer="19" extent="1-1"/>
+<wire x1="28.54" y1="-606.16" x2="14.57" y2="-606.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$85">
+<contactref element="X3" pad="D-"/>
+<contactref element="U10" pad="2"/>
+<wire x1="-23.728" y1="-260.62" x2="-28.84" y2="-288.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$86">
+<contactref element="X3" pad="D+"/>
+<contactref element="U10" pad="1"/>
+<wire x1="-23.728" y1="-262.62" x2="-28.84" y2="-288.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$88">
+<contactref element="S6" pad="1"/>
+<contactref element="U10" pad="4"/>
+<contactref element="D2" pad="C"/>
+<wire x1="-28.14" y1="-289.19" x2="-33.83" y2="-290.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.548" y1="-288.29" x2="-28.14" y2="-289.19" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$89">
+<contactref element="S6" pad="2"/>
+<contactref element="U10" pad="11"/>
+<contactref element="S6" pad="4"/>
+<contactref element="D2" pad="A"/>
+<wire x1="-35.33" y1="-290.04" x2="-39.83" y2="-290.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.14" y1="-287.39" x2="-35.33" y2="-290.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.392" y1="-288.29" x2="-28.14" y2="-287.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$90">
+<contactref element="X4" pad="D-"/>
+<contactref element="U11" pad="2"/>
+<wire x1="-23.728" y1="-315.23" x2="-28.84" y2="-343.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$91">
+<contactref element="X4" pad="D+"/>
+<contactref element="U11" pad="1"/>
+<wire x1="-23.728" y1="-317.23" x2="-28.84" y2="-342.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$92">
+<contactref element="S7" pad="1"/>
+<contactref element="U11" pad="4"/>
+<contactref element="D3" pad="C"/>
+<wire x1="-28.14" y1="-343.8" x2="-33.83" y2="-344.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.548" y1="-342.9" x2="-28.14" y2="-343.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$93">
+<contactref element="S7" pad="2"/>
+<contactref element="U11" pad="11"/>
+<contactref element="S7" pad="4"/>
+<contactref element="D3" pad="A"/>
+<wire x1="-35.33" y1="-344.65" x2="-39.83" y2="-344.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.14" y1="-342" x2="-35.33" y2="-344.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.392" y1="-342.9" x2="-28.14" y2="-342" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$94">
+<contactref element="X5" pad="D-"/>
+<contactref element="U12" pad="2"/>
+<wire x1="-23.728" y1="-369.84" x2="-28.84" y2="-397.71" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$95">
+<contactref element="X5" pad="D+"/>
+<contactref element="U12" pad="1"/>
+<wire x1="-23.728" y1="-371.84" x2="-28.84" y2="-397.31" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$96">
+<contactref element="S8" pad="1"/>
+<contactref element="U12" pad="4"/>
+<contactref element="D4" pad="C"/>
+<wire x1="-28.14" y1="-398.41" x2="-33.83" y2="-399.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.548" y1="-397.51" x2="-28.14" y2="-398.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$97">
+<contactref element="S8" pad="2"/>
+<contactref element="U12" pad="11"/>
+<contactref element="S8" pad="4"/>
+<contactref element="D4" pad="A"/>
+<wire x1="-35.33" y1="-399.26" x2="-39.83" y2="-399.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.14" y1="-396.61" x2="-35.33" y2="-399.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.392" y1="-397.51" x2="-28.14" y2="-396.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$98">
+<contactref element="X6" pad="D-"/>
+<contactref element="U13" pad="2"/>
+<wire x1="-23.728" y1="-424.45" x2="-0.9" y2="-499.31" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$99">
+<contactref element="X6" pad="D+"/>
+<contactref element="U13" pad="1"/>
+<wire x1="-23.728" y1="-426.45" x2="-0.9" y2="-498.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$100">
+<contactref element="S9" pad="1"/>
+<contactref element="U13" pad="4"/>
+<contactref element="D5" pad="C"/>
+<wire x1="-26.518" y1="-506.73" x2="-0.2" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="33.48" y1="-453.87" x2="-0.2" y2="-500.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$101">
+<contactref element="S9" pad="2"/>
+<contactref element="U13" pad="11"/>
+<contactref element="S9" pad="4"/>
+<contactref element="D5" pad="A"/>
+<wire x1="-29.362" y1="-506.73" x2="-0.2" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="27.48" y1="-453.87" x2="-0.2" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="31.98" y1="-453.87" x2="27.48" y2="-453.87" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$102">
+<contactref element="X7" pad="D-"/>
+<contactref element="U14" pad="2"/>
+<wire x1="10.562" y1="-424.45" x2="13.07" y2="-499.31" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$103">
+<contactref element="X7" pad="D+"/>
+<contactref element="U14" pad="1"/>
+<wire x1="10.562" y1="-426.45" x2="13.07" y2="-498.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$104">
+<contactref element="S10" pad="1"/>
+<contactref element="U14" pad="4"/>
+<contactref element="D6" pad="C"/>
+<wire x1="-21.438" y1="-506.73" x2="13.77" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.83" y1="-500.86" x2="-21.438" y2="-506.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$105">
+<contactref element="S10" pad="2"/>
+<contactref element="U14" pad="11"/>
+<contactref element="S10" pad="4"/>
+<contactref element="D6" pad="A"/>
+<wire x1="-24.282" y1="-506.73" x2="13.77" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.33" y1="-500.86" x2="-24.282" y2="-506.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.83" y1="-500.86" x2="-35.33" y2="-500.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$106">
+<contactref element="X8" pad="D-"/>
+<contactref element="U15" pad="2"/>
+<wire x1="27.04" y1="-499.31" x2="-23.728" y2="-471.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$107">
+<contactref element="X8" pad="D+"/>
+<contactref element="U15" pad="1"/>
+<wire x1="27.04" y1="-498.91" x2="-23.728" y2="-473.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$108">
+<contactref element="S11" pad="1"/>
+<contactref element="U15" pad="4"/>
+<contactref element="D7" pad="C"/>
+<wire x1="-16.358" y1="-506.73" x2="27.74" y2="-500.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.86" y1="-500.86" x2="-16.358" y2="-506.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$109">
+<contactref element="S11" pad="2"/>
+<contactref element="U15" pad="11"/>
+<contactref element="S11" pad="4"/>
+<contactref element="D7" pad="A"/>
+<wire x1="-19.202" y1="-506.73" x2="27.74" y2="-498.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.36" y1="-500.86" x2="-19.202" y2="-506.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.86" y1="-500.86" x2="-21.36" y2="-500.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$110">
+<contactref element="X9" pad="D-"/>
+<contactref element="U16" pad="2"/>
+<wire x1="-42.81" y1="-506.93" x2="10.562" y2="-471.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$111">
+<contactref element="X9" pad="D+"/>
+<contactref element="U16" pad="1"/>
+<wire x1="-42.81" y1="-506.53" x2="10.562" y2="-473.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$112">
+<contactref element="S12" pad="1"/>
+<contactref element="U16" pad="4"/>
+<contactref element="D8" pad="C"/>
+<wire x1="-11.278" y1="-506.73" x2="-5.89" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.11" y1="-507.63" x2="-11.278" y2="-506.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$113">
+<contactref element="S12" pad="2"/>
+<contactref element="U16" pad="11"/>
+<contactref element="S12" pad="4"/>
+<contactref element="D8" pad="A"/>
+<wire x1="-11.89" y1="-500.86" x2="-7.39" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.122" y1="-506.73" x2="-11.89" y2="-500.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.11" y1="-505.83" x2="-14.122" y2="-506.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$114">
+<contactref element="X10" pad="D-"/>
+<contactref element="U17" pad="2"/>
+<wire x1="-23.728" y1="-532.4" x2="-0.9" y2="-607.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$115">
+<contactref element="X10" pad="D+"/>
+<contactref element="U17" pad="1"/>
+<wire x1="-23.728" y1="-534.4" x2="-0.9" y2="-606.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$116">
+<contactref element="S13" pad="1"/>
+<contactref element="U17" pad="4"/>
+<contactref element="D9" pad="C"/>
+<wire x1="-0.2" y1="-607.96" x2="-26.518" y2="-614.68" width="0" layer="19" extent="1-1"/>
+<wire x1="33.48" y1="-561.82" x2="-0.2" y2="-607.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$117">
+<contactref element="S13" pad="2"/>
+<contactref element="U17" pad="11"/>
+<contactref element="S13" pad="4"/>
+<contactref element="D9" pad="A"/>
+<wire x1="-0.2" y1="-606.16" x2="-29.362" y2="-614.68" width="0" layer="19" extent="1-1"/>
+<wire x1="27.48" y1="-561.82" x2="-0.2" y2="-606.16" width="0" layer="19" extent="1-1"/>
+<wire x1="31.98" y1="-561.82" x2="27.48" y2="-561.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$118">
+<contactref element="X11" pad="D-"/>
+<contactref element="U18" pad="2"/>
+<wire x1="10.562" y1="-532.4" x2="13.07" y2="-607.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$119">
+<contactref element="X11" pad="D+"/>
+<contactref element="U18" pad="1"/>
+<wire x1="10.562" y1="-534.4" x2="13.07" y2="-606.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$120">
+<contactref element="S14" pad="1"/>
+<contactref element="U18" pad="4"/>
+<contactref element="D10" pad="C"/>
+<wire x1="-21.438" y1="-614.68" x2="-33.83" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="13.77" y1="-607.96" x2="-21.438" y2="-614.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$121">
+<contactref element="S14" pad="2"/>
+<contactref element="U18" pad="11"/>
+<contactref element="S14" pad="4"/>
+<contactref element="D10" pad="A"/>
+<wire x1="-35.33" y1="-608.81" x2="-39.83" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.282" y1="-614.68" x2="-35.33" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="13.77" y1="-606.16" x2="-24.282" y2="-614.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$122">
+<contactref element="X12" pad="D-"/>
+<contactref element="U19" pad="2"/>
+<wire x1="27.04" y1="-607.26" x2="-23.728" y2="-579.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$123">
+<contactref element="X12" pad="D+"/>
+<contactref element="U19" pad="1"/>
+<wire x1="27.04" y1="-606.86" x2="-23.728" y2="-581.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$124">
+<contactref element="S15" pad="1"/>
+<contactref element="U19" pad="4"/>
+<contactref element="D11" pad="C"/>
+<wire x1="-19.86" y1="-608.81" x2="-16.358" y2="-614.68" width="0" layer="19" extent="1-1"/>
+<wire x1="27.74" y1="-607.96" x2="-16.358" y2="-614.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$125">
+<contactref element="S15" pad="2"/>
+<contactref element="U19" pad="11"/>
+<contactref element="S15" pad="4"/>
+<contactref element="D11" pad="A"/>
+<wire x1="-21.36" y1="-608.81" x2="-25.86" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.202" y1="-614.68" x2="-21.36" y2="-608.81" width="0" layer="19" extent="1-1"/>
+<wire x1="27.74" y1="-606.16" x2="-19.202" y2="-614.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$126">
+<contactref element="X13" pad="D-"/>
+<contactref element="U20" pad="2"/>
+<wire x1="10.562" y1="-579.39" x2="-42.81" y2="-614.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$127">
+<contactref element="X13" pad="D+"/>
+<contactref element="U20" pad="1"/>
+<wire x1="10.562" y1="-581.39" x2="-42.81" y2="-614.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$128">
+<contactref element="S16" pad="1"/>
+<contactref element="U20" pad="4"/>
+<contactref element="D12" pad="C"/>
+<wire x1="-11.278" y1="-614.68" x2="-42.11" y2="-615.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.89" y1="-608.81" x2="-11.278" y2="-614.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$129">
+<contactref element="S16" pad="2"/>
+<contactref element="U20" pad="11"/>
+<contactref element="S16" pad="4"/>
+<contactref element="D12" pad="A"/>
+<wire x1="-14.122" y1="-614.68" x2="-42.11" y2="-613.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.89" y1="-608.81" x2="-14.122" y2="-614.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.39" y1="-608.81" x2="-11.89" y2="-608.81" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

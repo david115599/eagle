@@ -1621,7 +1621,6 @@ UsedLibrary="/Applications/EAGLE-9.0.1/lbr/wirepad.lbr"
 UsedLibrary="/Applications/EAGLE-9.0.1/lbr/wolfson.lbr"
 UsedLibrary="/Applications/EAGLE-9.0.1/lbr/wolleatmel.lbr"
 UsedLibrary="/Applications/EAGLE-9.0.1/lbr/wuerth-elektronik.lbr"
-UsedLibrary="/Applications/EAGLE-9.0.1/lbr/wuerth_elektronik_eisos__v6.0.lbr"
 UsedLibrary="/Applications/EAGLE-9.0.1/lbr/wuerth_elektronik_eisos__v6.1.lbr"
 UsedLibrary="/Applications/EAGLE-9.0.1/lbr/wuerth_elektronik_eisos__v6.5.lbr"
 UsedLibrary="/Applications/EAGLE-9.0.1/lbr/x-port.lbr"
@@ -1686,6 +1685,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:531"
 UsedLibraryUrn="urn:adsk.eagle:library:534"
 UsedLibraryUrn="urn:adsk.eagle:library:535"
 UsedLibraryUrn="urn:adsk.eagle:library:536"
+UsedLibrary="/Applications/EAGLE-9.0.1/lbr/TMDS361BPAG.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -1695,7 +1695,7 @@ Number=0
 Type="Board Editor"
 Number=2
 File="pchub.brd"
-View="-26.3441 -149.732 321.968 90.612"
+View="-11.9641 -127.841 4.40469 -123.77"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -1739,7 +1739,7 @@ Layer=1
 Type="Schematic Editor"
 Number=1
 File="pchub.sch"
-View="-388.278 -174.184 518.585 490.106"
+View="-178.7 -405.685 230.729 -108.645"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -1778,7 +1778,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -388.278 -174.184 518.585 490.106"
+Views=" 1: -178.7 -405.685 230.729 -108.645"
 Sheet="1"
 
 [Desktop]
