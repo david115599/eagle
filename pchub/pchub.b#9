@@ -92,6 +92,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -874,6 +876,114 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun">
+<description>Spark Fun Electronics' preferred foot prints. &lt;b&gt;Not to be used for commercial purposes.&lt;/b&gt; We've spent an enormous amount of time creating and checking these footprints and parts. If you enjoy using this library, please buy one of our products at www.sparkfun.com.</description>
+<packages>
+<package name="USB-A-S-NOSILK-FEMALE">
+<wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="51"/>
+<wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="51"/>
+<wire x1="-10.287" y1="6.477" x2="-10.287" y2="-6.477" width="0.127" layer="51"/>
+<wire x1="3.7084" y1="6.5024" x2="3.7084" y2="-6.5024" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="-5.08" x2="-8.89" y2="-4.445" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-4.445" x2="-8.89" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-1.27" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="5.08" x2="-8.89" y2="4.445" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="4.445" x2="-8.89" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="51"/>
+<pad name="P$5" x="0" y="-6.5659" drill="2.3114" rot="R270"/>
+<pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
+<smd name="D-" x="4.212" y="1" dx="3" dy="0.9" layer="1"/>
+<smd name="VBUS" x="4.212" y="3.5" dx="3" dy="0.9" layer="1"/>
+<smd name="D+" x="4.212" y="-1" dx="3" dy="0.9" layer="1"/>
+<smd name="GND" x="4.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
+<text x="8.46" y="-7.205" size="1.27" layer="51" rot="R180">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="FSUSB63UMX">
+<packages>
+<package name="QFN40P180X180X55-12N">
+<wire x1="-0.9" y1="0.9" x2="-0.9" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="-0.9" y1="-0.9" x2="0.9" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="0.9" y1="-0.9" x2="0.9" y2="0.9" width="0.127" layer="51"/>
+<wire x1="0.9" y1="0.9" x2="-0.9" y2="0.9" width="0.127" layer="51"/>
+<circle x="-1.6" y="0.2" radius="0.1" width="0.21" layer="21"/>
+<wire x1="-0.8" y1="0.9" x2="-0.9" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.9" x2="-0.9" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.9" x2="0.9" y2="0.9" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0.9" x2="0.9" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.9" x2="-0.9" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-0.9" x2="-0.9" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.5" x2="0.9" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.9" x2="0.8" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="39"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="39"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.127" layer="39"/>
+<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="39"/>
+<text x="-1.40155" y="1.40155" size="1.2714" layer="25">&gt;NAME</text>
+<text x="-1.20238125" y="-2.60516875" size="1.27251875" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.9" y="0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="2" x="-0.9" y="-0.2" dx="0.8" dy="0.2" layer="1"/>
+<smd name="3" x="-0.6" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="4" x="-0.2" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="5" x="0.2" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="6" x="0.6" y="-0.9" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="0.9" y="-0.2" dx="0.8" dy="0.2" layer="1" rot="R180"/>
+<smd name="8" x="0.9" y="0.2" dx="0.8" dy="0.2" layer="1" rot="R180"/>
+<smd name="9" x="0.6" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+<smd name="10" x="0.2" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+<smd name="11" x="-0.2" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+<smd name="12" x="-0.6" y="0.9" dx="0.8" dy="0.2" layer="1" rot="R270"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="FKIT-LED-1206">
+<description>&lt;B&gt;LED 1206 SMT&lt;/B&gt;&lt;p&gt;
+1206, surface mount
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Area: 0.125"x 0.06" &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;</description>
+<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.1016" layer="51" curve="84.547378"/>
+<wire x1="0.55" y1="-0.5" x2="0.55" y2="0.5" width="0.1016" layer="51" curve="84.547378"/>
+<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="0" y="1.11125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.11125" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
+<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
+<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
+<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
+<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
+<wire x1="2.54" y1="0.9525" x2="2.54" y2="-0.9525" width="0.2032" layer="21"/>
+<wire x1="0.3175" y1="0.635" x2="0.3175" y2="0" width="0.2032" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.635" width="0.2032" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0" y2="0.3175" width="0.2032" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0" y2="-0.3175" width="0.2032" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1150,6 +1260,59 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="TQFP-64 Texas Instruments" x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="3.46 USD" x="287.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="X2" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-160.02"/>
+<element name="U9" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-233.68">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-186.69" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X1" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-207.01"/>
+<element name="S5" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-233.68">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-193.04" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-233.68"/>
+<element name="U10" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-288.29">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-241.3" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X3" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-261.62"/>
+<element name="S6" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-288.29">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-247.65" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-288.29"/>
+<element name="U11" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-342.9">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-295.91" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X4" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-316.23"/>
+<element name="S7" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-342.9">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-302.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-342.9"/>
+<element name="U12" library="FSUSB63UMX" package="QFN40P180X180X55-12N" value="FSUSB63UMX" x="-27.94" y="-397.51">
+<attribute name="AVAILABILITY" value="Good" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" 3: 1 High-Speed - USB Switch / Multiplexer " x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FSUSB63UMX" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="UFQFN-12 ON Semiconductor" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="0.68 USD" x="-41.91" y="-350.52" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X5" library="SparkFun" package="USB-A-S-NOSILK-FEMALE" value="USB" x="-27.94" y="-370.84"/>
+<element name="S8" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-36.83" y="-397.51">
+<attribute name="PROD_ID" value="SWCH-10805" x="-71.12" y="-356.87" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="SparkFun-LED" package="FKIT-LED-1206" value="" x="-13.97" y="-397.51"/>
 </elements>
 <signals>
 <signal name="PC1HDMI-HOT">
@@ -3015,6 +3178,214 @@ design rules under a new name.</description>
 <contactref element="U8" pad="31"/>
 <contactref element="J5" pad="19"/>
 <wire x1="278.765" y1="1.8288" x2="302.26" y2="0.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USBGND">
+<contactref element="X2" pad="GND"/>
+<contactref element="U9" pad="3"/>
+<contactref element="X1" pad="GND"/>
+<contactref element="U10" pad="3"/>
+<contactref element="X3" pad="GND"/>
+<contactref element="U11" pad="3"/>
+<contactref element="X4" pad="GND"/>
+<contactref element="U12" pad="3"/>
+<contactref element="X5" pad="GND"/>
+<wire x1="-28.54" y1="-234.58" x2="-23.728" y2="-210.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-265.12" x2="-28.54" y2="-234.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-289.19" x2="-23.728" y2="-265.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-319.73" x2="-28.54" y2="-289.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-343.8" x2="-23.728" y2="-319.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-374.34" x2="-28.54" y2="-343.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-398.41" x2="-23.728" y2="-374.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-163.52" x2="-23.728" y2="-210.51" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USBVCC">
+<contactref element="X2" pad="VBUS"/>
+<contactref element="X1" pad="VBUS"/>
+<contactref element="U9" pad="12"/>
+<contactref element="S5" pad="3"/>
+<contactref element="X3" pad="VBUS"/>
+<contactref element="U10" pad="12"/>
+<contactref element="S6" pad="3"/>
+<contactref element="X4" pad="VBUS"/>
+<contactref element="U11" pad="12"/>
+<contactref element="S7" pad="3"/>
+<contactref element="X5" pad="VBUS"/>
+<contactref element="U12" pad="12"/>
+<contactref element="S8" pad="3"/>
+<wire x1="-28.54" y1="-232.78" x2="-23.728" y2="-203.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-235.43" x2="-28.54" y2="-232.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-258.12" x2="-28.54" y2="-232.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-287.39" x2="-23.728" y2="-258.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-290.04" x2="-28.54" y2="-287.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-312.73" x2="-28.54" y2="-287.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-342" x2="-23.728" y2="-312.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-344.65" x2="-28.54" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-367.34" x2="-28.54" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.54" y1="-396.61" x2="-23.728" y2="-367.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.33" y1="-399.26" x2="-28.54" y2="-396.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.728" y1="-156.52" x2="-23.728" y2="-203.51" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC1D+">
+<contactref element="X2" pad="D+"/>
+<contactref element="U9" pad="6"/>
+<contactref element="U10" pad="6"/>
+<contactref element="U11" pad="6"/>
+<contactref element="U12" pad="6"/>
+<wire x1="-27.34" y1="-234.58" x2="-23.728" y2="-161.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-289.19" x2="-27.34" y2="-234.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-343.8" x2="-27.34" y2="-289.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-398.41" x2="-27.34" y2="-343.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC1D-">
+<contactref element="X2" pad="D-"/>
+<contactref element="U9" pad="5"/>
+<contactref element="U10" pad="5"/>
+<contactref element="U11" pad="5"/>
+<contactref element="U12" pad="5"/>
+<wire x1="-27.74" y1="-234.58" x2="-23.728" y2="-159.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-289.19" x2="-27.74" y2="-234.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-343.8" x2="-27.74" y2="-289.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-398.41" x2="-27.74" y2="-343.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$82">
+<contactref element="X1" pad="D-"/>
+<contactref element="U9" pad="2"/>
+<wire x1="-28.84" y1="-233.88" x2="-23.728" y2="-206.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$83">
+<contactref element="X1" pad="D+"/>
+<contactref element="U9" pad="1"/>
+<wire x1="-28.84" y1="-233.48" x2="-23.728" y2="-208.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$84">
+<contactref element="S5" pad="1"/>
+<contactref element="U9" pad="4"/>
+<contactref element="D1" pad="C"/>
+<wire x1="-28.14" y1="-234.58" x2="-12.548" y2="-233.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.83" y1="-235.43" x2="-28.14" y2="-234.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$87">
+<contactref element="S5" pad="2"/>
+<contactref element="U9" pad="11"/>
+<contactref element="S5" pad="4"/>
+<contactref element="D1" pad="A"/>
+<wire x1="-28.14" y1="-232.78" x2="-15.392" y2="-233.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.33" y1="-235.43" x2="-28.14" y2="-232.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.83" y1="-235.43" x2="-35.33" y2="-235.43" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2D+">
+<contactref element="U9" pad="8"/>
+<contactref element="U10" pad="8"/>
+<contactref element="U11" pad="8"/>
+<contactref element="U12" pad="8"/>
+<wire x1="-27.04" y1="-342.7" x2="-27.04" y2="-397.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-288.09" x2="-27.04" y2="-342.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-233.48" x2="-27.04" y2="-288.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3D+">
+<contactref element="U9" pad="10"/>
+<contactref element="U10" pad="10"/>
+<contactref element="U11" pad="10"/>
+<contactref element="U12" pad="10"/>
+<wire x1="-27.74" y1="-342" x2="-27.74" y2="-396.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-287.39" x2="-27.74" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.74" y1="-232.78" x2="-27.74" y2="-287.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC2D-">
+<contactref element="U9" pad="7"/>
+<contactref element="U10" pad="7"/>
+<contactref element="U11" pad="7"/>
+<contactref element="U12" pad="7"/>
+<wire x1="-27.04" y1="-343.1" x2="-27.04" y2="-397.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-288.49" x2="-27.04" y2="-343.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.04" y1="-233.88" x2="-27.04" y2="-288.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC3D-">
+<contactref element="U9" pad="9"/>
+<contactref element="U10" pad="9"/>
+<contactref element="U11" pad="9"/>
+<contactref element="U12" pad="9"/>
+<wire x1="-27.34" y1="-342" x2="-27.34" y2="-396.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-287.39" x2="-27.34" y2="-342" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.34" y1="-232.78" x2="-27.34" y2="-287.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$85">
+<contactref element="X3" pad="D-"/>
+<contactref element="U10" pad="2"/>
+<wire x1="-23.728" y1="-260.62" x2="-28.84" y2="-288.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$86">
+<contactref element="X3" pad="D+"/>
+<contactref element="U10" pad="1"/>
+<wire x1="-23.728" y1="-262.62" x2="-28.84" y2="-288.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$88">
+<contactref element="S6" pad="1"/>
+<contactref element="U10" pad="4"/>
+<contactref element="D2" pad="C"/>
+<wire x1="-28.14" y1="-289.19" x2="-33.83" y2="-290.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.548" y1="-288.29" x2="-28.14" y2="-289.19" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$89">
+<contactref element="S6" pad="2"/>
+<contactref element="U10" pad="11"/>
+<contactref element="S6" pad="4"/>
+<contactref element="D2" pad="A"/>
+<wire x1="-35.33" y1="-290.04" x2="-39.83" y2="-290.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.14" y1="-287.39" x2="-35.33" y2="-290.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.392" y1="-288.29" x2="-28.14" y2="-287.39" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$90">
+<contactref element="X4" pad="D-"/>
+<contactref element="U11" pad="2"/>
+<wire x1="-23.728" y1="-315.23" x2="-28.84" y2="-343.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$91">
+<contactref element="X4" pad="D+"/>
+<contactref element="U11" pad="1"/>
+<wire x1="-23.728" y1="-317.23" x2="-28.84" y2="-342.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$92">
+<contactref element="S7" pad="1"/>
+<contactref element="U11" pad="4"/>
+<contactref element="D3" pad="C"/>
+<wire x1="-28.14" y1="-343.8" x2="-33.83" y2="-344.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.548" y1="-342.9" x2="-28.14" y2="-343.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$93">
+<contactref element="S7" pad="2"/>
+<contactref element="U11" pad="11"/>
+<contactref element="S7" pad="4"/>
+<contactref element="D3" pad="A"/>
+<wire x1="-35.33" y1="-344.65" x2="-39.83" y2="-344.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.14" y1="-342" x2="-35.33" y2="-344.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.392" y1="-342.9" x2="-28.14" y2="-342" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$94">
+<contactref element="X5" pad="D-"/>
+<contactref element="U12" pad="2"/>
+<wire x1="-23.728" y1="-369.84" x2="-28.84" y2="-397.71" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$95">
+<contactref element="X5" pad="D+"/>
+<contactref element="U12" pad="1"/>
+<wire x1="-23.728" y1="-371.84" x2="-28.84" y2="-397.31" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$96">
+<contactref element="S8" pad="1"/>
+<contactref element="U12" pad="4"/>
+<contactref element="D4" pad="C"/>
+<wire x1="-28.14" y1="-398.41" x2="-33.83" y2="-399.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.548" y1="-397.51" x2="-28.14" y2="-398.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$97">
+<contactref element="S8" pad="2"/>
+<contactref element="U12" pad="11"/>
+<contactref element="S8" pad="4"/>
+<contactref element="D4" pad="A"/>
+<wire x1="-35.33" y1="-399.26" x2="-39.83" y2="-399.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.14" y1="-396.61" x2="-35.33" y2="-399.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.392" y1="-397.51" x2="-28.14" y2="-396.61" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
