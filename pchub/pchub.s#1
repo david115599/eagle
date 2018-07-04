@@ -3259,6 +3259,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$18" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
 <part name="U21" library="MAX4998ETIT" deviceset="MAX4998ETIT" device=""/>
 <part name="U22" library="MAX4998ETIT" deviceset="MAX4998ETIT" device=""/>
+<part name="S17" library="SparkFun-Switches" deviceset="SWITCH-SP3T" device="-SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -3490,7 +3491,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="S16" gate="G$1" x="-426.72" y="193.04"/>
 <instance part="D12" gate="G$1" x="-431.8" y="190.5" rot="R270"/>
 <instance part="J6" gate="G$1" x="-601.98" y="231.14"/>
-<instance part="J7" gate="G$1" x="-180.34" y="-53.34"/>
+<instance part="J7" gate="G$1" x="-213.36" y="-119.38"/>
 <instance part="U$6" gate="G$1" x="-601.98" y="287.02"/>
 <instance part="U$11" gate="G$1" x="-317.5" y="127"/>
 <instance part="U$12" gate="G$1" x="-353.06" y="127"/>
@@ -3506,6 +3507,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$18" gate="G$1" x="-424.18" y="30.48"/>
 <instance part="U21" gate="A" x="-368.3" y="-129.54"/>
 <instance part="U22" gate="A" x="-368.3" y="-73.66"/>
+<instance part="S17" gate="G$1" x="-289.56" y="-119.38" rot="R180"/>
 </instances>
 <busses>
 <bus name="I2C:SCL,SDA">

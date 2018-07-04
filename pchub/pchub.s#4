@@ -3200,7 +3200,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-353.06" y1="160.02" x2="-353.06" y2="210.82" width="0.1524" layer="95"/>
 <wire x1="-353.06" y1="210.82" x2="-441.96" y2="210.82" width="0.1524" layer="95"/>
 <text x="-436.88" y="203.2" size="5.08" layer="95">USB A</text>
-<wire x1="-165.1" y1="-266.7" x2="-165.1" y2="-220.98" width="0.1524" layer="95"/>
 <wire x1="-299.72" y1="157.48" x2="-335.28" y2="157.48" width="0.1524" layer="95"/>
 <wire x1="-335.28" y1="111.76" x2="-299.72" y2="111.76" width="0.1524" layer="95"/>
 <wire x1="-299.72" y1="111.76" x2="-299.72" y2="157.48" width="0.1524" layer="95"/>

@@ -3330,7 +3330,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="S16" gate="G$1" x="-426.72" y="193.04"/>
 <instance part="D12" gate="G$1" x="-431.8" y="190.5" rot="R270"/>
 <instance part="J6" gate="G$1" x="-601.98" y="231.14"/>
-<instance part="J7" gate="G$1" x="-182.88" y="-111.76"/>
+<instance part="J7" gate="G$1" x="-180.34" y="-53.34"/>
 <instance part="U$6" gate="G$1" x="-601.98" y="287.02"/>
 <instance part="U$11" gate="G$1" x="-317.5" y="127"/>
 <instance part="U$12" gate="G$1" x="-353.06" y="127"/>

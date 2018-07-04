@@ -4392,6 +4392,30 @@ design rules under a new name.</description>
 <wire x1="-11.89" y1="-608.81" x2="-14.122" y2="-614.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.39" y1="-608.81" x2="-11.89" y2="-608.81" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="ETH1">
+<contactref element="U$6" pad="1"/>
+</signal>
+<signal name="ETH3">
+<contactref element="U$6" pad="3"/>
+</signal>
+<signal name="ETH4">
+<contactref element="U$6" pad="4"/>
+</signal>
+<signal name="ETH5">
+<contactref element="U$6" pad="5"/>
+</signal>
+<signal name="ETH6">
+<contactref element="U$6" pad="6"/>
+</signal>
+<signal name="ETH7">
+<contactref element="U$6" pad="7"/>
+</signal>
+<signal name="ETH8">
+<contactref element="U$6" pad="8"/>
+</signal>
+<signal name="ETH2">
+<contactref element="U$6" pad="2"/>
+</signal>
 </signals>
 </board>
 </drawing>

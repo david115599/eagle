@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -3491,7 +3491,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="S16" gate="G$1" x="-426.72" y="193.04"/>
 <instance part="D12" gate="G$1" x="-431.8" y="190.5" rot="R270"/>
 <instance part="J6" gate="G$1" x="-601.98" y="231.14"/>
-<instance part="J7" gate="G$1" x="-213.36" y="-119.38"/>
+<instance part="J7" gate="G$1" x="-218.44" y="-91.44" rot="R180"/>
 <instance part="U$6" gate="G$1" x="-601.98" y="287.02"/>
 <instance part="U$11" gate="G$1" x="-317.5" y="127"/>
 <instance part="U$12" gate="G$1" x="-353.06" y="127"/>
@@ -3506,8 +3506,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$17" gate="G$1" x="-388.62" y="30.48"/>
 <instance part="U$18" gate="G$1" x="-424.18" y="30.48"/>
 <instance part="U21" gate="A" x="-368.3" y="-129.54"/>
-<instance part="U22" gate="A" x="-368.3" y="-73.66"/>
-<instance part="S17" gate="G$1" x="-289.56" y="-119.38" rot="R180"/>
+<instance part="U22" gate="A" x="-231.14" y="-119.38" rot="R180"/>
+<instance part="S17" gate="G$1" x="-340.36" y="-111.76" rot="R180"/>
 </instances>
 <busses>
 <bus name="I2C:SCL,SDA">
@@ -8717,6 +8717,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$18" gate="G$1" pin="2"/>
 <wire x1="-436.88" y1="38.1" x2="-439.42" y2="38.1" width="0.1524" layer="91"/>
 <label x="-439.42" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$130" class="0">
+<segment>
+<pinref part="U22" gate="A" pin="COM0+"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="-231.14" y1="-119.38" x2="-208.28" y2="-119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$131" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="-208.28" y1="-114.3" x2="-226.06" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="-226.06" y1="-114.3" x2="-226.06" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="U22" gate="A" pin="COM0-"/>
+<wire x1="-226.06" y1="-116.84" x2="-231.14" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

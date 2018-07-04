@@ -3087,7 +3087,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J6" library="2040210-1" deviceset="2040210-1" device=""/>
 <part name="J7" library="2040210-1" deviceset="2040210-1" device=""/>
 <part name="U$6" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
+<part name="U$8" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
 <part name="U$7" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
+<part name="U$9" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
+<part name="U$10" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
+<part name="U$11" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
+<part name="U$12" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
+<part name="U$13" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
+<part name="U$14" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -3189,6 +3196,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-353.06" y1="160.02" x2="-353.06" y2="210.82" width="0.1524" layer="95"/>
 <wire x1="-353.06" y1="210.82" x2="-441.96" y2="210.82" width="0.1524" layer="95"/>
 <text x="-436.88" y="203.2" size="5.08" layer="95">USB A</text>
+<wire x1="-165.1" y1="-220.98" x2="-200.66" y2="-220.98" width="0.1524" layer="95"/>
+<wire x1="-200.66" y1="-220.98" x2="-200.66" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-200.66" y1="-266.7" x2="-165.1" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-165.1" y1="-266.7" x2="-165.1" y2="-220.98" width="0.1524" layer="95"/>
+<text x="-200.66" y="-226.06" size="4.826" layer="95">ETHERNET</text>
+<wire x1="-200.66" y1="-220.98" x2="-236.22" y2="-220.98" width="0.1524" layer="95"/>
+<wire x1="-236.22" y1="-220.98" x2="-236.22" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-236.22" y1="-266.7" x2="-200.66" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-200.66" y1="-266.7" x2="-200.66" y2="-220.98" width="0.1524" layer="95"/>
+<text x="-236.22" y="-226.06" size="4.826" layer="95">ETHERNET</text>
+<wire x1="-236.22" y1="-220.98" x2="-271.78" y2="-220.98" width="0.1524" layer="95"/>
+<wire x1="-271.78" y1="-220.98" x2="-271.78" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-271.78" y1="-266.7" x2="-236.22" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-236.22" y1="-266.7" x2="-236.22" y2="-220.98" width="0.1524" layer="95"/>
+<text x="-271.78" y="-226.06" size="4.826" layer="95">ETHERNET</text>
+<wire x1="-271.78" y1="-220.98" x2="-307.34" y2="-220.98" width="0.1524" layer="95"/>
+<wire x1="-307.34" y1="-220.98" x2="-307.34" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-307.34" y1="-266.7" x2="-271.78" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-271.78" y1="-266.7" x2="-271.78" y2="-220.98" width="0.1524" layer="95"/>
+<text x="-307.34" y="-226.06" size="4.826" layer="95">ETHERNET</text>
+<wire x1="-165.1" y1="-266.7" x2="-200.66" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-200.66" y1="-266.7" x2="-200.66" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-200.66" y1="-312.42" x2="-165.1" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-165.1" y1="-312.42" x2="-165.1" y2="-266.7" width="0.1524" layer="95"/>
+<text x="-200.66" y="-271.78" size="4.826" layer="95">ETHERNET</text>
+<wire x1="-200.66" y1="-266.7" x2="-236.22" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-236.22" y1="-266.7" x2="-236.22" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-236.22" y1="-312.42" x2="-200.66" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-200.66" y1="-312.42" x2="-200.66" y2="-266.7" width="0.1524" layer="95"/>
+<text x="-236.22" y="-271.78" size="4.826" layer="95">ETHERNET</text>
+<wire x1="-236.22" y1="-266.7" x2="-271.78" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-271.78" y1="-266.7" x2="-271.78" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-271.78" y1="-312.42" x2="-236.22" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-236.22" y1="-312.42" x2="-236.22" y2="-266.7" width="0.1524" layer="95"/>
+<text x="-271.78" y="-271.78" size="4.826" layer="95">ETHERNET</text>
+<wire x1="-271.78" y1="-266.7" x2="-307.34" y2="-266.7" width="0.1524" layer="95"/>
+<wire x1="-307.34" y1="-266.7" x2="-307.34" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-307.34" y1="-312.42" x2="-271.78" y2="-312.42" width="0.1524" layer="95"/>
+<wire x1="-271.78" y1="-312.42" x2="-271.78" y2="-266.7" width="0.1524" layer="95"/>
+<text x="-307.34" y="-271.78" size="4.826" layer="95">ETHERNET</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="-238.76" y="-7.62" rot="R180"/>
@@ -3270,7 +3317,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J6" gate="G$1" x="-320.04" y="-25.4"/>
 <instance part="J7" gate="G$1" x="-182.88" y="-111.76"/>
 <instance part="U$6" gate="G$1" x="-320.04" y="30.48"/>
-<instance part="U$7" gate="G$1" x="-182.88" y="-254"/>
+<instance part="U$8" gate="G$1" x="-182.88" y="-251.46"/>
+<instance part="U$7" gate="G$1" x="-218.44" y="-251.46"/>
+<instance part="U$9" gate="G$1" x="-254" y="-251.46"/>
+<instance part="U$10" gate="G$1" x="-289.56" y="-251.46"/>
+<instance part="U$11" gate="G$1" x="-182.88" y="-297.18"/>
+<instance part="U$12" gate="G$1" x="-218.44" y="-297.18"/>
+<instance part="U$13" gate="G$1" x="-254" y="-297.18"/>
+<instance part="U$14" gate="G$1" x="-289.56" y="-297.18"/>
 </instances>
 <busses>
 <bus name="I2C:SCL,SDA">
@@ -7951,12 +8005,92 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-332.74" y1="40.64" x2="-335.28" y2="40.64" width="0.1524" layer="91"/>
 <label x="-335.28" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="1"/>
+<wire x1="-195.58" y1="-241.3" x2="-198.12" y2="-241.3" width="0.1524" layer="91"/>
+<label x="-198.12" y="-241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="1"/>
+<wire x1="-231.14" y1="-241.3" x2="-233.68" y2="-241.3" width="0.1524" layer="91"/>
+<label x="-233.68" y="-241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="-266.7" y1="-241.3" x2="-269.24" y2="-241.3" width="0.1524" layer="91"/>
+<label x="-269.24" y="-241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="1"/>
+<wire x1="-302.26" y1="-241.3" x2="-304.8" y2="-241.3" width="0.1524" layer="91"/>
+<label x="-304.8" y="-241.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="1"/>
+<wire x1="-195.58" y1="-287.02" x2="-198.12" y2="-287.02" width="0.1524" layer="91"/>
+<label x="-198.12" y="-287.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="1"/>
+<wire x1="-231.14" y1="-287.02" x2="-233.68" y2="-287.02" width="0.1524" layer="91"/>
+<label x="-233.68" y="-287.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="1"/>
+<wire x1="-266.7" y1="-287.02" x2="-269.24" y2="-287.02" width="0.1524" layer="91"/>
+<label x="-269.24" y="-287.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="1"/>
+<wire x1="-302.26" y1="-287.02" x2="-304.8" y2="-287.02" width="0.1524" layer="91"/>
+<label x="-304.8" y="-287.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ETH3" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="3"/>
 <wire x1="-332.74" y1="35.56" x2="-335.28" y2="35.56" width="0.1524" layer="91"/>
 <label x="-335.28" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="3"/>
+<wire x1="-195.58" y1="-246.38" x2="-198.12" y2="-246.38" width="0.1524" layer="91"/>
+<label x="-198.12" y="-246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="3"/>
+<wire x1="-231.14" y1="-246.38" x2="-233.68" y2="-246.38" width="0.1524" layer="91"/>
+<label x="-233.68" y="-246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="3"/>
+<wire x1="-266.7" y1="-246.38" x2="-269.24" y2="-246.38" width="0.1524" layer="91"/>
+<label x="-269.24" y="-246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="3"/>
+<wire x1="-302.26" y1="-246.38" x2="-304.8" y2="-246.38" width="0.1524" layer="91"/>
+<label x="-304.8" y="-246.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="3"/>
+<wire x1="-195.58" y1="-292.1" x2="-198.12" y2="-292.1" width="0.1524" layer="91"/>
+<label x="-198.12" y="-292.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="3"/>
+<wire x1="-231.14" y1="-292.1" x2="-233.68" y2="-292.1" width="0.1524" layer="91"/>
+<label x="-233.68" y="-292.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="3"/>
+<wire x1="-266.7" y1="-292.1" x2="-269.24" y2="-292.1" width="0.1524" layer="91"/>
+<label x="-269.24" y="-292.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="3"/>
+<wire x1="-302.26" y1="-292.1" x2="-304.8" y2="-292.1" width="0.1524" layer="91"/>
+<label x="-304.8" y="-292.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH4" class="0">
@@ -7965,12 +8099,92 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-332.74" y1="33.02" x2="-335.28" y2="33.02" width="0.1524" layer="91"/>
 <label x="-335.28" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="4"/>
+<wire x1="-195.58" y1="-248.92" x2="-198.12" y2="-248.92" width="0.1524" layer="91"/>
+<label x="-198.12" y="-248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="4"/>
+<wire x1="-231.14" y1="-248.92" x2="-233.68" y2="-248.92" width="0.1524" layer="91"/>
+<label x="-233.68" y="-248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="4"/>
+<wire x1="-266.7" y1="-248.92" x2="-269.24" y2="-248.92" width="0.1524" layer="91"/>
+<label x="-269.24" y="-248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="4"/>
+<wire x1="-302.26" y1="-248.92" x2="-304.8" y2="-248.92" width="0.1524" layer="91"/>
+<label x="-304.8" y="-248.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="4"/>
+<wire x1="-195.58" y1="-294.64" x2="-198.12" y2="-294.64" width="0.1524" layer="91"/>
+<label x="-198.12" y="-294.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="4"/>
+<wire x1="-231.14" y1="-294.64" x2="-233.68" y2="-294.64" width="0.1524" layer="91"/>
+<label x="-233.68" y="-294.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="4"/>
+<wire x1="-266.7" y1="-294.64" x2="-269.24" y2="-294.64" width="0.1524" layer="91"/>
+<label x="-269.24" y="-294.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="4"/>
+<wire x1="-302.26" y1="-294.64" x2="-304.8" y2="-294.64" width="0.1524" layer="91"/>
+<label x="-304.8" y="-294.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ETH5" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="5"/>
 <wire x1="-332.74" y1="30.48" x2="-335.28" y2="30.48" width="0.1524" layer="91"/>
 <label x="-335.28" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="5"/>
+<wire x1="-195.58" y1="-251.46" x2="-198.12" y2="-251.46" width="0.1524" layer="91"/>
+<label x="-198.12" y="-251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="5"/>
+<wire x1="-231.14" y1="-251.46" x2="-233.68" y2="-251.46" width="0.1524" layer="91"/>
+<label x="-233.68" y="-251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="5"/>
+<wire x1="-266.7" y1="-251.46" x2="-269.24" y2="-251.46" width="0.1524" layer="91"/>
+<label x="-269.24" y="-251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="5"/>
+<wire x1="-302.26" y1="-251.46" x2="-304.8" y2="-251.46" width="0.1524" layer="91"/>
+<label x="-304.8" y="-251.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="5"/>
+<wire x1="-195.58" y1="-297.18" x2="-198.12" y2="-297.18" width="0.1524" layer="91"/>
+<label x="-198.12" y="-297.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="5"/>
+<wire x1="-231.14" y1="-297.18" x2="-233.68" y2="-297.18" width="0.1524" layer="91"/>
+<label x="-233.68" y="-297.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="5"/>
+<wire x1="-266.7" y1="-297.18" x2="-269.24" y2="-297.18" width="0.1524" layer="91"/>
+<label x="-269.24" y="-297.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="5"/>
+<wire x1="-302.26" y1="-297.18" x2="-304.8" y2="-297.18" width="0.1524" layer="91"/>
+<label x="-304.8" y="-297.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH6" class="0">
@@ -7979,12 +8193,92 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-332.74" y1="27.94" x2="-335.28" y2="27.94" width="0.1524" layer="91"/>
 <label x="-335.28" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="6"/>
+<wire x1="-195.58" y1="-254" x2="-198.12" y2="-254" width="0.1524" layer="91"/>
+<label x="-198.12" y="-254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="6"/>
+<wire x1="-231.14" y1="-254" x2="-233.68" y2="-254" width="0.1524" layer="91"/>
+<label x="-233.68" y="-254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="6"/>
+<wire x1="-266.7" y1="-254" x2="-269.24" y2="-254" width="0.1524" layer="91"/>
+<label x="-269.24" y="-254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="6"/>
+<wire x1="-302.26" y1="-254" x2="-304.8" y2="-254" width="0.1524" layer="91"/>
+<label x="-304.8" y="-254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="6"/>
+<wire x1="-195.58" y1="-299.72" x2="-198.12" y2="-299.72" width="0.1524" layer="91"/>
+<label x="-198.12" y="-299.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="6"/>
+<wire x1="-231.14" y1="-299.72" x2="-233.68" y2="-299.72" width="0.1524" layer="91"/>
+<label x="-233.68" y="-299.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="6"/>
+<wire x1="-266.7" y1="-299.72" x2="-269.24" y2="-299.72" width="0.1524" layer="91"/>
+<label x="-269.24" y="-299.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="6"/>
+<wire x1="-302.26" y1="-299.72" x2="-304.8" y2="-299.72" width="0.1524" layer="91"/>
+<label x="-304.8" y="-299.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ETH7" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="7"/>
 <wire x1="-332.74" y1="25.4" x2="-335.28" y2="25.4" width="0.1524" layer="91"/>
 <label x="-335.28" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="7"/>
+<wire x1="-195.58" y1="-256.54" x2="-198.12" y2="-256.54" width="0.1524" layer="91"/>
+<label x="-198.12" y="-256.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="7"/>
+<wire x1="-231.14" y1="-256.54" x2="-233.68" y2="-256.54" width="0.1524" layer="91"/>
+<label x="-233.68" y="-256.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="7"/>
+<wire x1="-266.7" y1="-256.54" x2="-269.24" y2="-256.54" width="0.1524" layer="91"/>
+<label x="-269.24" y="-256.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="7"/>
+<wire x1="-302.26" y1="-256.54" x2="-304.8" y2="-256.54" width="0.1524" layer="91"/>
+<label x="-304.8" y="-256.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="7"/>
+<wire x1="-195.58" y1="-302.26" x2="-198.12" y2="-302.26" width="0.1524" layer="91"/>
+<label x="-198.12" y="-302.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="7"/>
+<wire x1="-231.14" y1="-302.26" x2="-233.68" y2="-302.26" width="0.1524" layer="91"/>
+<label x="-233.68" y="-302.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="7"/>
+<wire x1="-266.7" y1="-302.26" x2="-269.24" y2="-302.26" width="0.1524" layer="91"/>
+<label x="-269.24" y="-302.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="7"/>
+<wire x1="-302.26" y1="-302.26" x2="-304.8" y2="-302.26" width="0.1524" layer="91"/>
+<label x="-304.8" y="-302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH8" class="0">
@@ -7993,12 +8287,92 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-332.74" y1="22.86" x2="-335.28" y2="22.86" width="0.1524" layer="91"/>
 <label x="-335.28" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="8"/>
+<wire x1="-195.58" y1="-259.08" x2="-198.12" y2="-259.08" width="0.1524" layer="91"/>
+<label x="-198.12" y="-259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="8"/>
+<wire x1="-231.14" y1="-259.08" x2="-233.68" y2="-259.08" width="0.1524" layer="91"/>
+<label x="-233.68" y="-259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="8"/>
+<wire x1="-266.7" y1="-259.08" x2="-269.24" y2="-259.08" width="0.1524" layer="91"/>
+<label x="-269.24" y="-259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="8"/>
+<wire x1="-302.26" y1="-259.08" x2="-304.8" y2="-259.08" width="0.1524" layer="91"/>
+<label x="-304.8" y="-259.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="8"/>
+<wire x1="-195.58" y1="-304.8" x2="-198.12" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-198.12" y="-304.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="8"/>
+<wire x1="-231.14" y1="-304.8" x2="-233.68" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-233.68" y="-304.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="8"/>
+<wire x1="-266.7" y1="-304.8" x2="-269.24" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-269.24" y="-304.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="8"/>
+<wire x1="-302.26" y1="-304.8" x2="-304.8" y2="-304.8" width="0.1524" layer="91"/>
+<label x="-304.8" y="-304.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ETH2" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="2"/>
 <wire x1="-332.74" y1="38.1" x2="-335.28" y2="38.1" width="0.1524" layer="91"/>
 <label x="-335.28" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="2"/>
+<wire x1="-195.58" y1="-243.84" x2="-198.12" y2="-243.84" width="0.1524" layer="91"/>
+<label x="-198.12" y="-243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="2"/>
+<wire x1="-231.14" y1="-243.84" x2="-233.68" y2="-243.84" width="0.1524" layer="91"/>
+<label x="-233.68" y="-243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="-266.7" y1="-243.84" x2="-269.24" y2="-243.84" width="0.1524" layer="91"/>
+<label x="-269.24" y="-243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="2"/>
+<wire x1="-302.26" y1="-243.84" x2="-304.8" y2="-243.84" width="0.1524" layer="91"/>
+<label x="-304.8" y="-243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="2"/>
+<wire x1="-195.58" y1="-289.56" x2="-198.12" y2="-289.56" width="0.1524" layer="91"/>
+<label x="-198.12" y="-289.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="2"/>
+<wire x1="-231.14" y1="-289.56" x2="-233.68" y2="-289.56" width="0.1524" layer="91"/>
+<label x="-233.68" y="-289.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$13" gate="G$1" pin="2"/>
+<wire x1="-266.7" y1="-289.56" x2="-269.24" y2="-289.56" width="0.1524" layer="91"/>
+<label x="-269.24" y="-289.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="2"/>
+<wire x1="-302.26" y1="-289.56" x2="-304.8" y2="-289.56" width="0.1524" layer="91"/>
+<label x="-304.8" y="-289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

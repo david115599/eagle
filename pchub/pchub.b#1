@@ -2030,6 +2030,9 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="TQFN-28 Maxim Integrated" x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="4.23 USD" x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
 </element>
+<element name="S17" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-303.53" y="-326.39">
+<attribute name="PROD_ID" value="SWCH-10805" x="-303.53" y="-326.39" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="PC1HDMI-HOT">

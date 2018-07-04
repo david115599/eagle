@@ -1483,6 +1483,75 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="MAX4998ETIT">
+<packages>
+<package name="21-0184D">
+<wire x1="-1.8034" y1="1.524" x2="-0.5334" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="0.9144" y1="2.794" x2="0.6096" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="0.4064" y1="2.794" x2="0.1016" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="-0.1016" y1="2.794" x2="-0.4064" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="-0.6096" y1="2.794" x2="-0.9144" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="2.4384" x2="-1.8034" y2="2.1336" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="1.9304" x2="-1.8034" y2="1.6256" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="1.4224" x2="-1.8034" y2="1.1176" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="0.9144" x2="-1.8034" y2="0.6096" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="0.4064" x2="-1.8034" y2="0.1016" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-0.1016" x2="-1.8034" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-0.6096" x2="-1.8034" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-1.1176" x2="-1.8034" y2="-1.4224" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-1.6256" x2="-1.8034" y2="-1.9304" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-2.1336" x2="-1.8034" y2="-2.4384" width="0.1524" layer="51"/>
+<wire x1="-0.9144" y1="-2.794" x2="-0.6096" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="-0.4064" y1="-2.794" x2="-0.1016" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="0.1016" y1="-2.794" x2="0.4064" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="0.6096" y1="-2.794" x2="0.9144" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-2.4384" x2="1.8034" y2="-2.1336" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-1.9304" x2="1.8034" y2="-1.6256" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-1.4224" x2="1.8034" y2="-1.1176" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-0.9144" x2="1.8034" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-0.4064" x2="1.8034" y2="-0.1016" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="0.1016" x2="1.8034" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="0.6096" x2="1.8034" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="1.1176" x2="1.8034" y2="1.4224" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="1.6256" x2="1.8034" y2="1.9304" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="2.1336" x2="1.8034" y2="2.4384" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="-2.794" x2="1.8034" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="-2.794" x2="1.8034" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="1.8034" y1="2.794" x2="-1.8034" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="-1.8034" y1="2.794" x2="-1.8034" y2="-2.794" width="0.1524" layer="51"/>
+<text x="-1.85436875" y="3.3927" size="0.4000375" layer="25">&gt;NAME</text>
+<text x="-1.85506875" y="-3.394" size="0.4001875" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-1.7018" y="2.286" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="2" x="-1.7018" y="1.778" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="3" x="-1.7018" y="1.27" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="4" x="-1.7018" y="0.762" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="5" x="-1.7018" y="0.254" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="6" x="-1.7018" y="-0.254" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="7" x="-1.7018" y="-0.762" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="8" x="-1.7018" y="-1.27" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="9" x="-1.7018" y="-1.778" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="10" x="-1.7018" y="-2.286" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="11" x="-0.762" y="-2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="12" x="-0.254" y="-2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="13" x="0.254" y="-2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="14" x="0.762" y="-2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="15" x="1.7018" y="-2.286" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="16" x="1.7018" y="-1.778" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="17" x="1.7018" y="-1.27" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="18" x="1.7018" y="-0.762" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="19" x="1.7018" y="-0.254" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="20" x="1.7018" y="0.254" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="21" x="1.7018" y="0.762" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="22" x="1.7018" y="1.27" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="23" x="1.7018" y="1.778" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="24" x="1.7018" y="2.286" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="25" x="0.762" y="2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="26" x="0.254" y="2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="27" x="-0.254" y="2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="28" x="-0.762" y="2.6924" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1945,6 +2014,22 @@ design rules under a new name.</description>
 <element name="U$16" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-255.27" y="-283.21"/>
 <element name="U$17" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-283.21" y="-312.42"/>
 <element name="U$18" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-255.27" y="-312.42"/>
+<element name="U21" library="MAX4998ETIT" package="21-0184D" value="MAX4998ETIT" x="-300.99" y="-318.77">
+<attribute name="AVAILABILITY" value="Unavailable" x="-300.99" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Analog Switch Triple DPDT/Single SPDT 28-Pin TQFN EP T/R " x="-300.99" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Maxim Integrated" x="-300.99" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MAX4998ETI+T" x="-300.99" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="TQFN-28 Maxim Integrated" x="-300.99" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="4.23 USD" x="-300.99" y="-318.77" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U22" library="MAX4998ETIT" package="21-0184D" value="MAX4998ETIT" x="-307.34" y="-318.77">
+<attribute name="AVAILABILITY" value="Unavailable" x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Analog Switch Triple DPDT/Single SPDT 28-Pin TQFN EP T/R " x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Maxim Integrated" x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MAX4998ETI+T" x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="TQFN-28 Maxim Integrated" x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="4.23 USD" x="-307.34" y="-318.77" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="PC1HDMI-HOT">
@@ -2665,6 +2750,8 @@ design rules under a new name.</description>
 <contactref element="U4" pad="8"/>
 <contactref element="U4" pad="49"/>
 <contactref element="U4" pad="38"/>
+<contactref element="U21" pad="24"/>
+<contactref element="U22" pad="24"/>
 <wire x1="285.84" y1="-29.5" x2="285.84" y2="-35" width="0" layer="19" extent="1-1"/>
 <wire x1="293.28" y1="-29.5" x2="285.84" y2="-29.5" width="0" layer="19" extent="1-1"/>
 <wire x1="293.28" y1="-35" x2="293.28" y2="-29.5" width="0" layer="19" extent="1-1"/>
@@ -2680,6 +2767,8 @@ design rules under a new name.</description>
 <wire x1="293.28" y1="-109.93" x2="293.28" y2="-104.43" width="0" layer="19" extent="1-1"/>
 <wire x1="285.84" y1="-104.43" x2="293.28" y2="-104.43" width="0" layer="19" extent="1-1"/>
 <wire x1="285.84" y1="-109.93" x2="285.84" y2="-104.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-299.2882" y1="-316.484" x2="285.84" y2="-109.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-305.6382" y1="-316.484" x2="-299.2882" y2="-316.484" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC2USBC-SSTX-">
 <contactref element="U1" pad="33"/>
@@ -4626,6 +4715,26 @@ design rules under a new name.</description>
 <wire x1="-286.385" y1="-303.53" x2="-286.385" y2="-274.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-258.445" y1="-303.53" x2="-286.385" y2="-303.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-160.655" y1="68.58" x2="-258.445" y2="-157.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD_2">
+<contactref element="U21" pad="7"/>
+<contactref element="U22" pad="7"/>
+<wire x1="-302.6918" y1="-319.532" x2="-309.0418" y2="-319.532" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD_3">
+<contactref element="U21" pad="9"/>
+<contactref element="U22" pad="9"/>
+<wire x1="-302.6918" y1="-320.548" x2="-309.0418" y2="-320.548" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD_4">
+<contactref element="U21" pad="15"/>
+<contactref element="U22" pad="15"/>
+<wire x1="-299.2882" y1="-321.056" x2="-305.6382" y2="-321.056" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD">
+<contactref element="U21" pad="19"/>
+<contactref element="U22" pad="19"/>
+<wire x1="-299.2882" y1="-319.024" x2="-305.6382" y2="-319.024" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
