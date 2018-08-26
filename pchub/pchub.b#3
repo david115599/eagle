@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1945,6 +1945,25 @@ design rules under a new name.</description>
 <element name="U$16" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-255.27" y="-283.21"/>
 <element name="U$17" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-283.21" y="-312.42"/>
 <element name="U$18" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-255.27" y="-312.42"/>
+<element name="S17" library="SparkFun-Switches" package="SWITCH_SP3T_SMD" value="" x="-303.53" y="-326.39">
+<attribute name="PROD_ID" value="SWCH-10805" x="-303.53" y="-326.39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U21" library="SN74CBT16214DGGR" package="SOP50P810X120-56N" value="SN74CBT16214DGGR" x="-304.8" y="-341.63">
+<attribute name="AVAILABILITY" value="Good" x="-316.23" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Multiplexer/Demultiplexer Bus Switch 1-Element CMOS 36-IN 56-Pin TSSOP T/R " x="-316.23" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="-316.23" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SN74CBT16214DGGR" x="-316.23" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="TSSOP-56 Texas Instruments" x="-316.23" y="-320.04" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="1.31 USD" x="-316.23" y="-320.04" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U22" library="SN74CBT16214DGGR" package="SOP50P810X120-56N" value="SN74CBT16214DGGR" x="-304.8" y="-361.95">
+<attribute name="AVAILABILITY" value="Good" x="-316.23" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Multiplexer/Demultiplexer Bus Switch 1-Element CMOS 36-IN 56-Pin TSSOP T/R " x="-316.23" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="-316.23" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SN74CBT16214DGGR" x="-316.23" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="TSSOP-56 Texas Instruments" x="-316.23" y="-341.63" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="1.31 USD" x="-316.23" y="-341.63" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="PC1HDMI-HOT">
@@ -2665,6 +2684,8 @@ design rules under a new name.</description>
 <contactref element="U4" pad="8"/>
 <contactref element="U4" pad="49"/>
 <contactref element="U4" pad="38"/>
+<contactref element="U21" pad="19"/>
+<contactref element="U22" pad="19"/>
 <wire x1="285.84" y1="-29.5" x2="285.84" y2="-35" width="0" layer="19" extent="1-1"/>
 <wire x1="293.28" y1="-29.5" x2="285.84" y2="-29.5" width="0" layer="19" extent="1-1"/>
 <wire x1="293.28" y1="-35" x2="293.28" y2="-29.5" width="0" layer="19" extent="1-1"/>
@@ -2680,6 +2701,8 @@ design rules under a new name.</description>
 <wire x1="293.28" y1="-109.93" x2="293.28" y2="-104.43" width="0" layer="19" extent="1-1"/>
 <wire x1="285.84" y1="-104.43" x2="293.28" y2="-104.43" width="0" layer="19" extent="1-1"/>
 <wire x1="285.84" y1="-109.93" x2="285.84" y2="-104.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-308.52" y1="-343.88" x2="285.84" y2="-109.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-308.52" y1="-364.2" x2="-308.52" y2="-343.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PC2USBC-SSTX-">
 <contactref element="U1" pad="33"/>
@@ -4626,6 +4649,383 @@ design rules under a new name.</description>
 <wire x1="-286.385" y1="-303.53" x2="-286.385" y2="-274.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-258.445" y1="-303.53" x2="-286.385" y2="-303.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-160.655" y1="68.58" x2="-258.445" y2="-157.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="U21" pad="17"/>
+<contactref element="U22" pad="17"/>
+<wire x1="-308.52" y1="-342.88" x2="-308.52" y2="-363.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND-1">
+<contactref element="U21" pad="38"/>
+<contactref element="U22" pad="38"/>
+<wire x1="-301.08" y1="-343.88" x2="-301.08" y2="-364.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND-2">
+<contactref element="U21" pad="49"/>
+<contactref element="U22" pad="49"/>
+<wire x1="-301.08" y1="-338.38" x2="-301.08" y2="-358.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND-3">
+<contactref element="U21" pad="8"/>
+<contactref element="U22" pad="8"/>
+<wire x1="-308.52" y1="-338.38" x2="-308.52" y2="-358.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$130">
+<contactref element="J7" pad="1"/>
+<contactref element="U21" pad="2"/>
+<wire x1="-126.58" y1="62.84" x2="-308.52" y2="-335.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$131">
+<contactref element="J7" pad="2"/>
+<contactref element="U21" pad="4"/>
+<wire x1="-127.08" y1="61.34" x2="-308.52" y2="-336.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$143">
+<contactref element="J7" pad="3"/>
+<contactref element="U21" pad="6"/>
+<wire x1="-127.58" y1="64.34" x2="-308.52" y2="-337.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$144">
+<contactref element="J7" pad="4"/>
+<contactref element="U21" pad="9"/>
+<wire x1="-128.08" y1="62.84" x2="-308.52" y2="-338.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$145">
+<contactref element="J7" pad="5"/>
+<contactref element="U21" pad="11"/>
+<wire x1="-128.58" y1="61.34" x2="-308.52" y2="-339.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$146">
+<contactref element="J7" pad="6"/>
+<contactref element="U21" pad="13"/>
+<wire x1="-129.08" y1="64.34" x2="-308.52" y2="-340.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$147">
+<contactref element="J7" pad="7"/>
+<contactref element="U21" pad="15"/>
+<wire x1="-129.58" y1="62.84" x2="-308.52" y2="-341.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$148">
+<contactref element="J7" pad="8"/>
+<contactref element="U21" pad="18"/>
+<wire x1="-130.08" y1="61.34" x2="-308.52" y2="-343.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$149">
+<contactref element="J7" pad="9"/>
+<contactref element="U21" pad="21"/>
+<wire x1="-130.58" y1="64.34" x2="-308.52" y2="-344.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$150">
+<contactref element="J7" pad="10"/>
+</signal>
+<signal name="N$151">
+<contactref element="J7" pad="11"/>
+</signal>
+<signal name="N$152">
+<contactref element="J7" pad="12"/>
+<contactref element="U21" pad="27"/>
+<wire x1="-132.08" y1="64.34" x2="-308.52" y2="-347.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="B$2">
+<contactref element="U21" pad="25"/>
+</signal>
+<signal name="B$1">
+<contactref element="U21" pad="23"/>
+</signal>
+<signal name="N$153">
+<contactref element="J7" pad="13"/>
+<contactref element="U22" pad="2"/>
+<wire x1="-132.58" y1="62.84" x2="-308.52" y2="-355.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$154">
+<contactref element="U22" pad="4"/>
+<contactref element="J7" pad="14"/>
+<wire x1="-133.08" y1="61.34" x2="-308.52" y2="-356.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$155">
+<contactref element="U22" pad="6"/>
+<contactref element="J7" pad="15"/>
+<wire x1="-133.58" y1="64.34" x2="-308.52" y2="-357.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$156">
+<contactref element="J7" pad="16"/>
+<contactref element="U22" pad="9"/>
+<wire x1="-134.08" y1="62.84" x2="-308.52" y2="-359.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$157">
+<contactref element="J7" pad="17"/>
+<contactref element="U22" pad="11"/>
+<wire x1="-134.58" y1="61.34" x2="-308.52" y2="-360.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$158">
+<contactref element="J7" pad="18"/>
+<contactref element="U22" pad="13"/>
+<wire x1="-135.08" y1="64.34" x2="-308.52" y2="-361.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$159">
+<contactref element="J7" pad="19"/>
+<contactref element="U22" pad="15"/>
+<wire x1="-135.58" y1="62.84" x2="-308.52" y2="-362.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$160">
+<contactref element="J7" pad="SH4"/>
+<contactref element="J7" pad="SH3"/>
+<contactref element="J7" pad="SH1"/>
+<contactref element="J7" pad="SH2"/>
+<contactref element="U22" pad="18"/>
+<wire x1="-140.33" y1="56.51" x2="-308.52" y2="-363.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-140.33" y1="63.54" x2="-140.33" y2="56.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-123.83" y1="56.49" x2="-140.33" y2="56.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-123.83" y1="63.54" x2="-123.83" y2="56.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PC1DP1">
+<contactref element="J6" pad="1"/>
+</signal>
+<signal name="PC1DP2">
+<contactref element="J6" pad="2"/>
+</signal>
+<signal name="PC1DP3">
+<contactref element="J6" pad="3"/>
+</signal>
+<signal name="PC1DP4">
+<contactref element="J6" pad="4"/>
+</signal>
+<signal name="PC1DP5">
+<contactref element="J6" pad="5"/>
+</signal>
+<signal name="PC1DP6">
+<contactref element="J6" pad="6"/>
+</signal>
+<signal name="PC1DP7">
+<contactref element="J6" pad="7"/>
+</signal>
+<signal name="PC1DP8">
+<contactref element="J6" pad="8"/>
+</signal>
+<signal name="PC1DP9">
+<contactref element="J6" pad="9"/>
+</signal>
+<signal name="PC1DP10">
+<contactref element="J6" pad="10"/>
+</signal>
+<signal name="PC1DP11">
+<contactref element="J6" pad="11"/>
+</signal>
+<signal name="PC1DP12">
+<contactref element="J6" pad="12"/>
+</signal>
+<signal name="PC1DP13">
+<contactref element="J6" pad="13"/>
+</signal>
+<signal name="PC1DP14">
+<contactref element="J6" pad="14"/>
+</signal>
+<signal name="PC1DP15">
+<contactref element="J6" pad="15"/>
+</signal>
+<signal name="PC1DP16">
+<contactref element="J6" pad="16"/>
+</signal>
+<signal name="PC1DP17">
+<contactref element="J6" pad="17"/>
+</signal>
+<signal name="PC1DP18">
+<contactref element="J6" pad="18"/>
+</signal>
+<signal name="PC1DP19">
+<contactref element="J6" pad="19"/>
+</signal>
+<signal name="PC1DP20">
+<contactref element="J6" pad="20"/>
+</signal>
+<signal name="PC1DPS">
+<contactref element="J6" pad="SH4"/>
+<contactref element="J6" pad="SH3"/>
+<contactref element="J6" pad="SH1"/>
+<contactref element="J6" pad="SH2"/>
+<wire x1="-117.47" y1="63.54" x2="-117.47" y2="56.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.97" y1="56.49" x2="-117.47" y2="56.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.97" y1="63.54" x2="-100.97" y2="56.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$161">
+<contactref element="U22" pad="47"/>
+</signal>
+<signal name="N$162">
+<contactref element="U22" pad="46"/>
+</signal>
+<signal name="N$163">
+<contactref element="U22" pad="10"/>
+</signal>
+<signal name="N$164">
+<contactref element="U22" pad="45"/>
+</signal>
+<signal name="N$165">
+<contactref element="U22" pad="44"/>
+</signal>
+<signal name="N$166">
+<contactref element="U22" pad="12"/>
+</signal>
+<signal name="N$167">
+<contactref element="U22" pad="43"/>
+</signal>
+<signal name="N$168">
+<contactref element="U22" pad="42"/>
+</signal>
+<signal name="N$169">
+<contactref element="U22" pad="14"/>
+</signal>
+<signal name="N$170">
+<contactref element="U22" pad="41"/>
+</signal>
+<signal name="N$171">
+<contactref element="U22" pad="40"/>
+</signal>
+<signal name="N$172">
+<contactref element="U22" pad="16"/>
+</signal>
+<signal name="N$173">
+<contactref element="U22" pad="39"/>
+</signal>
+<signal name="N$174">
+<contactref element="U22" pad="37"/>
+</signal>
+<signal name="N$175">
+<contactref element="U22" pad="20"/>
+</signal>
+<signal name="N$176">
+<contactref element="U22" pad="7"/>
+</signal>
+<signal name="N$177">
+<contactref element="U22" pad="48"/>
+</signal>
+<signal name="N$178">
+<contactref element="U22" pad="50"/>
+</signal>
+<signal name="N$179">
+<contactref element="U22" pad="5"/>
+</signal>
+<signal name="N$180">
+<contactref element="U22" pad="51"/>
+</signal>
+<signal name="N$181">
+<contactref element="U22" pad="52"/>
+</signal>
+<signal name="N$182">
+<contactref element="U22" pad="3"/>
+</signal>
+<signal name="N$183">
+<contactref element="U22" pad="53"/>
+</signal>
+<signal name="N$184">
+<contactref element="U22" pad="54"/>
+</signal>
+<signal name="N$185">
+<contactref element="U21" pad="7"/>
+</signal>
+<signal name="N$186">
+<contactref element="U21" pad="48"/>
+</signal>
+<signal name="N$187">
+<contactref element="U21" pad="50"/>
+</signal>
+<signal name="N$188">
+<contactref element="U21" pad="5"/>
+</signal>
+<signal name="N$189">
+<contactref element="U21" pad="51"/>
+</signal>
+<signal name="N$190">
+<contactref element="U21" pad="52"/>
+</signal>
+<signal name="N$191">
+<contactref element="U21" pad="53"/>
+</signal>
+<signal name="N$192">
+<contactref element="U21" pad="3"/>
+</signal>
+<signal name="N$193">
+<contactref element="U21" pad="54"/>
+</signal>
+<signal name="N$194">
+<contactref element="U21" pad="28"/>
+</signal>
+<signal name="N$195">
+<contactref element="U21" pad="29"/>
+</signal>
+<signal name="N$196">
+<contactref element="U21" pad="30"/>
+</signal>
+<signal name="N$197">
+<contactref element="U21" pad="26"/>
+</signal>
+<signal name="N$198">
+<contactref element="U21" pad="31"/>
+</signal>
+<signal name="N$199">
+<contactref element="U21" pad="32"/>
+</signal>
+<signal name="N$200">
+<contactref element="U21" pad="24"/>
+</signal>
+<signal name="N$201">
+<contactref element="U21" pad="33"/>
+</signal>
+<signal name="N$202">
+<contactref element="U21" pad="34"/>
+</signal>
+<signal name="N$203">
+<contactref element="U21" pad="22"/>
+</signal>
+<signal name="N$204">
+<contactref element="U21" pad="35"/>
+</signal>
+<signal name="N$205">
+<contactref element="U21" pad="36"/>
+</signal>
+<signal name="N$206">
+<contactref element="U21" pad="20"/>
+</signal>
+<signal name="N$207">
+<contactref element="U21" pad="37"/>
+</signal>
+<signal name="N$208">
+<contactref element="U21" pad="39"/>
+</signal>
+<signal name="N$209">
+<contactref element="U21" pad="40"/>
+</signal>
+<signal name="N$210">
+<contactref element="U21" pad="16"/>
+</signal>
+<signal name="N$211">
+<contactref element="U21" pad="41"/>
+</signal>
+<signal name="N$212">
+<contactref element="U21" pad="14"/>
+</signal>
+<signal name="N$213">
+<contactref element="U21" pad="42"/>
+</signal>
+<signal name="N$214">
+<contactref element="U21" pad="43"/>
+</signal>
+<signal name="N$215">
+<contactref element="U21" pad="12"/>
+</signal>
+<signal name="N$216">
+<contactref element="U21" pad="44"/>
+</signal>
+<signal name="N$217">
+<contactref element="U21" pad="45"/>
+</signal>
+<signal name="N$218">
+<contactref element="U21" pad="46"/>
+</signal>
+<signal name="N$219">
+<contactref element="U21" pad="10"/>
+</signal>
+<signal name="N$220">
+<contactref element="U21" pad="47"/>
 </signal>
 </signals>
 </board>
