@@ -1951,8 +1951,10 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="IC6" pad="5"/>
 <contactref element="IC7" pad="6"/>
-<wire x1="18.603" y1="13.56" x2="32.129" y2="8.99" width="0" layer="19" extent="1-1"/>
-<wire x1="14.81" y1="15.7286" x2="18.603" y2="13.56" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="74"/>
+<wire x1="14.81" y1="15.7286" x2="29.2" y2="44.425" width="0" layer="19" extent="1-1"/>
+<wire x1="18.603" y1="13.56" x2="14.81" y2="15.7286" width="0" layer="19" extent="1-1"/>
+<wire x1="32.129" y1="8.99" x2="18.603" y2="13.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="IC3" pad="44"/>
@@ -2424,9 +2426,6 @@ design rules under a new name.</description>
 <wire x1="5.3" y1="42.575" x2="5.3" y2="45.075" width="0" layer="19" extent="1-1"/>
 <wire x1="6.9" y1="42.325" x2="5.3" y2="42.575" width="0" layer="19" extent="1-1"/>
 <wire x1="1.545" y1="33.02" x2="5.3" y2="42.575" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="~~~~~~~~+3.3V">
-<contactref element="J1" pad="74"/>
 </signal>
 <signal name="N$8">
 <contactref element="J1" pad="73"/>
