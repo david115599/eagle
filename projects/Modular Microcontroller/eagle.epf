@@ -1693,14 +1693,10 @@ UsedLibraryUrn="urn:adsk.eagle:library:535"
 UsedLibraryUrn="urn:adsk.eagle:library:536"
 
 [Win_1]
-Type="Control Panel"
-Number=0
-
-[Win_2]
 Type="Board Editor"
-Number=2
-File="/Users/davidbershadsky/Documents/eagle/pchub/pchub.brd"
-View="-338.776 -653.264 326.773 123.206"
+Number=1
+File="/Users/davidbershadsky/Documents/eagle/PC Pid/coolingcontrol.brd"
+View="-8.62417 -9.112 106.331 68.472"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -1740,11 +1736,15 @@ AddLevel=2
 PadsSameType=0
 Layer=1
 
+[Win_2]
+Type="Control Panel"
+Number=0
+
 [Win_3]
 Type="Schematic Editor"
-Number=1
-File="/Users/davidbershadsky/Documents/eagle/pchub/pchub.sch"
-View="-692.585 294.155 -114.348 541.13"
+Number=2
+File="/Users/davidbershadsky/Documents/eagle/PC Pid/coolingcontrol.sch"
+View="-25.6129 -50.5245 107.394 38.0128"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -1783,35 +1783,11 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -692.585 294.155 -114.348 541.13"
+Views=" 1: -25.6129 -50.5245 107.394 38.0128"
 Sheet="1"
-
-[Win_4]
-Type="Text Editor"
-Number=3
-File="/Users/davidbershadsky/Documents/EAGLE/libraries/digital-transistors-1.rpt.lbr"
-CursorPos="0 0"
-Font="Artifakt Element Book,11,-1,5,50,0,0,0,0,0"
-
-[Win_5]
-Type="Text Editor"
-Number=5
-File="/Users/davidbershadsky/Documents/EAGLE/libraries/digital-transistors-1.lbr.rpt"
-CursorPos="0 0"
-Font="Artifakt Element Book,11,-1,5,50,0,0,0,0,0"
-
-[Win_6]
-Type="Text Editor"
-Number=4
-File="/Users/davidbershadsky/Documents/EAGLE/libraries/digital-transistors-2.rpt.lbr"
-CursorPos="0 0"
-Font="Artifakt Element Book,11,-1,5,50,0,0,0,0,0"
 
 [Desktop]
 Screen="1440 900"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
-Window="Win_4"
-Window="Win_5"
-Window="Win_6"
