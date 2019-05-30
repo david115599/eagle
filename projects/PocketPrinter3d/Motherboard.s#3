@@ -2116,19 +2116,19 @@ Allows current flow when high potential at base.</description>
 <part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
 <part name="JP1" library="SparkFun" deviceset="M08" device=""/>
 <part name="JP2" library="SparkFun" deviceset="M04" device="PTH"/>
-<part name="JP3" library="SparkFun" deviceset="M02" device="PTH"/>
+<part name="BAT" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="LBL3.3V" library="BaseApp" deviceset="JUMPER" device=""/>
 <part name="LBL5.5V" library="BaseApp" deviceset="JUMPER" device=""/>
 <part name="LBL9V" library="BaseApp" deviceset="JUMPER" device=""/>
 <part name="JP4" library="SparkFun" deviceset="M15" device=""/>
 <part name="JP5" library="SparkFun" deviceset="M15" device=""/>
 <part name="R1" library="FaBo-Coil" deviceset="COIL" device="-AXL-REGULAR"/>
-<part name="JP6" library="SparkFun" deviceset="M04" device="PTH"/>
+<part name="RGBLED" library="SparkFun" deviceset="M04" device="PTH"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-2N3904" value="200mA/40V"/>
 <part name="UBL3.3V1" library="BaseApp" deviceset="JUMPER" device=""/>
 <part name="UBL5.5V" library="BaseApp" deviceset="JUMPER" device=""/>
 <part name="UBL9V1" library="BaseApp" deviceset="JUMPER" device=""/>
-<part name="JP7" library="SparkFun" deviceset="M02" device="LOCK"/>
+<part name="UVBL" library="SparkFun" deviceset="M02" device="LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -2144,7 +2144,7 @@ Allows current flow when high potential at base.</description>
 <attribute name="VALUE" x="119.38" y="25.4" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="103.378" y="25.4" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="JP3" gate="G$1" x="48.26" y="50.8" smashed="yes" rot="R90">
+<instance part="BAT" gate="G$1" x="48.26" y="50.8" smashed="yes" rot="R90">
 <attribute name="VALUE" x="53.34" y="48.26" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="42.418" y="48.26" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -2172,7 +2172,7 @@ Allows current flow when high potential at base.</description>
 <attribute name="NAME" x="66.294" y="21.844" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="66.294" y="18.796" size="1.4224" layer="96" align="top-left"/>
 </instance>
-<instance part="JP6" gate="G$1" x="55.88" y="33.02" smashed="yes" rot="R180">
+<instance part="RGBLED" gate="G$1" x="55.88" y="33.02" smashed="yes" rot="R180">
 <attribute name="VALUE" x="60.96" y="40.64" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="60.96" y="24.638" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -2192,7 +2192,7 @@ Allows current flow when high potential at base.</description>
 <attribute name="NAME" x="63.5" y="5.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="63.5" y="-1.27" size="1.778" layer="96"/>
 </instance>
-<instance part="JP7" gate="G$1" x="48.26" y="-10.16" smashed="yes" rot="R90">
+<instance part="UVBL" gate="G$1" x="48.26" y="-10.16" smashed="yes" rot="R90">
 <attribute name="VALUE" x="53.34" y="-12.7" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="42.418" y="-12.7" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -2202,7 +2202,7 @@ Allows current flow when high potential at base.</description>
 <nets>
 <net name="9V" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="BAT" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="58.42" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <label x="48.26" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -2227,7 +2227,7 @@ Allows current flow when high potential at base.</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="BAT" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="58.42" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <label x="45.72" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -2258,7 +2258,7 @@ Allows current flow when high potential at base.</description>
 <label x="76.2" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="G$1" pin="2"/>
+<pinref part="UVBL" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-2.54" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
 <label x="38.1" y="-7.62" size="1.778" layer="95" rot="R90"/>
@@ -2425,7 +2425,7 @@ Allows current flow when high potential at base.</description>
 <wire x1="22.86" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
 <junction x="22.86" y="22.86"/>
 <wire x1="40.64" y1="22.86" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="RGBLED" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 <label x="48.26" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -2438,7 +2438,7 @@ Allows current flow when high potential at base.</description>
 <wire x1="22.86" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <junction x="22.86" y="20.32"/>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="RGBLED" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="33.02" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <label x="48.26" y="33.02" size="1.778" layer="95"/>
@@ -2453,7 +2453,7 @@ Allows current flow when high potential at base.</description>
 <wire x1="45.72" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 <junction x="22.86" y="17.78"/>
 <wire x1="45.72" y1="17.78" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="3"/>
+<pinref part="RGBLED" gate="G$1" pin="3"/>
 <wire x1="45.72" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
 <label x="48.26" y="30.48" size="1.778" layer="95"/>
 </segment>
@@ -2610,7 +2610,7 @@ Allows current flow when high potential at base.</description>
 <net name="GNDL" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="JP6" gate="G$1" pin="4"/>
+<pinref part="RGBLED" gate="G$1" pin="4"/>
 <wire x1="50.8" y1="27.94" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
 <label x="50.8" y="27.94" size="1.778" layer="95" rot="R270"/>
@@ -2637,7 +2637,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="40.64" y1="5.08" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
 <label x="40.64" y="5.08" size="1.778" layer="95" rot="R270"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
+<pinref part="UVBL" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="2.54" x2="48.26" y2="-2.54" width="0.1524" layer="91"/>
 </segment>

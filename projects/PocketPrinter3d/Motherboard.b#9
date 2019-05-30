@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -428,6 +428,28 @@
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
 <rectangle x1="35.306" y1="-0.254" x2="35.814" y2="0.254" layer="51"/>
 </package>
+<package name="1X02_LOCK">
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="-0.1778" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.7178" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
+<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="FaBo-Coil">
@@ -513,6 +535,37 @@ http://www.xganon.com</description>
 <pad name="ICSP1" x="-5.08" y="-10.16" drill="0.8" rot="R90"/>
 <pad name="ICSP3" x="-2.54" y="-10.16" drill="0.8" rot="R90"/>
 <pad name="ICSP5" x="0" y="-10.16" drill="0.8" rot="R90"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
+This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TO-92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
+<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="0" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -717,9 +770,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.2038" y="114.7088" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="12.28" y="109.705" size="1.27" layer="27"/>
 </element>
-<element name="JP3" library="SparkFun" package="1X02" value="" x="-50.8" y="55.88" smashed="yes">
-<attribute name="NAME" x="-52.1462" y="57.7088" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-52.07" y="52.705" size="1.27" layer="27"/>
+<element name="JP3" library="SparkFun" package="1X02" value="" x="2.54" y="69.85" smashed="yes" rot="R90">
+<attribute name="NAME" x="0.7112" y="68.5038" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="5.715" y="68.58" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP4" library="SparkFun" package="1X15" value="M15" x="5.715" y="69.85" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.8862" y="68.5038" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -729,26 +782,47 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.4038" y="106.7562" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="25.4" y="106.68" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R1" library="FaBo-Coil" package="AXL-REGULAR" value="" x="-33.02" y="60.96" smashed="yes">
-<attribute name="NAME" x="-35.27" y="60.96" size="0.8128" layer="25" font="vector" ratio="12" align="center-left"/>
-<attribute name="VALUE" x="-35.27" y="59.96" size="0.8128" layer="27" font="vector" ratio="12" align="top-left"/>
+<element name="R1" library="FaBo-Coil" package="AXL-REGULAR" value="" x="31.75" y="78.105" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.75" y="80.355" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="30.75" y="80.355" size="0.8128" layer="27" font="vector" ratio="12" rot="R270" align="top-left"/>
 </element>
-<element name="SJ1" library="BaseApp" package="SJW" value="" x="-15.24" y="60.96" smashed="yes">
-<attribute name="NAME" x="-16.891" y="62.103" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-14.8399" y="60.96" size="0.02" layer="27"/>
+<element name="LBL3.3V" library="BaseApp" package="SJW" value="" x="26.035" y="65.405" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.067" y="63.754" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="26.035" y="65.8051" size="0.02" layer="27" rot="R90"/>
 </element>
-<element name="SJ2" library="BaseApp" package="SJW" value="" x="-20.32" y="60.96" smashed="yes">
-<attribute name="NAME" x="-21.971" y="62.103" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-19.9199" y="60.96" size="0.02" layer="27"/>
+<element name="LBL5.5V" library="BaseApp" package="SJW" value="" x="24.13" y="65.405" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.987" y="63.754" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="24.13" y="65.8051" size="0.02" layer="27" rot="R90"/>
 </element>
-<element name="SJ3" library="BaseApp" package="SJW" value="" x="-25.4" y="60.96" smashed="yes">
-<attribute name="NAME" x="-27.051" y="62.103" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-24.9999" y="60.96" size="0.02" layer="27"/>
+<element name="LBL9V" library="BaseApp" package="SJW" value="" x="2.54" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.397" y="64.389" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="2.54" y="66.4401" size="0.02" layer="27" rot="R90"/>
 </element>
 <element name="U$1" library="Arduino-clone" package="NANO" value="NANO" x="19.685" y="78.74" smashed="yes"/>
-<element name="JP6" library="SparkFun" package="1X04" value="" x="-50.5" y="-4" smashed="yes">
-<attribute name="NAME" x="-51.8462" y="-2.1712" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-51.77" y="-7.175" size="1.27" layer="27"/>
+<element name="JP6" library="SparkFun" package="1X04" value="" x="32.115" y="92.845" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.9438" y="94.1912" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="28.94" y="94.115" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="200mA/40V" x="-6.35" y="60.325" smashed="yes">
+<attribute name="NAME" x="-6.35" y="63.373" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-08447" x="-6.35" y="60.325" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-6.35" y="58.42" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="UBL3.3V1" library="BaseApp" package="SJW" value="" x="-6.35" y="53.975" smashed="yes">
+<attribute name="NAME" x="-8.001" y="55.118" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-5.9499" y="53.975" size="0.02" layer="27"/>
+</element>
+<element name="UBL5.5V" library="BaseApp" package="SJW" value="" x="-6.35" y="49.53" smashed="yes">
+<attribute name="NAME" x="-8.001" y="50.673" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-5.9499" y="49.53" size="0.02" layer="27"/>
+</element>
+<element name="UBL9V1" library="BaseApp" package="SJW" value="" x="-6.35" y="45.085" smashed="yes">
+<attribute name="NAME" x="-8.001" y="46.228" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-5.9499" y="45.085" size="0.02" layer="27"/>
+</element>
+<element name="JP7" library="SparkFun" package="1X02_LOCK" value="" x="-6.985" y="40.005" smashed="yes">
+<attribute name="NAME" x="-8.3312" y="41.8338" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-8.255" y="36.83" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -756,10 +830,12 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="1"/>
 <contactref element="U$1" pad="RAW"/>
 <contactref element="JP4" pad="1"/>
-<contactref element="SJ3" pad="2"/>
-<wire x1="-50.8" y1="55.88" x2="-24.638" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="5.715" y1="69.85" x2="-50.8" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="9.525" y1="69.85" x2="5.715" y2="69.85" width="0" layer="19" extent="1-1"/>
+<contactref element="LBL9V" pad="2"/>
+<contactref element="UBL9V1" pad="2"/>
+<wire x1="5.715" y1="69.85" x2="9.525" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="69.85" x2="5.715" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="66.802" x2="2.54" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.588" y1="45.085" x2="2.54" y2="66.802" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="JP3" pad="2"/>
@@ -769,12 +845,14 @@ design rules under a new name.</description>
 <contactref element="JP5" pad="12"/>
 <contactref element="JP1" pad="2"/>
 <contactref element="R1" pad="2"/>
-<wire x1="10.795" y1="60.325" x2="-29.21" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="28.575" y1="77.47" x2="10.795" y2="60.325" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.26" y1="55.88" x2="10.795" y2="60.325" width="0" layer="19" extent="1-1"/>
-<wire x1="5.715" y1="72.39" x2="-48.26" y2="55.88" width="0" layer="19" extent="1-1"/>
+<contactref element="JP7" pad="2"/>
 <wire x1="24.765" y1="77.47" x2="28.575" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="74.295" x2="28.575" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="9.525" y1="72.39" x2="24.765" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="5.715" y1="72.39" x2="9.525" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="72.39" x2="5.715" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="60.325" x2="9.525" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.2672" y1="40.005" x2="10.795" y2="60.325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RST">
 <contactref element="U$1" pad="RST"/>
@@ -784,11 +862,13 @@ design rules under a new name.</description>
 <signal name="5.5V">
 <contactref element="U$1" pad="5V"/>
 <contactref element="JP4" pad="4"/>
-<contactref element="SJ2" pad="2"/>
+<contactref element="LBL5.5V" pad="2"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="8.255" y1="60.325" x2="-19.558" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="5.715" y1="77.47" x2="8.255" y2="60.325" width="0" layer="19" extent="1-1"/>
-<wire x1="9.525" y1="77.47" x2="5.715" y2="77.47" width="0" layer="19" extent="1-1"/>
+<contactref element="UBL5.5V" pad="2"/>
+<wire x1="8.255" y1="60.325" x2="24.13" y2="66.167" width="0" layer="19" extent="1-1"/>
+<wire x1="9.525" y1="77.47" x2="8.255" y2="60.325" width="0" layer="19" extent="1-1"/>
+<wire x1="5.715" y1="77.47" x2="9.525" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.588" y1="49.53" x2="8.255" y2="60.325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A7">
 <contactref element="U$1" pad="A7"/>
@@ -838,9 +918,11 @@ design rules under a new name.</description>
 <signal name="3.3V">
 <contactref element="U$1" pad="3.3V"/>
 <contactref element="JP4" pad="14"/>
-<contactref element="SJ1" pad="2"/>
-<wire x1="5.715" y1="102.87" x2="-14.478" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="9.525" y1="102.87" x2="5.715" y2="102.87" width="0" layer="19" extent="1-1"/>
+<contactref element="LBL3.3V" pad="2"/>
+<contactref element="UBL3.3V1" pad="2"/>
+<wire x1="5.715" y1="102.87" x2="9.525" y2="102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="26.035" y1="66.167" x2="9.525" y2="102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.588" y1="53.975" x2="26.035" y2="66.167" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="U$1" pad="D12"/>
@@ -854,31 +936,33 @@ design rules under a new name.</description>
 <contactref element="JP5" pad="6"/>
 <contactref element="JP6" pad="1"/>
 <wire x1="24.765" y1="92.71" x2="28.575" y2="92.71" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.5" y1="-4" x2="24.765" y2="92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="32.115" y1="92.845" x2="24.765" y2="92.71" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G">
 <contactref element="U$1" pad="D6"/>
 <contactref element="JP5" pad="7"/>
 <contactref element="JP6" pad="2"/>
 <wire x1="24.765" y1="90.17" x2="28.575" y2="90.17" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.96" y1="-4" x2="24.765" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="32.115" y1="90.305" x2="24.765" y2="90.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B">
 <contactref element="U$1" pad="D5"/>
 <contactref element="JP5" pad="8"/>
 <contactref element="JP6" pad="3"/>
 <wire x1="24.765" y1="87.63" x2="28.575" y2="87.63" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.42" y1="-4" x2="24.765" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="32.115" y1="87.765" x2="24.765" y2="87.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3">
 <contactref element="U$1" pad="D3"/>
 <contactref element="JP5" pad="10"/>
 <wire x1="24.765" y1="82.55" x2="28.575" y2="82.55" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="D2">
+<signal name="BLTRIG">
 <contactref element="U$1" pad="D2"/>
 <contactref element="JP5" pad="11"/>
+<contactref element="Q1" pad="2"/>
 <wire x1="24.765" y1="80.01" x2="28.575" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.35" y1="62.23" x2="24.765" y2="80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RST1">
 <contactref element="U$1" pad="RST1"/>
@@ -896,13 +980,13 @@ design rules under a new name.</description>
 <wire x1="24.765" y1="69.85" x2="28.575" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED">
-<contactref element="SJ1" pad="1"/>
-<contactref element="SJ2" pad="1"/>
-<contactref element="SJ3" pad="1"/>
+<contactref element="LBL3.3V" pad="1"/>
+<contactref element="LBL5.5V" pad="1"/>
+<contactref element="LBL9V" pad="1"/>
 <contactref element="JP1" pad="8"/>
-<wire x1="-21.082" y1="60.96" x2="-16.002" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.162" y1="60.96" x2="-21.082" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="26.035" y1="60.325" x2="-16.002" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="64.643" x2="26.035" y2="64.643" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="65.278" x2="24.13" y2="64.643" width="0" layer="19" extent="1-1"/>
+<wire x1="26.035" y1="60.325" x2="26.035" y2="64.643" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
 <contactref element="U$1" pad="D13"/>
@@ -953,7 +1037,21 @@ design rules under a new name.</description>
 <signal name="GNDL">
 <contactref element="R1" pad="1"/>
 <contactref element="JP6" pad="4"/>
-<wire x1="-36.83" y1="60.96" x2="-42.88" y2="-4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="81.915" x2="32.115" y2="85.225" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UVBL">
+<contactref element="UBL5.5V" pad="1"/>
+<contactref element="UBL3.3V1" pad="1"/>
+<contactref element="UBL9V1" pad="1"/>
+<contactref element="Q1" pad="3"/>
+<wire x1="-7.112" y1="53.975" x2="-5.08" y2="60.325" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.112" y1="49.53" x2="-7.112" y2="53.975" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.112" y1="45.085" x2="-7.112" y2="49.53" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UVBL+">
+<contactref element="Q1" pad="1"/>
+<contactref element="JP7" pad="1"/>
+<wire x1="-7.1628" y1="40.005" x2="-7.62" y2="60.325" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

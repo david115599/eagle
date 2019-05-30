@@ -2129,6 +2129,8 @@ Allows current flow when high potential at base.</description>
 <part name="UBL5.5V" library="BaseApp" deviceset="JUMPER" device=""/>
 <part name="UBL9V1" library="BaseApp" deviceset="JUMPER" device=""/>
 <part name="UVBL" library="SparkFun" deviceset="M02" device="LOCK"/>
+<part name="STEPPERPOWER" library="SparkFun" deviceset="M02" device="PTH"/>
+<part name="JP3" library="SparkFun" deviceset="M04" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -2196,6 +2198,14 @@ Allows current flow when high potential at base.</description>
 <attribute name="VALUE" x="53.34" y="-12.7" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="42.418" y="-12.7" size="1.778" layer="95" rot="R90"/>
 </instance>
+<instance part="STEPPERPOWER" gate="G$1" x="25.4" y="50.8" smashed="yes" rot="R90">
+<attribute name="VALUE" x="30.48" y="48.26" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="19.558" y="48.26" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="JP3" gate="G$1" x="101.6" y="7.62" smashed="yes" rot="R90">
+<attribute name="VALUE" x="109.22" y="2.54" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="93.218" y="2.54" size="1.778" layer="95" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2262,6 +2272,11 @@ Allows current flow when high potential at base.</description>
 <wire x1="45.72" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-2.54" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
 <label x="38.1" y="-7.62" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="STEPPERPOWER" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="58.42" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<label x="22.86" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -2346,6 +2361,11 @@ Allows current flow when high potential at base.</description>
 <wire x1="-25.4" y1="20.32" x2="-17.78" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-17.78" y="20.32"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="4"/>
+<wire x1="96.52" y1="12.7" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<label x="96.52" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A2" class="0">
 <segment>
@@ -2356,6 +2376,11 @@ Allows current flow when high potential at base.</description>
 <wire x1="-17.78" y1="22.86" x2="-25.4" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-17.78" y="22.86"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="99.06" y1="12.7" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<label x="99.06" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A1" class="0">
 <segment>
@@ -2363,6 +2388,11 @@ Allows current flow when high potential at base.</description>
 <label x="-20.32" y="25.4" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="11"/>
 <wire x1="-17.78" y1="25.4" x2="-25.4" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="12.7" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
+<label x="101.6" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -2373,6 +2403,11 @@ Allows current flow when high potential at base.</description>
 <pinref part="JP4" gate="G$1" pin="12"/>
 <wire x1="-17.78" y1="27.94" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-17.78" y="27.94"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="12.7" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
+<label x="104.14" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -2640,6 +2675,13 @@ Allows current flow when high potential at base.</description>
 <pinref part="UVBL" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="2.54" x2="48.26" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="STEPPERPOWER" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="58.42" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="25.4" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
