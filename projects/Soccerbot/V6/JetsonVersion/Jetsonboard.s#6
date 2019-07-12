@@ -2755,6 +2755,10 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
 <part name="U$3" library="Arduino-clone" deviceset="NANO" device=""/>
 <part name="J1" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev17a" library_urn="urn:adsk.eagle:library:479" deviceset="61304021021" device=""/>
+<part name="MOTENCODER1" library="SparkFun" deviceset="M05" device="PTH"/>
+<part name="MOTENCODER2" library="SparkFun" deviceset="M05" device="PTH"/>
+<part name="MOTENCODER3" library="SparkFun" deviceset="M05" device="PTH"/>
+<part name="MOTENCODER4" library="SparkFun" deviceset="M05" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -2924,6 +2928,22 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="J1" gate="G$1" x="93.98" y="68.58" smashed="yes">
 <attribute name="NAME" x="91.44" y="92.71" size="1.27" layer="95"/>
 <attribute name="VALUE" x="91.44" y="35.56" size="1.27" layer="95"/>
+</instance>
+<instance part="MOTENCODER1" gate="G$1" x="-30.48" y="-55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-20.32" y="-58.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-38.862" y="-58.42" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="MOTENCODER2" gate="G$1" x="-53.34" y="-55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-43.18" y="-58.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-61.722" y="-58.42" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="MOTENCODER3" gate="G$1" x="-76.2" y="-55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-66.04" y="-58.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-84.582" y="-58.42" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="MOTENCODER4" gate="G$1" x="-99.06" y="-55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-88.9" y="-58.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-107.442" y="-58.42" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>

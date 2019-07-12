@@ -1239,6 +1239,13 @@ by exp-lbrs.ulp</description>
 <busses>
 </busses>
 <nets>
+<net name="C" class="0">
+<segment>
+<pinref part="C" gate="G$1" pin="TP"/>
+<wire x1="66.04" y1="73.66" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
+<label x="66.04" y="76.2" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
 <net name="B" class="0">
 <segment>
 <pinref part="B" gate="G$1" pin="TP"/>
@@ -1251,13 +1258,6 @@ by exp-lbrs.ulp</description>
 <pinref part="A" gate="G$1" pin="TP"/>
 <wire x1="58.42" y1="73.66" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="58.42" y="76.2" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="C" class="0">
-<segment>
-<pinref part="C" gate="G$1" pin="TP"/>
-<wire x1="66.04" y1="73.66" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
-<label x="66.04" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
