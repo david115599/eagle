@@ -1670,7 +1670,7 @@ einem neuen Namen ab.</description>
 <signal name="LED10">
 <contactref element="JP5" pad="2"/>
 <contactref element="D18" pad="1"/>
-<wire x1="53.34" y1="53.34" x2="71.27875" y2="53.34" width="0.762" layer="1"/>
+<wire x1="53.34" y1="53.34" x2="70.866" y2="53.34" width="0.762" layer="1"/>
 <wire x1="53.34" y1="57.94375" x2="53.34" y2="53.34" width="0.762" layer="1"/>
 <wire x1="50.64125" y1="60.6425" x2="53.34" y2="57.94375" width="0.762" layer="16"/>
 <wire x1="50.4825" y1="60.6425" x2="50.64125" y2="60.6425" width="0.762" layer="16"/>
@@ -1681,14 +1681,14 @@ einem neuen Namen ab.</description>
 <via x="53.34" y="57.94375" extent="1-16" drill="0.3937"/>
 <wire x1="91.625" y1="33" x2="92.7163" y2="31.9087" width="0.762" layer="1"/>
 <wire x1="92.7163" y1="31.9087" x2="93.25" y2="31.375" width="0.762" layer="1"/>
-<wire x1="71.375" y1="53" x2="71.375" y2="49.25" width="0.762" layer="1"/>
 <wire x1="93.25" y1="31.375" x2="93.50375" y2="31.115" width="0.762" layer="1"/>
-<wire x1="71.375" y1="53" x2="71.27875" y2="53.34" width="0.762" layer="1"/>
 <wire x1="91.694" y1="30.8864" x2="92.7163" y2="31.9087" width="0.762" layer="1"/>
 <wire x1="88.7984" y1="30.8864" x2="91.694" y2="30.8864" width="0.762" layer="1"/>
 <wire x1="71.4248" y1="48.26" x2="88.7984" y2="30.8864" width="0.762" layer="1"/>
+<wire x1="71.375" y1="49.25" x2="71.4248" y2="49.2252" width="0.762" layer="1"/>
+<wire x1="70.866" y1="53.34" x2="71.375" y2="52.831" width="0.762" layer="1"/>
+<wire x1="71.375" y1="52.831" x2="71.375" y2="49.25" width="0.762" layer="1"/>
 <wire x1="71.4248" y1="49.2252" x2="71.4248" y2="48.26" width="0.762" layer="1"/>
-<wire x1="71.4248" y1="49.2252" x2="71.375" y2="49.25" width="0.762" layer="1"/>
 </signal>
 <signal name="LED11">
 <contactref element="JP5" pad="4"/>

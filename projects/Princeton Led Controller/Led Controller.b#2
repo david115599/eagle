@@ -1233,57 +1233,73 @@ einem neuen Namen ab.</description>
 <element name="J2" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="26" y="36" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="26" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="26" y="36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="26" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="26" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="26" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.25" y="31.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="26" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.111" y="31.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J3" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="89" y="36" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="89" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="89" y="36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="89" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="89" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="89" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="87.25" y="31.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="89" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="92.111" y="31.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J4" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="153" y="36" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="153" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="153" y="36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="153" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="153" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="153" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="151.25" y="31.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="153" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="156.111" y="31.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J5" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="215" y="36" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="215" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="215" y="36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="215" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="215" y="36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="215" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="213.25" y="31.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="215" y="36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="218.111" y="31.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J6" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="26" y="108" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="26" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="26" y="108" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="26" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="26" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="26" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.25" y="103.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="26" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.111" y="103.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J7" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="89" y="108" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="89" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="89" y="108" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="89" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="89" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="89" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="87.25" y="103.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="89" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="92.111" y="103.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J8" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="153" y="108" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="153" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="153" y="108" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="153" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="153" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="153" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="151.25" y="103.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="153" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="156.111" y="103.623" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J9" library="Headers" library_urn="urn:adsk.eagle:library:11687645" package="62000411121" package3d_urn="urn:adsk.eagle:package:11432191/3" value="62000411121" x="215" y="108" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="215" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik " x="215" y="108" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="62000411121" x="215" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="215" y="108" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="215" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="213.25" y="103.75" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_NEWARK" value="unknown" x="215" y="108" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="218.111" y="103.623" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
