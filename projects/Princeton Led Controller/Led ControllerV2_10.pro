@@ -2,26 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/davidbershadsky/Documents/EAGLE/projects/Princeton Led Controller/Led ControllerV2.brd
 
-Start at      : 14:56:12 (7/15/19)
-End at        : 14:57:03 (7/15/19)
-Elapsed time  : 18092d 18:57
+Start at      : 11:11:27 (8/29/19)
+End at        : 11:11:45 (8/29/19)
+Elapsed time  : 00:00:03
 
-Signals       :   142   RoutingGrid: 9.84252 mil  Layers: 2
-Connections   :   292   predefined:  130 ( 0 Vias )
+Signals       :   144   RoutingGrid: 9.84252 mil  Layers: 2
+Connections   :   312   predefined:  311 ( 157 Vias )
 
-Router memory :   0
+Router memory :   2379520
 
-Job has been interrupted!
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Passname          :          
+Time per pass     :  00:00:01  00:00:00  00:00:01  00:00:01  00:00:00
+Number of Ripups  :         0         0         0         0         0
+max. Level        :         0         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Time per pass     :  18092d 18:57
-Number of Ripups  :         0
-max. Level        :         0
-max. Total        :         0
-
-Routed            :         0
-Vias              :         0
-Resolution        :    44.5 %
+Routed            :         1         1         1         1         1
+Vias              :         0         0         0         0         0
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 

@@ -1563,11 +1563,12 @@ einem neuen Namen ab.</description>
 <contactref element="JP5" pad="6"/>
 <contactref element="9-16" pad="5"/>
 <wire x1="24" y1="40.5" x2="44.5" y2="61" width="0.762" layer="1"/>
-<wire x1="24" y1="27.5" x2="24" y2="40.5" width="0.762" layer="1"/>
-<wire x1="243.5" y1="27.5" x2="24" y2="27.5" width="0.762" layer="1"/>
-<wire x1="245" y1="26" x2="243.5" y2="27.5" width="0.762" layer="1"/>
+<wire x1="24" y1="40.5" x2="24" y2="38" width="0.762" layer="1"/>
+<wire x1="243.5" y1="27.5" x2="245" y2="26" width="0.762" layer="1"/>
 <wire x1="44.5" y1="61" x2="44.862" y2="61.11" width="0.762" layer="1"/>
 <wire x1="245" y1="26" x2="245" y2="25.84" width="0.762" layer="1"/>
+<wire x1="24" y1="38" x2="34.5" y2="27.5" width="0.762" layer="1"/>
+<wire x1="34.5" y1="27.5" x2="243.5" y2="27.5" width="0.762" layer="1"/>
 </signal>
 <signal name="LED16">
 <contactref element="JP7" pad="2"/>

@@ -567,7 +567,7 @@ einem neuen Namen ab.</description>
 <param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="40mil"/>
+<param name="msWidth" value="30mil"/>
 <param name="msDrill" value="15.5mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -1272,42 +1272,6 @@ einem neuen Namen ab.</description>
 <contactref element="JP48" pad="5"/>
 <contactref element="JP48" pad="3"/>
 <contactref element="JP48" pad="1"/>
-<wire x1="115.982" y1="81.43" x2="115.68" y2="120" width="0" layer="19" extent="1-1"/>
-<wire x1="108.362" y1="81.43" x2="113.442" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="98.202" y1="81.43" x2="103.282" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="123.602" y1="81.43" x2="118.522" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="141.382" y1="81.43" x2="128.682" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="151.542" y1="81.43" x2="146.462" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="161.702" y1="81.43" x2="156.622" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="171.862" y1="81.43" x2="166.782" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="80.422" y1="81.43" x2="93.122" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="70.262" y1="81.43" x2="75.342" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="60.102" y1="81.43" x2="65.182" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="49.942" y1="81.43" x2="55.022" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="55.022" y1="58.57" x2="49.942" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="65.182" y1="58.57" x2="60.102" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="75.342" y1="58.57" x2="70.262" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="234.32" y1="21" x2="245" y2="15.68" width="0" layer="19" extent="1-1"/>
-<wire x1="93.122" y1="58.57" x2="80.422" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="103.282" y1="58.57" x2="98.202" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="113.442" y1="58.57" x2="108.362" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="123.602" y1="58.57" x2="118.522" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="141.382" y1="58.57" x2="128.682" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="161.702" y1="58.57" x2="156.622" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="171.862" y1="58.57" x2="166.782" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="189.896" y1="81.43" x2="176.942" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="200.056" y1="81.43" x2="194.976" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="210.216" y1="81.43" x2="205.136" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="210.216" y1="58.57" x2="205.136" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="220.376" y1="81.43" x2="215.296" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="220.376" y1="58.57" x2="215.296" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="245" y1="104.68" x2="245" y2="79.68" width="0" layer="19" extent="1-1"/>
-<wire x1="215.68" y1="120" x2="245" y2="104.68" width="0" layer="19" extent="1-1"/>
-<wire x1="69.68" y1="120" x2="70.262" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="90.32" y1="20" x2="93.122" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="184.32" y1="20" x2="189.896" y2="58.57" width="0" layer="19" extent="1-1"/>
-<wire x1="165.68" y1="121" x2="164.242" y2="81.43" width="0" layer="19" extent="1-1"/>
-<wire x1="134.32" y1="19" x2="128.682" y2="58.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED1">
 <contactref element="JP2" pad="2"/>
@@ -1568,16 +1532,6 @@ einem neuen Namen ab.</description>
 <contactref element="JP12" pad="2"/>
 <contactref element="JP13" pad="2"/>
 <contactref element="NEOPASSTHROUGH" pad="3"/>
-<wire x1="8.51" y1="26.03" x2="34" y2="35" width="0" layer="19" extent="1-1"/>
-<wire x1="26.08" y1="79.27" x2="10.84" y2="84.35" width="0" layer="19" extent="1-1"/>
-<wire x1="36" y1="66.19" x2="26.08" y2="79.27" width="0" layer="19" extent="1-1"/>
-<wire x1="223" y1="107" x2="250" y2="104.92" width="0" layer="19" extent="1-1"/>
-<wire x1="223" y1="35" x2="230.536" y2="66.19" width="0" layer="19" extent="1-1"/>
-<wire x1="182.022" y1="66.19" x2="160" y2="35" width="0" layer="19" extent="1-1"/>
-<wire x1="85.502" y1="66.19" x2="39.782" y2="66.19" width="0" layer="19" extent="1-1"/>
-<wire x1="97" y1="35" x2="88.042" y2="66.19" width="0" layer="19" extent="1-1"/>
-<wire x1="97" y1="107" x2="88.042" y2="66.19" width="0" layer="19" extent="1-1"/>
-<wire x1="160" y1="107" x2="182.022" y2="66.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIN">
 <contactref element="JP10" pad="3"/>
