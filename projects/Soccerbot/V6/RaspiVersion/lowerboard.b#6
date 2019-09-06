@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -198,7 +198,7 @@
 <circle x="-21.247" y="217.732" radius="0.508" width="0.01" layer="49"/>
 <text x="-27.642" y="206.417" size="1.778" layer="49" font="vector">gnd</text>
 <text x="-5.267" y="207.167" size="1.778" layer="49" font="vector">pwm</text>
-<circle x="0" y="0" radius="109" width="0.002" layer="20"/>
+<circle x="0.305" y="0.102" radius="109" width="0.002" layer="20"/>
 <wire x1="-105" y1="-31.06846875" x2="-105" y2="31.06846875" width="0.001" layer="49" curve="133.672554"/>
 <circle x="-48.470559375" y="-63.88893125" radius="1.69443125" width="0.001" layer="49"/>
 <circle x="-63.844890625" y="-48.525690625" radius="1.69138125" width="0.001" layer="49"/>
@@ -1014,23 +1014,6 @@
 <wire x1="-11.48085" y1="-17.457240625" x2="-11.48085" y2="-35.24503125" width="0.001" layer="49"/>
 <wire x1="-11.48085" y1="-35.24503125" x2="8.83671875" y2="-35.24503125" width="0.001" layer="49"/>
 <wire x1="8.83671875" y1="-35.24503125" x2="8.83671875" y2="-17.457240625" width="0.001" layer="49"/>
-<wire x1="0" y1="118.377109375" x2="0" y2="100" width="0.001" layer="49"/>
-<circle x="30.323290625" y="49.6557" radius="0.507459375" width="0.001" layer="49"/>
-<circle x="28.525" y="51.45" radius="0.503109375" width="0.001" layer="49"/>
-<circle x="26.72768125" y="53.24988125" radius="0.50421875" width="0.001" layer="49"/>
-<circle x="28.525" y="55.05" radius="0.515390625" width="0.001" layer="49"/>
-<circle x="-26.72768125" y="53.24988125" radius="0.50421875" width="0.001" layer="49"/>
-<circle x="-28.525" y="55.05" radius="0.515390625" width="0.001" layer="49"/>
-<circle x="-30.323290625" y="49.6557" radius="0.507459375" width="0.001" layer="49"/>
-<circle x="-28.525" y="51.45" radius="0.503109375" width="0.001" layer="49"/>
-<circle x="-30.323290625" y="-49.6557" radius="0.50746875" width="0.001" layer="49"/>
-<circle x="-28.525" y="-55.05" radius="0.515390625" width="0.001" layer="49"/>
-<circle x="-26.72768125" y="-53.24988125" radius="0.504221875" width="0.001" layer="49"/>
-<circle x="-28.525" y="-51.45" radius="0.50311875" width="0.001" layer="49"/>
-<circle x="30.323290625" y="-49.6557" radius="0.50746875" width="0.001" layer="49"/>
-<circle x="26.72768125" y="-53.24988125" radius="0.504221875" width="0.001" layer="49"/>
-<circle x="28.525" y="-55.05" radius="0.515390625" width="0.001" layer="49"/>
-<circle x="28.525" y="-51.45" radius="0.50311875" width="0.001" layer="49"/>
 </plain>
 <libraries>
 <library name="SparkFun">
