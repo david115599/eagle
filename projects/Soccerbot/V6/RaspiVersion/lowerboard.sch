@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3023,21 +3023,21 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="MOTORCONNECTOR4" library="SparkFun" deviceset="M06" device="LONGPADS"/>
 <part name="MOTENCODER4" library="SparkFun" deviceset="M05" device="PTH"/>
 <part name="ENCODERSPI" library="SparkFun" deviceset="M09" device=""/>
-<part name="COLOR8" library="SparkFun" deviceset="M03" device="PTH"/>
 <part name="COLOR4" library="SparkFun" deviceset="M03" device="PTH"/>
 <part name="COLOR3" library="SparkFun" deviceset="M03" device="PTH"/>
-<part name="COLOR7" library="SparkFun" deviceset="M03" device="PTH"/>
-<part name="COLOR6" library="SparkFun" deviceset="M03" device="PTH"/>
 <part name="COLOR2" library="SparkFun" deviceset="M03" device="PTH"/>
-<part name="COLOR5" library="SparkFun" deviceset="M03" device="PTH"/>
 <part name="COLOR1" library="SparkFun" deviceset="M03" device="PTH"/>
-<part name="8" library="SparkFun" deviceset="M01" device="PTH"/>
 <part name="4" library="SparkFun" deviceset="M01" device="PTH"/>
 <part name="3" library="SparkFun" deviceset="M01" device="PTH"/>
-<part name="7" library="SparkFun" deviceset="M01" device="PTH"/>
-<part name="6" library="SparkFun" deviceset="M01" device="PTH"/>
 <part name="2" library="SparkFun" deviceset="M01" device="PTH"/>
 <part name="1" library="SparkFun" deviceset="M01" device="PTH"/>
+<part name="COLOR8" library="SparkFun" deviceset="M03" device="PTH"/>
+<part name="COLOR7" library="SparkFun" deviceset="M03" device="PTH"/>
+<part name="COLOR6" library="SparkFun" deviceset="M03" device="PTH"/>
+<part name="COLOR5" library="SparkFun" deviceset="M03" device="PTH"/>
+<part name="8" library="SparkFun" deviceset="M01" device="PTH"/>
+<part name="7" library="SparkFun" deviceset="M01" device="PTH"/>
+<part name="6" library="SparkFun" deviceset="M01" device="PTH"/>
 <part name="5" library="SparkFun" deviceset="M01" device="PTH"/>
 </parts>
 <sheets>
@@ -3165,10 +3165,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="VALUE" x="-365.76" y="-55.88" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-365.76" y="-87.63" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="COLOR8" gate="G$1" x="86.36" y="-35.56" smashed="yes">
-<attribute name="VALUE" x="83.82" y="-43.18" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="-29.718" size="1.778" layer="95"/>
-</instance>
 <instance part="COLOR4" gate="G$1" x="111.76" y="-35.56" smashed="yes">
 <attribute name="VALUE" x="109.22" y="-43.18" size="1.778" layer="96"/>
 <attribute name="NAME" x="109.22" y="-29.718" size="1.778" layer="95"/>
@@ -3177,29 +3173,13 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="VALUE" x="109.22" y="-27.94" size="1.778" layer="96"/>
 <attribute name="NAME" x="109.22" y="-14.478" size="1.778" layer="95"/>
 </instance>
-<instance part="COLOR7" gate="G$1" x="86.36" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="83.82" y="-27.94" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="-14.478" size="1.778" layer="95"/>
-</instance>
-<instance part="COLOR6" gate="G$1" x="86.36" y="-5.08" smashed="yes">
-<attribute name="VALUE" x="83.82" y="-12.7" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="0.762" size="1.778" layer="95"/>
-</instance>
 <instance part="COLOR2" gate="G$1" x="111.76" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="109.22" y="-12.7" size="1.778" layer="96"/>
 <attribute name="NAME" x="109.22" y="0.762" size="1.778" layer="95"/>
 </instance>
-<instance part="COLOR5" gate="G$1" x="86.36" y="10.16" smashed="yes">
-<attribute name="VALUE" x="83.82" y="2.54" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="16.002" size="1.778" layer="95"/>
-</instance>
 <instance part="COLOR1" gate="G$1" x="111.76" y="10.16" smashed="yes">
 <attribute name="VALUE" x="109.22" y="2.54" size="1.778" layer="96"/>
 <attribute name="NAME" x="109.22" y="16.002" size="1.778" layer="95"/>
-</instance>
-<instance part="8" gate="G$1" x="86.36" y="-30.48" smashed="yes">
-<attribute name="VALUE" x="83.82" y="-35.56" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="-27.178" size="1.778" layer="95"/>
 </instance>
 <instance part="4" gate="G$1" x="111.76" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="109.22" y="-35.56" size="1.778" layer="96"/>
@@ -3209,14 +3189,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="VALUE" x="109.22" y="-20.32" size="1.778" layer="96"/>
 <attribute name="NAME" x="109.22" y="-11.938" size="1.778" layer="95"/>
 </instance>
-<instance part="7" gate="G$1" x="86.36" y="-15.24" smashed="yes">
-<attribute name="VALUE" x="83.82" y="-20.32" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="-11.938" size="1.778" layer="95"/>
-</instance>
-<instance part="6" gate="G$1" x="86.36" y="0" smashed="yes">
-<attribute name="VALUE" x="83.82" y="-5.08" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="3.302" size="1.778" layer="95"/>
-</instance>
 <instance part="2" gate="G$1" x="111.76" y="0" smashed="yes">
 <attribute name="VALUE" x="109.22" y="-5.08" size="1.778" layer="96"/>
 <attribute name="NAME" x="109.22" y="3.302" size="1.778" layer="95"/>
@@ -3225,9 +3197,37 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="VALUE" x="109.22" y="10.16" size="1.778" layer="96"/>
 <attribute name="NAME" x="109.22" y="18.542" size="1.778" layer="95"/>
 </instance>
-<instance part="5" gate="G$1" x="86.36" y="15.24" smashed="yes">
-<attribute name="VALUE" x="83.82" y="10.16" size="1.778" layer="96"/>
-<attribute name="NAME" x="83.82" y="18.542" size="1.778" layer="95"/>
+<instance part="COLOR8" gate="G$1" x="111.76" y="-109.22" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-116.84" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-103.378" size="1.778" layer="95"/>
+</instance>
+<instance part="COLOR7" gate="G$1" x="111.76" y="-93.98" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-101.6" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-88.138" size="1.778" layer="95"/>
+</instance>
+<instance part="COLOR6" gate="G$1" x="111.76" y="-78.74" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-86.36" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-72.898" size="1.778" layer="95"/>
+</instance>
+<instance part="COLOR5" gate="G$1" x="111.76" y="-63.5" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-71.12" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-57.658" size="1.778" layer="95"/>
+</instance>
+<instance part="8" gate="G$1" x="111.76" y="-104.14" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-109.22" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-100.838" size="1.778" layer="95"/>
+</instance>
+<instance part="7" gate="G$1" x="111.76" y="-88.9" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-93.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-85.598" size="1.778" layer="95"/>
+</instance>
+<instance part="6" gate="G$1" x="111.76" y="-73.66" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-78.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-70.358" size="1.778" layer="95"/>
+</instance>
+<instance part="5" gate="G$1" x="111.76" y="-58.42" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-63.5" size="1.778" layer="96"/>
+<attribute name="NAME" x="109.22" y="-55.118" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -3462,23 +3462,23 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="COLOR4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="7.62" x2="96.52" y2="7.62" width="0.1524" layer="91"/>
-<label x="96.52" y="7.62" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-66.04" x2="121.92" y2="-66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="-66.04" size="1.778" layer="95"/>
 <pinref part="COLOR5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-7.62" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
-<label x="96.52" y="-7.62" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-81.28" x2="121.92" y2="-81.28" width="0.1524" layer="91"/>
+<label x="121.92" y="-81.28" size="1.778" layer="95"/>
 <pinref part="COLOR6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-22.86" x2="96.52" y2="-22.86" width="0.1524" layer="91"/>
-<label x="96.52" y="-22.86" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-96.52" x2="121.92" y2="-96.52" width="0.1524" layer="91"/>
+<label x="121.92" y="-96.52" size="1.778" layer="95"/>
 <pinref part="COLOR7" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
-<label x="96.52" y="-38.1" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-111.76" x2="121.92" y2="-111.76" width="0.1524" layer="91"/>
+<label x="121.92" y="-111.76" size="1.778" layer="95"/>
 <pinref part="COLOR8" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -3597,23 +3597,23 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="COLOR4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="10.16" x2="96.52" y2="10.16" width="0.1524" layer="91"/>
-<label x="96.52" y="10.16" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-63.5" x2="121.92" y2="-63.5" width="0.1524" layer="91"/>
+<label x="121.92" y="-63.5" size="1.778" layer="95"/>
 <pinref part="COLOR5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-5.08" x2="96.52" y2="-5.08" width="0.1524" layer="91"/>
-<label x="96.52" y="-5.08" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-78.74" x2="121.92" y2="-78.74" width="0.1524" layer="91"/>
+<label x="121.92" y="-78.74" size="1.778" layer="95"/>
 <pinref part="COLOR6" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-20.32" x2="96.52" y2="-20.32" width="0.1524" layer="91"/>
-<label x="96.52" y="-20.32" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-93.98" x2="121.92" y2="-93.98" width="0.1524" layer="91"/>
+<label x="121.92" y="-93.98" size="1.778" layer="95"/>
 <pinref part="COLOR7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-35.56" x2="96.52" y2="-35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="-35.56" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-109.22" x2="121.92" y2="-109.22" width="0.1524" layer="91"/>
+<label x="121.92" y="-109.22" size="1.778" layer="95"/>
 <pinref part="COLOR8" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -3731,8 +3731,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$2" gate="G$1" pin="D8"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-2.54" x2="96.52" y2="-2.54" width="0.1524" layer="91"/>
-<label x="96.52" y="-2.54" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-76.2" x2="121.92" y2="-76.2" width="0.1524" layer="91"/>
+<label x="121.92" y="-76.2" size="1.778" layer="95"/>
 <pinref part="COLOR6" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -3743,8 +3743,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$2" gate="G$1" pin="D7"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
-<label x="96.52" y="12.7" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-60.96" x2="121.92" y2="-60.96" width="0.1524" layer="91"/>
+<label x="121.92" y="-60.96" size="1.778" layer="95"/>
 <pinref part="COLOR5" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -3793,8 +3793,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$2" gate="G$1" pin="D9"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="-17.78" x2="96.52" y2="-17.78" width="0.1524" layer="91"/>
-<label x="96.52" y="-17.78" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-91.44" x2="121.92" y2="-91.44" width="0.1524" layer="91"/>
+<label x="121.92" y="-91.44" size="1.778" layer="95"/>
 <pinref part="COLOR7" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -3805,10 +3805,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$2" gate="G$1" pin="D2"/>
 </segment>
 <segment>
-<label x="96.52" y="-30.48" size="1.778" layer="95"/>
 <wire x1="119.38" y1="-30.48" x2="121.92" y2="-30.48" width="0.1524" layer="91"/>
 <label x="121.92" y="-30.48" size="1.778" layer="95"/>
-<wire x1="93.98" y1="-30.48" x2="119.38" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="119.38" y="-30.48"/>
 <wire x1="119.38" y1="-30.48" x2="132.08" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-30.48" x2="132.08" y2="-15.24" width="0.1524" layer="91"/>
@@ -3816,31 +3814,35 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="121.92" y="-15.24" size="1.778" layer="95"/>
 <wire x1="132.08" y1="-15.24" x2="119.38" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="119.38" y="-15.24"/>
-<label x="96.52" y="-15.24" size="1.778" layer="95"/>
-<wire x1="119.38" y1="-15.24" x2="93.98" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-15.24" x2="132.08" y2="0" width="0.1524" layer="91"/>
 <junction x="132.08" y="-15.24"/>
 <wire x1="119.38" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
 <label x="121.92" y="0" size="1.778" layer="95"/>
 <wire x1="132.08" y1="0" x2="119.38" y2="0" width="0.1524" layer="91"/>
 <junction x="119.38" y="0"/>
-<label x="96.52" y="0" size="1.778" layer="95"/>
-<wire x1="119.38" y1="0" x2="93.98" y2="0" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="0" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 <junction x="132.08" y="0"/>
 <wire x1="119.38" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
 <label x="121.92" y="15.24" size="1.778" layer="95"/>
 <wire x1="132.08" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
 <junction x="119.38" y="15.24"/>
-<label x="96.52" y="15.24" size="1.778" layer="95"/>
-<wire x1="119.38" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="8" gate="G$1" pin="1"/>
 <pinref part="4" gate="G$1" pin="1"/>
 <pinref part="3" gate="G$1" pin="1"/>
-<pinref part="7" gate="G$1" pin="1"/>
-<pinref part="6" gate="G$1" pin="1"/>
 <pinref part="2" gate="G$1" pin="1"/>
 <pinref part="1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<label x="121.92" y="-104.14" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-104.14" x2="144.78" y2="-104.14" width="0.1524" layer="91"/>
+<label x="121.92" y="-88.9" size="1.778" layer="95"/>
+<wire x1="144.78" y1="-88.9" x2="119.38" y2="-88.9" width="0.1524" layer="91"/>
+<label x="121.92" y="-73.66" size="1.778" layer="95"/>
+<wire x1="144.78" y1="-73.66" x2="119.38" y2="-73.66" width="0.1524" layer="91"/>
+<label x="121.92" y="-58.42" size="1.778" layer="95"/>
+<wire x1="144.78" y1="-58.42" x2="119.38" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="8" gate="G$1" pin="1"/>
+<pinref part="7" gate="G$1" pin="1"/>
+<pinref part="6" gate="G$1" pin="1"/>
 <pinref part="5" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -4824,8 +4826,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="SO8" class="0">
 <segment>
-<wire x1="93.98" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
-<label x="96.52" y="-33.02" size="1.778" layer="95"/>
+<wire x1="119.38" y1="-106.68" x2="121.92" y2="-106.68" width="0.1524" layer="91"/>
+<label x="121.92" y="-106.68" size="1.778" layer="95"/>
 <pinref part="COLOR8" gate="G$1" pin="3"/>
 </segment>
 </net>
