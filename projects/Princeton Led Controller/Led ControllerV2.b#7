@@ -1436,6 +1436,15 @@ einem neuen Namen ab.</description>
 <via x="204" y="39" extent="1-16" drill="0.3937"/>
 <wire x1="204" y1="39" x2="205" y2="40" width="0.762" layer="16"/>
 <wire x1="205" y1="40" x2="205" y2="53" width="0.762" layer="16"/>
+<via x="144" y="29.51575" extent="1-16" drill="0.3937"/>
+<wire x1="144" y1="45" x2="144" y2="34" width="0.762" layer="16"/>
+<wire x1="144" y1="34" x2="144" y2="29.51575" width="0.762" layer="16"/>
+<via x="144" y="34" extent="1-16" drill="0.3937"/>
+<wire x1="177" y1="39" x2="177" y2="35" width="0.762" layer="16"/>
+<via x="177" y="34" extent="1-16" drill="0.3937"/>
+<wire x1="177" y1="35" x2="177" y2="34" width="0.762" layer="16"/>
+<wire x1="177" y1="34" x2="177" y2="29" width="0.762" layer="16"/>
+<via x="177" y="29" extent="1-16" drill="0.3937"/>
 </signal>
 <signal name="LED1">
 <contactref element="JP2" pad="2"/>

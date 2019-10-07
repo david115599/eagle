@@ -196,6 +196,7 @@
 <dimension x1="147.574" y1="22.733" x2="147.574" y2="2.54" x3="142.621" y3="12.6365" textsize="3.5" layer="47" dtype="vertical"/>
 <dimension x1="147.701" y1="22.987" x2="193.294" y2="22.86" x3="170.5087625" y3="26.96695" textsize="3.5" layer="47" dtype="diameter"/>
 <dimension x1="185.801" y1="22.86" x2="185.674" y2="2.54" x3="206.756" y3="12.7" textsize="3.5" layer="47" dtype="vertical"/>
+<text x="107" y="3" size="1.778" layer="25">Designed By David Bershasky</text>
 </plain>
 <libraries>
 <library name="adafruit">
