@@ -4033,6 +4033,11 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="281.94" y1="58.42" x2="279.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="271.78" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="50.8" x2="279.4" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="9"/>
+<label x="271.78" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -6797,12 +6802,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <segment>
 <wire x1="304.8" y1="53.34" x2="302.26" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="8"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="281.94" y1="50.8" x2="279.4" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="N$10" class="0">

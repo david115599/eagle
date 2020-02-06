@@ -4524,6 +4524,10 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="J4" gate="G$1" pin="4"/>
 <label x="304.8" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="304.8" y1="48.26" x2="302.26" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="12"/>
+</segment>
 </net>
 <net name="VGA_GRN" class="0">
 <segment>
@@ -6824,12 +6828,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <segment>
 <wire x1="304.8" y1="50.8" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="10"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="304.8" y1="48.26" x2="302.26" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="N$15" class="0">

@@ -4808,6 +4808,11 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="58.42" y="-109.22" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="136"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="7"/>
+<wire x1="281.94" y1="53.34" x2="279.4" y2="53.34" width="0.1524" layer="91"/>
+<label x="266.7" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPI2" class="0">
 <segment>
@@ -6780,12 +6785,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="7"/>
-<wire x1="281.94" y1="53.34" x2="279.4" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">

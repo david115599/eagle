@@ -1790,12 +1790,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="PCIE_CLK_REF-">
 <contactref element="J1" pad="177"/>
+<contactref element="X1" pad="B14"/>
+<wire x1="48.5" y1="-4.025" x2="4.21" y2="-52.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VGA_RED">
 <contactref element="J1" pad="178"/>
 </signal>
 <signal name="PCIE_CLK_REF+">
 <contactref element="J1" pad="175"/>
+<contactref element="X1" pad="B13"/>
+<wire x1="48" y1="-4.025" x2="3.21" y2="-50.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BIOS_DIS1#">
 <contactref element="J1" pad="176"/>
@@ -2729,17 +2733,8 @@ design rules under a new name.</description>
 <signal name="N$22">
 <contactref element="X1" pad="B11"/>
 </signal>
-<signal name="N$23">
-<contactref element="X1" pad="A12"/>
-</signal>
 <signal name="N$28">
 <contactref element="X1" pad="A17"/>
-</signal>
-<signal name="N$35">
-<contactref element="X1" pad="B13"/>
-</signal>
-<signal name="N$36">
-<contactref element="X1" pad="B14"/>
 </signal>
 <signal name="N$41">
 <contactref element="X1" pad="B19"/>

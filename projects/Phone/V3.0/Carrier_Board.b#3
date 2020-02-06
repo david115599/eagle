@@ -1450,7 +1450,9 @@ design rules under a new name.</description>
 <contactref element="X1" pad="A4"/>
 <contactref element="X1" pad="B4"/>
 <contactref element="J4" pad="3"/>
-<wire x1="-7.79" y1="-52.53" x2="-11.29" y2="-60.765" width="0" layer="19" extent="1-1"/>
+<contactref element="J4" pad="9"/>
+<wire x1="-9.79" y1="-60.765" x2="-11.29" y2="-60.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.79" y1="-52.53" x2="-9.79" y2="-60.765" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.79" y1="-48.03" x2="-7.79" y2="-52.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.79" y1="-46.03" x2="-4.79" y2="-48.03" width="0" layer="19" extent="1-1"/>
 <wire x1="3.21" y1="-48.03" x2="-4.79" y2="-48.03" width="0" layer="19" extent="1-1"/>
@@ -2757,9 +2759,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$8">
 <contactref element="J4" pad="8"/>
-</signal>
-<signal name="N$9">
-<contactref element="J4" pad="9"/>
 </signal>
 <signal name="N$10">
 <contactref element="J4" pad="11"/>
