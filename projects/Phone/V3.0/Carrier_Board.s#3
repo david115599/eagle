@@ -3161,6 +3161,10 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="1318.26" y1="-228.6" x2="1049.02" y2="-228.6" width="0.1524" layer="97"/>
 <wire x1="1049.02" y1="-228.6" x2="1049.02" y2="93.98" width="0.1524" layer="97"/>
 <text x="1056.64" y="83.82" size="6.4516" layer="97">NIC/GSM</text>
+<text x="1160.78" y="58.42" size="5.08" layer="250">Wifi is on chipset and bluetooth might be</text>
+<text x="1087.12" y="-12.7" size="5.08" layer="250">Use m.2 GSM from sierra wireless over the usb protocol</text>
+<text x="289.56" y="-83.82" size="5.08" layer="250">figure out what to do about ? connections</text>
+<text x="627.38" y="-40.64" size="5.08" layer="250">Check connections and mark unclear ones</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="45.72" y="2.54" smashed="yes">
@@ -4038,6 +4042,51 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="J4" gate="G$1" pin="9"/>
 <label x="271.78" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="15"/>
+<label x="274.32" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="27.94" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="27"/>
+<label x="274.32" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="20.32" x2="279.4" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="33"/>
+<label x="274.32" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="12.7" x2="279.4" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="39"/>
+<label x="274.32" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="45"/>
+<label x="274.32" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="-2.54" x2="279.4" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="51"/>
+<label x="274.32" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="-10.16" x2="279.4" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="57"/>
+<label x="274.32" y="-10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="-27.94" x2="279.4" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="71"/>
+<label x="274.32" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="-30.48" x2="279.4" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="73"/>
+<label x="274.32" y="-30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -4524,6 +4573,41 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="J4" gate="G$1" pin="4"/>
 <label x="304.8" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="304.8" y1="48.26" x2="302.26" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="12"/>
+<label x="304.8" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="45.72" x2="302.26" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="14"/>
+<label x="304.8" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="43.18" x2="302.26" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="16"/>
+<label x="304.8" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="40.64" x2="302.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="18"/>
+<label x="304.8" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-25.4" x2="302.26" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="70"/>
+<label x="304.8" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-27.94" x2="302.26" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="72"/>
+<label x="304.8" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-30.48" x2="302.26" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="74"/>
+<label x="304.8" y="-30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VGA_GRN" class="0">
 <segment>
@@ -4787,12 +4871,22 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="-7.62" y="-111.76" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="137"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="2.54" x2="279.4" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="47"/>
+<label x="266.7" y="2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PCIE_RX0-" class="0">
 <segment>
 <wire x1="60.96" y1="-111.76" x2="58.42" y2="-111.76" width="0.1524" layer="91"/>
 <label x="58.42" y="-111.76" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="138"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="10.16" x2="279.4" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="41"/>
+<label x="266.7" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PCIE_TX0+" class="0">
@@ -4801,12 +4895,22 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="-7.62" y="-109.22" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="135"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="0" x2="279.4" y2="0" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="49"/>
+<label x="266.7" y="0" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PCIE_RX0+" class="0">
 <segment>
 <wire x1="60.96" y1="-109.22" x2="58.42" y2="-109.22" width="0.1524" layer="91"/>
 <label x="58.42" y="-109.22" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="136"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="7.62" x2="279.4" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="43"/>
+<label x="266.7" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPI2" class="0">
@@ -4834,12 +4938,22 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="556.26" y1="30.48" x2="553.72" y2="30.48" width="0.1524" layer="91"/>
 <label x="543.56" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="304.8" y1="-5.08" x2="302.26" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="54"/>
+<label x="304.8" y="-5.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PCIE_TX1-" class="0">
 <segment>
 <wire x1="33.02" y1="-101.6" x2="0" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-7.62" y="-101.6" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="129"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="17.78" x2="279.4" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="35"/>
+<label x="266.7" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PCIE_RX1-" class="0">
@@ -4848,6 +4962,11 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="58.42" y="-101.6" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="130"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="25.4" x2="279.4" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="29"/>
+<label x="266.7" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PCIE_TX1+" class="0">
 <segment>
@@ -4855,12 +4974,22 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="-7.62" y="-99.06" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="127"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="15.24" x2="279.4" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="37"/>
+<label x="266.7" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PCIE_RX1+" class="0">
 <segment>
 <wire x1="60.96" y1="-99.06" x2="58.42" y2="-99.06" width="0.1524" layer="91"/>
 <label x="58.42" y="-99.06" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="128"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="22.86" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="31"/>
+<label x="266.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPI1" class="0">
@@ -4883,12 +5012,22 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="-7.62" y="-93.98" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="123"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="33.02" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="23"/>
+<label x="266.7" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PCIE_RX2-" class="0">
 <segment>
 <wire x1="60.96" y1="-93.98" x2="58.42" y2="-93.98" width="0.1524" layer="91"/>
 <label x="58.42" y="-93.98" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="124"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="40.64" x2="279.4" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="17"/>
+<label x="266.7" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PCIE_TX2+" class="0">
@@ -4897,12 +5036,22 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="-7.62" y="-91.44" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="121"/>
 </segment>
+<segment>
+<wire x1="281.94" y1="30.48" x2="279.4" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="25"/>
+<label x="266.7" y="30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PCIE_RX2+" class="0">
 <segment>
 <wire x1="60.96" y1="-91.44" x2="58.42" y2="-91.44" width="0.1524" layer="91"/>
 <label x="58.42" y="-91.44" size="2.54" layer="97"/>
 <pinref part="J1" gate="G$2" pin="122"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="38.1" x2="279.4" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="19"/>
+<label x="266.7" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PCIE_TX3-" class="0">
@@ -5509,6 +5658,11 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="X1" gate="G$1" pin="A5"/>
 <wire x1="556.26" y1="45.72" x2="553.72" y2="45.72" width="0.1524" layer="91"/>
 <label x="538.48" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-22.86" x2="302.26" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="68"/>
+<label x="304.8" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GBE0_MDI0-" class="0">
@@ -6796,10 +6950,60 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <label x="541.02" y="-134.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="?" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="60.96" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="279.4" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="50.8" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="10"/>
+<label x="304.8" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="21"/>
+<label x="276.86" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="15.24" x2="302.26" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="38"/>
+<label x="304.8" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="0" x2="302.26" y2="0" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="50"/>
+<label x="304.8" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-2.54" x2="302.26" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="52"/>
+<label x="304.8" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="304.8" y1="-7.62" x2="302.26" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="56"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="-7.62" x2="279.4" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="55"/>
+<label x="276.86" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="-5.08" x2="279.4" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="53"/>
+<label x="276.86" y="-5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="-25.4" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="69"/>
+<label x="276.86" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="75"/>
+<wire x1="281.94" y1="-33.02" x2="279.4" y2="-33.02" width="0.1524" layer="91"/>
+<label x="276.86" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6812,66 +7016,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <segment>
 <wire x1="304.8" y1="53.34" x2="302.26" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="8"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="281.94" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="15"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<wire x1="304.8" y1="50.8" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="10"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="304.8" y1="48.26" x2="302.26" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="12"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="304.8" y1="45.72" x2="302.26" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="14"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<wire x1="304.8" y1="43.18" x2="302.26" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="16"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="281.94" y1="40.64" x2="279.4" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="17"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<wire x1="281.94" y1="38.1" x2="279.4" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="19"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<wire x1="281.94" y1="35.56" x2="279.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="21"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<wire x1="281.94" y1="33.02" x2="279.4" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="23"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="304.8" y1="40.64" x2="302.26" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -6890,30 +7034,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <segment>
 <wire x1="304.8" y1="33.02" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="24"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<wire x1="281.94" y1="30.48" x2="279.4" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="25"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<wire x1="281.94" y1="27.94" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="27"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<wire x1="281.94" y1="25.4" x2="279.4" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="29"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<wire x1="281.94" y1="22.86" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="31"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -6940,30 +7060,6 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="J4" gate="G$1" pin="32"/>
 </segment>
 </net>
-<net name="N$35" class="0">
-<segment>
-<wire x1="281.94" y1="20.32" x2="279.4" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="33"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="281.94" y1="17.78" x2="279.4" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="35"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<wire x1="281.94" y1="15.24" x2="279.4" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="37"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<wire x1="281.94" y1="12.7" x2="279.4" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="39"/>
-</segment>
-</net>
 <net name="N$39" class="0">
 <segment>
 <wire x1="304.8" y1="20.32" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
@@ -6976,40 +7072,10 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="J4" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<wire x1="304.8" y1="15.24" x2="302.26" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="38"/>
-</segment>
-</net>
 <net name="N$42" class="0">
 <segment>
 <wire x1="304.8" y1="12.7" x2="302.26" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="40"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<wire x1="281.94" y1="10.16" x2="279.4" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="41"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<wire x1="281.94" y1="7.62" x2="279.4" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="43"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<wire x1="281.94" y1="5.08" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="45"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<wire x1="281.94" y1="2.54" x2="279.4" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="47"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -7036,118 +7102,16 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <pinref part="J4" gate="G$1" pin="48"/>
 </segment>
 </net>
-<net name="N$51" class="0">
-<segment>
-<wire x1="281.94" y1="0" x2="279.4" y2="0" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="49"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<wire x1="281.94" y1="-2.54" x2="279.4" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="51"/>
-</segment>
-</net>
-<net name="N$53" class="0">
-<segment>
-<wire x1="281.94" y1="-5.08" x2="279.4" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="53"/>
-</segment>
-</net>
-<net name="N$54" class="0">
-<segment>
-<wire x1="281.94" y1="-7.62" x2="279.4" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="55"/>
-</segment>
-</net>
-<net name="N$55" class="0">
-<segment>
-<wire x1="304.8" y1="0" x2="302.26" y2="0" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="50"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<wire x1="304.8" y1="-2.54" x2="302.26" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="52"/>
-</segment>
-</net>
-<net name="N$57" class="0">
-<segment>
-<wire x1="304.8" y1="-5.08" x2="302.26" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="54"/>
-</segment>
-</net>
-<net name="N$58" class="0">
-<segment>
-<wire x1="304.8" y1="-7.62" x2="302.26" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="56"/>
-</segment>
-</net>
 <net name="N$68" class="0">
 <segment>
 <wire x1="281.94" y1="-22.86" x2="279.4" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="67"/>
 </segment>
 </net>
-<net name="N$69" class="0">
-<segment>
-<wire x1="281.94" y1="-25.4" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="69"/>
-</segment>
-</net>
-<net name="N$70" class="0">
-<segment>
-<wire x1="281.94" y1="-27.94" x2="279.4" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="71"/>
-</segment>
-</net>
-<net name="N$72" class="0">
-<segment>
-<wire x1="304.8" y1="-22.86" x2="302.26" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="68"/>
-</segment>
-</net>
-<net name="N$73" class="0">
-<segment>
-<wire x1="304.8" y1="-25.4" x2="302.26" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="70"/>
-</segment>
-</net>
-<net name="N$74" class="0">
-<segment>
-<wire x1="304.8" y1="-27.94" x2="302.26" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="72"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<wire x1="281.94" y1="-10.16" x2="279.4" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="57"/>
-</segment>
-</net>
 <net name="N$60" class="0">
 <segment>
 <wire x1="304.8" y1="-10.16" x2="302.26" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="58"/>
-</segment>
-</net>
-<net name="N$61" class="0">
-<segment>
-<wire x1="281.94" y1="-30.48" x2="279.4" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="73"/>
-</segment>
-</net>
-<net name="N$62" class="0">
-<segment>
-<wire x1="304.8" y1="-30.48" x2="302.26" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="74"/>
-</segment>
-</net>
-<net name="N$63" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="75"/>
-<wire x1="281.94" y1="-33.02" x2="279.4" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
