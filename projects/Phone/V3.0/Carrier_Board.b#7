@@ -1450,7 +1450,9 @@ design rules under a new name.</description>
 <contactref element="X1" pad="A4"/>
 <contactref element="X1" pad="B4"/>
 <contactref element="J4" pad="3"/>
-<wire x1="-7.79" y1="-52.53" x2="-11.29" y2="-60.765" width="0" layer="19" extent="1-1"/>
+<contactref element="J4" pad="9"/>
+<wire x1="-9.79" y1="-60.765" x2="-11.29" y2="-60.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.79" y1="-52.53" x2="-9.79" y2="-60.765" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.79" y1="-48.03" x2="-7.79" y2="-52.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.79" y1="-46.03" x2="-4.79" y2="-48.03" width="0" layer="19" extent="1-1"/>
 <wire x1="3.21" y1="-48.03" x2="-4.79" y2="-48.03" width="0" layer="19" extent="1-1"/>
@@ -1905,8 +1907,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="PCIE_RX0-">
 <contactref element="J1" pad="138"/>
-<contactref element="J4" pad="5"/>
-<wire x1="38.5" y1="-9.375" x2="-10.79" y2="-60.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PCIE_TX0+">
 <contactref element="J1" pad="135"/>
@@ -1957,15 +1957,23 @@ design rules under a new name.</description>
 </signal>
 <signal name="PCIE_TX3-">
 <contactref element="J1" pad="117"/>
+<contactref element="J4" pad="11"/>
+<wire x1="33.5" y1="-4.025" x2="-9.29" y2="-60.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PCIE_RX3-">
 <contactref element="J1" pad="118"/>
+<contactref element="J4" pad="5"/>
+<wire x1="33.5" y1="-9.375" x2="-10.79" y2="-60.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PCIE_TX3+">
 <contactref element="J1" pad="115"/>
+<contactref element="J4" pad="13"/>
+<wire x1="33" y1="-4.025" x2="-8.79" y2="-60.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PCIE_RX3+">
 <contactref element="J1" pad="116"/>
+<contactref element="J4" pad="7"/>
+<wire x1="33" y1="-9.375" x2="-10.29" y2="-60.765" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPO2">
 <contactref element="J1" pad="114"/>
@@ -2750,23 +2758,11 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="J4" pad="1"/>
 </signal>
-<signal name="N$4">
-<contactref element="J4" pad="7"/>
-</signal>
 <signal name="N$7">
 <contactref element="J4" pad="6"/>
 </signal>
 <signal name="N$8">
 <contactref element="J4" pad="8"/>
-</signal>
-<signal name="N$9">
-<contactref element="J4" pad="9"/>
-</signal>
-<signal name="N$10">
-<contactref element="J4" pad="11"/>
-</signal>
-<signal name="N$11">
-<contactref element="J4" pad="13"/>
 </signal>
 <signal name="N$12">
 <contactref element="J4" pad="15"/>
