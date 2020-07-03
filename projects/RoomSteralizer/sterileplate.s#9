@@ -1159,22 +1159,26 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <label x="5.08" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="93.98" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="GNDBREAK"/>
 <wire x1="93.98" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="93.98" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<label x="99.06" y="73.66" size="1.778" layer="95"/>
+<wire x1="99.06" y1="76.2" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="PWR"/>
 <wire x1="93.98" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<label x="99.06" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RAW"/>
+<wire x1="15.24" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
