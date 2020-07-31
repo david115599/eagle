@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -174,7 +174,6 @@ David Bershadsky</text>
 <text x="-17" y="-6" size="1.778" layer="25" rot="R90">Automatic
 UVC Room Sterilizer
 Control PCB</text>
-<dimension x1="-30" y1="21" x2="17" y2="21" x3="-6.5" y3="32" textsize="1.778" layer="20"/>
 <dimension x1="-30" y1="-21" x2="-30" y2="21" x3="-41" y3="0" textsize="1.778" layer="20"/>
 <text x="22" y="1" size="1.778" layer="25">+</text>
 <text x="-4" y="1" size="1.778" layer="25">-</text>
@@ -199,6 +198,15 @@ Control PCB</text>
 <vertex x="6" y="-9"/>
 <vertex x="11" y="-9"/>
 </polygon>
+<dimension x1="-30" y1="21" x2="33.9" y2="21" x3="1.95" y3="35" textsize="1.778" layer="20"/>
+<hole x="-8" y="-14" drill="3.3"/>
+<hole x="-7" y="15" drill="3.3"/>
+<hole x="31" y="-18" drill="3.3"/>
+<hole x="31" y="18" drill="3.3"/>
+<wire x1="14" y1="3" x2="14" y2="7" width="1.016" layer="29"/>
+<wire x1="3" y1="3" x2="3" y2="7" width="1.016" layer="29"/>
+<wire x1="3" y1="-8" x2="3" y2="-4" width="1.016" layer="29"/>
+<wire x1="14" y1="-8" x2="14" y2="-4" width="1.016" layer="29"/>
 </plain>
 <libraries>
 <library name="Wurth_Elektronik_Optoelectronics_rev19a" urn="urn:adsk.eagle:library:446">
@@ -440,6 +448,36 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
 <text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="1X03">
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 </packages>
 </library>
@@ -799,21 +837,25 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-5.651" y="1.278" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="-5.651" y="-2.913" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
+<element name="JP1" library="SparkFun" package="1X03" value="" x="27.9" y="2.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.7288" y="3.8462" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="24.725" y="3.77" size="1.27" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="D4" pad="1"/>
 <contactref element="D2" pad="2"/>
 <via x="4.4" y="6" extent="1-16" drill="0.35"/>
-<wire x1="4.4" y1="6" x2="12.6" y2="6" width="1.016" layer="16"/>
 <via x="12.6" y="6" extent="1-16" drill="0.35"/>
+<wire x1="12.6" y1="6" x2="4.4" y2="6" width="1.016" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="D3" pad="1"/>
 <contactref element="D1" pad="2"/>
 <via x="12.6" y="-7" extent="1-16" drill="0.35"/>
-<wire x1="12.6" y1="-7" x2="4.4" y2="-7" width="1.016" layer="16"/>
 <via x="4.4" y="-7" extent="1-16" drill="0.35"/>
+<wire x1="4.4" y1="-7" x2="12.6" y2="-7" width="1.016" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="D2" pad="1"/>
@@ -877,6 +919,9 @@ design rules under a new name.</description>
 <wire x1="-5" y1="-4" x2="-6" y2="-4" width="1.016" layer="1"/>
 <wire x1="-6" y1="-4" x2="-6.3114" y2="-3.6886" width="1.016" layer="1"/>
 <wire x1="-6.3114" y1="-3.6886" x2="-6.3114" y2="-1.3114" width="1.016" layer="1"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="-27.48" y1="-13.92" x2="27.9" y2="2.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.26" y1="-3.94" x2="-9" y2="-4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="J2" pad="PWR"/>
@@ -903,6 +948,8 @@ design rules under a new name.</description>
 <wire x1="23.57805625" y1="-4" x2="26.89245625" y2="-0.6856" width="1.016" layer="16"/>
 <wire x1="-5.3" y1="-6.3" x2="0" y2="-1" width="1.016" layer="16"/>
 <wire x1="0" y1="-1" x2="17" y2="-1" width="1.016" layer="16"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="-12.24" y1="-6.3" x2="27.9" y2="-0.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="PIRSENSOR" pad="1"/>
@@ -913,6 +960,8 @@ design rules under a new name.</description>
 <wire x1="-21.81115625" y1="-8.84" x2="-27.48" y2="-8.84" width="1.016" layer="16"/>
 <wire x1="27.82" y1="-2" x2="12.0456" y2="-17.7744" width="1.016" layer="16"/>
 <wire x1="12.0456" y1="-17.7744" x2="-13.43844375" y2="-17.7744" width="1.016" layer="16"/>
+<contactref element="JP1" pad="3"/>
+<wire x1="-27.48" y1="-8.84" x2="27.9" y2="-2.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LEDTRIG">
 <contactref element="Q1" pad="2"/>

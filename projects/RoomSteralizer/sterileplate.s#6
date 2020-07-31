@@ -1265,9 +1265,9 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="J2" library="SparkFun" deviceset="POWER_JACK" device="PTH_LOCK">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MF" value="GCT (GLOBAL CONNECTOR TECHNOLOGY)"/>
+<attribute name="MPN" value="DCJ235-05-A-K1-K"/>
+<attribute name="OC_NEWARK" value="75Y6645"/>
 </part>
 <part name="Q1" library="SparkFun" deviceset="TRANSISTOR_NPN" device="TO92">
 <attribute name="MF" value=""/>

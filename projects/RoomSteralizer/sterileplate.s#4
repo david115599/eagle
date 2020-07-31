@@ -1234,32 +1234,32 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="J1" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="62000311121" device="" package3d_urn="urn:adsk.eagle:package:11432193/2">
+<part name="PIRSENSOR" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="62000311121" device="" package3d_urn="urn:adsk.eagle:package:11432193/2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="R1" library="FaBo-Resistors" deviceset="RESISTOR" device="-AXL-REGULAR">
+<part name="R1" library="FaBo-Resistors" deviceset="RESISTOR" device="-AXL-REGULAR" value=".25 ohm">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D1" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K">
+<part name="D1" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K" value="3535UVC">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D2" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K">
+<part name="D2" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K" value="3535UVC">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D3" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K">
+<part name="D3" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K" value="3535UVC">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D4" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K">
+<part name="D4" library="Wurth_Elektronik_Optoelectronics_rev19a" library_urn="urn:adsk.eagle:library:446" deviceset="WL-SWTC_3535" device="" package3d_urn="urn:adsk.eagle:package:3359492/3" technology="_158353060_6000K" value="3535UVC">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -1269,11 +1269,13 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <attribute name="MPN" value="DCJ235-05-A-K1-K"/>
 <attribute name="OC_NEWARK" value="75Y6645"/>
 </part>
-<part name="Q1" library="SparkFun" deviceset="TRANSISTOR_NPN" device="TO92">
+<part name="Q1" library="SparkFun" deviceset="TRANSISTOR_NPN" device="TO92" value="Transistor">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
+<part name="Q3" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
+<part name="Q4" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
 </parts>
 <sheets>
 <sheet>
@@ -1285,7 +1287,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <attribute name="MF" x="38.1" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="38.1" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="81.28" y="30.48" smashed="yes">
+<instance part="PIRSENSOR" gate="G$1" x="81.28" y="30.48" smashed="yes">
 <attribute name="NAME" x="78.994" y="36.068" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="23.114" size="1.778" layer="96"/>
 <attribute name="OC_NEWARK" x="81.28" y="30.48" size="1.778" layer="96" display="off"/>
@@ -1340,6 +1342,14 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <attribute name="MF" x="83.82" y="-10.16" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="83.82" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="Q3" gate="G$1" x="83.82" y="-30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.82" y="-35.56" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="81.28" y="-35.56" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="Q4" gate="G$1" x="83.82" y="-30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.82" y="-35.56" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="81.28" y="-35.56" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1377,6 +1387,11 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <label x="71.12" y="-12.7" size="1.778" layer="95"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="78.74" y1="-12.7" x2="60.96" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
+<pinref part="Q4" gate="G$1" pin="E"/>
+<wire x1="78.74" y1="-12.7" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="78.74" y="-12.7"/>
+<junction x="78.74" y="-33.02"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1404,7 +1419,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <label x="10.16" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="PIRSENSOR" gate="G$1" pin="3"/>
 <wire x1="86.36" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <label x="88.9" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -1424,11 +1439,16 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="-12.7" x2="93.98" y2="-12.7" width="0.1524" layer="91"/>
 <label x="93.98" y="-12.7" size="1.778" layer="95"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
+<pinref part="Q4" gate="G$1" pin="C"/>
+<wire x1="88.9" y1="-12.7" x2="88.9" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="88.9" y="-12.7"/>
+<junction x="88.9" y="-33.02"/>
 </segment>
 </net>
 <net name="PIROUT" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="PIRSENSOR" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <label x="88.9" y="30.48" size="1.778" layer="95"/>
 </segment>
@@ -1440,7 +1460,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="PIRSENSOR" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <label x="88.9" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -1455,6 +1475,11 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 <pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="83.82" y1="-7.62" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
 <label x="83.82" y="-5.08" size="1.778" layer="95" rot="R90"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
+<pinref part="Q4" gate="G$1" pin="B"/>
+<wire x1="83.82" y1="-7.62" x2="83.82" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="83.82" y="-7.62"/>
+<junction x="83.82" y="-27.94"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D3"/>
